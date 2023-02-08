@@ -1,0 +1,913 @@
+all:
+  title: Kryxivia • Uuenduslik MMORPG mäng, mis võimendab NFT-d plokiahelas
+  desc: >-
+    Tere tulemast Kryxiviasse! 3D NFT Multiverse MMORPG veebimäng plokiahelas.
+    Uus uuenduslik mängukogemus võitmiseks. Ethereumi võrgu kasutamine.
+  open: Avama
+  close: Sulgema
+  back: Tagasi
+  progress: Pooleli
+  finish: Lõpule viia
+  view_details: Üksikasjade kuvamine
+  step: Samm
+  discover: Avastada
+  lvl: Tasand
+  more: Loe lähemalt
+  soon: Tulen varsti...
+  alpha: Avalik alfa algab
+  buy: Osta
+wallets:
+  metamask:
+    name: MetaMask
+    connect: Metamaskiga ühenduse loomine
+  walletconnect:
+    name: WalletConnect
+    connect: WalletConnectiga ühenduse loomine
+  fortmatic:
+    name: Fortmatic
+    connect: Fortmaticu kontoga ühenduse loomine
+  bcw:
+    name: Binance'i keti rahakott
+    connect: Võta ühendust binance'i keti rahakotiga
+play:
+  intro: Valige platvorm ja avastage Kryxivia maailm!
+  launcher:
+    title: Kryxivia kanderakett
+    desc: Laadige Kryxivia optimaalse kogemuse saamiseks alla!
+  client:
+    title: WebGL-i klient
+    desc: Mängi Kryxiviat oma veebibrauseris!
+header:
+  connect: Ühendust
+  play: Mängi kohe
+  nav: Navigeerimine
+  dev: Devblog & uudised
+  game: Mäng
+  apps: Apps
+  view: Vaata kõiki uudiseid
+  rights: Kõik õigused on reserveeritud.
+  policy: Privaatsuspoliitika
+  press: Vajutage ressursse
+  partner: Partnerid
+  doc: Dokumentatsioon
+nav:
+  kryxivia:
+    home: Kodu
+    kxa: Sümboolne $KXA
+    kxs: Token $KXS
+    team: Meeskond
+    dev: Devblog
+    road: Teekaart
+    lite: Litepaper
+  game:
+    kryxivia: Kryxivia
+    faction: Fraktsioonide
+    dungeon: Kryxivia kaevandus
+    boss: Ülemused
+    kryxit: Kryxits
+    equipment: Seadmed
+    pvp: PVP Arena
+  apps:
+    market: Turg
+    staking: Streik
+    nft: NFT vaatur
+    launcher: Käivitaja
+    client: Klient
+    leaderboard: Edetabel
+    faq: KKK
+bottom:
+  sound: Muusika
+  scroll: Kerige uurimiseks
+  powered: Tootja
+  developed: Välja töötatud
+  online: Online
+index:
+  metaTitle: Kryxivia • Uuenduslik MMORPG mäng, mis võimendab NFT-d plokiahelas
+  title: Kodu
+  h1: Avaleht
+home:
+  sub1: Uuenduslik MMORPG mäng, mis võimendab NFT-d Blockchainis
+  h1: Tere tulemast play-to-earn kogemusse
+  play: Mängi kohe
+  trailer: Haagis
+  sec1:
+    sub1: Interaktiivne ja lõbus 3D MMORPG
+    title1: Krüptovaluutad kui revolutsioon mängumajanduses
+    txt1: >-
+      Mängige nüüd interaktiivset ja lõbusat 3D MMORPG-d oma brauseris või
+      arvutis koos sõpradega, kogudes samal ajal NFT-sid, mis annavad teile
+      hüvesid, mida toetab krüptovaluuta kasum, mis on teenitud teie edusammude
+      kaudu Kryxivia universumis!
+    txt2: >-
+      Kryxivias kasutame parimaid funktsioone, mida plokiahel võib pakkuda, et
+      tuua teile parim mängusisene majandus.
+    bn: Avasta Kryxivia
+  sec2:
+    sub1: Maailm, mis ühendab NFTS-i ja krüptovaluuta
+    title1: >-
+      Uurige Kryxivia maailmas asuvaid koopaid ja koguge NFT-sid kauplemiseks
+      teiste mängijatega.
+    txt1: >-
+      Teenige väärtuslikke ja eksklusiivseid NFT-sid, võideldes Kryxivia
+      kaevanduse kõige võimsamate ülemustega. Rüüstake tarbekaupu, armorit, mida
+      saate oma iseloomule rakendada, ja Kryxiti kalliskivid, mida kasutatakse
+      loitsudena. Kõik need võimaldavad teil oma mängu kohandada.
+    bn: Avastage vangikongid
+  sec3:
+    sub1: ÜKS OMAMOODI MAJANDUS
+    title1: Kaks krüptovaluutat Metaverse'i universumi jaoks
+    txt1: >-
+      KXA token, mis tähistab Ethereumis kasutusele võetud Kryxivia mündi märki,
+      on baas krüptovaluuta ahela maksete ja spetsiaalsete kimpude, kosmeetika,
+      spetsiaalsete NFT müügiürituste või KXS-i mängusisese valuuta
+      vahetamiseks, samuti meie NFT turul ostmiseks ja müümiseks.
+    txt2: >-
+      KXS token, mis tähistab Kryxivia Shard Coin rakendada Ethereum on online
+      valuuta mängida, osta, kaubelda, otse mängu ja on uusi online tükki
+      maailmas Kryxivia. Kuna sellel on rohkem riske ja majanduslikke liikumisi,
+      peab sellel olema tohutu pakkumine, et igal mängijal oleks mõni, kellega
+      mängida.
+  sec4:
+    sub1: Alusta mängimist kohe!
+    title1: Liitu Kryxivia seiklusega!
+team:
+  metaTitle: Kryxivia • Kryxivia meeskond
+  title: Meeskond
+  h1: Kryxivia meeskond
+  role:
+    '1': Liider
+    '2': Mängu arendamine
+    '3': Disainer 3D & VFX Artist
+    '4': UI / UX disainer ja eesmine arendaja
+    '5': Turundus ja kommunikatsioon
+    '6': Helikujundaja
+  poste:
+    '1': Tegevjuht ja asutaja
+    '2': Tehniline juht
+    '3': Juhi kliendi mängimine
+    '4': Juhtiv plokiahela insener
+    '5': Tarkvara täisvihna insener
+    '6': Unity 3D arendaja
+    '7': Täisvirna arendaja
+    '8': VFX mängu disainer
+    '9': Taseme kujundaja / 3D-kunst
+    '10': 3D iseloom / esemed Kunstnik
+    '11': PartnerStuudio / 3D artist
+    '12': Mängu disaineri konsultant
+    '13': Juhtiv UI / UX disainer
+    '14': Täielik virna arendaja veeb
+    '15': Loominguline arendaja
+    '16': Graafiline disainer
+    '17': Filmi tegija
+    '18': Turundusjuht
+    '19': Kogukonna juht
+    '20': Helikujundaja
+    '21': Muusika Helilooja
+    '22': Meeskonna juhtimine
+    '23': Tarkvara insener
+leaderboard:
+  title: Edetabel
+  metaTitle: Kryxivia • Edetabel • Kryxivia suurimad mängijad
+  h1: Kryxivia suurimad mängijad
+roadmap:
+  metaTitle: Kryxivia • Kryxivia teekaart
+  title: Teekaart
+  discover: Avastage meie teekaart
+  h1: Kryxivia teekaart
+  road:
+    q3_2021:
+      desc: Kryxivia projekti algus
+      list:
+        '1': >-
+          KXA ja KXS-märgi juurutamine Binance Smart-keti testvõrgus Alpha
+          jaoks.
+        '2': >-
+          Arenduse alustamine, baasmängu, mänguserverite ja plokiahelate linkide
+          testimine.
+        '3': Kryxivia universumi 3D-modelleerimine.
+        '4': >-
+          Tehes level-design linnad, minu, töö Lore mängu, uurides Kryxit ja
+          kalliskivid funktsionaalsed süsteemid.
+    q4_2021:
+      desc: Kryxivia projekti algus
+      list:
+        '1': >-
+          Veebiveebisaidi käivitamine Kryxivia põhitõdedega, avaldades
+          esitlusdokumendi.
+        '2': >-
+          Kryxivia koodibaasi avatud lähtekoodiga väljalase meie GitHubi hoidlas
+          ja erinevates nutilepingutes.
+        '3': >-
+          Mängu proof-of-concepti ettevalmistamine Unity WebGL-i, C# ja Node'i
+          abil.js.
+        '4': >-
+          Auditeerides meie erinevaid nutikaid lepinguid, mis suhtlevad BSC
+          plokiahelaga.
+        '5': Teaseri vabastamine Kryxivia Alpha käivitamiseks.
+        '6': >-
+          KXA märgi käivitamine, tehes avaliku müügi, et luua varade reservi
+          likviidsus ja mängubaasifondid (ILO).
+        '7': >-
+          Valge nimekirja juurutamine privaatse Alfa eelpääsu jaoks (ILO-s
+          osalevatel rahakottidel on eeliseid).
+        '8': >-
+          Töötades kõigi mängu aspektidega, kliendi / serveriga ja NFT-de
+          tsentraliseerimise / detsentraliseerimisteenuste vaheliste
+          ühendustega.
+        '9': Kryxivia meeskonna liikmete KYC protseduuride läbiviimine.
+        '10': >-
+          Pannkoogivahetuse kontrollitud basseini loomine mängusisese KXS-i
+          märgi jaoks (10% kogutud vahenditest).
+        '11': Nimekiri üle CoinMarketCap, CoinGecko...
+    q1_2022:
+      desc: Kryxivia projekti algus
+      list:
+        '1': WebGL-i brauserimängu juurutamiseks valmis olemine
+        '2': >-
+          NFT-esemete turu juurutamine mängusiseste asjadega kauplemiseks teiste
+          ahelas olevate mängijatega.
+        '3': >-
+          Alustades privaatset alfa-eelset juurdepääsu valitud liikmetele, et
+          mängida Kryxivia Worldis oma brauseris aadressil kryxivia.io.
+        '4': >-
+          Kasutades test-net pre-alfa kohapeal vead ja rahuldust bug-bounty
+          mängijad, kes teatavad probleeme KXA märgid.
+        '5': >-
+          Lisades uusi dungeons ja rohkem spetsifikatsioone esemed, Kryxit
+          kalliskivid ja ilm gameplay areng.
+        '6': >-
+          Käivitage beeta-juurdepääsu käivitamiseks erinevad käivituspaketid
+          (NFT-pakendid), et alustada otse ostetud pakkidega mängimist.
+        '7': >-
+          Meeskonna võimekuse suurendamine, uue 3D disaineri, taseme ja
+          skenaristi värbamine.
+        '8': PVE sisu parandamine.
+    q2_2022:
+      desc: Kryxivia projekti algus
+      list:
+        '1': >-
+          Kryxivia Worldi beetapubliku juurdepääsu vabastamine BSC võrgu
+          põhivõrgus.
+        '2': Mängijate leitud alfa-eelsete (Q1) vigade parandamine.
+        '3': >-
+          Alustades reidisüsteemide arendamist (+20 mängijat võitlevad koos
+          reidivõitlustes) Kryxivia kaevanduses.
+        '4': >-
+          Igapäevaste otsingusüsteemide lisamine mängijate tegevuse
+          premeerimiseks, premeerides seega kõige aktiivsemaid.
+        '5': >-
+          Töötades suurema hulga vangikongide ruumidega kaevandusse, kus on
+          rohkem raskusi ja paremaid Kryxiti ja asju.
+        '6': >-
+          KXA ja KXS-i žetoonide rakendamine ja loetlemine peamistes T1
+          tsentraliseeritud börsides.
+        '7': >-
+          Pangasisene staking süsteem, et võita auhindu (tõeline ROI uute
+          hüvedega aastas) KXA / KXS märgiga.
+    q3_2022:
+      desc: Kryxivia projekti algus
+      list:
+        '1': >-
+          Gildide süsteem, et ühendada oma kaaslased igapäevaste / iganädalaste
+          eesmärkidega, et jõuda preemiate või boonusmääradeni.
+        '2': >-
+          Ürituse süsteemi hooaja lisamine spetsiaalsete unikaalsete NFT-dega
+          koos konkreetsete uute ülemustega (uus piiratud kosmeetika...).
+        '3': >-
+          DAO juhtimine, et hääletada sündmuste teemadel, järgmised verstapostid
+          saavutatava tegevuskava kohta ning nerf või uuendused mängusiseste
+          mängusiseste mänguuuenduste tegemiseks (piiratud rahakotiga protsendi
+          osas).
+        '4': >-
+          Visuaalne disain in-game statistika ja teavet KXS väärtus ja hind
+          liigub.
+        '5': >-
+          Online redelid, et näha kõiki mängijaid, nende e-tasemeid ja mainet +
+          varude NFT-de unikaalsust.
+token-kxs:
+  title: Token $KXS
+  metaTitle: Kryxivia • Kryxivia mündi $KXS
+  h1: Kryxivia $KXS münt
+  intro: >-
+    KXS-i münt, mis tähistab Kryxivia Shardi münti, on online-valuuta, mida
+    mängida, osta, kaubelda ja omada uusi online-asju Kryxivia maailmas, kuna
+    see kannab rohkem riske ja majanduslikke samme, see peab olema tohutu
+    pakkumine, nii et igal mängijal oleks mõned mängida.
+  txt1: >-
+    KXS-i märgi maksimaalne kogumaht on piiratud 5 000 000 000 KXS-iga (5B), mis
+    muudab selle mängusiseselt kättesaadavamaks ja kasutatavamaks kui KXA token.
+    KXS-i märk on vermitav, mis tähendab, et uusi saab luua selliste asjade
+    jaoks nagu põllumajanduslikud mängusisesed hüved või spetsiaalsed
+    veebiüritused. Seda saab kaubelda nagu iga teise valuutaga CEX & DEX-is.
+  txt2: >-
+    See on ka deflatsiooniline märk, sest saate kasutada KXS-i sümboolset mängu
+    eriliste hüvede saamiseks, näiteks kui soovite oma esemeid Kryxiti
+    kalliskividega linkida, peate selle toimumiseks põletama mõne KXS-i või kui
+    soovite osta tarbekaupu, näiteks võlujooke või teisi, et aidata teil oma
+    reisi läbi viia; peate põletama KXS-i märgid linna NPC-dele.
+  txt3: >-
+    Mängusisesel märgil on baaslikviidsus detsentraliseeritud protokollil, mida
+    toetab KXA token hallatavas basseinis, et tagada mängusisese märgi ostuvõime
+    ja müütavus, kuid peamine viis KXS-i märgi saamiseks on endiselt
+    mängusisene, mängides ja võites auhindu, kuna meie süsteemi kirjeldatakse
+    "Play to Earn".
+token-kxa:
+  title: Sümboolne $KXA
+  metaTitle: Kryxivia • Kryxivia mündi $KXA
+  h1: Kryxivia $KXA münt
+  intro: >-
+    KXA münt, mis tähistab Ethereumis kasutusele võetud Kryxivia mündi märki, on
+    baas krüptovaluuta ahela maksete ja eripakettide jaoks, nagu stardipaketid,
+    spetsiaalsed NFT müügiüritused või KXS-i mängusisese valuuta vahetamine, mis
+    tähistab Kryxit Shardi.
+  txt1: >-
+    Kryxivia mündi maksimaalne pakkumine on 250 000 000 KXA münti, nagu allpool
+    üksikasjalikult kirjeldatud, on meie tokenoomika üsna spetsiifiline ja
+    konstantne. KXA token ei ole vermitav, mis tähendab, et sellel ei tohi olla
+    rohkem kui 250 miljonit KXA-d.
+  txt2: >-
+    Kasutame BSC ahelat, et vältida kõrgeid ahela tehingutasusid. Võite kasutada
+    ka KXA mündi osta ja müüa NFT omadused (esemed, Kryxit, ilm...) mängust meie
+    online Marketplace kasutades oma Rahakott (nagu Metamask).
+  sub: Tokenoomika
+  title1: Kryxivia mündi tokenoomika
+  subtitle1: Token $KXA jaotus
+  td1: Serverivõrgu hostimine, mänguklient ja serverimootori kulud
+  td2: >-
+    Turundus, lapsendamise suurendamine ja stiimul projektide vaatajaskonna
+    suurendamiseks
+  td3: Mängusisesed üritused premeerivad, eripakkumisi ja NFT hüvesid
+  td4: >-
+    Pangasüsteemidele vahendite paigutamine ja mängijatele mõeldud APY
+    netopreemiad
+  td5: Arendusmeeskonna maksekulud, meeskonna osa
+  td6: Privaatne sümboolne eelmüügivoor projekti alustamiseks
+  td7: Avalik sümboolne müük (ILO*) mängu beetaversiooni jaoks Unicrypt Protocolis
+  td8: Ökosüsteemi vahendid lisaoperatsioonideks
+  td9: Reservrahad
+  subtitle2: Meeskonna ametlikud rahakotid
+  subtitle3: Era- ja avaliku müügi kava
+  wallet1: Kryxivia juurutaja rahakott
+  wallet2: Serverivõrgu hostimise rahakott
+  wallet3: Turundus, lapsendamiskott
+  wallet4: Üritused, mängusisesed preemiate rahakott
+  wallet5: Staking fondide rahakott
+  wallet6: Arendusfondide meeskonna rahakott
+  wallet7: Ökosüsteem rahastab rahakotti
+  wallet8: Reserv riigikassa fondide rahakott
+  sale:
+    private:
+      title: Eramüügi voor
+      discount: ~ {protsenti} allahindlus avalikust müügihinnast
+      of: '{kxa} of KXA ({total} - {percent} supply)'
+      price: 'Hind: {price} per KXA'
+      raise: Raise of ~ {bnb} BNB = (Kokku = ~{total})
+      close: >-
+        Eramüük Sulge: <-> TGE {protsenti} lukustamata ja seejärel lineaarne
+        avamine üle ühe aasta
+    public:
+      title: Avaliku müügi voor
+      discount: ~ {protsenti} allahindlus noteerimishinnast
+      of: '{kxa} of KXA ({total} - {percent} supply)'
+      price: 'Hind: {price} per KXA'
+      raise: Raise of ~ {bnb} BNB = (Kokku = ~{total})
+      close: >-
+        Avaliku müügi sulgemine: <-> TGE {protsenti} lukustamata ja seejärel
+        lineaarne 3 kuu jooksul
+    listing:
+      title: Nimekiri pannkoogisärgis
+      price: 'Hind: {price} per KXA'
+      raise: '{protsenti} Unicrypti kogutud vahenditest lukustati 1 aastaks'
+devblog:
+  title: Devblog & uudised
+  metaTitle: Kryxivia • Devblog, uudised, uuendused ja teadaanded
+  h1: Uudised, uuendused ja teadaanded
+  back: Tagasi nimekirja juurde
+devblog-slug:
+  title: Devblog & uudised
+  metaTitle: Kryxivia
+bosses:
+  title: Ülemused
+  metaTitle: Kryxivia • Kryxivia MMORPG Metaverse'i ülemused
+  h1: Kryxivia MMORPG Metaverse'i ülemused
+  fight: Fight {boss} nüüd!
+  back: Tagasi nimekirja juurde
+bosses-slug:
+  title: Ülemused
+  progress: Lugu on käimas, tule hiljem tagasi...
+bosses-alde:
+  title: Ülemused • Alde
+  metaTitle: Kryxivia • Alde • Kryxivia ülemused
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Alde leegid
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-atesgol:
+  title: Ülemused • Atesgol
+  metaTitle: Kryxivia • Atesgol • Kryxivia ülemused
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Atesgoli õllepruulija
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-valtrena:
+  title: Ülemused • Valtrena
+  metaTitle: Kryxivia • Valtrena • Kryxivia ülemused
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Valtrena maalihe
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-k1rig:
+  title: Ülemused • K1 R.I.G
+  metaTitle: Kryxivia • K1 R.I.G • Kryxivia ülemused
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: K1 R.I.G hammasrattad
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-melucyna:
+  title: Ülemused • Melucyna
+  metaTitle: Kryxivia • Melucyna • Kryxivia ülemused
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Melycuna lained
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+factions:
+  title: Fraktsioonide
+  metaTitle: Kryxivia • Kryxivia fraktsioonid
+  h1: Liituge ühega kolmest fraktsioonist!
+  want: Ma tahan olla
+  adventurers:
+    name: Seiklus
+    title: Kas sul on, mida on vaja, et olla seikleja?
+    intro: >-
+      Kas olete julge ja valmis oma esivanemaid austama? Seiklejate
+      fraktsiooniga liitumiseks on vaja jõudu, julgust, vaprust ja sihikindlust.
+    paragraphe:
+      - >-
+        Sinu eesmärk on kaitsta kõige nõrgemaid ja ületada ennast iga päev, et
+        saada tugevamaks kui kunagi varem, sulle ei meeldi cupid inimesed, eriti
+        Kaupmehed fraktsioon, kes teeb midagi rikkuse. Seikluse ja väljakutse
+        janunemine, olete liitunud oma kaaslastega, et otsustada, millised
+        missioonid tugevdavad teie fraktsiooni ideaale, olete ikkagi Kry
+        jumalikkuse järeltulija.
+  nomads:
+    name: Nomads
+    title: >-
+      Mõnikord on loodus kõik, mida vajate, ja tuletage meile meelde tegelikke
+      prioriteete ja põhivajadusi, eks?
+    intro: >-
+      Kas sa armastad loodust ja oled valmis teda kaitsma? Nomaadide
+      fraktsiooniga liitumiseks peate armastama metsa, taimi, loomi ja soovi
+      elada rahulikus ja rahulikus keskkonnas.
+    paragraphe:
+      - >-
+        Via järeltulijana oled sa loodusega üks. Te austate iga taime ja kõiki
+        elusolendeid, kui ohtlikku loomasistajat, keda te kaasreisijatest
+        võidate. Legend oli see, et vanimad nomaadid reisisid dragonsiga. Su
+        süda on puhas ja sa jagad oma teadmisi kõigiga, kes kuulavad. Teie
+        õpetused näitavad, kuidas ellu jääda tänu maa heldusele.
+  merchants:
+    name: Kaupmehed
+    title: >-
+      Kas sa tunned kuu energiat, kas sa oled alati tundnud, et oled lahus,
+      targem, kas sul on lihtne mängida inimeste mõistusega?
+    intro: >-
+      Merchant fraktsiooniga liitumiseks peate olema andekas sotsiaalsete ja
+      ärioskustega, teate täpselt, mida inimesed ootavad ja tahavad, et te
+      ütleksite, et olete intelligentne, valdate kauplemise oskust ja kui seda
+      on vaja manipuleeriv ja vallatu.
+    paragraphe:
+      - >-
+        Teil on loomulik kalduvus meelitada energiat ümber. Geniaalse võlurina
+        saate sõnu enda kasuks kasutada, see on tingitud Xi jumalanna mõjust. Sa
+        unistad püüda kõige väärtuslikum, ekspansiivne ja haruldane Kryxit, mis
+        on olemas. Pole tähtis ohverdus, mida sa tunned vajadust omada. Teades,
+        et maailm on julm ja head poisid ei ela väga kaua, puudub teil empaatia
+        ja kaastunne. Mõnikord peate tegema seda, mida teised ei saa ühise
+        heaolu nimel.
+faq:
+  title: KKK
+  metaTitle: Kryxivia • KKK
+  category: Kategooriad
+  h1: Kuidas me saame sind aidata?
+  start: Alustuseks valige oma küsimuse või probleemi kategooria.
+  no-question: Selles kategoorias pole veel küsimusi loetletud, vaadake hiljem tagasi!
+  no-answer: >-
+    Sa ei leia oma küsimustele vastust? Küsige meilt võrgustikest, meie meeskond
+    vastab teile hea meelega.
+  back: Tagasi kategooriatesse
+  kryxivia-and-game:
+    title: Kryxivia ja mäng
+    list:
+      - q: Mis on Kryxivia?
+        a:
+          - t: Txt
+            c: >-
+              Kryxivia on fantaasia 3D MMORPG, mida saab mängida igas kaasaegses
+              brauseris, mis on otse kättesaadav meie veebisaidil aadressil
+              kryxivia.io, kogu ökosüsteem, mis ootab uusi seikluslikke
+              mängijaid Kryxiti kogumiseks! Meie maailmas valmistage end ette
+              krüptovaluuta ja ainulaadse haruldase NFT teenimiseks, omades
+              samal ajal lõbusat ja koostöökogemust oma sõpradega.
+      - q: Kuidas ma mängima hakkan?
+        a:
+          - t: Txt
+            c: >-
+              Kryxivia on online MMORPG mäng, mis töötab mis tahes ühilduvate
+              kaasaegsete brauseritega, saate seda mängida mis tahes arvutis,
+              millel on minimaalne nõutav õige GPU. Mängu autentimiseks ja
+              sisselogimiseks peab teil olema Metamaskil põhinev rahakott.
+      - q: Mis on mäng, mida teenida?
+        a:
+          - t: Txt
+            c: >-
+              Play-to-earn mängud ühendavad videomängude lõbu võimalusega
+              teenida oma aja eest tõelisi hüvesid. Meie puhul saate nautida
+              MMORPG-d ja teenida Kryxiti märke.
+      - q: Mida tähendab tõeline omamine?
+        a:
+          - t: Txt
+            c: >-
+              Tegelikud omanikud on need, kes saavad omandiõiguse eeliseid.
+              Tõelised omanikud on need isikud või üksused, kes saavad kasusaaja
+              nime ja neil on õigus sellest kasu saada.
+      - q: Kas Kryxivia on mäng, et võita mäng?
+        a:
+          - t: Txt
+            c: Jah Kryxivia on mäng teenida Kryxit mäng.
+      - q: Kas Kryxivia on tõesti vaba mängima?
+        a:
+          - t: Txt
+            c: >-
+              Jah, kryxivia mängimiseks peate ühendama ainult oma Metamaski
+              serveriga.
+      - q: Kus saab Kryxiviat mängida?
+        a:
+          - t: Txt
+            c: Mängu saab mängida kryxivia.io
+      - q: Kas ma pean mõistma plokiahelat või binance'i nutikat ketivõrku?
+        a:
+          - t: Txt
+            c: >-
+              Ei, sa ei pea olema mingeid tehnilisi teadmisi BNBchain mängu
+              mängimiseks.
+      - q: Mis on MMORPG?
+        a:
+          - t: Txt
+            c: >-
+              MMORPG on videomäng, mis ühendab rollimängude videomängude
+              elemente ja massiliselt mitme mängijaga võrgumänge.
+      - q: Kus saab vigadest teatada?
+        a:
+          - t: Txt
+            c: >-
+              Kui olete Alpha-Tester, võite teatada vigadest ebakõlade veateate
+              kanalil ja saada võimalus teenida 40 000 dollari suurusest
+              pearahast.
+      - q: Millised on arvuti nõuded Kryxivia mängimiseks?
+        a:
+          - t: Txt
+            c: >-
+              Soovitatavad nõuded on vähemalt 4 GB RAM-i, Intel Core i5, GPU
+              GeForce GTX 900 seeria ja tahkis-draiv.
+  wallet-kxa-kxs:
+    title: Rahakotid, KXA ja KXS
+    list:
+      - q: Mis on $KXA?
+        a:
+          - t: Txt
+            c: >-
+              $KXA või Kryxivia coin token on krüptovaluuta, mida kasutatakse
+              ahela makseteks, näiteks starterpakendid, spetsiaalsed NFT
+              müügiüritused või vahetus mängusisese valuuta $KXS vastu, mis
+              tähistab Kryxit Shardi.
+      - q: Mis on $KXS?
+        a:
+          - t: Txt
+            c: >-
+              $KXS mündi, mis tähistab Kryxivia Shard Coin on online valuuta
+              mängida, osta, kaubelda ja on uusi online tükki kryxivia maailmas.
+      - q: Kuidas osta ja müüa $KXA ja $KXS?
+        a:
+          - t: Txt
+            c: '$KXA saate osta siin loetletud börsidelt:'
+          - t: nupp
+            c: CoinMarketCap
+            link: https://coinmarketcap.com/currencies/kryxivia/
+          - t: Txt
+            c: $KXS ei ole veel nimekirjas.
+      - q: Kas minu krüpto- ja mänguüksused on turvalised?
+        a:
+          - t: Txt
+            c: >-
+              Jah, Solidproof on Kryxivia turvaliselt kinnitanud ja kõik teie
+              mänguvarad ja krüpto on meie juures turvalised.
+          - t: nupp
+            c: SolidProof Audit
+            link: >-
+              https://github.com/solidproof/projects/blob/main/Kryxivia/MysteryBox/SmartContract_Audit_Solidproof_Kryxivia%20MysteryBox.pdf
+      - q: Mis on õhupiisad ja kuidas neid saada?
+        a:
+          - t: Txt
+            c: >-
+              Airdrops hõlmab krüptoprojekte, mis pakuvad oma kogukondadele
+              massiliselt žetoone, et suurendada lapsendamist.
+          - t: Txt
+            c: >-
+              Kõik teated Kryxivia õhupiiskade kohta tehakse teatavaks ametlikul
+              Twitteri käepidemel.
+      - q: Kuidas siduda oma krüpto- ja nft-rahakotti?
+        a:
+          - t: Txt
+            c: >-
+              Teil peab olema metamaskkonto Binance'i võrguga, pärast seda peate
+              avama kryxivia veebisaidi ja klõpsama connect-rahakotil.
+          - t: Txt
+            c: Pärast seda ilmub ühenduse loa saamiseks rahakoti teatis.
+      - q: Kuidas saata NFT-d või krüptot teise rahakotti?
+        a:
+          - t: nupp
+            c: Loe lähemalt
+            link: https://nftdesire.io/how-to-transfer-nft-to-another-wallet/
+  login-and-account:
+    title: Sisselogimine ja konto
+    list: []
+  website-and-social:
+    title: Veebileht ja sotsiaalne
+    list:
+      - q: Kellega küsimuste või murede pärast rääkida?
+        a:
+          - t: Txt
+            c: >-
+              Kõik meie sotsiaalmeedia vestlused on modifikatsioonidega
+              aktiivsed, võite liituda meie ebakõlade ja telegrammiga.
+  characters-and-equipments:
+    title: Tegelased ja seadmed
+    list: []
+  monsters-and-dungeons:
+    title: Koletised ja vangikongid
+    list: []
+  others:
+    title: Teised
+    list: []
+faq-slug:
+  title: KKK
+dungeons:
+  title: Kryxivia kaevandus
+  metaTitle: Kryxivia • Kryxivia kaevandus
+  h1: Tutvuge Kryxivia kaevandusega ja koguge väärtuslikke NFT-sid!
+  intro: >-
+    Kryxivia city sees leiate hiiglasliku ukse, mis viib juba ammu avastatud
+    vana kaevanduseni. Seiklejad on otsustanud ehitada selle ümber Kryxivia
+    linna, et mõista Kryxitit kaevanduses ja koguda neid. Nad on kiiresti aru
+    saanud, et kohutavad koletised kaitsevad seda minu oma ja et nad peaksid
+    võitlema surmani, et panna oma käed neile!
+  txt1: >-
+    Me kuulsime lugusid jumalanna Via'st, mis oleks lummanud kaevandust, et
+    kaitsta Kryxitit, mis näib olevat kolme jumalikkuse: Kry, Xi ja Via võimu
+    allikas.
+  catalysts:
+    sub: Katalüsaatorid
+    title1: Sisestage kaevanduse vangikongid erinevates režiimides!
+    txt1: >-
+      Katalüsaatorid viivad teid alternatiivsetesse "miiniliinidesse". Kui
+      kasutate seda enne sisenemist, on ülemused, kellega sees kokku puutute,
+      palju tugevamad ja langevad palju võimsamad krüptoksitsid - maagilised
+      kalliskivid, mida saate oma esemetega uute loitsude ja parema statistika
+      jaoks.
+    txt2: >-
+      Mitte iga Catalyst ei loodud võrdseks - mõned kohandavad raskusi isegi
+      rohkem kui teised. Raskusastet nimetatakse vangikongi Cruxi tasemeks. Mida
+      kõrgem on Crux, seda raskem on ülemused ja seda paremad on tilgad.
+    blue: Sinine katalüsaator
+    yellow: Kollane katalüsaator
+    orange: Oranž katalüsaator
+    red: Punane katalüsaator
+    purple: Lilla katalüsaator
+  boss:
+    sub: Kryxivia ülemused
+    title1: >-
+      Tasandage oma iseloomu NFT-d, alistades kõige raskemad ülemused ja
+      kasutades Catalystit, et jõuda uuele kõrgusele!
+    txt1: >-
+      Kryxivias teevad NFT-d seaduse, mis tähendab, et teie iseloomu tase
+      põhineb teie käsutuses olevatel esemetel, mida te turul kauplesite või
+      võitsite Kryxivia kaevanduse koletiste vastu. Sul on see, mida me kutsume
+      I-Lvliks, sinu asjade külge tegelasel. Bossid annavad teile seadmed,
+      Kryxit Shard mündi (KXS) ja ilm. Algoritmilise väärtuse põhjal määratakse
+      rüüstamised erinevate arvutustega, mis põhinevad mängijate tegevusel, et
+      tagada jätkusuutlik majandus. Mõned NFT-d võivad olla ülipiirangud ja
+      potentsiaalselt kunagi rüüstatud, kui neid on kasutusele võetud, ja teatud
+      summa on juba langenud või piiratud iga päev, nädalas, kuus või aastas.
+kryxivia:
+  title: Kryxivia
+  metaTitle: Kryxivia • Linn ja ajalugu
+  h1: Avasta Kryxivia fantastiline maailm
+  intro: >-
+    Kui sa kudema meie maailmas, siis saadetakse Kryxivia linna alustada oma
+    seiklus, linnas, leiad kõik oma vajadused enne alustamist oma gameplay
+    maagiline kaevandus.
+  txt1: >-
+    Kõik mängijad on fuajees, teevad linnas asju, valmistudes samal ajal
+    võitlema selle salapärase ukse sees! Võite leida mitu NPC-d, mis juhendavad
+    teid oma teekonnal ja loovad liite / rühmi inimestega, et teha reide või
+    dungeons koos.
+  txt2: >-
+    Seal on keskne koht, kus on peamised vajalikud NPC-d, et vältida aja
+    raiskamist kaevanduse ja linna vahel edasi-tagasi reisides, teiste jaoks
+    võite neid leida konkreetsetest hoonetest, mis näevad teistest ebatavalised.
+  story:
+    sub1: Kryxivia linn
+    title1: Kryxivia linna sihtasutuse lugu
+    txt1: >-
+      Ajal, mil inimene ei ole veel tööstust leiutanud. Mõned olid avastanud
+      mäest kadunud kummalise ukse. Sealt leidsid nad Kryxiti, maagilised
+      kalliskivid tohutu jõuga. Paljud hakkavad kogunema kõigepealt riikide
+      poolt saadetud.
+    txt2: ' Kryxivia on uus ja õitsev linn, mis asub mägedes mõne aasta eest avastatud tohutu ukse ümber, mis on ehitatud enamasti ilma väikeste seiklejate ja kaupmeeste rühmade plaanita.'
+    txt3: >-
+      Kryxivia inimesed on pärit paljudest silmaringidest, peaaegu ükski neist
+      ei pärine tavalisest armeest, nii et nende varustus on enamasti sobimatud
+      ja korjatud mööda teed. Täismetallist käik ei ole selles maailmas kergesti
+      kättesaadav, nii et kui nad ei ole väga rikkad, kipuvad inimesed kandma
+      nii riiet, nahka kui ka metalli.
+    txt4: >-
+      Mehed toovad uksest palju rüüstamist, kuid nad ei tule alati tagasi.
+      Kryxivia linn hakkas ukse ümber moodustuma ja paljud kaupmehed said
+      sellest väga sagedasest kohast kasu. Nüüd, paar aastat hiljem, on enamik
+      inimesi, kes proovivad oma õnne, palgasõdurid või sõltumatud, nagu sina. 
+  map:
+    sub1: Kryxivia linna kaart
+    title1: Olulisemad ehitised
+    banks:
+      title: Pangad
+      desc: >-
+        Võtke pangas vastu oma imporditud NFT-d või KXS-id, sisendvaluutad
+        APY-le või varudele, mida te ei vaja.
+    leader:
+      title: Edetabel
+      desc: >-
+        Vaadake siin Kryxivia parimaid sõdalasi, see redel sisaldab parimaid PVP
+        ja PVE mängijaid.
+    nft:
+      title: NFT eksport
+      desc: >-
+        Seda NPC-d kasutatakse NFT-de esemete eksportimiseks oma plokiahela
+        rahakotti, valides lihtsalt ühe.
+    portail:
+      title: Kryxivia kaevandus
+      desc: See on uks, et pääseda Kryxivia kaevandusse, kust leiad koopabossid.
+    socketing:
+      title: Sepp
+      desc: Rääkige sepaga, et krüptoksits laovarudele toppida.
+    training:
+      title: Koolitus
+      desc: >-
+        Treeningalal saate testida oma oskusi ja kahju, mida teete
+        punching-ballil.
+patchnotes:
+  nav: Paranduse märkused
+  title: Paranduse märkused ja väljalasud
+  metaTitle: Kryxivia • Paranduse märkused ja väljalasud
+  h1: Tutvuge viimaste paranduse märkustega ja väljalasudega
+  sub: Paranduse märkused
+  know: 'Teadaolevad vead:'

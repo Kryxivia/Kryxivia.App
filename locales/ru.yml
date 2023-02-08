@@ -1,0 +1,935 @@
+all:
+  title: Kryxivia • Инновационная MMORPG-игра, использующая NFT на блокчейне
+  desc: >-
+    Добро пожаловать в Kryxivia! 3D NFT Multiverse MMORPG веб-игра на блокчейне.
+    Новый инновационный игровой опыт для победы. Использование сети Ethereum.
+  open: Открытый
+  close: Закрывать
+  back: Назад
+  progress: Развиваться
+  finish: Завершённый
+  view_details: Посмотреть подробности
+  step: Шаг
+  discover: Обнаруживать
+  lvl: Уровень
+  more: Читать далее
+  soon: Скоро...
+  alpha: Публичная альфа-версия начинается в
+  buy: Купить
+wallets:
+  metamask:
+    name: Метамака
+    connect: Подключитесь к метамаске
+  walletconnect:
+    name: КошелекПодключить
+    connect: Подключитесь к своему кошелькуПодключитесь
+  fortmatic:
+    name: Фортматик
+    connect: Подключитесь к своей учетной записи Fortmatic
+  bcw:
+    name: Кошелек Binance Chain
+    connect: Подключитесь к своему кошельку Binance Chain
+play:
+  intro: Выберите платформу и откройте для себя мир Kryxivia!
+  launcher:
+    title: Kryxivia Лаунчер
+    desc: Скачайте Kryxivia для оптимального опыта!
+  client:
+    title: Клиент WebGL
+    desc: Играйте в Kryxivia в своем веб-браузере!
+header:
+  connect: Соединять
+  play: Играть сейчас
+  nav: Навигация
+  dev: Devblog & новости
+  game: Игра
+  apps: Приложения
+  view: Посмотреть все новости
+  rights: Все права защищены.
+  policy: Политика конфиденциальности
+  press: Ресурсы для прессы
+  partner: Партнеров
+  doc: Документация
+nav:
+  kryxivia:
+    home: Дом
+    kxa: $KXA токенов
+    kxs: $KXS токенов
+    team: Команда
+    dev: Девблог
+    road: Дорожная карта
+    lite: Облегченная бумага
+  game:
+    kryxivia: Криксивия
+    faction: Фракции
+    dungeon: Шахта Криксивия
+    boss: Боссов
+    kryxit: Крикиц
+    equipment: Оборудования
+    pvp: ПВП Арена
+  apps:
+    market: Рынок
+    staking: Забастовка
+    nft: Просмотрщик NFT
+    launcher: Пусковая установка
+    client: Клиент
+    leaderboard: Таблица лидеров
+    faq: ВОПРОСЫ И ОТВЕТЫ
+bottom:
+  sound: Музыка
+  scroll: Прокрутите, чтобы исследовать
+  powered: Руководствовался
+  developed: Разработка сайта
+  online: Онлайн
+index:
+  metaTitle: Kryxivia • Инновационная MMORPG-игра, использующая NFT на блокчейне
+  title: Дом
+  h1: Главная страница
+home:
+  sub1: Инновационная MMORPG-игра, использующая NFT на блокчейне
+  h1: Добро пожаловать в игру Play-to-Earn
+  play: Играть сейчас
+  trailer: Прицеп
+  sec1:
+    sub1: Интерактивная и веселая 3D MMORPG
+    title1: Криптовалюты как революция в игровой экономике
+    txt1: >-
+      Играйте сейчас в интерактивную и веселую 3D MMORPG в своем браузере или на
+      своем ПК со своими друзьями, собирая NFT, которые дают вам награды,
+      подкрепленные прибылью криптовалюты, полученной благодаря вашему прогрессу
+      во вселенной Kryxivia!
+    txt2: >-
+      В Kryxivia мы используем лучшие функции, которые может предложить
+      блокчейн, чтобы принести вам лучшую внутриигровую экономику.
+    bn: Откройте для себя Kryxivia
+  sec2:
+    sub1: Мир, который сочетает в себе NFTS и криптовалюту
+    title1: >-
+      Исследуйте подземелья в мире Kryxivia и собирайте NFT для торговли с
+      другими игроками.
+    txt1: >-
+      Зарабатывайте ценные и эксклюзивные NFT, сражаясь с самыми могущественными
+      боссами в шахте Kryxivia. Расходные материалы для добычи, броню, которую
+      вы можете применить к своему персонажу, и драгоценные камни Kryxit для
+      использования в качестве заклинаний. Все они позволят вам настроить свой
+      игровой процесс.
+    bn: Откройте для себя подземелья
+  sec3:
+    sub1: ЕДИНСТВЕННАЯ В СВОЕМ РОДЕ ЭКОНОМИКА
+    title1: Две криптовалюты для вселенной Метавселенной
+    txt1: >-
+      Токен KXA, который расшифровывается как токен Kryxivia Coin, развернутый
+      на Ethereum, является базовой криптовалютой для внутрицепочных платежей и
+      специальных пакетов, косметики, специальных мероприятий по продажам NFT
+      или обмена на внутриигровую валюту KXS, а также покупки и продажи на нашем
+      рынке NFT.
+    txt2: >-
+      Токен KXS, который расшифровывается как Kryxivia Shard Coin, реализованный
+      на Ethereum, является онлайн-валютой для игры, покупки, торговли,
+      непосредственно в игре и для новых онлайн-фигур в мире Kryxivia. Поскольку
+      он несет в себе больше рисков и экономических движений, он должен иметь
+      огромный запас, чтобы каждый игрок мог с чем-то играть.
+  sec4:
+    sub1: Начните играть прямо сейчас!
+    title1: Присоединяйтесь к приключению Kryxivia!
+team:
+  metaTitle: Kryxivia • Команда Kryxivia
+  title: Команда
+  h1: Команда Криксивии
+  role:
+    '1': Лидер
+    '2': Разработка игр
+    '3': Дизайнер 3D & VFX Художник
+    '4': UI /UX Дизайнер и Фронт-разработчик
+    '5': Маркетинг и коммуникации
+    '6': Саунд-дизайнер
+  poste:
+    '1': Генеральный директор и основатель
+    '2': Технический директор
+    '3': Геймплей ведущего клиента
+    '4': Ведущий блокчейн-инженер
+    '5': Инженер полного стека программного обеспечения
+    '6': Юнити 3D Разработчик
+    '7': Разработчик полного стека
+    '8': Дизайнер игр VFX
+    '9': Дизайнер уровней / 3D-арт
+    '10': 3D Персонаж / Предметы Художника
+    '11': Партнер Студия / 3D Художник
+    '12': Консультант по геймдизайнеру
+    '13': Ведущий дизайнер UI/UX
+    '14': Веб-разработчик полного стека
+    '15': Креативный разработчик
+    '16': Графический дизайнер
+    '17': Киностудии
+    '18': Директор по маркетингу
+    '19': Комьюнити-менеджер
+    '20': Саунд-дизайнер
+    '21': Композитор музыки
+    '22': Управление командой
+    '23': Программист
+leaderboard:
+  title: Таблица лидеров
+  metaTitle: Kryxivia • Таблица лидеров • Величайшие игроки Kryxivia
+  h1: Величайшие игроки Kryxivia
+roadmap:
+  metaTitle: Kryxivia • Дорожная карта Kryxivia
+  title: Дорожная карта
+  discover: Ознакомьтесь с нашей дорожной картой
+  h1: Дорожная карта Кривии
+  road:
+    q3_2021:
+      desc: Старт проекта Kryxivia
+      list:
+        '1': >-
+          Развертывание токенов KXA и KXS в тестовой сети Binance Smart-chain
+          для Alpha.
+        '2': >-
+          Начало разработки, тестирование базового геймплея, игровых серверов и
+          ссылок на блокчейны.
+        '3': Работа над 3D-моделированием Вселенной Kryxivia.
+        '4': >-
+          Занимаясь дизайном уровней городов, шахтами, работая над Лором игры,
+          исследуя функциональные системы Kryxit и драгоценных камней.
+    q4_2021:
+      desc: Старт проекта Kryxivia
+      list:
+        '1': >-
+          Запуск онлайн-сайта с основами о Kryxivia, выпуск презентационного
+          документа.
+        '2': >-
+          Релиз с открытым исходным кодом кодовой базы Kryxivia в нашем
+          репозитории GitHub и различных смарт-контрактах.
+        '3': >-
+          Подготовка доказательства концепции игры с использованием Unity WebGL,
+          C# и Node.js.
+        '4': >-
+          Аудит наших различных смарт-контрактов, которые взаимодействуют с
+          блокчейном BSC.
+        '5': Выпуск тизера для запуска Kryxivia Alpha.
+        '6': >-
+          Запуск токена KXA путем публичной продажи для создания ликвидности
+          пула активов и игровых базовых фондов (МОТ).
+        '7': >-
+          Развертывание Белого списка для частного альфа-предварительного
+          доступа (кошельки, участвующие в МОТ, будут иметь преимущества).
+        '8': >-
+          Работа над всеми игровыми аспектами, клиентом/сервером и связями между
+          службами централизации/децентрализации NFT.
+        '9': Выполнение процедур KYC членами команды Kryxivia.
+        '10': >-
+          Создание управляемого пула Pancake Swap для внутриигрового токена KXS
+          (с 10% от привлеченных средств).
+        '11': Листинг на CoinMarketCap, CoinGecko...
+    q1_2022:
+      desc: Старт проекта Kryxivia
+      list:
+        '1': Подготовка игры для браузера WebGL к развертыванию
+        '2': >-
+          Развертывание рынка предметов NFT для обмена внутриигровыми вещами с
+          другими игроками в цепочке.
+        '3': >-
+          Запуск частного пре-альфа-доступа для выбранных участников, чтобы
+          играть в Мир Kryxivia в своем браузере в kryxivia.io.
+        '4': >-
+          Использование тестовой сети для пре-альфа для выявления ошибок и
+          вознаграждения игроков баг-баунти, которые сообщают о проблемах в
+          токенах KXA.
+        '5': >-
+          Добавление новых подземелий и дополнительных спецификаций предметов,
+          разработка драгоценных камней Kryxit и заклинаний.
+        '6': >-
+          Запустите различные стартовые пакеты (NFT-пакеты) для бета-доступа,
+          чтобы напрямую начать играть с купленными наборами.
+        '7': >-
+          Увеличение вместимости команды, привлечение нового 3D-дизайнера,
+          уровня и сценариста.
+        '8': Улучшение содержимого PVE.
+    q2_2022:
+      desc: Старт проекта Kryxivia
+      list:
+        '1': >-
+          Выпуск бета-версии публичного доступа Kryxivia World в основной сети
+          сети BSC.
+        '2': Исправление ошибок из пре-альфа (Q1), найденных игроками.
+        '3': >-
+          Начало разработки рейдовых систем (+20 игроков, сражающихся вместе в
+          рейдовых боях) в шахте Kryxivia.
+        '4': >-
+          Добавление ежедневных квестовых систем для поощрения действий игроков,
+          тем самым вознаграждая наиболее активных.
+        '5': >-
+          Работа над большим набором комнат подземелья в шахте с большим
+          количеством трудностей и лучшими наградами Kryxit и прочего.
+        '6': >-
+          Применение и листинг токенов KXA и KXS на ведущих крупных
+          централизованных биржах T1.
+        '7': >-
+          Банковская внутриигровая система ставок для получения вознаграждений
+          (реальная рентабельность инвестиций с новыми наградами в год) с
+          токеном KXA / KXS.
+    q3_2022:
+      desc: Старт проекта Kryxivia
+      list:
+        '1': >-
+          Система гильдий, чтобы объединиться с вашими товарищами с ежедневными
+          / еженедельными целями, чтобы достичь наград или бонусных ставок.
+        '2': >-
+          Добавление сезона системы событий со специальными уникальными NFT с
+          конкретными новыми боссами (новая ограниченная косметика...).
+        '3': >-
+          Управление DAO для голосования по темам событий, следующим вехам в
+          дорожной карте для достижения, а также nerf или обновлениям для
+          обновления игрового процесса в игре (ограниченные кошельком с точки
+          зрения процента).
+        '4': >-
+          Визуальный дизайн в игре для статистики и информации о значении KXS и
+          ценовых движениях.
+        '5': >-
+          Онлайн лестницы, чтобы увидеть всех игроков, их электронные уровни и
+          репутацию + уникальность инвентаря NFT.
+token-kxs:
+  title: $KXS токенов
+  metaTitle: Kryxivia • Монетная $KXS Kryxivia
+  h1: Монета $KXS Криксивия
+  intro: >-
+    Монета KXS, которая расшифровывается как Kryxivia Shard Coin, является
+    онлайн-валютой для игры, покупки, торговли и новых онлайн-вещей в мире
+    Kryxivia, поскольку она несет в себе больше риска и экономических ходов, она
+    должна иметь огромный запас, чтобы каждый игрок мог играть.
+  txt1: >-
+    Общий максимальный запас токена KXS ограничен 5 000 000 000 KXS (5B), что
+    делает его более доступным и пригодным для использования в игре, чем токен
+    KXA. Токен KXS можно чеканить, что означает, что новые могут быть созданы
+    для таких вещей, как фермерские внутриигровые награды или специальные
+    онлайн-события. Он может торговаться, как и любая другая валюта на CEX &
+    DEX.
+  txt2: >-
+    Это также дефляционный токен, потому что вы можете использовать токен KXS в
+    игре для специальных наград, например, если вы хотите связать свои предметы
+    с драгоценными камнями Kryxit, вам нужно будет сжечь несколько KXS, чтобы
+    это произошло, или если вы хотите купить расходные материалы, такие как
+    зелья или другие, чтобы помочь вам в вашем путешествии; вам нужно будет
+    сжечь токены KXS для городских NPC.
+  txt3: >-
+    Внутриигровой токен будет иметь базовую ликвидность по децентрализованному
+    протоколу, поддерживаемому токеном KXA на управляемом пуле, чтобы обеспечить
+    способность покупки и продажи внутриигрового токена, но основным способом
+    получения токена KXS по-прежнему будет внутриигровая игра и выигрыш
+    вознаграждений, как наша система описывается «Играть, чтобы заработать».
+token-kxa:
+  title: $KXA токенов
+  metaTitle: Kryxivia • Монетная $KXA Kryxivia
+  h1: Монета $KXA Криксивия
+  intro: >-
+    Монета KXA, которая расшифровывается как токен Kryxivia Coin, развернутый на
+    Ethereum, является базовой криптовалютой для платежей по цепочке и
+    специальных пакетов, таких как стартовые пакеты, специальные события продаж
+    NFT или обмен на внутриигровую валюту KXS, которая расшифровывается как
+    Kryxit Shard.
+  txt1: >-
+    Монета Kryxivia имеет общий максимальный запас в 250 000 000 монет KXA, Как
+    подробно описано ниже, наша токеномика довольно специфична и постоянна.
+    Токен KXA не подлежит чеканке, что означает, что он не может иметь более 250
+    миллионов выпущенных KXA.
+  txt2: >-
+    Мы используем цепочку BSC, чтобы избежать высоких комиссий за транзакции в
+    цепочке. Вы также можете использовать монету KXA для покупки и продажи
+    недвижимости NFT (предметы, Kryxit, заклинания ...) из игры в наш
+    онлайн-магазин с помощью вашего кошелька (например, Metamask).
+  sub: Токеномика
+  title1: Токеномика монеты Kryxivia
+  subtitle1: Распределение $KXA токенов
+  td1: Стоимость серверного сетевого хостинга, игрового клиента и серверного движка
+  td2: >-
+    Маркетинг, повышение внедрения и стимулирование расширения аудитории
+    проектов
+  td3: Награды за внутриигровые события, специальные фермерские акции и награды NFT
+  td4: >-
+    Размещение средств для банковских систем и чистых вознаграждений APY для
+    игроков
+  td5: Затраты на оплату команды разработчиков, доля команды
+  td6: Раунд предпродажи частных токенов для запуска проекта
+  td7: Публичная продажа токенов (ILO*) для бета-релиза игры по протоколу Unicrypt
+  td8: Экосистемные фонды для внеоперационных операций
+  td9: Резервные казначейские фонды
+  subtitle2: Официальные кошельки команды
+  subtitle3: План частных и публичных продаж
+  wallet1: Кошелек развертывания Kryxivia
+  wallet2: Сетевой кошелек хостинга сервера
+  wallet3: Маркетинг, принятие кошелька
+  wallet4: События, внутриигровой кошелек вознаграждений
+  wallet5: Кошелек для размещения средств
+  wallet6: Кошелек командных фондов разработки
+  wallet7: Кошелек экосистемных средств
+  wallet8: Резервный кошелек казначейских средств
+  sale:
+    private:
+      title: Раунд частной продажи
+      discount: ~ {percent} скидка от публичной продажной цены
+      of: '{kxa} KXA ({total} - {percent} поставки)'
+      price: 'Цена: {price} за KXA'
+      raise: Повышение ~ {bnb} BNB = (Всего = ~{total})
+      close: >-
+        Частная продажа Закрыть: <-> TGE {percent} разблокирован, а затем
+        линейная разблокировка в течение одного года
+    public:
+      title: Раунд публичной продажи
+      discount: ~ {percent} скидка от цены объявления
+      of: '{kxa} KXA ({total} - {percent} поставки)'
+      price: 'Цена: {price} за KXA'
+      raise: Повышение ~ {bnb} BNB = (Всего = ~{total})
+      close: >-
+        Публичная продажа Закрытие: <-> TGE {percent} разблокирован, а затем
+        линейно на 3 месяца
+    listing:
+      title: Листинг на PancakeSwap
+      price: 'Цена: {price} за KXA'
+      raise: '{percent} от привлеченных средств от Unicrypt заблокирован на 1 год'
+devblog:
+  title: Devblog & новости
+  metaTitle: Kryxivia • Devblog, новости, обновления и объявления
+  h1: Новости, обновления и объявления
+  back: Вернуться к списку
+devblog-slug:
+  title: Devblog & новости
+  metaTitle: Криксивия
+bosses:
+  title: Боссов
+  metaTitle: Kryxivia • Боссы MMORPG Kryxivia Метавселенная
+  h1: Боссы MmorPG Kryxivia Metaverse
+  fight: Сражайтесь с {boss} сейчас!
+  back: Вернуться к списку
+bosses-slug:
+  title: Боссов
+  progress: История в процессе, вернемся позже...
+bosses-alde:
+  title: Боссы • Альде
+  metaTitle: Kryxivia • Альде • Боссы Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Пламя Альде
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-atesgol:
+  title: Боссы • Атесгол
+  metaTitle: Криксивия • Атесгол • Боссы Криксивии
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Пивовар Атесгола
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-valtrena:
+  title: Боссы • Вальтрена
+  metaTitle: Крикивия • Валтрена • Боссы Кришивии
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Оползень Вальтрены
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-k1rig:
+  title: Боссы • K1 R.I.G
+  metaTitle: Kryxivia • K1 R.I.G • Боссы Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Винтики K1 R.I.G
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-melucyna:
+  title: Боссы • Мелуцина
+  metaTitle: Криксивия • Мелуцина • Боссы Криксивии
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Волны Меликуны
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+factions:
+  title: Фракции
+  metaTitle: Криксивия • Фракции Криксивии
+  h1: Присоединяйтесь к одной из трех фракций!
+  want: Я хочу быть
+  adventurers:
+    name: Авантюристов
+    title: У вас есть все, что нужно, чтобы стать искателем приключений?
+    intro: >-
+      Вы смелы и готовы почтить своих предков? Чтобы присоединиться к фракции
+      искателей приключений, вам нужна сила, мужество, храбрость и решимость.
+    paragraphe:
+      - >-
+        Ваша цель будет заключаться в том, чтобы защитить самых слабых и
+        превзойти себя каждый день, чтобы стать сильнее, чем когда-либо, вам не
+        нравятся люди купидоны, особенно фракция Торговцев, которые сделают все
+        для богатства. Жаждущий приключений и испытаний, вы объединились со
+        своими спутниками, чтобы решить, какие миссии укрепят идеалы вашей
+        фракции, в конце концов, вы потомок божества Кри.
+  nomads:
+    name: Кочевников
+    title: >-
+      Иногда природа — это все, что вам нужно, и напоминает нам о реальных
+      приоритетах и основных потребностях, верно?
+    intro: >-
+      Вы любите природу и готовы ее защищать? Чтобы присоединиться к фракции
+      кочевников, вам нужно любить лес, растения, животных и желать жить в
+      мирной и спокойной обстановке.
+    paragraphe:
+      - >-
+        Как потомок Виа, вы едины с природой. Вы уважаете каждое растение и
+        любое живое существо, как опасное животное шепчущее вы приобретаете
+        попутчиков. Легенда гласит, что самые старые кочевники путешествовали с
+        драконами. Ваше сердце чисто, и вы делитесь своими знаниями со всеми,
+        кто слушает. Ваши учения показывают, как выжить благодаря щедрости
+        Земли.
+  merchants:
+    name: Купцы
+    title: >-
+      Чувствуете ли вы энергию Луны, всегда ли вы чувствовали, что вы были
+      отдельно, умнее, легко ли вам играть с умом людей?
+    intro: >-
+      Чтобы присоединиться к фракции Торговца, вы должны быть одарены
+      социальными и деловыми навыками, вы точно знаете, чего люди ожидают и
+      хотят, чтобы вы сказали, вы умны, овладеваете навыком торговли, а когда
+      это необходимо манипулятивно и озорно.
+    paragraphe:
+      - >-
+        У вас есть естественная тенденция привлекать энергию вокруг. Как
+        гениальный заклинатель, вы можете использовать слова в своих интересах,
+        это связано с влиянием богини Си. Вы мечтаете поймать самый драгоценный,
+        экспансивный и редкий Kryxit, который существует. Независимо от жертвы,
+        вы чувствуете потребность в обладании. Зная, что мир жесток, а хорошие
+        парни не выживают очень долго, вам не хватает эмпатии и жалости. Иногда
+        вы должны делать то, что другие не могут для общего блага.
+faq:
+  title: ВОПРОСЫ И ОТВЕТЫ
+  metaTitle: Kryxivia • Часто задаваемые вопросы
+  category: Категории
+  h1: Чем мы можем Вам помочь?
+  start: Начните с выбора категории вашего вопроса или проблемы.
+  no-question: В этой категории пока нет вопросов, проверьте позже!
+  no-answer: >-
+    Вы не можете найти ответ на свои вопросы? Задайте нам вопрос в сетях, наша
+    команда будет рада ответить вам.
+  back: Вернуться к категориям
+  kryxivia-and-game:
+    title: Криксивия и игра
+    list:
+      - q: Что такое Kryxivia?
+        a:
+          - t: txt
+            c: >-
+              Kryxivia - это фэнтезийная 3D MMORPG, играбельная на любом
+              современном браузере, напрямую доступная на нашем сайте по адресу
+              kryxivia.io, целая экосистема, ожидающая новых авантюрных игроков,
+              чтобы собрать Kryxit! В нашем мире приготовьтесь зарабатывать
+              криптовалюту и уникальный редкий NFT, весело и совместно с
+              друзьями.
+      - q: Как начать играть?
+        a:
+          - t: txt
+            c: >-
+              Kryxivia - это онлайн MMORPG игра, работающая с любыми
+              совместимыми современными браузерами, вы можете играть в нее на
+              любом компьютере с минимально необходимым правильным графическим
+              процессором. Чтобы аутентифицироваться и войти в игру, вам нужно
+              будет иметь кошелек на основе Metamask.
+      - q: Что такое играть, чтобы заработать?
+        a:
+          - t: txt
+            c: >-
+              Игры Play-to-earn сочетают в себе удовольствие от видеоигр с
+              возможностью зарабатывать реальные награды за свое время. В нашем
+              случае вы можете наслаждаться MMORPG и зарабатывать токены Kryxit.
+      - q: Что означает истинная собственность?
+        a:
+          - t: txt
+            c: >-
+              Фактическими владельцами являются те, кто получает преимущества
+              владения. Истинными владельцами являются те физические или
+              юридические лица, которые получают имя пособия, и они имеют право
+              на любое преимущество от этого.
+      - q: Является ли Kryxivia игрой, чтобы выиграть игру?
+        a:
+          - t: txt
+            c: Да, Kryxivia - это игра, чтобы заработать игру Kryxit.
+      - q: Действительно ли Kryxivia бесплатная игра?
+        a:
+          - t: txt
+            c: >-
+              Да, чтобы играть в kryxivia, вам нужно только подключить свою
+              Metamask к серверу.
+      - q: Где я могу играть в Kryxivia?
+        a:
+          - t: txt
+            c: Вы можете играть в игру на kryxivia.io
+      - q: Должен ли я понимать блокчейн или сеть смарт-цепи binance?
+        a:
+          - t: txt
+            c: >-
+              Нет, вам не нужно иметь никаких технических знаний о BNBchain для
+              игры.
+      - q: Что такое MMORPG?
+        a:
+          - t: txt
+            c: >-
+              MMORPG - это видеоигра, которая сочетает в себе элементы ролевых
+              видеоигр и массовых многопользовательских онлайн-игр.
+      - q: Где я могу сообщить об ошибках?
+        a:
+          - t: txt
+            c: >-
+              Если вы альфа-тестер, вы можете сообщать об ошибках на канале
+              сообщений об ошибках на Discord и получить шанс заработать от
+              награды в размере 40 000 долларов.
+      - q: Каковы требования к ПК для игры в Kryxivia?
+        a:
+          - t: txt
+            c: >-
+              Рекомендуемые требования: не менее 4 ГБ оперативной памяти, Intel
+              Core i5, графический процессор GeForce GTX 900 Series и
+              твердотельный накопитель.
+  wallet-kxa-kxs:
+    title: Кошельки, KXA и KXS
+    list:
+      - q: Что такое $KXA?
+        a:
+          - t: txt
+            c: >-
+              $KXA, или токен Kryxivia Coin, является криптовалютой,
+              используемой для платежей по цепочке, таких как стартовые пакеты,
+              специальные распродажи NFT или обмен на внутриигровую валюту $KXS,
+              что расшифровывается как Kryxit Shard.
+      - q: Что такое $KXS?
+        a:
+          - t: txt
+            c: >-
+              Монета $KXS, которая расшифровывается как Kryxivia Shard Coin,
+              является онлайн-валютой для игры, покупки, торговли и новых
+              онлайн-вещей в мире Kryxivia.
+      - q: Как купить и продать $KXA и $KXS?
+        a:
+          - t: txt
+            c: 'Вы можете купить $KXA на биржах, перечисленных здесь:'
+          - t: пуговица
+            c: КоинМаркетКап
+            link: https://coinmarketcap.com/currencies/kryxivia/
+          - t: txt
+            c: $KXS еще не указан.
+      - q: Безопасны ли мои крипто и игровые предметы?
+        a:
+          - t: txt
+            c: >-
+              Да, Kryxivia была проверена Solidproof, и все ваши игровые активы
+              и криптография в безопасности с нами.
+          - t: пуговица
+            c: Аудит SolidProof
+            link: >-
+              https://github.com/solidproof/projects/blob/main/Kryxivia/MysteryBox/SmartContract_Audit_Solidproof_Kryxivia%20MysteryBox.pdf
+      - q: Что такое эйрдропы и как их получить?
+        a:
+          - t: txt
+            c: >-
+              Airdrops включает в себя криптопроекты, массово предоставляющие
+              токены своим сообществам для увеличения принятия.
+          - t: txt
+            c: >-
+              Все объявления, касающиеся airdrops Kryxivia, будут объявлены в
+              официальном твиттере.
+      - q: Как связать мой крипто и nft кошелек?
+        a:
+          - t: txt
+            c: >-
+              Вам нужно иметь учетную запись метамаски с сетью Binance на ней,
+              после чего вам нужно открыть сайт kryxivia и нажать на подключить
+              кошелек.
+          - t: txt
+            c: >-
+              После этого появится уведомление кошелька о разрешении на
+              подключение.
+      - q: Как отправить мой NFT или крипто на другой кошелек?
+        a:
+          - t: пуговица
+            c: Читать далее
+            link: https://nftdesire.io/how-to-transfer-nft-to-another-wallet/
+  login-and-account:
+    title: Логин и аккаунт
+    list: []
+  website-and-social:
+    title: Веб-сайт и социальные сети
+    list:
+      - q: С кем поговорить по вопросам или проблемам?
+        a:
+          - t: txt
+            c: >-
+              Все наши чаты в социальных сетях активны с модами, вы можете
+              присоединиться к нашим Discord и Telegram.
+  characters-and-equipments:
+    title: Персонажи и снаряжение
+    list: []
+  monsters-and-dungeons:
+    title: Монстры и подземелья
+    list: []
+  others:
+    title: Другие
+    list: []
+faq-slug:
+  title: ВОПРОСЫ И ОТВЕТЫ
+dungeons:
+  title: Шахта Криксивия
+  metaTitle: Криксивия • Шахта Криксивии
+  h1: Исследуйте шахту Kryxivia и собирайте драгоценные NFT!
+  intro: >-
+    Внутри города Криксивия вы найдете гигантскую дверь, которая ведет к старой
+    шахте, обнаруженной давным-давно. Искатели приключений решили построить
+    вокруг него город Криксивия, чтобы понять Криксит внутри шахты и собрать их.
+    Они быстро поняли, что ужасные монстры защищают эту шахту и что им придется
+    сражаться до смерти, чтобы возложить на них руки!
+  txt1: >-
+    Мы слышали истории о богине Виа, которая заколдовала шахту, чтобы защитить
+    Криксит, которая, по-видимому, является источником силы трех божеств: Кри,
+    Си и Виа.
+  catalysts:
+    sub: Катализаторов
+    title1: Входите в минные подземелья в разных режимах!
+    txt1: >-
+      Катализаторы приведут вас к альтернативным «линиям шахты». Если вы
+      используете его перед входом, боссы, с которыми вы столкнетесь внутри,
+      будут намного сильнее и сбросят гораздо более мощные крикиты - магические
+      драгоценные камни, с помощью которых вы можете сколоть свои предметы для
+      новых заклинаний и лучшей статистики.
+    txt2: >-
+      Не каждый Catalyst был создан равным - некоторые будут регулировать
+      сложность даже больше, чем другие. Уровень сложности известен как уровень
+      Crux в подземелье. Чем выше Crux, тем тяжелее боссы и тем лучше падения.
+    blue: Синий катализатор
+    yellow: Желтый катализатор
+    orange: Оранжевый катализатор
+    red: Красный катализатор
+    purple: Фиолетовый катализатор
+  boss:
+    sub: Боссы Криксивии
+    title1: >-
+      Повышайте уровень своего персонажа, побеждая самых сложных боссов и
+      используя Catalyst, чтобы достичь нового максимума!
+    txt1: >-
+      В Kryxivia NFT создают закон, что означает, что уровень вашего персонажа
+      основан на предметах, которые вы экипировали, которыми вы торговали на
+      рынке или выиграли против монстров в шахте Kryxivia. У вас есть то, что мы
+      называем I-Lvl, прикрепленное к вашим вещам на персонаже. Боссы дадут вам
+      снаряжение, монету Kryxit Shard (KXS) и заклинания. Основываясь на
+      алгоритмической ценности, добыча определяется различными расчетами,
+      основанными на активности игроков, чтобы обеспечить устойчивую экономику.
+      Некоторые NFT могут быть супер-ограниченными и потенциально никогда не
+      разграбленными снова после развертывания, и определенное количество уже
+      сброшено, или ограничено ежедневно, еженедельно, ежемесячно или ежегодно.
+kryxivia:
+  title: Криксивия
+  metaTitle: Kryxivia • Город и история
+  h1: Исследуйте фантастический мир Kryxivia
+  intro: >-
+    Когда вы появляетесь в нашем мире, вас отправляют в город Криксивия, чтобы
+    начать свое приключение, в городе вы найдете все свои потребности, прежде
+    чем начать свой игровой процесс в волшебной шахте.
+  txt1: >-
+    Все игроки находятся в вестибюле, делая что-то в городе, готовясь к бою
+    внутри этой таинственной двери! Вы можете найти несколько NPC, которые
+    проведут вас через ваше путешествие и создадут альянсы / группы с людьми,
+    чтобы совершать рейды или подземелья вместе.
+  txt2: >-
+    Есть центральное место с основными необходимыми NPC, чтобы избежать пустой
+    траты времени на поездку туда и обратно между шахтой и городом, для других
+    вы можете найти их на конкретных зданиях, которые выглядят необычно от
+    других.
+  story:
+    sub1: Город Крикивия
+    title1: История основания города Криксивия
+    txt1: >-
+      Во времена, когда человек еще не изобрел индустрию. Некоторые обнаружили
+      странную дверь, потерянную в горе. Оттуда они нашли Kryxit, магические
+      драгоценные камни с огромной силой. Многие начинают собираться первыми
+      посланными странами.
+    txt2: ' Kryxivia - это новый и цветущий город, расположенный в горах вокруг огромной двери, обнаруженной несколько лет назад, построенной в основном без плана небольшими группами искателей приключений и торговцев.'
+    txt3: >-
+      Жители Криксивии происходят со многих горизонтов, почти никто из них не
+      происходит из регулярной армии, поэтому их наряды в основном не совпадают
+      и подбираются по пути. Цельнометаллические шестерни не всегда доступны в
+      этом мире, поэтому, если они не очень богаты, люди, как правило, носят как
+      ткань, так и кожу и металл вместе взятые.
+    txt4: >-
+      Мужчины принесут много добычи из двери, но они не всегда вернутся. Город
+      Криксивия начал формироваться вокруг дверей, и многие купцы получали
+      прибыль от этого очень посещаемого места. Теперь, несколько лет спустя,
+      большинство людей, которые пытают счастья, являются наемниками или
+      независимыми, как и вы. 
+  map:
+    sub1: Карта города Крикивия
+    title1: Важнейшие здания
+    banks:
+      title: Банков
+      desc: >-
+        Получайте импортированные NFT или KXS в банке, ставьте валюты для APY
+        или предметы инвентаря, которые вам не нужны.
+    leader:
+      title: Таблица лидеров
+      desc: >-
+        Посмотрите здесь лучших воинов в Kryxivia, эта лестница содержит лучших
+        игроков PVP и PVE.
+    nft:
+      title: NFT Экспорт
+      desc: >-
+        Этот NPC используется для экспорта ваших элементов NFT в ваш кошелек
+        блокчейна, просто выбрав один.
+    portail:
+      title: Шахта Криксивия
+      desc: >-
+        Это дверь, чтобы попасть в шахту Kryxivia, где вы найдете боссов в
+        подземельях.
+    socketing:
+      title: Кузнец
+      desc: >-
+        Поговорите с Кузнецом, чтобы наклеить ваши Kryxits на ваши предметы
+        инвентаря.
+    training:
+      title: Тренировка
+      desc: >-
+        В тренировочной зоне вы можете проверить свои навыки и повреждения,
+        которые вы наносите на ударе по мячу.
+patchnotes:
+  nav: Патч Заметки
+  title: Патч Заметки и Релизы
+  metaTitle: Kryxivia • Патч Заметки и Релизы
+  h1: Узнайте последние патч заметки и релизы
+  sub: Патч Заметки
+  know: 'Известные ошибки:'

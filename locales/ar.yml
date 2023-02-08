@@ -1,0 +1,881 @@
+all:
+  title: Kryxivia • لعبة MMORPG مبتكرة تستفيد من NFT على blockchain
+  desc: >-
+    مرحبا بكم في Kryxivia! لعبة ويب 3D NFT متعددة الأكوان MMORPG على blockchain.
+    تجربة ألعاب مبتكرة جديدة للفوز. استخدام شبكة Ethereum.
+  open: مفتوح
+  close: غلق
+  back: ظهر
+  progress: قيد التنفيذ
+  finish: اكمال
+  view_details: عرض التفاصيل
+  step: درج
+  discover: اكتشف
+  lvl: مستوى
+  more: إقرأ المزيد
+  soon: قريباً...
+  alpha: ألفا العامة تبدأ في
+  buy: يشترى
+wallets:
+  metamask:
+    name: ميتاماسك
+    connect: الاتصال بقناع الميتاماسك الخاص بك
+  walletconnect:
+    name: WalletConnect
+    connect: الاتصال بمحفظتك
+  fortmatic:
+    name: فورماتيك
+    connect: تواصل مع حساب فورتماتيك الخاص بك
+  bcw:
+    name: محفظة سلسلة بينانس
+    connect: تواصل مع محفظة سلسلة Binance الخاصة بك
+play:
+  intro: اختر منصة واكتشف عالم Kryxivia!
+  launcher:
+    title: Kryxivia قاذفة
+    desc: قم بتنزيل Kryxivia للحصول على تجربة مثالية!
+  client:
+    title: عميل WebGL
+    desc: العب Kryxivia على متصفح الويب الخاص بك!
+header:
+  connect: عشق
+  play: العب الآن
+  nav: ملاحة
+  dev: ديفبلوق والأخبار
+  game: لعب
+  apps: تطبيقات
+  view: عرض جميع الأخبار
+  rights: جميع الحقوق محفوظة.
+  policy: سياسة الخصوصية
+  press: المصادر الصحفية
+  partner: شركاء
+  doc: توثيق
+nav:
+  kryxivia:
+    home: وطن
+    kxa: $KXA الرمز المميز
+    kxs: $KXS الرمز المميز
+    team: فريق
+    dev: مدونة ديف
+    road: خارطة طريق
+    lite: لايت بيبر
+  game:
+    kryxivia: كريكسيفيا
+    faction: الفصائل
+    dungeon: منجم كريكسيفيا
+    boss: الرؤساء
+    kryxit: كريكسيتس
+    equipment: المعدات
+    pvp: بي في بي أرينا
+  apps:
+    market: السوق
+    staking: اضراب
+    nft: عارض NFT
+    launcher: قاذفه
+    client: عميل
+    leaderboard: المتصدرين
+    faq: الأسئلة المتداولة
+bottom:
+  sound: موسيقى
+  scroll: مرر لاستكشاف
+  powered: يعمل بواسطة
+  developed: تم تطويره بواسطة
+  online: عبر الإنترنت
+index:
+  metaTitle: Kryxivia • لعبة MMORPG مبتكرة تستفيد من NFT على blockchain
+  title: وطن
+  h1: صفحة رئيسية
+home:
+  sub1: لعبة MMORPG مبتكرة تستفيد من NFT على Blockchain
+  h1: مرحبا بكم في تجربة اللعب من أجل الربح
+  play: العب الآن
+  trailer: مقطوره
+  sec1:
+    sub1: 3D MMORPG تفاعلية وممتعة
+    title1: العملات المشفرة كثورة في اقتصاد اللعبة
+    txt1: >-
+      العب الآن لعبة MMORPG 3D تفاعلية وممتعة في متصفحك أو على جهاز الكمبيوتر
+      الخاص بك مع أصدقائك ، أثناء جمع NFTs التي تمنحك مكافآت مدعومة بأرباح
+      العملة المشفرة المكتسبة من خلال تقدمك في عالم Kryxivia !
+    txt2: >-
+      في Kryxivia ، نستخدم أفضل الميزات التي يمكن أن تقدمها blockchain لتجلب لك
+      أفضل اقتصاديات داخل اللعبة.
+    bn: اكتشف كريكسيفيا
+  sec2:
+    sub1: عالم يجمع بين NFTS و cryptocurrency
+    title1: >-
+      استكشف الأبراج المحصنة في عالم Kryxivia واجمع NFTs للتجارة مع اللاعبين
+      الآخرين.
+    txt1: >-
+      كسب NFTs قيمة وحصرية من خلال محاربة أقوى الرؤساء في منجم Kryxivia . نهب
+      المواد الاستهلاكية والدروع التي يمكنك تطبيقها على شخصيتك وأحجار Kryxit
+      الكريمة لاستخدامها كتعويذات. كل منهم سيسمح لك بتخصيص طريقة اللعب الخاصة
+      بك.
+    bn: اكتشف الأبراج المحصنة
+  sec3:
+    sub1: اقتصاد فريد من نوعه
+    title1: عملتان مشفرتان لعالم Metaverse
+    txt1: >-
+      رمز KXA ، الذي يرمز إلى رمز Kryxivia Coin المميز المنشور على Ethereum ، هو
+      العملة المشفرة الأساسية للمدفوعات على السلسلة والحزم الخاصة ومستحضرات
+      التجميل وأحداث مبيعات NFT الخاصة أو تبادل عملة KXS داخل اللعبة ، بالإضافة
+      إلى الشراء والبيع في سوق NFT الخاص بنا.
+    txt2: >-
+      رمز KXS ، الذي يرمز إلى Kryxivia Shard Coin الذي تم تنفيذه على Ethereum هو
+      عملة عبر الإنترنت للعب والشراء والتجارة ومباشرة في اللعبة والحصول على قطع
+      جديدة عبر الإنترنت في عالم Kryxivia. نظرا لأنه يحمل المزيد من المخاطر
+      والتحركات الاقتصادية ، يجب أن يكون لديه إمدادات ضخمة حتى يتمكن كل لاعب من
+      الحصول على بعض اللعب به.
+  sec4:
+    sub1: ابدأ اللعب الآن!
+    title1: انضم إلى مغامرة Kryxivia !
+team:
+  metaTitle: Kryxivia • فريق Kryxivia
+  title: فريق
+  h1: فريق من كريكسيفيا
+  role:
+    '1': زعيم
+    '2': تطوير الألعاب
+    '3': مصمم 3D و VFX الفنان
+    '4': مصمم واجهة المستخدم / UX والمطور الأمامي
+    '5': التسويق والاتصالات
+    '6': مصمم الصوت
+  poste:
+    '1': الرئيس التنفيذي والمؤسس
+    '2': الرئيس التنفيذي للشؤون الفنية
+    '3': العميل الرئيسي اللعب
+    '4': مهندس بلوكتشين الرئيسي
+    '5': مهندس البرمجيات المكدس الكامل
+    '6': الوحدة 3D المطور
+    '7': مطور مكدس كامل
+    '8': مصمم ألعاب VFX
+    '9': مصمم المستوى / 3D الفن
+    '10': 3D شخصية / عناصر الفنان
+    '11': شريك استوديو / فنان 3D
+    '12': مستشار مصمم ألعاب
+    '13': مصمم واجهة المستخدم / تجربة المستخدم الرئيسي
+    '14': مكدس كامل مطور الويب
+    '15': المطور الإبداعي
+    '16': مصمم جرافيك
+    '17': صانع الأفلام
+    '18': الرئيس التنفيذي للتسويق
+    '19': مدير المجتمع
+    '20': مصمم الصوت
+    '21': مؤلف موسيقي
+    '22': إدارة الفريق
+    '23': مهندس برمجيات
+leaderboard:
+  title: المتصدرين
+  metaTitle: Kryxivia • المتصدرين • أعظم لاعبي Kryxivia
+  h1: أعظم لاعبي Kryxivia
+roadmap:
+  metaTitle: Kryxivia • خارطة طريق Kryxivia
+  title: خارطة طريق
+  discover: اكتشف خارطة الطريق الخاصة بنا
+  h1: خارطة طريق كريكسيفيا
+  road:
+    q3_2021:
+      desc: بداية مشروع كريكسيفيا
+      list:
+        '1': >-
+          نشر الرمز المميز KXA و KXS على شبكة اختبار سلسلة Binance الذكية ل
+          Alpha.
+        '2': >-
+          بدء التطوير ، واختبار طريقة اللعب الأساسية ، وخوادم الألعاب ، وروابط
+          blockchains.
+        '3': العمل على نمذجة 3D للكون Kryxivia .
+        '4': >-
+          القيام بتصميم مستوى المدن ، الألغام ، والعمل على تقاليد اللعبة ،
+          واستكشاف Kryxit والأحجار الكريمة الأنظمة الوظيفية.
+    q4_2021:
+      desc: بداية مشروع كريكسيفيا
+      list:
+        '1': >-
+          إطلاق موقع الويب عبر الإنترنت مع أساسيات حول Kryxivia ، وإصدار ورقة
+          العرض التقديمي.
+        '2': >-
+          إصدار مفتوح المصدر لقاعدة شفرة Kryxivia على مستودع GitHub الخاص بنا
+          والعقود الذكية المختلفة.
+        '3': 'إعداد إثبات مفهوم اللعبة باستخدام Unity WebGL و C # و Node .js.'
+        '4': تدقيق عقودنا الذكية المختلفة التي تتفاعل مع BSC blockchain.
+        '5': إطلاق الإعلان التشويقي لإطلاق Kryxivia Alpha.
+        '6': >-
+          بدء تشغيل رمز KXA من خلال إجراء عملية بيع عامة لإنشاء سيولة تجمع
+          الأصول وصناديق قاعدة اللعبة (ILO).
+        '7': >-
+          نشر القائمة البيضاء للوصول المسبق الخاص إلى ألفا (سيكون للمحافظ
+          المشاركة في منظمة العمل الدولية مزايا).
+        '8': >-
+          العمل على جميع جوانب اللعبة ، والعميل / الخادم ، والاتصالات بين خدمات
+          المركزية / اللامركزية في NFTs.
+        '9': القيام بإجراءات اعرف عميلك لأعضاء فريق Kryxivia .
+        '10': >-
+          إنشاء تجمع يتم التحكم فيه من Pancake Swap لرمز KXS المميز داخل اللعبة
+          (مع 10٪ من الأموال التي تم جمعها).
+        '11': الإدراج على CoinMarketCap ، CoinGecko ...
+    q1_2022:
+      desc: بداية مشروع كريكسيفيا
+      list:
+        '1': وجود لعبة متصفح WebGL جاهزة للنشر
+        '2': >-
+          نشر سوق عناصر NFT لتداول الأشياء داخل اللعبة مع لاعبين آخرين في
+          السلسلة.
+        '3': >-
+          بدء الوصول الخاص قبل ألفا للأعضاء المختارين للعب في Kryxivia World في
+          متصفحهم في kryxivia.io.
+        '4': >-
+          استخدام شبكة الاختبار لما قبل ألفا لتحديد الأخطاء ومكافأة لاعبي مكافآت
+          الأخطاء الذين يبلغون عن المشكلات في رموز KXA.
+        '5': >-
+          إضافة زنزانات جديدة والمزيد من مواصفات العناصر ، والأحجار الكريمة
+          Kryxit وتعويذات تطوير اللعب.
+        '6': >-
+          قم بتشغيل حزم المبتدئين المختلفة (حزم NFTs) لإطلاق الوصول التجريبي ،
+          لبدء اللعب مباشرة مع الحزم التي اشتريتها.
+        '7': زيادة قدرة الفريق، وتوظيف مصمم 3D جديد، ومستوى وscenarist.
+        '8': تحسين محتوى PVE.
+    q2_2022:
+      desc: بداية مشروع كريكسيفيا
+      list:
+        '1': >-
+          إطلاق الوصول العام التجريبي لعالم Kryxivia على الشبكة الرئيسية لشبكة
+          BSC.
+        '2': إصلاح الأخطاء من ما قبل ألفا (Q1) التي عثر عليها اللاعبون.
+        '3': >-
+          البدء في تطوير أنظمة الغارة (+20 لاعبا يقاتلون معا في معارك الغارة) في
+          منجم Kryxivia .
+        '4': >-
+          إضافة أنظمة البحث اليومية لمكافأة أنشطة اللاعبين، وبالتالي مكافأة
+          الأنشطة الأكثر نشاطا.
+        '5': >-
+          العمل على مجموعة أكبر من غرف الأبراج المحصنة في المنجم مع المزيد من
+          الصعوبات ومكافآت Kryxit والأشياء الأفضل.
+        '6': تطبيق وإدراج رموز KXA و KXS في أعلى البورصات المركزية الرئيسية T1.
+        '7': >-
+          نظام الرهان المصرفي داخل اللعبة للفوز بالمكافآت (عائد استثمار حقيقي مع
+          مكافآت جديدة سنويا) باستخدام رمز KXA / KXS.
+    q3_2022:
+      desc: بداية مشروع كريكسيفيا
+      list:
+        '1': >-
+          نظام النقابات للتعاون مع زملائك مع أهداف يومية / أسبوعية للوصول إلى
+          المكافآت أو معدلات المكافآت.
+        '2': >-
+          إضافة موسم نظام الأحداث مع NFTs فريدة من نوعها خاصة مع رؤساء جدد
+          محددين (مستحضرات التجميل المحدودة الجديدة ...).
+        '3': >-
+          حوكمة DAO للتصويت على موضوعات الحدث ، والمعالم التالية على خارطة
+          الطريق لتحقيقها ، و nerf أو ترقيات لإجراء تحديثات اللعب داخل اللعبة
+          (متوجة بالمحفظة من حيث النسبة المئوية).
+        '4': >-
+          تصميم مرئي داخل اللعبة للحصول على إحصاءات ومعلومات حول قيمة KXS
+          وتحركات الأسعار.
+        '5': >-
+          سلالم عبر الإنترنت لرؤية جميع اللاعبين ومستوياتهم الإلكترونية وسمعتهم
+          + تفرد قوائم الجرد NFTs.
+token-kxs:
+  title: $KXS الرمز المميز
+  metaTitle: Kryxivia • $KXS عملة Kryxivia
+  h1: عملة $KXS
+  intro: >-
+    عملة KXS ، التي تعني Kryxivia Shard Coin هي العملة عبر الإنترنت للعب والشراء
+    والتجارة والحصول على قطع جديدة عبر الإنترنت من الأشياء في عالم Kryxivia ،
+    لأنها تحمل المزيد من المخاطر والتحركات الاقتصادية ، يجب أن يكون لديها
+    إمدادات ضخمة حتى يتمكن كل لاعب من الحصول على بعض اللعب بها.
+  txt1: >-
+    يبلغ الحد الأقصى لإجمالي العرض من رمز KXS المميز 5,000,000,000 KXS (5B) مما
+    يجعله أكثر سهولة وقابلية للاستخدام داخل اللعبة من رمز KXA. الرمز المميز KXS
+    قابل للتعديل مما يعني أنه يمكن إنشاء رموز جديدة لأشياء مثل زراعة المكافآت
+    داخل اللعبة أو الأحداث الخاصة عبر الإنترنت. يمكن تداولها مثل أي عملة أخرى
+    على CEX و DEX.
+  txt2: >-
+    إنه أيضا رمز انكماشي لأنه يمكنك استخدام رمز KXS المميز داخل اللعبة للحصول
+    على مكافآت خاصة ، على سبيل المثال ، إذا كنت ترغب في ربط العناصر الخاصة بك
+    بأحجار Kryxit الكريمة ، فستحتاج إلى حرق بعض KXS لتحقيق ذلك ، أو إذا كنت ترغب
+    في شراء عناصر المواد الاستهلاكية مثل الجرعات أو غيرها لمساعدتك خلال رحلتك ؛
+    ستحتاج إلى حرق رموز KXS إلى NPCs في المدينة.
+  txt3: >-
+    سيكون للرمز المميز داخل اللعبة سيولة أساسية على بروتوكول لامركزي مدعوم برمز
+    KXA المميز على مجموعة مدارة لضمان القدرة على الشراء وقابلية البيع للرمز
+    المميز داخل اللعبة ، ولكن الطريقة الرئيسية للحصول على رمز KXS ستظل داخل
+    اللعبة من خلال اللعب والفوز بالمكافآت ، كما هو موضح في نظامنا "العب من أجل
+    كسب".
+token-kxa:
+  title: $KXA الرمز المميز
+  metaTitle: Kryxivia • $KXA عملة Kryxivia
+  h1: عملة $KXA كريكسيفيا
+  intro: >-
+    عملة KXA ، التي تعني رمز Kryxivia Coin المميز المنشور على Ethereum ، هي
+    العملة المشفرة الأساسية للمدفوعات على السلسلة والحزم الخاصة مثل حزم
+    المبتدئين أو أحداث مبيعات NFT الخاصة أو تبادل عملة KXS داخل اللعبة ، والتي
+    تعني Kryxit Shard.
+  txt1: >-
+    تحتوي عملة Kryxivia على إجمالي الحد الأقصى للعرض البالغ 250,000,000 عملة KXA
+    ، كما هو مفصل أدناه ، فإن الرموز المميزة لدينا محددة وثابتة إلى حد ما. الرمز
+    المميز KXA غير قابل للتعديل ، مما يعني أنه لا يمكن أن يكون لديه أكثر من 250M
+    KXAs الصادرة.
+  txt2: >-
+    نحن نستخدم سلسلة BSC لتجنب رسوم المعاملات المرتفعة على السلسلة. يمكنك أيضا
+    استخدام عملة KXA لشراء وبيع خصائص NFT (العناصر ، Kryxit ، التعاويذ ...) من
+    اللعبة إلى سوقنا عبر الإنترنت باستخدام محفظتك (مثل Metamask).
+  sub: الرموز المميزة
+  title1: الرموز المميزة لعملة Kryxivia
+  subtitle1: توزيع $KXA الرمز المميز
+  td1: تكاليف استضافة شبكة الخادم وعميل اللعبة ومحرك الخادم
+  td2: التسويق وزيادة التبني والتحفيز لتوسيع جمهور المشاريع
+  td3: مكافآت الأحداث داخل اللعبة والزراعة الخاصة ومكافآت NFT
+  td4: صناديق الرهان لأنظمة البنك وصافي مكافآت APY للاعبين
+  td5: تكاليف دفع فريق التطوير ، حصة الفريق
+  td6: جولة ما قبل البيع الخاصة بالرمز المميز لبدء المشروع
+  td7: >-
+    بيع الرمز المميز العام (ILO*) للإصدار التجريبي من اللعبة على بروتوكول
+    Unicrypt
+  td8: أموال النظام الإيكولوجي للعمليات الإضافية
+  td9: احتياطي أموال الخزينة
+  subtitle2: المحافظ الرسمية للفريق
+  subtitle3: خطة البيع الخاصة والعامة
+  wallet1: محفظة نشر Kryxivia
+  wallet2: محفظة استضافة شبكة الخادم
+  wallet3: التسويق ومحفظة التبني
+  wallet4: الأحداث، محفظة المكافآت داخل اللعبة
+  wallet5: محفظة صناديق الرهان
+  wallet6: محفظة فريق صناديق التنمية
+  wallet7: محفظة صناديق النظام البيئي
+  wallet8: محفظة أموال الخزينة الاحتياطية
+  sale:
+    private:
+      title: جولة بيع خاصة
+      discount: ~ {percent} خصم من سعر البيع العام
+      of: '{kxa} of KXA ({total} - {percent} supply)'
+      price: 'السعر: {prix} لكل KXA'
+      raise: رفع ~ {bnb} BNB = (المجموع = ~{total})
+      close: 'بيع خاص إغلاق: <-> TGE {percent} مقفلة ثم فتح خطي على مدى عام واحد'
+    public:
+      title: جولة البيع العام
+      discount: ~ خصم {percent} من سعر الإدراج
+      of: '{kxa} of KXA ({total} - {percent} supply)'
+      price: 'السعر: {price} لكل KXA'
+      raise: رفع ~ {bnb} BNB = (المجموع = ~{total})
+      close: 'إغلاق البيع العام: <-> TGE {percent} مقفلة ثم خطية على 3 أشهر'
+    listing:
+      title: الإدراج على PancakeSwap
+      price: 'السعر: {price} لكل KXA'
+      raise: '{percent} من الأموال التي تم جمعها من Unicrypt مقفلة لمدة 1 سنة'
+devblog:
+  title: ديفبلوق والأخبار
+  metaTitle: Kryxivia • Devblog, الأخبار, التحديثات والإعلانات
+  h1: الأخبار والتحديثات والإعلانات
+  back: العودة إلى القائمة
+devblog-slug:
+  title: ديفبلوق والأخبار
+  metaTitle: كريكسيفيا
+bosses:
+  title: الرؤساء
+  metaTitle: Kryxivia • رؤساء Kryxivia MMORPG Metaverse
+  h1: رؤساء Kryxivia MMORPG Metaverse
+  fight: قاتل {boss} الآن!
+  back: العودة إلى القائمة
+bosses-slug:
+  title: الرؤساء
+  progress: قصة قيد التقدم ، عد لاحقا ...
+bosses-alde:
+  title: الرؤساء • ألد
+  metaTitle: Kryxivia • Alde • رؤساء Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: لهيب ألد
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-atesgol:
+  title: الرؤساء • أتيسغول
+  metaTitle: Kryxivia • Atesgol • رؤساء Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: صانع البيرة في أتيسغول
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-valtrena:
+  title: الرؤساء • فالترينا
+  metaTitle: Kryxivia • Valtrena • رؤساء Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: الانهيار الأرضي في فالترينا
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-k1rig:
+  title: الرؤساء • K1 R.I.G
+  metaTitle: Kryxivia • K1 R.I.G • رؤساء Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: التروس من K1 R.I.G
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-melucyna:
+  title: الرؤساء • ميلوسينا
+  metaTitle: Kryxivia • Melucyna • رؤساء Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: أمواج ميليكونا
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+factions:
+  title: الفصائل
+  metaTitle: Kryxivia • فصائل Kryxivia
+  h1: انضم إلى أحد الفصائل الثلاثة!
+  want: أريد أن أكون
+  adventurers:
+    name: المغامرين
+    title: هل لديك ما يلزم لتكون مغامرا؟
+    intro: >-
+      هل أنت جريء ومستعد لتكريم أسلافك؟ للانضمام إلى فصيل المغامرين ، تحتاج إلى
+      القوة والشجاعة والشجاعة والتصميم.
+    paragraphe:
+      - >-
+        سيكون هدفك هو حماية الأضعف وتجاوز نفسك كل يوم لتصبح أقوى من أي وقت مضى ،
+        فأنت لا تحب الأشخاص الكوبيدين ، وخاصة فصيل التجار الذين سيفعلون أي شيء
+        من أجل الثروة. متعطش للمغامرة والتحدي ، لقد انضممت إلى أصحابك لتحديد
+        المهام التي ستعزز المثل العليا لفصيلك ، فأنت سليل ألوهية كري بعد كل شيء.
+  nomads:
+    name: البدو
+    title: >-
+      في بعض الأحيان ، تكون الطبيعة هي كل ما تحتاجه وتذكرنا بالأولويات الحقيقية
+      والضروريات الأساسية ، أليس كذلك؟
+    intro: >-
+      هل تحب الطبيعة وعلى استعداد لحمايتها؟ للانضمام إلى فصيل البدو الرحل ،
+      تحتاج إلى حب الغابة والنباتات والحيوانات والرغبة في العيش في بيئة سلمية
+      وهادئة.
+    paragraphe:
+      - >-
+        بصفتك سليل فيا ، فأنت واحد مع الطبيعة. أنت تحترم كل نبات وأي كائن حي ،
+        كحيوان خطير يهمس تكسب زملائك المسافرين. كانت الأسطورة تقول إن أقدم البدو
+        الرحل سافروا مع التنين. قلبك نقي وتشارك معرفتك مع كل من يستمع. تظهر
+        تعاليمك كيفية البقاء على قيد الحياة بفضل كرم الأرض.
+  merchants:
+    name: تجار
+    title: >-
+      هل تشعر بطاقة القمر ، هل شعرت دائما أنك كنت منفصلا ، أكثر ذكاء ، هل من
+      السهل عليك اللعب بعقل الناس؟
+    intro: >-
+      للانضمام إلى فصيل التاجر ، يجب أن تكون موهوبا بالمهارات الاجتماعية
+      والتجارية ، فأنت تعرف بالضبط ما يتوقعه الناس ويريدون منك أن تقوله ، فأنت
+      ذكي ، وتتقن مهارة التداول ، وعندما تكون هناك حاجة إليها متلاعبة ومؤذية.
+    paragraphe:
+      - >-
+        لديك ميل طبيعي لجذب الطاقة حولك. بصفتك ساحرا رائعا ، يمكنك استخدام
+        الكلمات لصالحك ، ويرجع ذلك إلى تأثير إلهة Xi. أنت تحلم بالتقاط Kryxit
+        الأكثر قيمة وتوسعا وندرة الموجودة. بغض النظر عن التضحية التي تشعر
+        بالحاجة إلى امتلاكها. مع العلم أن العالم قاس وأن الأخيار لا يبقون على
+        قيد الحياة لفترة طويلة جدا ، فأنت تفتقر إلى التعاطف والشفقة. في بعض
+        الأحيان يجب أن تفعل ما لا يستطيع الآخرون فعله من أجل الصالح العام.
+faq:
+  title: الأسئلة المتداولة
+  metaTitle: Kryxivia • الأسئلة الشائعة
+  category: فئات
+  h1: كيف يمكننا مساعدتك؟
+  start: ابدأ بتحديد فئة سؤالك أو مشكلتك.
+  no-question: لا توجد أسئلة مدرجة في هذه الفئة حتى الآن ، تحقق مرة أخرى لاحقا!
+  no-answer: >-
+    لا يمكنك العثور على إجابة لأسئلتك؟ اسألنا على الشبكات ، وسيكون فريقنا سعيدا
+    بالرد عليك.
+  back: العودة إلى الفئات
+  kryxivia-and-game:
+    title: Kryxivia واللعبة
+    list:
+      - q: ما هو كريكسيفيا؟
+        a:
+          - t: النص
+            c: >-
+              Kryxivia هو الخيال 3D MMORPG، للعب على أي متصفح حديث، متاح مباشرة
+              على موقعنا على الانترنت في kryxivia.io، وهو نظام بيئي كامل في
+              انتظار لاعبين مغامرين جدد لجمع Kryxit! في عالمنا ، استعد لكسب عملة
+              مشفرة و NFT نادرة فريدة من نوعها أثناء الاستمتاع بتجربة ممتعة
+              وتعاونية مع أصدقائك.
+      - q: كيف أبدأ اللعب؟
+        a:
+          - t: النص
+            c: >-
+              Kryxivia هي لعبة MMORPG عبر الإنترنت تعمل مع أي متصفحات حديثة
+              متوافقة ، يمكنك تشغيلها على أي جهاز كمبيوتر بالحد الأدنى المطلوب
+              من وحدة معالجة الرسومات الصحيحة. للمصادقة وتسجيل الدخول إلى اللعبة
+              ، ستحتاج إلى محفظة تستند إلى Metamask.
+      - q: ما هو اللعب لكسب المال؟
+        a:
+          - t: النص
+            c: >-
+              تجمع ألعاب اللعب من أجل الربح بين متعة ألعاب الفيديو وفرصة كسب
+              مكافآت حقيقية لوقتك. في حالتنا ، يمكنك الاستمتاع ب MMORPG وكسب
+              رموز Kryxit.
+      - q: ماذا تعني الملكية الحقيقية؟
+        a:
+          - t: النص
+            c: >-
+              المالكون الفعليون هم أولئك الذين يحصلون على مزايا الملكية.
+              المالكون الحقيقيون هم أولئك الأفراد أو الكيانات الذين يتلقون اسم
+              المزايا ، ويحق لهم الحصول على أي ميزة من ذلك.
+      - q: هل Kryxivia لعبة للفوز باللعبة؟
+        a:
+          - t: النص
+            c: نعم Kryxivia هي لعبة لكسب لعبة Kryxit.
+      - q: هل Kryxivia حقا لعبة مجانية للعب؟
+        a:
+          - t: النص
+            c: نعم ، للعب kryxivia ، ما عليك سوى توصيل Metamask بالخادم.
+      - q: أين يمكنني لعب Kryxivia؟
+        a:
+          - t: النص
+            c: يمكنك لعب اللعبة على kryxivia.io
+      - q: هل يجب أن أفهم بلوكتشين أو شبكة السلسلة الذكية بينانس؟
+        a:
+          - t: النص
+            c: لا ، لا تحتاج إلى أي معرفة تقنية ب BNBchain للعب اللعبة.
+      - q: ما هو MMORPG؟
+        a:
+          - t: النص
+            c: >-
+              MMORPG هي لعبة فيديو تجمع بين عناصر ألعاب الفيديو التي تلعب
+              الأدوار والألعاب متعددة اللاعبين عبر الإنترنت على نطاق واسع.
+      - q: أين يمكنني الإبلاغ عن الأخطاء؟
+        a:
+          - t: النص
+            c: >-
+              إذا كنت من مستخدمي Alpha-Tester ، فيمكنك الإبلاغ عن الأخطاء على
+              قناة الإبلاغ عن الأخطاء على Discord والحصول على فرصة لكسب من
+              مكافأة قدرها 40000 دولار.
+      - q: ما هي متطلبات الكمبيوتر الشخصي للعب Kryxivia؟
+        a:
+          - t: النص
+            c: >-
+              المتطلبات الموصى بها هي 4 غيغابايت على الأقل من ذاكرة الوصول
+              العشوائي ، و Intel Core i5 ، وسلسلة GPU GeForce GTX 900 ، ومحرك
+              أقراص الحالة الصلبة.
+  wallet-kxa-kxs:
+    title: المحافظ ، KXA و KXS
+    list:
+      - q: ما هو $KXA؟
+        a:
+          - t: النص
+            c: >-
+              $KXA ، أو رمز Kryxivia Coin ، هو العملة المشفرة المستخدمة في
+              المدفوعات على السلسلة ، مثل حزم المبتدئين ، أو أحداث بيع NFT
+              الخاصة ، أو التبادل مقابل العملة داخل اللعبة $KXS ، والتي تعني
+              Kryxit Shard.
+      - q: ما هو $KXS؟
+        a:
+          - t: النص
+            c: >-
+              العملة $KXS ، والتي تعني Kryxivia Shard Coin هي العملة عبر
+              الإنترنت للعب والشراء والتداول والحصول على قطع جديدة عبر الإنترنت
+              من الأشياء في عالم Kryxivia .
+      - q: كيف يمكنني شراء وبيع $KXA $KXS؟
+        a:
+          - t: النص
+            c: 'يمكنك شراء $KXA في البورصات المدرجة هنا:'
+          - t: زر
+            c: كوين ماركت كاب
+            link: https://coinmarketcap.com/currencies/kryxivia/
+          - t: النص
+            c: $KXS غير مدرج بعد.
+      - q: هل عناصر التشفير واللعبة الخاصة بي آمنة؟
+        a:
+          - t: النص
+            c: >-
+              نعم ، تم التحقق من Kryxivia آمنة بواسطة Solidproof وجميع أصولك في
+              اللعبة والتشفير آمنة معنا.
+          - t: زر
+            c: تدقيق SolidProof
+            link: >-
+              https://github.com/solidproof/projects/blob/main/Kryxivia/MysteryBox/SmartContract_Audit_Solidproof_Kryxivia%20MysteryBox.pdf
+      - q: ما هي عمليات الإنزال الجوي وكيف يمكنني الحصول عليها؟
+        a:
+          - t: النص
+            c: >-
+              تتضمن عمليات Airdrop مشاريع تشفير توفر الرموز المميزة بشكل جماعي
+              لمجتمعاتهم لزيادة التبني.
+          - t: النص
+            c: >-
+              سيتم الإعلان عن جميع الإعلانات المتعلقة بعمليات الإنزال الجوي
+              Kryxivia على حساب Twitter الرسمي.
+      - q: كيفية ربط محفظة التشفير و nft الخاصة بي؟
+        a:
+          - t: النص
+            c: >-
+              يجب أن يكون لديك حساب metamask مع شبكة Binance عليه ، وبعد ذلك
+              تحتاج إلى فتح موقع kryxivia على الويب والنقر فوق محفظة الاتصال.
+          - t: النص
+            c: بعد ذلك ، سيظهر إشعار المحفظة للحصول على إذن من الاتصال.
+      - q: كيفية إرسال NFT أو التشفير الخاص بي إلى محفظة أخرى؟
+        a:
+          - t: زر
+            c: إقرأ المزيد
+            link: https://nftdesire.io/how-to-transfer-nft-to-another-wallet/
+  login-and-account:
+    title: تسجيل الدخول والحساب
+    list: []
+  website-and-social:
+    title: الموقع الإلكتروني والاجتماعي
+    list:
+      - q: مع من تتحدث للأسئلة أو المخاوف؟
+        a:
+          - t: النص
+            c: >-
+              جميع دردشاتنا على وسائل التواصل الاجتماعي نشطة مع التعديلات ،
+              يمكنك الانضمام إلى Discord و Telegram.
+  characters-and-equipments:
+    title: الشخصيات والمعدات
+    list: []
+  monsters-and-dungeons:
+    title: الوحوش والأبراج المحصنة
+    list: []
+  others:
+    title: الاخرين
+    list: []
+faq-slug:
+  title: الأسئلة المتداولة
+dungeons:
+  title: منجم كريكسيفيا
+  metaTitle: Kryxivia • منجم Kryxivia
+  h1: استكشف منجم Kryxivia ، واجمع NFTs الثمينة!
+  intro: >-
+    داخل مدينة Kryxivia ، ستجد بابا عملاقا يؤدي إلى منجم قديم تم اكتشافه منذ وقت
+    طويل. قرر المغامرون بناء مدينة Kryxivia حولها من أجل فهم Kryxit داخل المنجم
+    وجمعها. لقد أدركوا بسرعة أن الوحوش المروعة تحمي هذا المنجم وأنهم سيضطرون إلى
+    القتال حتى الموت لوضع أيديهم عليهم!
+  txt1: >-
+    سمعنا قصصا عن الإلهة فيا التي كان من شأنها أن تسحر المنجم لحماية Kryxit ،
+    والتي يبدو أنها مصدر قوة الآلهة الثلاثة: Kry و Xi و Via.
+  catalysts:
+    sub: المحفزات
+    title1: أدخل الأبراج المحصنة الألغام في أوضاع مختلفة!
+    txt1: >-
+      تأخذك المحفزات إلى "خطوط الألغام" البديلة. إذا كنت تستخدم واحدة قبل دخولك
+      ، فسيكون الرؤساء الذين تصادفهم في الداخل أقوى بكثير ويسقطون kryxits أكثر
+      قوة - الأحجار الكريمة السحرية التي يمكنك توصيل أغراضك بها للحصول على
+      تعويذات جديدة وإحصائيات أفضل.
+    txt2: >-
+      لم يتم إنشاء كل محفز على قدم المساواة - سيقوم البعض بضبط الصعوبة أكثر من
+      الآخرين. يعرف مستوى الصعوبة باسم مستوى Crux في الزنزانة. كلما ارتفع Crux ،
+      كلما كان الرؤساء أصعب وكلما كان القطرات أفضل.
+    blue: بلو كاتاليست
+    yellow: محفز أصفر
+    orange: محفز البرتقال
+    red: محفز أحمر
+    purple: محفز أرجواني
+  boss:
+    sub: رؤساء كريكسيفيا
+    title1: >-
+      ارفع مستوى شخصيتك NFTs من خلال هزيمة أصعب الرؤساء واستخدام Catalyst للوصول
+      إلى مستوى جديد!
+    txt1: >-
+      في Kryxivia ، تفرض NFTs القانون ، مما يعني أن مستوى شخصيتك يعتمد على
+      العناصر التي قمت بتجهيزها ، والتي قمت بتداولها في السوق ، أو فزت ضد الوحوش
+      في منجم Kryxivia . لديك ما نسميه I-Lvl تعلق على الأشياء الخاصة بك على
+      الشخصية. سيعطيك الرؤساء المعدات وعملة Kryxit Shard (KXS) والتعويذات.
+      استنادا إلى القيمة الخوارزمية ، يتم تحديد الغنائم من خلال حسابات مختلفة
+      بناء على نشاط اللاعبين لضمان اقتصاد مستدام. يمكن أن تكون بعض NFTs محدودة
+      للغاية ويحتمل ألا يتم نهبها مرة أخرى بمجرد نشرها وإسقاط كمية معينة بالفعل
+      ، أو محدودة يوميا أو أسبوعيا أو شهريا أو سنويا.
+kryxivia:
+  title: كريكسيفيا
+  metaTitle: Kryxivia • المدينة والتاريخ
+  h1: استكشف عالم Kryxivia الرائع
+  intro: >-
+    عندما تفرخ في عالمنا ، يتم إرسالك إلى مدينة Kryxivia لبدء مغامرتك ، في
+    المدينة ، ستجد جميع احتياجاتك قبل بدء اللعب في المنجم السحري.
+  txt1: >-
+    جميع اللاعبين في منطقة اللوبي ، يقومون بأشياء في المدينة أثناء الاستعداد
+    للقتال داخل هذا الباب الغامض! يمكنك العثور على العديد من NPCs لإرشادك خلال
+    رحلتك وعقد تحالفات / مجموعات مع أشخاص للقيام بغارات أو زنزانات معا.
+  txt2: >-
+    هناك مكان مركزي مع NPCs الرئيسية اللازمة لتجنب إضاعة الوقت في القيام برحلة
+    ذهابا وإيابا بين المنجم والمدينة ، بالنسبة للآخرين ، يمكنك العثور عليها في
+    مبان محددة تبدو غير عادية من الآخرين.
+  story:
+    sub1: مدينة كريكسيفيا
+    title1: قصة مؤسسة مدينة كريكسيفيا
+    txt1: >-
+      في وقت لم يخترع فيه الإنسان الصناعة بعد. اكتشف البعض بابا غريبا ضائعا في
+      الجبل. من هناك وجدوا Kryxit ، الأحجار الكريمة السحرية ذات القوة الهائلة.
+      يبدأ الكثيرون في التجمع لأول مرة ترسلهم البلدان.
+    txt2: ' Kryxivia هي مدينة جديدة ومزهرة ، تقع في الجبال حول باب ضخم تم اكتشافه قبل بضع سنوات ، تم بناؤه في الغالب دون خطة من قبل مجموعات صغيرة من المغامرين والتجار.'
+    txt3: >-
+      يأتي سكان Kryxivia من العديد من الآفاق ، ولا يأتي أي منهم تقريبا من جيش
+      نظامي ، لذلك فإن ملابسهم غير متطابقة في الغالب ويتم التقاطها على طول
+      الطريق. لا تتوفر المعدات المعدنية الكاملة بسهولة في هذا العالم ، لذلك ما
+      لم تكن غنية للغاية ، يميل الناس إلى ارتداء كل من القماش والجلد والمعدن
+      معادا.
+    txt4: >-
+      سيجلب الرجال الكثير من الغنائم من الباب لكنهم لن يعودوا دائما. بدأت مدينة
+      Kryxivia في التشكل حول الباب وأخذ العديد من التجار الأرباح من هذا المكان
+      الذي يرتاده الكثيرون. الآن ، بعد بضع سنوات ، معظم الأشخاص الذين يجربون
+      حظهم هم مرتزقة أو مستقلون ، مثلك. 
+  map:
+    sub1: خريطة مدينة كريكسيفيا
+    title1: أهم المباني
+    banks:
+      title: بنوك
+      desc: >-
+        استلم NFTs أو KXS المستوردة في البنك أو عملات الحصص ل APY أو عناصر
+        المخزون التي لا تحتاجها.
+    leader:
+      title: المتصدرين
+      desc: >-
+        شاهد هنا أفضل المحاربين في Kryxivia ، يحتوي هذا السلم على أفضل لاعبي PVP
+        و PVE.
+    nft:
+      title: تصدير NFT
+      desc: >-
+        يستخدم NPC هذا لتصدير عناصر NFTs الخاصة بك إلى محفظة blockchain الخاصة
+        بك ، فقط عن طريق اختيار واحد.
+    portail:
+      title: منجم كريكسيفيا
+      desc: >-
+        هذا هو الباب للوصول إلى منجم Kryxivia حيث ستجد الرؤساء في الأبراج
+        المحصنة.
+    socketing:
+      title: حداد
+      desc: تحدث إلى الحداد لتثبيت Kryxits الخاص بك على عناصر المخزون الخاصة بك.
+    training:
+      title: تدريب
+      desc: في منطقة التدريب ، يمكنك اختبار مهاراتك والضرر الذي تحدثه على كرة اللكم.
+patchnotes:
+  nav: ملاحظات التحديث
+  title: ملاحظات التحديث والإصدارات
+  metaTitle: Kryxivia • ملاحظات التحديث والإصدارات
+  h1: اكتشف أحدث ملاحظات التحديث والإصدارات
+  sub: ملاحظات التحديث
+  know: 'أخطاء معروفة:'

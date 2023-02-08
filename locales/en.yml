@@ -1,0 +1,1058 @@
+all:
+  title: Kryxivia • An innovative MMORPG game leveraging NFT on blockchain
+  desc: >-
+    Welcome to Kryxivia! A 3D NFT Multiverse MMORPG web game on blockchain. A
+    new innovative gaming experience to win. Use of the Ethereum network.
+  open: Open
+  close: Close
+  back: Back
+  progress: In progress
+  finish: Completed
+  view_details: View details
+  step: Step
+  discover: Discover
+  lvl: Level
+  more: Read more
+  soon: Coming soon...
+  alpha: Public alpha starts in
+  buy: Buy
+wallets:
+  metamask:
+    name: MetaMask
+    connect: Connect to your Metamask
+  walletconnect:
+    name: WalletConnect
+    connect: Connect to your WalletConnect
+  fortmatic:
+    name: Fortmatic
+    connect: Connect with your Fortmatic account
+  bcw:
+    name: Binance Chain Wallet
+    connect: Connect with your Binance Chain Wallet
+play:
+  intro: Select a platform and discover the world of Kryxivia!
+  launcher:
+    title: Kryxivia Launcher
+    desc: Download Kryxivia for an optimal experience!
+  client:
+    title: WebGL Client
+    desc: Play Kryxivia on your web browser!
+header:
+  connect: Connect
+  play: Play now
+  nav: Navigation
+  dev: Devblog & news
+  game: Game
+  apps: Apps
+  view: View all news
+  rights: All rights reserved.
+  policy: Privacy Policy
+  press: Ressources press
+  partner: Partners
+  doc: Documentations
+nav:
+  kryxivia:
+    home: Home
+    kxa: Token $KXA
+    kxs: Token $KXS
+    team: Team
+    dev: Devblog
+    road: Roadmap
+    lite: Litepaper
+  game:
+    kryxivia: Kryxivia
+    faction: Factions
+    dungeon: Kryxivia Mine
+    boss: Bosses
+    kryxit: Kryxits
+    equipment: Equipments
+    pvp: PVP Arena
+  apps:
+    market: Marketplace
+    staking: Staking
+    nft: NFT Viewer
+    launcher: Launcher
+    client: Client
+    leaderboard: Leaderboard
+    faq: FAQ
+bottom:
+  sound: Music
+  scroll: Scroll to explore
+  powered: Powered by
+  developed: Developed on
+  online: online
+index:
+  metaTitle: Kryxivia • An innovative MMORPG game leveraging NFT on blockchain
+  title: Home
+  h1: Homepage
+home:
+  sub1: An MMORPG Leveraging NFTs on the Blockchain
+  h1: Welcome to Play-to-Earn experience
+  play: Play now
+  trailer: Trailer
+  sec1:
+    sub1: A Dynamic and Thrilling 3D MMORPG Experience
+    title1: Revolutionizing<br>the Game Economy
+    txt1: >-
+      Join us in the immersive and exciting world of Kryxivia, a 3D MMORPG that
+      you can play in your browser or on your PC with friends. As you progress
+      through the game, you'll have the chance to collect NFTs that provide
+      rewards backed by cryptocurrency profits earned in the Kryxivia universe.
+    txt2: >-
+      At Kryxivia, we leverage the power of blockchain technology to bring you
+      the most innovative in-game economics possible. So why wait? Start your
+      adventure today and see where it takes you!
+    bn: Discover Kryxivia
+  sec2:
+    sub1: Discover a World Where<br>NFTs and Cryptocurrency Converge
+    title1: >-
+      Brave the Dungeons of Kryxivia and Hunt for Valuable NFTs<br> to Trade
+      with Other Players <br> – But Beware the Perils That Await You
+    txt1: >-
+      Enter the Mines and Challenge the mightiest bosses to earn valuable and
+      exclusive NFTs. As you progress, you'll collect loot including
+      consumables, armor to enhance your character's stats, and Kryxit gems to
+      use as spells. With these tools at your disposal, you'll be able to tailor
+      your gameplay to your unique style and emerge victorious.
+    bn: Discover dungeons
+  sec3:
+    sub1: A Unique and Unparalleled Economy
+    title1: >-
+      Two Cryptocurrencies for the Metaverse:<br>Experience the Future of Gaming
+      with Kryxivia
+    txt1: >-
+      The KXA token, which stands for Kryxivia Coin token deployed on Ethereum,
+      is the base cryptocurrency for on-chain payments and special bundles,
+      cosmetics, a special NFT sales events or an exchange for KXS in-game
+      currency, as well as buying and selling on our NFT marketplace.
+    txt2: >-
+      The KXS token, built on the Ethereum blockchain, serves as the in-game
+      currency for the Kryxivia universe. It can be used to buy, trade, and play
+      within the game, as well as to acquire new in-game items. With a large
+      supply available, every player has the opportunity to participate in the
+      dynamic economy of Kryxivia. However, as with any cryptocurrency, it
+      carries certain risks and economic fluctuations.
+  sec4:
+    sub1: Join the Exciting World of Kryxivia!
+    title1: Begin Your Adventure Today!
+team:
+  metaTitle: Kryxivia • Team of Kryxivia
+  title: Team
+  h1: Team of Kryxivia
+  role:
+    '1': Leader
+    '2': Game Development
+    '3': Designer 3D & VFX Artist
+    '4': UI/UX Designer & Front Developer
+    '5': Marketing & Communications
+    '6': Sound Designer
+  poste:
+    '1': CEO & Founder
+    '2': Chief Technical Officer
+    '3': Lead Client Gameplay
+    '4': Lead Blockchain Engineer
+    '5': Software Full-Stack Engineer
+    '6': Unity 3D Developer
+    '7': Full-Stack Developer
+    '8': VFX Game Designer
+    '9': Level Designer / 3D Art
+    '10': 3D Character / Items Artist
+    '11': Partner Studio / 3D Artist
+    '12': Game Designer Consultant
+    '13': Lead UI/UX Designer
+    '14': Full Stack Developer Web
+    '15': Creative Developer
+    '16': Graphic Designer
+    '17': Movie Maker
+    '18': Chief Marketing Officer
+    '19': Community Manager
+    '20': Sound Designer
+    '21': Music Composer
+    '22': Team Management
+    '23': Software Engineer
+leaderboard:
+  title: Leaderboard
+  metaTitle: Kryxivia • Leaderboard • The greatest players of Kryxivia
+  h1: The greatest players of Kryxivia
+roadmap:
+  metaTitle: Kryxivia • Roadmap of Kryxivia
+  title: Roadmap
+  discover: Discover our roadmap
+  h1: Roadmap of Kryxivia
+  road:
+    q3_2021:
+      desc: Start of the Kryxivia project
+      list:
+        '1': >-
+          Deployment of the KXA and KXS token on the Binance Smart-chain
+          test-net for the Alpha.
+        '2': >-
+          Starting the development, testing the base gameplay, game servers, and
+          blockchains links.
+        '3': Working on the 3D Modeling of the Kryxivia Universe.
+        '4': >-
+          Doing the Level-Design of cities, mine, working on the Lore of the
+          game, exploring Kryxit and gems functional systems.
+    q4_2021:
+      desc: ''
+      list:
+        '1': >-
+          Launching the online website with the basics about Kryxivia, releasing
+          the Presentation paper.
+        '2': >-
+          Open-Source release of the Kryxivia codebase on our GitHub repository
+          and the different smart contracts.
+        '3': >-
+          Preparing the Proof-Of-Concept of the Game using Unity WebGL, C# and
+          Node.js.
+        '4': >-
+          Auditing our different smart contracts that interact with the BSC
+          blockchain.
+        '5': Releasing the Teaser for the launch of the Kryxivia Alpha.
+        '6': >-
+          Kickstarting the KXA token by doing a public sale to create the asset
+          pool liquidity and the game base-funds (ILO).
+        '7': >-
+          Deploying the Whitelist for the private Alpha pre-access (wallets
+          participating in the ILO will have advantages).
+        '8': >-
+          Working on all the game aspects, the client/server, and connections
+          between the centralization/decentralization services of NFTs.
+        '9': Doing KYC procedures of the Kryxivia Team members.
+        '10': >-
+          Creating an Pancake Swap controlled pool for the in-game KXS token
+          (with 10% of the raised funds).
+        '11': Listing over CoinMarketCap, CoinGecko...
+    q1_2022:
+      desc: ''
+      list:
+        '1': Having the WebGL browser game ready for deployment
+        '2': >-
+          Deploying the NFT items marketplace to trade in-game stuff with other
+          players on-chain.
+        '3': >-
+          Starting the private pre-alpha access for selected members to play
+          into the Kryxivia World in their browser at kryxivia.io.
+        '4': >-
+          Using the test-net for the pre-alpha to spot bugs and rewarding
+          bug-bounty players that report issues in KXA tokens.
+        '5': >-
+          Adding new dungeons and more specifications of items, Kryxit gems and
+          spells gameplay development.
+        '6': >-
+          Launch the different starter packs (NFTs packs) for the beta
+          access-launch, to directly start to play with your bought packs.
+        '7': >-
+          Increasing the team capacity, recruiting new 3D designer, level and
+          scenarist.
+        '8': Improvement of the PVE content.
+    q2_2022:
+      desc: ''
+      list:
+        '1': >-
+          Releasing the beta public access of the Kryxivia World on the main net
+          of the BSC network.
+        '2': Fixing bugs from the pre-alpha (Q1) found by players.
+        '3': >-
+          Starting to develop the raid systems (+20 players fighting together in
+          raid fights) in the Kryxivia Mine.
+        '4': >-
+          Adding daily quest systems to reward players’ activities, therefore
+          rewarding the most active ones.
+        '5': >-
+          Working on a bigger set of dungeons rooms into the mine with more
+          difficulties and better Kryxit and stuff rewards.
+        '6': >-
+          Applying & Listing KXA and KXS tokens on top major T1 centralized
+          exchanges.
+        '7': >-
+          Bank in-game staking system to win rewards (real ROI with new rewards
+          per year) with KXA / KXS token.
+    q3_2022:
+      desc: ''
+      list:
+        '1': >-
+          Guilds system to team up with your mates with daily/weekly objectives
+          to reach for rewards or bonus rates.
+        '2': >-
+          Adding an event system season with special unique NFTs with specific
+          new bosses (new limited cosmetic…).
+        '3': >-
+          DAO governance to vote on event themes, next milestones on the roadmap
+          to achieve, and nerf or upgrades to make in-game gameplay updates
+          (capped by wallet in terms of percentage).
+        '4': >-
+          Visual design in-game for statistics and information on KXS value and
+          price moves.
+        '5': >-
+          Online ladders to see all players, their e-levels and reputations +
+          uniqueness of inventories NFTs.
+    q4_2022:
+      desc: ''
+      list:
+        '1': Replication of the smart-contracts on Ethereum
+        '2': Deployment of the KXA and KXS contract over Ethereum
+        '3': >-
+          Moving KXA Liquidity (LP) from BNB chain to ETH chain (converting
+          intoETH)
+        '4': Increasing adoption and awareness due to Ethereum re-structuration
+        '5': Cross-chain solution implemented for NFTs on Polygon/BSC
+        '6': Implementation of P2E mechanism during the Beta Launch
+        '7': Beta release of Kryxivia Game using ETH network
+        '8': >-
+          IDO for KXS and a potential KXA re-structuration with another raise
+          round
+        '9': Adding the Kryxvia NFT collection over Opensea
+        '10': NFTs sale on the external Marketplaces on Ethereum and Polygon
+        '11': First tournaments with the usage of KXS
+        '12': >-
+          Beginning the implementation of the P2E cyclic economy and systems to
+          give rewards based on a seasonal basis
+        '13': Adding a profession system
+        '14': Crafting system
+        '15': PvP scaling reforged
+        '16': Daily & weekly quests
+    q1_2023:
+      desc: ''
+      list:
+        '1': >-
+          Seasonal system with new bosses, item sets, and different NFT packs
+          buyable from the game directly.
+        '2': >-
+          Community raise for in-game Marketplace (investors will be able to
+          take % commission of all transactions happening on the Marketplace)
+        '3': Implementation of the rental system for NFTs
+        '4': >-
+          Streamed Arena tournaments on Twitch (for that events, our community
+          can bet on the player who has the highest potential to win, a similar
+          mechanism to bookmakers, they can win KXS tokens)
+        '5': NFTs sale on the in-game Marketplace
+        '6': Themed dungeons in collaboration with partnership projects
+        '7': The first raid
+        '8': Achievements & Titles
+        '9': Faction system
+        '10': >-
+          Adding a system giving access to a special in-game market, paid
+          monthly in KXS to maintain the economy
+    q2_2023:
+      desc: ''
+      list:
+        '1': >-
+          Sales of some areas in Kryxivia city for the external partners
+          (similar to Bloktopia)
+        '2': >-
+          Working on a Kryxivia Side-Chain in Proof of Stake to import/export
+          transactions from the game. Will reduce fees to zero for the game
+          exploitation, investors from KXA/KXS further will have the possibility
+          to run a validator as a reward for their commitment
+        '3': >-
+          Land sale in Kryxivia (buying and potentially decorating houses in
+          Kryxivia city)
+        '4': In-game mini-events & challenges
+        '5': Guild system (stash, achievements, quests)
+        '6': Beginning of the storyline and quest integration
+    q3_2023:
+      desc: ''
+      list:
+        '1': >-
+          Making a Bridge for the Kryxvia Side-Chain from the Ethereum network
+          (KXA, KXS, and NFTs) for the community to switch on the chain
+        '2': >-
+          Running the NFT marketplace and the rental system on the KXA
+          side-chain, with a fixed % fees that will be shared between all
+          validators running the Kryxvia Side
+        '3': Chain network
+        '4': AMAs/Community events taking place in the main square in Kryxivia City
+        '5': >-
+          Advanced personalization of the character (barber, tailor, and
+          transmog shops)
+        '6': World boss introduction
+        '7': New biome in cave dungeon
+    q4_2023:
+      desc: ''
+      list:
+        '1': >-
+          Adding DAO over the Kryxivia side-chain to approve and revoke game
+          advancement allows players to choose what nerf they would like or
+          should be equilibrated from the game.
+        '2': >-
+          New boss designed for bounty events (it can be a demon that arrived in
+          Kryxivia’s city through the magical portal)
+        '3': >-
+          Big bounty event with high rewards for the best team, which will kill
+          X boss on the most challenging mode
+        '4': Guild housing system
+        '5': Huge PvP/PvE hybrid map
+        '6': Beginning of the pet system
+token-kxs:
+  title: Token $KXS
+  metaTitle: Kryxivia • The Kryxivia Coin $KXS
+  h1: Kryxivia $KXS Coin
+  intro: >-
+    The KXS coin, or Kryxivia Shard Coin, is the in-game currency used in the
+    world of Kryxivia. It can be used to buy, trade, and acquire new in-game
+    items. As with any cryptocurrency, the KXS carries certain risks and
+    economic fluctuations. Therefore, it has a large supply available to ensure
+    that every player has the opportunity to participate in the dynamic economy
+    of Kryxivia
+  txt1: >-
+    The KXS token, or Kryxivia Shard Coin, has a maximum supply of 5,000,000,000
+    KXS (5B), making it more widely available and useful in the game compared to
+    the KXA token. The KXS token is mintable, meaning that new ones can be
+    created for in-game rewards or special events. It can be traded on CEX and
+    DEX like any other currency.
+  txt2: >-
+    The KXS token is also deflationary, as it can be used in-game for special
+    rewards. For example, if you want to link your items to Kryxit gems, you
+    will need to burn some KXS to do so. Additionally, if you want to purchase
+    consumable items like potions to aid you on your journey, you will need to
+    burn KXS tokens to buy them from city NPCs.
+  txt3: >-
+    The in-game token will have base liquidity on a decentralized protocol
+    backed by the KXA token in a managed pool to ensure the buying and selling
+    ability of the in-game token. However, the primary way to obtain KXS tokens
+    will still be through in-game play and winning rewards, as our system is
+    designed to be "play to earn."
+token-kxa:
+  title: Token $KXA
+  metaTitle: Kryxivia • The Kryxivia Coin $KXA
+  h1: Kryxivia $KXA Coin
+  intro: >-
+    The KXA token, built on the Ethereum blockchain, is the primary
+    cryptocurrency used in Kryxivia. It can be used for on-chain payments and
+    special bundles, as well as to purchase cosmetics and participate in special
+    NFT sales events. The KXA can also be exchanged for the in-game currency,
+    KXS, or used to buy and sell items on the NFT marketplace.
+  txt1: >-
+    Kryxivia coin has a fixed maximum supply of 250,000,000 KXA coins. Our
+    tokenomics are designed to be specific and consistent. The KXA token is not
+    mintable, meaning that no more than 250M KXAs can be issued.
+  txt2: >-
+    We use the ERC20 standard to minimize on-chain transaction fees. You can
+    also use KXA coin to purchase and sell NFT properties, such as items,
+    Kryxit, and spells, on our online marketplace using your wallet (such as
+    Metamask).
+  sub: Tokenomics
+  title1: Tokenomics of the Kryxivia Coin
+  subtitle1: Token $KXA distribution
+  td1: Server network hosting, game client, and server engine costs
+  td2: Marketing, adoption increase and incentive to enlarge projects audience
+  td3: In-Game events rewards, specials farming, and NFT rewards
+  td4: Staking funds for Bank systems and net APY rewards for players
+  td5: Development team payment costs, team share
+  td6: Private token presale round to kickstart the project
+  td7: Public token sale (ILO*) for the game beta-release on Unicrypt Protocol
+  td8: Ecosystem funds for extra-operations
+  td9: Reserve treasury funds
+  subtitle2: Team Official Wallets
+  subtitle3: Private & Public sale Plan
+  wallet1: Kryxivia deployer wallet
+  wallet2: Server network hosting wallet
+  wallet3: Marketing, adoption wallet
+  wallet4: Events, in-game rewards wallet
+  wallet5: Staking funds wallet
+  wallet6: Development funds team wallet
+  wallet7: Ecosystem funds wallet
+  wallet8: Reserve treasury funds wallet
+  sale:
+    private:
+      title: Private Sale Round
+      discount: ~ {percent} discount from public sale price
+      of: '{kxa} of KXA ({total} - {percent} supply)'
+      price: 'Price: {price} per KXA'
+      raise: Raise of ~ {bnb} BNB = (Total = ~{total})
+      close: >-
+        Private sale Close: <-> TGE {percent} unlocked then linear unlock over
+        one year
+    public:
+      title: Public Sale Round
+      discount: ~ {percent} discount from the listing price
+      of: '{kxa} of KXA ({total} - {percent} supply)'
+      price: 'Price: {price} per KXA'
+      raise: Raise of ~ {bnb} BNB = (Total = ~{total})
+      close: 'Public Sale Close: <-> TGE {percent} unlocked then linear on 3 months'
+    listing:
+      title: Listing on PancakeSwap
+      price: 'Price: {price} per KXA'
+      raise: '{percent} of the raised funds from Unicrypt locked for 1 year'
+devblog:
+  title: Devblog & news
+  metaTitle: Kryxivia • Devblog, news, updates & announcements
+  h1: News, updates & announcements
+  back: Back to the list
+devblog-slug:
+  title: Devblog & news
+  metaTitle: Kryxivia
+bosses:
+  title: Bosses
+  metaTitle: Kryxivia • Bosses of Kryxivia MMORPG Metaverse
+  h1: Bosses of Kryxivia MMORPG Metaverse
+  fight: Fight {boss} now!
+  back: Back to the list
+bosses-slug:
+  title: Bosses
+  progress: Story in progress, come back later...
+bosses-alde:
+  title: Bosses • Alde
+  metaTitle: Kryxivia • Alde • Bosses of Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: The Flames of Alde
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur adipisicing elit
+    subtitle1: Consectetur adipisicing elit
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur adipisicing elit
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-atesgol:
+  title: Bosses • Atesgol
+  metaTitle: Kryxivia • Atesgol • Bosses of Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: The Brewer of Atesgol
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur adipisicing elit
+    subtitle1: Consectetur adipisicing elit
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur adipisicing elit
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-valtrena:
+  title: Bosses • Valtrena
+  metaTitle: Kryxivia • Valtrena • Bosses of Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: The Landslide of Valtrena
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur adipisicing elit
+    subtitle1: Consectetur adipisicing elit
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur adipisicing elit
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-k1rig:
+  title: Bosses • K1 R.I.G
+  metaTitle: Kryxivia • K1 R.I.G • Bosses of Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: The Cogs of K1 R.I.G
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur adipisicing elit
+    subtitle1: Consectetur adipisicing elit
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur adipisicing elit
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-melucyna:
+  title: Bosses • Melucyna
+  metaTitle: Kryxivia • Melucyna • Bosses of Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: The Waves of Melycuna
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur adipisicing elit
+    subtitle1: Consectetur adipisicing elit
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur adipisicing elit
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+factions:
+  title: Factions
+  metaTitle: Kryxivia • Factions of Kryxivia
+  h1: 'Choose Your Destiny: Join One of the Three Factions!'
+  want: I want to be
+  adventurers:
+    name: Adventurers
+    title: >-
+      Do You Possess the Courage and Fortitude to Embark on the Adventurer's
+      Path?
+    intro: >-
+      Are you a bold and brave warrior, ready to honor your ancestors? If you
+      wish to join the Adventurers faction, you must possess strength, courage,
+      determination, and a fierce will to succeed. Do you have what it takes to
+      join this elite group of heroes?
+    paragraphe:
+      - >-
+        Your goal will be to protect the weakest and surpass yourself every day
+        to become stronger than ever, you don't like cupid people, especially
+        the Merchants faction who will do anything for wealth. Thirsty for
+        adventure and challenge, you have joined with your companions to decide
+        which missions will strengthen the ideals of your faction, you are a
+        descendant of the Kry divinity after all.
+  nomads:
+    name: Nomads
+    title: Embrace the Power of Nature and Remember What is Most Important
+    intro: >-
+      Do you hold a deep reverence for nature and a desire to protect it? If you
+      wish to join the Nomads faction, you must possess a love for the forest,
+      plants, and animals, and a desire to live in a peaceful and harmonious
+      environment.
+    paragraphe:
+      - >-
+        As a descendant of the goddess Via, you are one with nature. You respect
+        every plant and living creature, and have a natural ability to
+        communicate with even the most dangerous animals. Legends say that the
+        oldest Nomads were able to travel with dragons. Your heart is pure and
+        you share your wisdom with all who listen. Your teachings show how to
+        live in harmony with the earth and its gifts. Join the Nomads and
+        embrace your connection to the natural world.
+  merchants:
+    name: Merchants
+    title: >-
+      Do you feel the power of the moon coursing through your veins? Do you
+      often feel set apart from others, possessing a sharp intelligence and the
+      ability to manipulate the thoughts and actions of those around you?
+    intro: >-
+      To join the Merchants, you must possess sharp social and business skills,
+      be able to anticipate the desires and needs of others and use your wit and
+      charm to persuade and negotiate. You are a master of trade and know how to
+      manipulate situations to your advantage.
+    paragraphe:
+      - >-
+        As a member of the Merchants, you are driven by your desire to acquire
+        the most valuable and rare kryxits. Your charm and cunning allow you to
+        navigate the often-cutthroat world of commerce and make strategic
+        sacrifices in pursuit of your goals. But beware, your ambition knows no
+        bounds and you may risk losing your empathy and compassion in the
+        pursuit of your desires. Are you ready to join the Merchants and seek
+        out the most coveted kryxits in the realm?
+faq:
+  title: FAQ
+  metaTitle: Kryxivia • FAQ
+  category: Categories
+  h1: How can we help you?
+  start: Start by selecting the category of your question or problem.
+  no-question: No questions are listed in this category yet, check back later!
+  no-answer: >-
+    You can't find the answer to your questions? Ask us on the networks, our
+    team will be happy to answer you.
+  back: Back to categories
+  kryxivia-and-game:
+    title: Kryxivia and game
+    list:
+      - q: What is Kryxivia?
+        a:
+          - t: txt
+            c: >-
+              Kryxivia is a fantasy 3D MMORPG, playable on any modern browser,
+              directly available on our website at kryxivia.io, a whole
+              eco-system awaiting new adventurous players to collect Kryxit! In
+              our world, prepare yourself to earn crypto-currency and unique
+              rare NFT while having a fun and cooperative experience with your
+              friends.
+      - q: How do I start playing?
+        a:
+          - t: txt
+            c: >-
+              Kryxivia is an online MMORPG game working with any compatible
+              modern browsers, you can play it on any computer with a minimum
+              required correct GPU. To authenticate and log in to the game, you
+              will need to have a Metamask based wallet.
+      - q: What is play to earn?
+        a:
+          - t: txt
+            c: >-
+              Play-to-earn games combine the fun of video games with the
+              opportunity to earn real rewards for your time. In our case you
+              can enjoy the MMORPG and earn Kryxit tokens.
+      - q: What does true ownership mean?
+        a:
+          - t: txt
+            c: >-
+              Actual Owners are those who receive the benefits of ownership.
+              True Owners are those individuals or entities who do receive the
+              benefitsty's name, and they are entitled to any advantage from
+              that.
+      - q: Is Kryxivia a play to win game?
+        a:
+          - t: txt
+            c: Yes Kryxivia is a play to earn Kryxit game.
+      - q: Is Kryxivia really a free to play game?
+        a:
+          - t: txt
+            c: >-
+              Yes, to play kryxivia you only need to connect your Metamask with
+              the server.
+      - q: Where can I play Kryxivia?
+        a:
+          - t: txt
+            c: You can play the game on kryxivia.io
+      - q: Do I have to understand blockchain or binance smart chain network?
+        a:
+          - t: txt
+            c: >-
+              No, you don’t need to have any technical knowledge of BNBchain for
+              playing the game.
+      - q: What is an MMORPG?
+        a:
+          - t: txt
+            c: >-
+              An MMORPG is a video game that combines elements of role-playing
+              video games and massively multiplayer online games.
+      - q: Where can I report errors?
+        a:
+          - t: txt
+            c: >-
+              If you’re an Alpha-Tester, you can report bugs on the bug report
+              channel on Discord and get a chance to earn from the bounty of
+              $40,000.
+      - q: What are the PC requirements to play Kryxivia?
+        a:
+          - t: txt
+            c: >-
+              The recommended requirements are at least 4GB of RAM, an Intel
+              Core i5, a GPU GeForce GTX 900 Series, and a solid state drive.
+  wallet-kxa-kxs:
+    title: Wallets, KXA and KXS
+    list:
+      - q: What is $KXA?
+        a:
+          - t: txt
+            c: >-
+              $KXA, or the Kryxivia Coin token, is the crypto-currency used for
+              on-chain payments, such as starter packs, special NFT sale events,
+              or exchanging for the in-game currency $KXS, which stands for
+              Kryxit Shard.
+      - q: What is $KXS?
+        a:
+          - t: txt
+            c: >-
+              The $KXS coin, which stands for Kryxivia Shard Coin is the online
+              currency to play, buy, trade, and have new online pieces of stuff
+              in the Kryxivia world.
+      - q: How do I buy & sell $KXA and $KXS?
+        a:
+          - t: txt
+            c: 'You can buy $KXA on the exchanges listed here :'
+          - t: button
+            c: CoinMarketCap
+            link: https://coinmarketcap.com/currencies/kryxivia/
+          - t: txt
+            c: $KXS is not listed yet.
+      - q: Are my crypto & game items safe?
+        a:
+          - t: txt
+            c: >-
+              Yes, Kryxivia has been verified secure by Solidproof and all your
+              in game assets and crypto is safe with us.
+          - t: button
+            c: SolidProof Audit
+            link: >-
+              https://github.com/solidproof/projects/blob/main/Kryxivia/MysteryBox/SmartContract_Audit_Solidproof_Kryxivia%20MysteryBox.pdf
+      - q: What are airdrops and how do I get them?
+        a:
+          - t: txt
+            c: >-
+              Airdrops involve crypto projects providing tokens en masse to
+              their communities to increase adoption.
+          - t: txt
+            c: >-
+              All the announcements regarding Kryxivia airdrops would be
+              announced on the official twitter handle.
+      - q: How to link my crypto and nft wallet?
+        a:
+          - t: txt
+            c: >-
+              You need to have a metamask account with the Binance network on
+              it, after that you need to open the kryxivia website and click on
+              connect wallet.
+          - t: txt
+            c: >-
+              After that the wallet notification will pop up for permission of
+              the connection.
+      - q: How to send my NFT’s or crypto to another wallet?
+        a:
+          - t: button
+            c: Read more
+            link: https://nftdesire.io/how-to-transfer-nft-to-another-wallet/
+  login-and-account:
+    title: Login and Account
+    list: []
+  website-and-social:
+    title: Website and Social
+    list:
+      - q: Who to talk to for questions or concerns?
+        a:
+          - t: txt
+            c: >-
+              All our social media chats are active with the mods, you can join
+              our Discord and Telegram.
+  characters-and-equipments:
+    title: Characters and Equipments
+    list: []
+  monsters-and-dungeons:
+    title: Monsters and Dungeons
+    list: []
+  others:
+    title: Others
+    list: []
+faq-slug:
+  title: FAQ
+dungeons:
+  title: Kryxivia Mine
+  metaTitle: Kryxivia • The Mine of Kryxivia
+  h1: Discover the Kryxivia Mine and Uncover Rare NFT Treasures!
+  intro: >-
+    Nestled within the bustling city of Kryxivia lies a grand, ancient mine,
+    guarded by fearsome beasts and protected by the goddess Via herself. It is
+    here that the precious Kryxit stones, source of the divinities' power, can
+    be found. Many brave adventurers have ventured into the mine, risking their
+    lives to collect these valuable stones and unlock their magical properties.
+  txt1: >-
+    Do you have the courage to join their ranks and brave the dangers of the
+    Kryxivia Mine? Will you claim your rightful place among the greatest heroes
+    of the realm, or will you fall victim to the monsters that lurk within? The
+    choice is yours.
+  catalysts:
+    sub: Catalysts
+    title1: >-
+      Dive into the depths of the Kryxivia Mine and test your skills in a
+      variety of challenging modes.
+    txt1: >-
+      Catalysts transport you to alternate mine paths, where you will encounter
+      stronger bosses and reap greater rewards in the form of powerful kryxits,
+      magical gems that can be socketed onto items to unlock new spells and
+      improve stats.
+    txt2: >-
+      However, not all Catalysts are equal - some will increase the difficulty
+      of the dungeon even further. The degree of difficulty is known as the Crux
+      level. The higher the Crux, the greater the challenges and the more
+      valuable the loot.
+    blue: Blue Catalyst
+    yellow: Yellow Catalyst
+    orange: Orange Catalyst
+    red: Red Catalyst
+    purple: Purple Catalyst
+  boss:
+    sub: Bosses of Kryxivia
+    title1: >-
+      Level Up Your Character NFTs by Conquering the Most Powerful Bosses and
+      Utilizing Catalyst to Reach New Heights!
+    txt1: >-
+      In the world of Kryxivia, NFTs play a central role in determining your
+      character's level. Your character's level is based on the items you have
+      equipped, traded on the marketplace, or obtained from defeating monsters
+      in the Kryxivia mine. These items have an iLvl, or item level, attached to
+      them, and defeating bosses will reward you with equipment, Kryxit Shard
+      coin (KXS), and spells. The value of these loot items is determined by
+      algorithmic calculations based on player activity, ensuring a sustainable
+      economy. Some NFTs may be super-limited, meaning they may never be
+      obtained again once a certain number has been dropped, or they may have
+      daily, weekly, monthly, or yearly limits. Join the adventure and see what
+      NFTs you can collect!
+kryxivia:
+  title: Kryxivia
+  metaTitle: Kryxivia • City & History
+  h1: Explore the Fantastical World of Kryxivia
+  intro: >-
+    As you enter the magical world of Kryxivia, you'll be transported to a realm
+    of endless adventure. The bustling city serves as a hub for all players,
+    offering resources and guidance as you prepare for your journey. Here, you
+    can find non-player characters (NPCs) who can help guide you on your quest,
+    as well as form alliances with other players to conquer dungeons and defeat
+    fierce foes.
+  txt1: >-
+    But the city is just the starting point. Beyond the mysterious door lies the
+    magical mine, a realm filled with danger and opportunity. With the help of
+    the NPCs and your own bravery, you'll be able to overcome any challenge that
+    comes your way.
+  txt2: >-
+    Whether you're a seasoned adventurer or new to this fantastical world,
+    there's a place for you in Kryxivia. Join the ranks of the greatest heroes
+    or forge your own path to greatness – the choice is yours.
+  story:
+    sub1: Kryxivia City
+    title1: The Origins of Kryxivia City
+    txt1: >-
+      In a world before the dawn of industry, a mysterious door was discovered
+      in the mountains. Those who ventured through it discovered the magical
+      gems known as Kryxit, imbued with immense power. These discoveries drew
+      people from across the land to Kryxivia, a burgeoning city built
+      haphazardly by small groups of adventurers and merchants.
+    txt2: >-
+      The people of Kryxivia come from all walks of life and often have
+      mismatched outfits, pieced together from their travels. As metal gear is
+      scarce and expensive, many resort to wearing a combination of cloth,
+      leather, and metal.
+    txt3: >-
+      The city sprang up around the door and merchants flocked to this busy hub
+      to profit from the influx of people seeking their fortune. Now, years
+      later, most who come to Kryxivia are mercenaries or independents like
+      yourself, seeking loot and adventure beyond the door.
+    txt4: >-
+      Men will bring a lot of loot from the door but they will not always come
+      back. The city of Kryxivia began to form around the door and many
+      merchants took profit from this highly frequented place. Now, a few years
+      later most of the people who try their luck are mercenaries or
+      independents, like you. 
+  map:
+    sub1: Map of Kryxivia City
+    title1: The most important buildings
+    banks:
+      title: Banks in Kryxivia
+      desc: >-
+        At the bank, you can deposit your imported NFTs or KXS, stake your
+        currencies to earn annual percentage yield (APY), or store items that
+        you no longer need.
+    leader:
+      title: Leaderboard
+      desc: >-
+        The leaderboard displays the top warriors in Kryxivia, ranking players
+        based on their skill in both player versus player (PVP) and player
+        versus environment (PVE) combat.
+    nft:
+      title: NFT Export
+      desc: >-
+        This NPC allows you to transfer your NFT items to your blockchain wallet
+        by simply selecting the item you wish to export.
+    portail:
+      title: Kryxivia Mine
+      desc: >-
+        The Kryxivia Mine is a dungeon located beyond the door, where you can
+        find powerful bosses and embark on challenging adventures.
+    socketing:
+      title: Blacksmith
+      desc: >-
+        The Blacksmith can socket your Kryxits onto your inventory items,
+        imbuing them with magical power.
+    training:
+      title: Training
+      desc: >-
+        The training area is a place where you can practice your skills and test
+        your strength by hitting a punching bag. This is a great way to gauge
+        your damage output and improve your combat techniques.
+patchnotes:
+  nav: Patch Notes
+  title: Patch Notes & Releases
+  metaTitle: Kryxivia • Patch Notes & Releases
+  h1: Discover the latest patch notes & releases
+  sub: Patch Notes
+  know: 'Known bugs:'
+app-marketplace:
+  title: Marketplace
+  metaTitle: Kryxivia • Marketplace
+  loading: Loading
+  loaded: NFT loaded
+  search: Search a NFT or category...
+  noResult: Sorry, no NFT matches your search criteria.
+  reset: Reset my search
+app-staking:
+  title: Staking
+  metaTitle: Kryxivia • Staking
+app-nft-viewer:
+  title: NFT Viewer
+  metaTitle: Kryxivia • NFT Viewer
+app-bridge:
+  title: Bridge
+  metaTitle: Kryxivia • Bridge

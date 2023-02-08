@@ -1,0 +1,952 @@
+all:
+  title: Kryxivia • Un jeu MMORPG innovant tirant parti de NFT sur la blockchain
+  desc: >-
+    Bienvenue à Kryxivia! Un jeu web MMORPG 3D NFT Multiverse sur la blockchain.
+    Une nouvelle expérience de jeu innovante pour gagner. Utilisation du réseau
+    Ethereum.
+  open: Ouvrir
+  close: Fermer
+  back: Précédent
+  progress: En cours
+  finish: Terminé
+  view_details: Voir les détails
+  step: Etape
+  discover: Découvrir
+  lvl: Niveau
+  more: Lire la suite
+  soon: À venir...
+  alpha: L’alpha publique commence dans
+  buy: Acheter
+wallets:
+  metamask:
+    name: MetaMask
+    connect: Connectez-vous à votre Metamask
+  walletconnect:
+    name: WalletConnect
+    connect: Connectez-vous à votre WalletConnect
+  fortmatic:
+    name: Fortmatic
+    connect: Connectez-vous avec votre compte Fortmatic
+  bcw:
+    name: Portefeuille Binance Chain
+    connect: Connectez-vous avec votre portefeuille Binance Chain
+play:
+  intro: Sélectionnez une plateforme et découvrez le monde de Kryxivia !
+  launcher:
+    title: Kryxivia Launcher
+    desc: Téléchargez Kryxivia pour une expérience optimale !
+  client:
+    title: WebGL Client
+    desc: Jouez à Kryxivia sur votre navigateur web !
+header:
+  connect: Connexion
+  play: Jouer
+  nav: Navigation
+  dev: Devblog & actualités
+  game: Jeu
+  apps: Apps
+  view: Voir toutes les actualités
+  rights: Tous droits réservés.
+  policy: Politique de confidentialité
+  press: Ressources press
+  partner: Partenaires
+  doc: Documentations
+nav:
+  kryxivia:
+    home: Accueil
+    kxa: $KXA Tokens
+    kxs: $KXS Tokens
+    team: Équipe
+    dev: Devblog
+    road: Feuille de route
+    lite: Litepaper
+  game:
+    kryxivia: Kryxivia
+    faction: Factions
+    dungeon: Kryxivia Mine
+    boss: Boss
+    kryxit: Kryxits
+    equipment: Équipements
+    pvp: Arène PVP
+  apps:
+    market: Marché
+    staking: Stacking
+    nft: Visionneuse NFT
+    launcher: Launcher
+    client: Client
+    leaderboard: Classement
+    faq: FAQ
+bottom:
+  sound: Musique
+  scroll: Scroller pour explorer
+  powered: Alimenté par
+  developed: Développé par
+  online: en ligne
+index:
+  metaTitle: Kryxivia • Un jeu MMORPG innovant tirant parti de NFT sur la blockchain
+  title: Accueil
+  h1: Page d’accueil
+home:
+  sub1: Un jeu MMORPG innovant tirant parti des NFT sur la Blockchain
+  h1: Bienvenue dans l’expérience Play-to-Earn
+  play: Jouer
+  trailer: Trailer
+  sec1:
+    sub1: Un MMORPG 3D interactif et amusant
+    title1: Les crypto-monnaies comme révolution dans l’économie du jeu
+    txt1: >-
+      Jouez maintenant à un MMORPG 3D interactif et amusant dans votre
+      navigateur ou sur votre PC avec vos amis, tout en collectant des NFT qui
+      vous donnent des récompenses qui sont soutenues par les profits de
+      crypto-monnaie gagnés grâce à votre progression dans l’univers Kryxivia!
+    txt2: >-
+      Chez Kryxivia, nous utilisons les meilleures fonctionnalités que la
+      blockchain peut offrir pour vous apporter la meilleure économie du jeu.
+    bn: Découvrez Kryxivia
+  sec2:
+    sub1: Un monde qui combine NFTS et crypto-monnaie
+    title1: >-
+      Explorez les donjons dans le monde de Kryxivia et collectez des NFT pour
+      les échanger avec d’autres joueurs.
+    txt1: >-
+      Gagnez des NFT précieux et exclusifs en combattant les boss les plus
+      puissants de la mine Kryxivia. Des consommables de butin, des armures que
+      vous pouvez appliquer à votre personnage et des gemmes Kryxit à utiliser
+      comme sorts. Tous vous permettront de personnaliser votre gameplay.
+    bn: Découvrez les donjons
+  sec3:
+    sub1: UNE ÉCONOMIE UNIQUE EN SON GENRE
+    title1: Deux crypto-monnaies pour l’univers du Metaverse
+    txt1: >-
+      Le jeton KXA, qui signifie Kryxivia Coin token déployé sur Ethereum, est
+      la crypto-monnaie de base pour les paiements en chaîne et les offres
+      groupées spéciales, les cosmétiques, les événements de vente NFT spéciaux
+      ou un échange de monnaie KXS dans le jeu, ainsi que l’achat et la vente
+      sur notre marché NFT.
+    txt2: >-
+      Le jeton KXS, qui signifie Kryxivia Shard Coin implémenté sur Ethereum est
+      une monnaie en ligne pour jouer, acheter, échanger, directement dans le
+      jeu et avoir de nouvelles pièces en ligne dans le monde de Kryxivia. Comme
+      il comporte plus de risques et de mouvements économiques, il doit avoir
+      une offre énorme afin que chaque joueur puisse en avoir pour jouer.
+  sec4:
+    sub1: Commencez à Jouer!
+    title1: Rejoignez l’aventure Kryxivia !
+team:
+  metaTitle: Kryxivia • Équipe de Kryxivia
+  title: Équipe
+  h1: Équipe de Kryxivia
+  role:
+    '1': Chef
+    '2': Développement de jeux
+    '3': Designer 3D & VFX Artist
+    '4': UI/UX Designer & Développeur Front
+    '5': Marketing et communications
+    '6': Concepteur sonore
+  poste:
+    '1': PDG & Fondateur
+    '2': Directeur technique
+    '3': Gameplay du client principal
+    '4': Ingénieur blockchain en chef
+    '5': Ingénieur Logiciel Full-Stack
+    '6': Développeur Unity 3D
+    '7': Développeur Full-Stack
+    '8': Concepteur de jeux VFX
+    '9': Level Designer / 3D Art
+    '10': Personnage 3D / Objets Artiste
+    '11': Studio partenaire / Artiste 3D
+    '12': Game Designer Consultant
+    '13': Lead UI/UX Designer
+    '14': Développeur Full Stack Web
+    '15': Développeur créatif
+    '16': Graphiste
+    '17': Créateur de films
+    '18': Directeur du marketing
+    '19': Gestionnaire de communauté
+    '20': Concepteur sonore
+    '21': Compositeur de musique
+    '22': Gestion d’équipe
+    '23': Ingénieur logiciel
+leaderboard:
+  title: Classement
+  metaTitle: Kryxivia • Classement • Les plus grands joueurs de Kryxivia
+  h1: Les plus grands joueurs de Kryxivia
+roadmap:
+  metaTitle: Kryxivia • Feuille de route de Kryxivia
+  title: Feuille de route
+  discover: Découvrez notre feuille de route
+  h1: Feuille de route de Kryxivia
+  road:
+    q3_2021:
+      desc: Début du projet Kryxivia
+      list:
+        '1': >-
+          Déploiement du jeton KXA et KXS sur le réseau de test Binance
+          Smart-chain pour l’Alpha.
+        '2': >-
+          Démarrage du développement, test du gameplay de base, des serveurs de
+          jeu et des liens blockchains.
+        '3': Travailler sur la modélisation 3D de l’univers Kryxivia.
+        '4': >-
+          Faire le Level-Design des villes, le mien, travailler sur la tradition
+          du jeu, explorer Kryxit et les systèmes fonctionnels de gemmes.
+    q4_2021:
+      desc: Début du projet Kryxivia
+      list:
+        '1': >-
+          Lancement du site Web en ligne avec les bases de Kryxivia, publication
+          du document de présentation.
+        '2': >-
+          Version Open-Source de la base de code Kryxivia sur notre référentiel
+          GitHub et les différents contrats intelligents.
+        '3': >-
+          Préparation de la preuve de concept du jeu à l’aide de Unity WebGL, C#
+          et Node.js.
+        '4': >-
+          Audit de nos différents contrats intelligents qui interagissent avec
+          la blockchain BSC.
+        '5': Sortie du teaser pour le lancement de la Kryxivia Alpha.
+        '6': >-
+          Lancer le jeton KXA en effectuant une vente publique pour créer la
+          liquidité du pool d’actifs et les fonds de base de jeu (OIT).
+        '7': >-
+          Déploiement de la liste blanche pour le pré-accès Alpha privé (les
+          portefeuilles participant à l’OIT auront des avantages).
+        '8': >-
+          Travailler sur tous les aspects du jeu, le client/serveur, et les
+          connexions entre les services de centralisation/décentralisation des
+          NFT.
+        '9': Faire des procédures KYC des membres de l’équipe Kryxivia.
+        '10': >-
+          Création d’un pool contrôlé par Pancake Swap pour le jeton KXS en jeu
+          (avec 10% des fonds collectés).
+        '11': Liste sur CoinMarketCap, CoinGecko ...
+    q1_2022:
+      desc: Début du projet Kryxivia
+      list:
+        '1': Avoir le jeu par navigateur WebGL prêt pour le déploiement
+        '2': >-
+          Déploiement du marché des objets NFT pour échanger des objets dans le
+          jeu avec d’autres joueurs de la chaîne.
+        '3': >-
+          Démarrer l’accès pré-alpha privé pour que les membres sélectionnés
+          puissent jouer dans le monde Kryxivia dans leur navigateur à
+          kryxivia.io.
+        '4': >-
+          Utiliser le test-net pour la pré-alpha pour repérer les bugs et
+          récompenser les joueurs de bug-bounty qui signalent des problèmes dans
+          les jetons KXA.
+        '5': >-
+          Ajout de nouveaux donjons et plus de spécifications d’objets, de
+          gemmes Kryxit et de développement de gameplay de sorts.
+        '6': >-
+          Lancez les différents packs de démarrage (packs NFT) pour le lancement
+          de l’accès bêta, pour commencer directement à jouer avec vos packs
+          achetés.
+        '7': >-
+          Augmenter la capacité de l’équipe, recruter de nouveaux concepteurs
+          3D, niveaux et scénaristes.
+        '8': Amélioration du contenu PVE.
+    q2_2022:
+      desc: Début du projet Kryxivia
+      list:
+        '1': >-
+          Libérer l’accès public bêta du monde Kryxivia sur le réseau principal
+          du réseau BSC.
+        '2': Correction des bugs de la pré-alpha (Q1) trouvés par les joueurs.
+        '3': >-
+          Commencer à développer les systèmes de raid (+20 joueurs se battant
+          ensemble dans des combats de raid) dans la mine kryxivia.
+        '4': >-
+          Ajout de systèmes de quêtes quotidiens pour récompenser les activités
+          des joueurs, récompensant ainsi les plus actifs.
+        '5': >-
+          Travailler sur un plus grand ensemble de donjons dans la mine avec
+          plus de difficultés et de meilleures récompenses Kryxit et autres.
+        '6': >-
+          Application et cotation des jetons KXA et KXS sur les principaux
+          échanges centralisés T1.
+        '7': >-
+          Système de mise bancaire dans le jeu pour gagner des récompenses
+          (retour sur investissement réel avec de nouvelles récompenses par an)
+          avec le jeton KXA / KXS.
+    q3_2022:
+      desc: Début du projet Kryxivia
+      list:
+        '1': >-
+          Système de guildes pour faire équipe avec vos compagnons avec des
+          objectifs quotidiens / hebdomadaires à atteindre pour des récompenses
+          ou des taux de bonus.
+        '2': >-
+          Ajout d’une saison de système d’événements avec des NFT uniques
+          spéciaux avec de nouveaux boss spécifiques (nouveau cosmétique
+          limité...).
+        '3': >-
+          Gouvernance DAO pour voter sur les thèmes de l’événement, les
+          prochaines étapes de la feuille de route à atteindre, et nerf ou mises
+          à niveau pour faire des mises à jour de gameplay dans le jeu
+          (plafonnées par portefeuille en termes de pourcentage).
+        '4': >-
+          Conception visuelle dans le jeu pour les statistiques et les
+          informations sur la valeur KXS et les mouvements de prix.
+        '5': >-
+          Échelles en ligne pour voir tous les joueurs, leurs niveaux
+          électroniques et leur réputation + unicité des inventaires NFT.
+token-kxs:
+  title: $KXS de jetons
+  metaTitle: Kryxivia • La $KXS Kryxivia Coin
+  h1: Kryxivia $KXS Pièce
+  intro: >-
+    La pièce KXS, qui signifie Kryxivia Shard Coin est la monnaie en ligne pour
+    jouer, acheter, échanger et avoir de nouvelles choses en ligne dans le monde
+    de Kryxivia, car elle comporte plus de risques et de mouvements économiques,
+    elle doit avoir une offre énorme pour que chaque joueur puisse en avoir pour
+    jouer.
+  txt1: >-
+    L’offre maximale totale du jeton KXS est plafonnée à 5 000 000 000 KXS (5B),
+    ce qui le rend beaucoup plus accessible et utilisable dans le jeu que le
+    jeton KXA. Le jeton KXS est mintable, ce qui signifie que de nouveaux jetons
+    peuvent être créés pour des choses telles que des récompenses agricoles dans
+    le jeu ou des événements spéciaux en ligne. Il peut être échangé comme
+    n’importe quelle autre devise sur CEX & DEX.
+  txt2: >-
+    C’est aussi un jeton déflationniste parce que vous pouvez utiliser le jeton
+    KXS dans le jeu pour des récompenses spéciales, par exemple, si vous voulez
+    lier vos objets aux gemmes Kryxit, vous devrez brûler des KXS pour y
+    arriver, ou si vous voulez acheter des objets consommables tels que des
+    potions ou d’autres pour vous aider tout au long de votre voyage; vous
+    devrez graver des jetons KXS sur les PNJ de la ville.
+  txt3: "Le jeton en jeu aura une liquidité de base sur un protocole décentralisé soutenu par le jeton KXA sur un pool géré pour assurer la capacité d’achat et la vendabilité du jeton dans le jeu, mais le principal moyen d’obtenir le jeton KXS sera toujours dans le jeu en jouant et en gagnant des récompenses, comme notre système est décrit «\_Jouer pour gagner\_»."
+token-kxa:
+  title: $KXA de jetons
+  metaTitle: Kryxivia • La kryxivia Coin $KXA
+  h1: Kryxivia $KXA Pièce
+  intro: >-
+    La pièce KXA, qui signifie Kryxivia Coin token déployé sur Ethereum, est la
+    crypto-monnaie de base pour les paiements en chaîne et les packages spéciaux
+    tels que les packs de démarrage, les événements de vente NFT spéciaux ou
+    l’échange de monnaie KXS dans le jeu, qui signifie Kryxit Shard.
+  txt1: >-
+    Kryxivia coin a une offre maximale totale de 250 000 000 de pièces KXA,
+    Comme détaillé ci-dessous, nos tokenomics sont assez spécifiques et
+    constants. Le jeton KXA n’est pas frappable, ce qui signifie qu’il ne peut
+    pas avoir plus de 250 millions de KXA émis.
+  txt2: >-
+    Nous utilisons la chaîne BSC pour éviter des frais de transaction élevés sur
+    la chaîne. Vous pouvez également utiliser la pièce KXA pour acheter et
+    vendre des propriétés NFT (objets, Kryxit, sorts...) du jeu sur notre marché
+    en ligne à l’aide de votre portefeuille (comme Metamask).
+  sub: Tokénomie
+  title1: Tokenomics de la kryxivia Coin
+  subtitle1: Distribution de $KXA de jetons
+  td1: >-
+    Coûts de l’hébergement réseau du serveur, du client de jeu et du moteur du
+    serveur
+  td2: >-
+    Marketing, augmentation de l’adoption et incitation à élargir l’audience des
+    projets
+  td3: Récompenses d’événements en jeu, agriculture spéciale et récompenses NFT
+  td4: >-
+    Mise de fonds pour les systèmes bancaires et récompenses APY nettes pour les
+    joueurs
+  td5: Coûts de paiement de l’équipe de développement, partage de l’équipe
+  td6: Tour de prévente de jetons privés pour lancer le projet
+  td7: >-
+    Vente publique de jetons (OIT*) pour la version bêta du jeu sur le protocole
+    Unicrypt
+  td8: Fonds de l’écosystème pour les opérations supplémentaires
+  td9: Réserves de fonds de trésorerie
+  subtitle2: Portefeuilles officiels de l’équipe
+  subtitle3: Plan de vente privé et public
+  wallet1: Portefeuille de déploiement Kryxivia
+  wallet2: Portefeuille d’hébergement réseau de serveur
+  wallet3: Marketing, portefeuille d’adoption
+  wallet4: Événements, portefeuille de récompenses dans le jeu
+  wallet5: Portefeuille de fonds de jalonnement
+  wallet6: Portefeuille d’équipe des fonds de développement
+  wallet7: Portefeuille de fonds de l’écosystème
+  wallet8: Portefeuille de fonds de trésorerie de réserve
+  sale:
+    private:
+      title: Tour de vente privée
+      discount: ~ {percent} de réduction par rapport au prix de vente public
+      of: '{kxa} de KXA ({total} - {percent} approvisionnement)'
+      price: 'Prix: {price} par KXA'
+      raise: Augmentation de ~ {bnb} BNB = (Total = ~{total})
+      close: >-
+        Vente privée Clôture: <-> TGE {percent} débloqué puis déverrouillage
+        linéaire sur un an
+    public:
+      title: Ronde de vente publique
+      discount: ~ {percent} de réduction sur le prix de l’annonce
+      of: '{kxa} de KXA ({total} - {percent} approvisionnement)'
+      price: 'Prix: {price} par KXA'
+      raise: Augmentation de ~ {bnb} BNB = (Total = ~{total})
+      close: >-
+        Clôture de la vente publique: <-> TGE {percent} débloqué puis linéaire
+        sur 3 mois
+    listing:
+      title: Inscription sur PancakeSwap
+      price: 'Prix: {price} par KXA'
+      raise: '{percent} des fonds levés auprès d’Unicrypt bloqués pendant 1 an'
+devblog:
+  title: Devblog & actualités
+  metaTitle: Kryxivia • Devblog, nouvelles, mises à jour et annonces
+  h1: Nouvelles, mises à jour et annonces
+  back: Retour à la liste
+devblog-slug:
+  title: Devblog & actualités
+  metaTitle: Kryxivia
+bosses:
+  title: Patrons
+  metaTitle: Kryxivia • Boss de Kryxivia MMORPG Metaverse
+  h1: Boss de Kryxivia MMORPG Metaverse
+  fight: Combattez {boss} maintenant !
+  back: Retour à la liste
+bosses-slug:
+  title: Patrons
+  progress: Histoire en cours, revenez plus tard...
+bosses-alde:
+  title: Patrons • Alde
+  metaTitle: Kryxivia • Alde • Patrons de Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Les flammes d’Alde
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-atesgol:
+  title: Patrons • Atesgol
+  metaTitle: Kryxivia • Atesgol • Boss de Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Le Brasseur d’Atesgol
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-valtrena:
+  title: Patrons • Valtrena
+  metaTitle: Kryxivia • Valtrena • Patrons de Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Le glissement de terrain de Valtrena
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-k1rig:
+  title: Patrons • K1 R.I.G
+  metaTitle: Kryxivia • K1 R.I.G • Patrons de Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Les rouages de K1 R.I.G
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-melucyna:
+  title: Patrons • Melucyna
+  metaTitle: Kryxivia • Melucyna • Boss de Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Les vagues de Melycuna
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+factions:
+  title: Factions
+  metaTitle: Kryxivia • Factions de Kryxivia
+  h1: Rejoignez l’une des trois factions !
+  want: Je veux être
+  adventurers:
+    name: Aventuriers
+    title: Avez-vous ce qu’il faut pour être un aventurier?
+    intro: >-
+      Êtes-vous audacieux et prêt à honorer vos ancêtres? Pour rejoindre la
+      faction des Aventuriers, vous avez besoin de force, de courage, de
+      bravoure et de détermination.
+    paragraphe:
+      - >-
+        Votre but sera de protéger les plus faibles et de vous dépasser chaque
+        jour pour devenir plus fort que jamais, vous n’aimez pas les cupidons,
+        en particulier la faction des Marchands qui fera n’importe quoi pour la
+        richesse. Assoiffé d’aventure et de défi, vous vous êtes joint à vos
+        compagnons pour décider quelles missions renforceront les idéaux de
+        votre faction, vous êtes un descendant de la divinité Kry après tout.
+  nomads:
+    name: Nomades
+    title: >-
+      Parfois, la nature est tout ce dont vous avez besoin et nous rappelle les
+      vraies priorités et les nécessités de base, non?
+    intro: >-
+      Aimez-vous la nature et êtes-vous prêt à la protéger? Pour rejoindre la
+      faction des Nomades, vous devez aimer la forêt, les plantes, les animaux
+      et souhaiter vivre dans un environnement paisible et calme.
+    paragraphe:
+      - >-
+        En tant que descendant de Via, vous ne faites qu’un avec la nature. Vous
+        respectez chaque plante et toute créature vivante, en tant qu’animal
+        dangereux chuchotant, vous gagnez des compagnons de voyage. La légende
+        raconte que les plus anciens nomades ont voyagé avec des dragons. Votre
+        cœur est pur et vous partagez vos connaissances avec tous ceux qui
+        écoutent. Vos enseignements montrent comment survivre grâce à la
+        générosité de la terre.
+  merchants:
+    name: Marchands
+    title: >-
+      Ressentez-vous l’énergie de la lune, avez-vous toujours eu l’impression
+      d’être séparés, plus intelligents, est-il facile pour vous de jouer avec
+      l’esprit des gens?
+    intro: >-
+      Pour rejoindre la faction des Marchands, vous devez être doté de
+      compétences sociales et commerciales, vous savez exactement ce que les
+      gens attendent et veulent que vous disiez, vous êtes intelligent,
+      maîtrisez les compétences du trading et, lorsque cela est nécessaire,
+      manipulateur et espiègle.
+    paragraphe:
+      - >-
+        Vous avez une tendance naturelle à attirer l’énergie autour. En tant que
+        charmeur brillant, vous pouvez utiliser les mots à votre avantage, cela
+        est dû à l’influence de la déesse Xi. Vous rêvez d’attraper le Kryxit le
+        plus précieux, le plus expansif et le plus rare qui existe. Peu importe
+        le sacrifice que vous ressentez le besoin de posséder. Sachant que le
+        monde est cruel et que les gentils ne survivent pas très longtemps, vous
+        manquez d’empathie et de pitié. Parfois, vous devez faire ce que les
+        autres ne peuvent pas faire pour le bien commun.
+faq:
+  title: FAQ
+  metaTitle: Kryxivia • FAQ
+  category: Catégories
+  h1: Comment pouvons-nous vous aider?
+  start: >-
+    Commencez par sélectionner la catégorie de votre question ou de votre
+    problème.
+  no-question: >-
+    Aucune question n’est encore répertoriée dans cette catégorie, revenez plus
+    tard!
+  no-answer: >-
+    Vous ne trouvez pas la réponse à vos questions ? Demandez-nous sur les
+    réseaux, notre équipe se fera un plaisir de vous répondre.
+  back: Retour aux catégories
+  kryxivia-and-game:
+    title: Kryxivia et le jeu
+    list:
+      - q: Qu’est-ce que Kryxivia?
+        a:
+          - t: Txt
+            c: >-
+              Kryxivia est un MMORPG 3D fantastique, jouable sur n’importe quel
+              navigateur moderne, directement disponible sur notre site web à
+              kryxivia.io, tout un écosystème qui attend de nouveaux joueurs
+              aventureux pour collecter Kryxit! Dans notre monde, préparez-vous
+              à gagner de la crypto-monnaie et un NFT rare unique tout en ayant
+              une expérience amusante et coopérative avec vos amis.
+      - q: Comment puis-je commencer à jouer ?
+        a:
+          - t: Txt
+            c: >-
+              Kryxivia est un jeu MMORPG en ligne fonctionnant avec tous les
+              navigateurs modernes compatibles, vous pouvez y jouer sur
+              n’importe quel ordinateur avec un GPU correct minimum requis. Pour
+              vous authentifier et vous connecter au jeu, vous devrez disposer
+              d’un portefeuille basé sur Metamask.
+      - q: Qu’est-ce que le jeu à gagner?
+        a:
+          - t: Txt
+            c: >-
+              Les jeux Play-to-Earn combinent le plaisir des jeux vidéo avec la
+              possibilité de gagner de vraies récompenses pour votre temps. Dans
+              notre cas, vous pouvez profiter du MMORPG et gagner des jetons
+              Kryxit.
+      - q: Que signifie la véritable propriété?
+        a:
+          - t: Txt
+            c: >-
+              Les propriétaires réels sont ceux qui reçoivent les avantages de
+              la propriété. Les vrais propriétaires sont les personnes ou les
+              entités qui reçoivent le nom de la bénéficiaire, et ils ont droit
+              à tout avantage de cela.
+      - q: Kryxivia est-il un jeu à gagner?
+        a:
+          - t: Txt
+            c: Oui Kryxivia est un jeu pour gagner Kryxit.
+      - q: Kryxivia est-il vraiment un jeu gratuit ?
+        a:
+          - t: Txt
+            c: >-
+              Oui, pour jouer à kryxivia, il vous suffit de connecter votre
+              Metamask au serveur.
+      - q: Où puis-je jouer à Kryxivia ?
+        a:
+          - t: Txt
+            c: Vous pouvez jouer au jeu sur kryxivia.io
+      - q: >-
+          Dois-je comprendre la blockchain ou le réseau de chaîne intelligente
+          binance?
+        a:
+          - t: Txt
+            c: >-
+              Non, vous n’avez pas besoin d’avoir des connaissances techniques
+              de BNBchain pour jouer au jeu.
+      - q: Qu’est-ce qu’un MMORPG ?
+        a:
+          - t: Txt
+            c: >-
+              Un MMORPG est un jeu vidéo qui combine des éléments de jeux vidéo
+              de rôle et de jeux en ligne massivement multijoueurs.
+      - q: Où puis-je signaler des erreurs ?
+        a:
+          - t: Txt
+            c: >-
+              Si vous êtes un Alpha-Testeur, vous pouvez signaler des bogues sur
+              le canal de rapport de bogues sur Discord et avoir une chance de
+              gagner de la prime de 40 000 $.
+      - q: Quelles sont les exigences PC pour jouer à Kryxivia?
+        a:
+          - t: Txt
+            c: >-
+              Les exigences recommandées sont au moins 4 Go de RAM, un Intel
+              Core i5, un GPU GeForce GTX série 900 et un disque SSD.
+  wallet-kxa-kxs:
+    title: Portefeuilles, KXA et KXS
+    list:
+      - q: Qu’est-ce que $KXA?
+        a:
+          - t: Txt
+            c: >-
+              $KXA, ou le jeton Kryxivia Coin, est la crypto-monnaie utilisée
+              pour les paiements en chaîne, tels que les packs de démarrage, les
+              événements de vente NFT spéciaux ou l’échange contre la monnaie du
+              jeu $KXS, qui signifie Kryxit Shard.
+      - q: Qu’est-ce que $KXS?
+        a:
+          - t: Txt
+            c: >-
+              La pièce $KXS, qui signifie Kryxivia Shard Coin, est la monnaie en
+              ligne pour jouer, acheter, échanger et avoir de nouveaux objets en
+              ligne dans le monde de Kryxivia.
+      - q: Comment puis-je acheter et vendre des $KXA et des $KXS?
+        a:
+          - t: Txt
+            c: 'Vous pouvez acheter $KXA sur les bourses listées ici :'
+          - t: bouton
+            c: CoinMarketCap
+            link: https://coinmarketcap.com/currencies/kryxivia/
+          - t: Txt
+            c: $KXS n’est pas encore répertorié.
+      - q: Mes crypto-monnaies et mes objets de jeu sont-ils en sécurité ?
+        a:
+          - t: Txt
+            c: >-
+              Oui, Kryxivia a été vérifié sécurisé par Solidproof et tous vos
+              actifs de jeu et crypto sont en sécurité avec nous.
+          - t: bouton
+            c: SolidProof Audit
+            link: >-
+              https://github.com/solidproof/projects/blob/main/Kryxivia/MysteryBox/SmartContract_Audit_Solidproof_Kryxivia%20MysteryBox.pdf
+      - q: Que sont les parachutages et comment puis-je les obtenir?
+        a:
+          - t: Txt
+            c: >-
+              Les parachutages impliquent des projets cryptographiques
+              fournissant des jetons en masse à leurs communautés pour augmenter
+              l’adoption.
+          - t: Txt
+            c: >-
+              Toutes les annonces concernant les largages de Kryxivia seraient
+              annoncées sur le compte Twitter officiel.
+      - q: Comment lier mon portefeuille crypto et nft?
+        a:
+          - t: Txt
+            c: >-
+              Vous devez avoir un compte metamask avec le réseau Binance dessus,
+              après quoi vous devez ouvrir le site Web kryxivia et cliquer sur
+              connecter le portefeuille.
+          - t: Txt
+            c: >-
+              Après cela, la notification du portefeuille apparaîtra pour
+              l’autorisation de la connexion.
+      - q: Comment envoyer mes NFT ou crypto à un autre portefeuille?
+        a:
+          - t: bouton
+            c: Lire la suite
+            link: https://nftdesire.io/how-to-transfer-nft-to-another-wallet/
+  login-and-account:
+    title: Connexion et compte
+    list: []
+  website-and-social:
+    title: Site Web et social
+    list:
+      - q: À qui s’adresser pour toute question ou préoccupation?
+        a:
+          - t: Txt
+            c: >-
+              Tous nos chats sur les réseaux sociaux sont actifs avec les mods,
+              vous pouvez rejoindre notre Discord et Telegram.
+  characters-and-equipments:
+    title: Personnages et équipements
+    list: []
+  monsters-and-dungeons:
+    title: Monstres et donjons
+    list: []
+  others:
+    title: Autrui
+    list: []
+faq-slug:
+  title: FAQ
+dungeons:
+  title: Kryxivia Mine
+  metaTitle: Kryxivia • La Mine de Kryxivia
+  h1: Explorez la mine Kryxivia et collectez de précieux NFT !
+  intro: >-
+    À l’intérieur de kryxivia City, vous trouverez une porte géante qui mène à
+    une ancienne mine découverte il y a longtemps. Les aventuriers ont décidé de
+    construire la ville de Kryxivia autour d’elle afin de comprendre le Kryxit à
+    l’intérieur de la mine et de les collecter. Ils ont vite compris que des
+    monstres horribles protègent cette mine et qu’ils devraient se battre
+    jusqu’à la mort pour mettre la main sur eux !
+  txt1: >-
+    Nous avons entendu des histoires sur la déesse Via qui aurait enchanté la
+    Mine pour protéger le Kryxit, qui semble être la source du pouvoir des trois
+    divinités: Kry, Xi et Via.
+  catalysts:
+    sub: Catalyseurs
+    title1: Entrez dans les donjons de la mine dans différents modes!
+    txt1: "Les catalyseurs vous emmènent à d’autres «\_lignes de mine\_». Si vous en utilisez un avant d’entrer, les boss que vous rencontrerez à l’intérieur seront beaucoup plus forts et laisseront tomber des kryxits beaucoup plus puissants - les gemmes magiques avec lesquelles vous pouvez douiller vos objets pour de nouveaux sorts et de meilleures statistiques."
+    txt2: >-
+      Tous les catalyseurs n’ont pas été créés égaux - certains ajusteront la
+      difficulté encore plus que d’autres. Le niveau de difficulté est connu
+      sous le nom de niveau Crux du donjon. Plus le Crux est élevé, plus les
+      boss sont durs et meilleures sont les gouttes.
+    blue: Catalyseur bleu
+    yellow: Catalyseur jaune
+    orange: Catalyseur Orange
+    red: Catalyseur rouge
+    purple: Catalyseur violet
+  boss:
+    sub: Patrons de Kryxivia
+    title1: >-
+      Améliorez les NFT de votre personnage en battant les boss les plus durs et
+      en utilisant Catalyst pour atteindre un nouveau sommet !
+    txt1: >-
+      Dans Kryxivia, les NFT font la loi, ce qui signifie que votre niveau de
+      personnage est basé sur les objets que vous avez équipés, que vous avez
+      échangés sur le marché ou gagnés contre les monstres de la mine Kryxivia.
+      Vous avez ce que nous appelons un I-Lvl attaché à vos affaires sur le
+      personnage. Les boss vous donneront de l’équipement, de la pièce Kryxit
+      Shard (KXS) et des sorts. Sur la base de la valeur algorithmique, les
+      butins sont déterminés par différents calculs basés sur l’activité des
+      joueurs pour assurer une économie durable. Certains NFT peuvent être
+      super-limités et potentiellement jamais pillés une fois déployés et un
+      certain montant déjà abandonné, ou limité quotidiennement,
+      hebdomadairement, mensuellement ou annuellement.
+kryxivia:
+  title: Kryxivia
+  metaTitle: Kryxivia • Ville & Histoire
+  h1: Explorez le monde fantastique de Kryxivia
+  intro: >-
+    Lorsque vous frayez dans notre monde, vous êtes envoyé dans la ville de
+    Kryxivia pour commencer votre aventure, dans la ville, vous trouverez tous
+    vos besoins avant de commencer votre jeu dans la mine magique.
+  txt1: >-
+    Tous les joueurs sont dans le hall, faisant des choses dans la ville tout en
+    se préparant à se battre à l’intérieur de cette porte mystérieuse! Vous
+    pouvez trouver plusieurs PNJ pour vous guider tout au long de votre voyage
+    et faire des alliances / groupes avec des personnes pour faire des raids ou
+    des donjons ensemble.
+  txt2: >-
+    Il y a un endroit central avec les principaux PNJ nécessaires pour éviter
+    une perte de temps à faire un aller-retour entre la mine et la ville, pour
+    les autres, vous pouvez les trouver sur des bâtiments spécifiques qui
+    semblent inhabituels par rapport aux autres.
+  story:
+    sub1: Ville de Kryxivia
+    title1: Histoire de la fondation Kryxivia City
+    txt1: >-
+      À une époque où l’homme n’a pas encore inventé l’industrie. Certains
+      avaient découvert une étrange porte perdue dans la montagne. De là, ils
+      ont trouvé Kryxit, des gemmes magiques avec un pouvoir énorme. Beaucoup
+      commencent à se rassembler d’abord envoyés par les pays.
+    txt2: ' Kryxivia est une ville nouvelle et florissante, située dans les montagnes autour d’une immense porte découverte il y a quelques années, construite la plupart du temps sans plan par de petits groupes d’aventuriers et de marchands.'
+    txt3: >-
+      Les habitants de Kryxivia viennent de nombreux horizons, presque aucun
+      d’entre eux ne vient d’une armée régulière, de sorte que leurs tenues sont
+      pour la plupart dépareillées et ramassées en cours de route. L’équipement
+      entièrement métallique n’est pas facilement disponible dans ce monde, donc
+      à moins d’être extrêmement riche, les gens ont tendance à porter à la fois
+      du tissu, du cuir et du métal combinés.
+    txt4: >-
+      Les hommes apporteront beaucoup de butin de la porte mais ils ne
+      reviendront pas toujours. La ville de Kryxivia a commencé à se former
+      autour de la porte et de nombreux marchands ont profité de cet endroit
+      très fréquenté. Maintenant, quelques années plus tard, la plupart des gens
+      qui tentent leur chance sont des mercenaires ou des indépendants, comme
+      vous. 
+  map:
+    sub1: Carte de la ville de Kryxivia
+    title1: Les bâtiments les plus importants
+    banks:
+      title: Banques
+      desc: >-
+        Recevez vos NFT ou KXS importés à la banque, mettez des devises pour APY
+        ou des articles de stock dont vous n’avez pas besoin.
+    leader:
+      title: Classement
+      desc: >-
+        Voir ici les meilleurs guerriers de Kryxivia, cette échelle contient les
+        meilleurs joueurs PVP et PVE.
+    nft:
+      title: Exportation NFT
+      desc: >-
+        Ce PNJ est utilisé pour exporter vos éléments NFT vers votre
+        portefeuille blockchain, simplement en en sélectionnant un.
+    portail:
+      title: Kryxivia Mine
+      desc: >-
+        C’est la porte pour entrer dans la mine Kryxivia où vous trouverez des
+        boss dans les donjons.
+    socketing:
+      title: Forgeron
+      desc: >-
+        Parlez au forgeron pour brancher vos Kryxits sur vos articles
+        d’inventaire.
+    training:
+      title: Formation
+      desc: >-
+        Dans la zone d’entraînement, vous pouvez tester vos compétences et les
+        dégâts que vous faites sur le punching-ball.
+patchnotes:
+  nav: Notes de patch
+  title: Notes de patch et versions
+  metaTitle: Kryxivia • Notes de patch et versions
+  h1: Découvrez les dernières notes de patch et versions
+  sub: Notes de patch
+  know: 'Bugs connus :'

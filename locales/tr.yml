@@ -1,0 +1,926 @@
+all:
+  title: Kryxivia • Blockchain üzerinde NFT'den yararlanan yenilikçi bir MMORPG oyunu
+  desc: >-
+    Kryxivia'ya hoş geldiniz! Blockchain üzerinde bir 3D NFT Multiverse MMORPG
+    web oyunu. Kazanmak için yeni ve yenilikçi bir oyun deneyimi. Ethereum
+    ağının kullanımı.
+  open: Açık
+  close: Kapatmak
+  back: Geri
+  progress: Devam ediyor
+  finish: Tamamlandı
+  view_details: Ayrıntıları görüntüleyin
+  step: Adım
+  discover: Keşfetmek
+  lvl: Düzey
+  more: Devamını oku
+  soon: Çok yakında...
+  alpha: 'Genel alfa şu şekilde başlar:'
+  buy: Satın almak
+wallets:
+  metamask:
+    name: MetaMask
+    connect: Metamask'ınıza bağlanma
+  walletconnect:
+    name: WalletConnect (Cüzdan Bağlantısı)
+    connect: WalletConnect cihazınıza bağlanın
+  fortmatic:
+    name: Fortmatik
+    connect: Fortmatic hesabına bağlan
+  bcw:
+    name: Binance Zincir Cüzdan
+    connect: Binance Chain Cüzdanınıza bağlanın
+play:
+  intro: Bir platform seçin ve Kryxivia dünyasını keşfedin!
+  launcher:
+    title: Kryxivia Başlatıcısı
+    desc: En iyi deneyim için Kryxivia'yı indirin!
+  client:
+    title: WebGL İstemcisi
+    desc: Kryxivia'yı web tarayıcınızda oynayın!
+header:
+  connect: Bağlamak
+  play: Şimdi oyna
+  nav: Gezinti
+  dev: Devblog ve haberler
+  game: Oyun
+  apps: Apps
+  view: Tüm haberleri görüntüle
+  rights: Tüm hakları saklıdır.
+  policy: Gizlilik Politikası
+  press: Basın Kaynakları
+  partner: Ortak
+  doc: Belge
+nav:
+  kryxivia:
+    home: Ev
+    kxa: Jeton $KXA
+    kxs: Jeton $KXS
+    team: Takım
+    dev: Geliştirme ve Tanıtım Videosu
+    road: Yol Haritası
+    lite: Litepaper (Litepaper)
+  game:
+    kryxivia: Kryxivia Dili
+    faction: Hizip
+    dungeon: Kryxivia Madeni
+    boss: Patronlar
+    kryxit: Kryxits
+    equipment: Alet -leri
+    pvp: PVP Arena
+  apps:
+    market: Pazar
+    staking: Grev
+    nft: NFT Görüntüleyici
+    launcher: Fırlatıcı
+    client: Müşteri
+    leaderboard: Liderlik Tablosu
+    faq: SSS
+bottom:
+  sound: Müzik
+  scroll: Keşfetmek için kaydırın
+  powered: Destekçi
+  developed: Tarafından geliştirildi
+  online: çevrimiçi
+index:
+  metaTitle: Kryxivia • Blockchain üzerinde NFT'den yararlanan yenilikçi bir MMORPG oyunu
+  title: Ev
+  h1: Ana sayfa
+home:
+  sub1: Blockchain'de NFT'den yararlanan yenilikçi bir MMORPG oyunu
+  h1: Kazanmak için Oyna deneyimine hoş geldiniz
+  play: Şimdi oyna
+  trailer: Treyler
+  sec1:
+    sub1: İnteraktif ve eğlenceli bir 3D MMORPG
+    title1: Oyun ekonomisinde bir devrim olarak kripto para birimleri
+    txt1: >-
+      Kryxivia evrenindeki ilerlemenizle kazanılan kripto para birimi karlarıyla
+      desteklenen ödüller veren NFT'leri toplarken, şimdi tarayıcınızda veya
+      PC'nizde arkadaşlarınızla etkileşimli ve eğlenceli bir 3D MMORPG oynayın!
+    txt2: >-
+      Kryxivia'da, size en iyi oyun içi ekonomiyi sunmak için blockchain'in
+      sunabileceği en iyi özellikleri kullanıyoruz.
+    bn: Kryxivia'yı keşfedin
+  sec2:
+    sub1: NFTS ve kripto para birimini birleştiren bir dünya
+    title1: >-
+      Kryxivia dünyasındaki zindanları keşfedin ve diğer oyuncularla ticaret
+      yapmak için NFT'leri toplayın.
+    txt1: >-
+      Kryxivia Madeni'ndeki en güçlü patronlarla savaşarak değerli ve özel
+      NFT'ler kazanın. Ganimet sarf malzemeleri, karakterinize
+      uygulayabileceğiniz zırh ve büyü olarak kullanılacak Kryxit mücevherleri.
+      Hepsi oyununuzu özelleştirmenize izin verecektir.
+    bn: Zindanları keşfedin
+  sec3:
+    sub1: TÜRÜNÜN TEK ÖRNEĞI EKONOMİ
+    title1: Metaverse evreni için iki kripto para birimi
+    txt1: >-
+      Ethereum'de dağıtılan Kryxivia Coin tokeni anlamına gelen KXA tokeni,
+      zincir içi ödemeler ve özel paketler, kozmetikler, özel bir NFT satış
+      etkinliği veya KXS oyun içi para birimi değişimi için temel kripto para
+      birimidir.
+    txt2: >-
+      Ethereum'de uygulanan Kryxivia Shard Coin'in kısaltması olan KXS tokeni,
+      doğrudan oyunda oynamak, satın almak, ticaret yapmak ve Kryxivia
+      dünyasında yeni çevrimiçi parçalara sahip olmak için çevrimiçi bir para
+      birimidir. Daha fazla risk ve ekonomik hareket taşıdığından, her oyuncunun
+      oynayabileceği bir miktar olması için büyük bir arza sahip olması gerekir.
+  sec4:
+    sub1: Şimdi oynamaya başla!
+    title1: Kryxivia macerasına katılın!
+team:
+  metaTitle: Kryxivia • Kryxivia Ekibi
+  title: Takım
+  h1: Kryxivia Ekibi
+  role:
+    '1': Lider
+    '2': Oyun Geliştirme
+    '3': Tasarımcı 3D & VFX Sanatçısı
+    '4': UI / UX Tasarımcısı ve Ön Geliştirici
+    '5': Pazarlama ve İletişim
+    '6': Ses Tasarımcısı
+  poste:
+    '1': CEO & Kurucu
+    '2': Teknik Direktör
+    '3': Lider İstemci Oynanışı
+    '4': Lider Blockchain Mühendisi
+    '5': Yazılım Full-Stack Mühendisi
+    '6': Unity 3D Geliştirici
+    '7': Tam Yığın Geliştirici
+    '8': VFX Oyun Tasarımcısı
+    '9': Seviye Tasarımcısı / 3D Sanat
+    '10': 3D Karakter / Öğeler Sanatçısı
+    '11': Ortak Stüdyo / 3D Sanatçı
+    '12': Oyun Tasarımcısı Danışmanı
+    '13': Lider UI/UX Tasarımcısı
+    '14': Tam Yığın Geliştirici Web
+    '15': Yaratıcı Geliştirici
+    '16': Grafik Tasarımcı
+    '17': Movie Maker
+    '18': Pazarlama Direktörü
+    '19': Topluluk Yöneticisi
+    '20': Ses Tasarımcısı
+    '21': Müzik Bestecisi
+    '22': Takım Yönetimi
+    '23': Yazılım Mühendisi
+leaderboard:
+  title: Liderlik Tablosu
+  metaTitle: Kryxivia • Leaderboard • Kryxivia'nın en büyük oyuncuları
+  h1: Kryxivia'nın en büyük oyuncuları
+roadmap:
+  metaTitle: Kryxivia • Kryxivia'nın Yol Haritası
+  title: Yol Haritası
+  discover: Yol haritamızı keşfedin
+  h1: Kryxivia Yol Haritası
+  road:
+    q3_2021:
+      desc: Kryxivia projesinin başlangıcı
+      list:
+        '1': >-
+          KXA ve KXS belirtecinin Alpha için Binance Smart-chain test ağında
+          konuşlandırılması.
+        '2': >-
+          Geliştirmeye başlamak, temel oynanışı, oyun sunucularını ve blok
+          zinciri bağlantılarını test etmek.
+        '3': Kryxivia Evreninin 3B Modellemesi üzerinde çalışmak.
+        '4': >-
+          Şehirlerin Seviye Tasarımını yapmak, benimki, oyunun Lore'u üzerinde
+          çalışmak, Kryxit ve mücevherlerin işlevsel sistemlerini keşfetmek.
+    q4_2021:
+      desc: Kryxivia projesinin başlangıcı
+      list:
+        '1': >-
+          Kryxivia hakkında temel bilgilerle çevrimiçi web sitesini başlatmak,
+          Sunum makalesini yayınlamak.
+        '2': >-
+          GitHub depomuzdaki Kryxivia kod tabanının Açık Kaynak sürümü ve farklı
+          akıllı sözleşmeler.
+        '3': >-
+          Unity WebGL, C# ve Node.js kullanarak Oyunun Kavram Kanıtının
+          hazırlanması.
+        '4': >-
+          BSC blok zinciri ile etkileşime giren farklı akıllı sözleşmelerimizi
+          denetlemek.
+        '5': Kryxivia Alpha'nın lansmanı için Teaser'ı yayınlamak.
+        '6': >-
+          Varlık havuzu likiditesini ve oyun tabanı fonlarını (ILO) oluşturmak
+          için halka açık bir satış yaparak KXA belirtecini başlatmak.
+        '7': >-
+          Beyaz Liste'nin özel Alfa ön erişimi için dağıtılması (ILO'ya katılan
+          cüzdanların avantajları olacaktır).
+        '8': >-
+          NFT'lerin merkezileştirme/ademi merkeziyetçilik hizmetleri arasındaki
+          tüm oyun yönleri, istemci/sunucu ve bağlantılar üzerinde çalışmak.
+        '9': Kryxivia Ekibi üyelerinin KYC prosedürlerini yapmak.
+        '10': >-
+          Oyun içi KXS jetonu için Pancake Swap kontrollü bir havuz oluşturmak
+          (toplanan fonların% 10'uyla).
+        '11': CoinMarketCap, CoinGecko üzerinden listeleme...
+    q1_2022:
+      desc: Kryxivia projesinin başlangıcı
+      list:
+        '1': WebGL tarayıcı oyununu dağıtıma hazır hale getirme
+        '2': >-
+          Zincirdeki diğer oyuncularla oyun içi şeyler takas etmek için NFT
+          öğeleri pazarını dağıtmak.
+        '3': >-
+          Seçilen üyelerin kryxivia.io tarayıcılarında Kryxivia World'de
+          oynamaları için özel alfa öncesi erişimi başlatmak.
+        '4': >-
+          Hataları tespit etmek ve KXA belirteçlerindeki sorunları bildiren hata
+          ödülü oyuncularını ödüllendirmek için alfa öncesi test ağını
+          kullanmak.
+        '5': >-
+          Yeni zindanlar ve daha fazla eşya özelliği ekleyerek, Kryxit
+          mücevherleri ve büyüleri oyun geliştirme.
+        '6': >-
+          Satın aldığınız paketlerle doğrudan oynamaya başlamak için beta
+          erişim-lansman için farklı başlangıç paketlerini (NFT paketleri)
+          başlatın.
+        '7': >-
+          Ekip kapasitesini artırmak, yeni 3D tasarımcı, seviye ve senarist işe
+          almak.
+        '8': PVE içeriğinin iyileştirilmesi.
+    q2_2022:
+      desc: Kryxivia projesinin başlangıcı
+      list:
+        '1': >-
+          Kryxivia Dünyası'nın beta halka açık erişiminin BSC ağının ana ağında
+          yayınlanması.
+        '2': Oyuncular tarafından bulunan alfa öncesi (Q1) hataların düzeltilmesi.
+        '3': >-
+          Kryxivia Madeni'nde baskın sistemlerini (baskın dövüşlerinde birlikte
+          savaşan 20 oyuncu) geliştirmeye başlamak.
+        '4': >-
+          Oyuncuların aktivitelerini ödüllendirmek için günlük görev sistemleri
+          eklemek, böylece en aktif olanları ödüllendirmek.
+        '5': >-
+          Daha büyük bir zindan odası seti üzerinde çalışmak, daha fazla zorluk
+          ve daha iyi Kryxit ve malzeme ödülleri ile madene girmek.
+        '6': >-
+          KXA ve KXS belirteçlerinin en büyük T1 merkezi borsalarında
+          uygulanması ve listelenmesi.
+        '7': >-
+          KXA / KXS jetonu ile ödüller (yılda yeni ödüllerle gerçek yatırım
+          getirisi) kazanmak için oyun içi bahis sistemini bankalayın.
+    q3_2022:
+      desc: Kryxivia projesinin başlangıcı
+      list:
+        '1': >-
+          Ödüllere veya bonus oranlarına ulaşmak için arkadaşlarınızla
+          günlük/haftalık hedeflerle takım kurabileceğiniz teşkilat sistemi.
+        '2': >-
+          Belirli yeni patronlara sahip özel benzersiz NFT'lerle bir etkinlik
+          sistemi sezonu eklemek (yeni sınırlı kozmetik...).
+        '3': >-
+          DAO yönetişimi, etkinlik temaları, ulaşılacak yol haritasında bir
+          sonraki kilometre taşları ve oyun içi oynanış güncellemeleri yapmak
+          için nerf veya yükseltmeler (yüzde olarak cüzdanla sınırlandırılmış)
+          hakkında oy kullanmak için.
+        '4': >-
+          KXS değeri ve fiyat hareketleri hakkında istatistikler ve bilgiler
+          için oyun içi görsel tasarım.
+        '5': >-
+          Tüm oyuncuları, e-seviyelerini ve itibarlarını + envanterlerin
+          benzersizliğini NFT'leri görmek için çevrimiçi merdivenler.
+token-kxs:
+  title: Jeton $KXS
+  metaTitle: Kryxivia • Kryxivia Para $KXS
+  h1: Kryxivia $KXS Coin
+  intro: >-
+    Kryxivia Shard Coin'in kısaltması olan KXS coin, Kryxivia dünyasında
+    oynamak, satın almak, ticaret yapmak ve yeni çevrimiçi parçalara sahip olmak
+    için çevrimiçi para birimidir, çünkü daha fazla risk ve ekonomik hamle
+    taşıdığından, her oyuncunun oynayabileceği bir miktar olması için büyük bir
+    arza sahip olması gerekir.
+  txt1: >-
+    KXS belirtecinin toplam maksimum arzı 5.000.000.000 KXS (5B) ile sınırlıdır
+    ve bu da onu KXA belirtecinden daha erişilebilir ve kullanılabilir hale
+    getirir. KXS belirteci küçültülebilir, bu da oyun içi ödüller veya özel
+    çevrimiçi etkinlikler gibi şeyler için yenilerinin oluşturulabileceği
+    anlamına gelir. CEX ve DEX'teki diğer para birimleri gibi işlem görebilir.
+  txt2: >-
+    Aynı zamanda bir deflasyonist belirteçtir çünkü KXS jetonunu oyun içinde
+    özel ödüller için kullanabilirsiniz, örneğin, eşyalarınızı Kryxit
+    mücevherlerine bağlamak istiyorsanız, bunun gerçekleşmesi için bazı KXS'leri
+    yakmanız gerekir veya yolculuğunuzda size yardımcı olacak iksirler veya
+    diğerleri gibi sarf malzemeleri satın almak istiyorsanız; KXS belirteçlerini
+    şehir NPC'lerine yakmanız gerekecektir.
+  txt3: >-
+    Oyun içi belirteç, oyun içi belirtecin satın alınabilirliğini ve
+    satılabilirliğini sağlamak için yönetilen bir havuzda KXA belirteci
+    tarafından desteklenen merkezi olmayan protokolde temel likiditeye sahip
+    olacak, ancak KXS belirtecini almanın ana yolu, sistemimiz "Kazanmak için
+    Oyna" olarak tanımlandığı gibi, ödüller oynayarak ve kazanarak oyun içi
+    olacaktır.
+token-kxa:
+  title: Jeton $KXA
+  metaTitle: Kryxivia • Kryxivia Para $KXA
+  h1: Kryxivia $KXA Coin
+  intro: >-
+    Ethereum'de konuşlandırılan Kryxivia Coin tokeninin kısaltması olan KXA
+    coin, zincir içi ödemeler ve başlangıç paketleri, özel NFT satış
+    etkinlikleri veya Kryxit Shard anlamına gelen KXS oyun içi para birimi
+    değişimi gibi özel paketler için temel kripto para birimidir.
+  txt1: >-
+    Kryxivia madeni para, toplam maksimum 250.000.000 KXA madeni para arzına
+    sahiptir, Aşağıda ayrıntılı olarak açıklandığı gibi, tokenomiklerimiz
+    oldukça spesifik ve sabittir. KXA belirteci küçültülebilir değildir, yani
+    250 milyondan fazla KXA verilemez.
+  txt2: >-
+    Yüksek zincir içi işlem ücretlerinden kaçınmak için BSC zincirini
+    kullanıyoruz. KXA coin'i, Cüzdanınızı (Metamask gibi) kullanarak oyundan NFT
+    mülkleri (eşyalar, Kryxit, büyüler...) satın almak ve satmak için de
+    kullanabilirsiniz.
+  sub: Tokenomik
+  title1: Kryxivia Coin'in Tokenomikleri
+  subtitle1: Jeton $KXA dağıtımı
+  td1: Sunucu ağı barındırma, oyun istemcisi ve sunucu motoru maliyetleri
+  td2: Pazarlama, benimseme artışı ve proje kitlesini genişletmek için teşvik
+  td3: Oyun içi etkinlik ödülleri, özel çiftlik ve NFT ödülleri
+  td4: Banka sistemleri için staking fonları ve oyuncular için net APY ödülleri
+  td5: Geliştirme ekibi ödeme maliyetleri, ekip payı
+  td6: Projeyi başlatmak için özel token satış öncesi turu
+  td7: Unicrypt Protokolü'nde oyunun beta sürümü için genel belirteç satışı (ILO*)
+  td8: Ekstra operasyonlar için ekosistem fonları
+  td9: Rezerv hazine fonları
+  subtitle2: Takım Resmi Cüzdanları
+  subtitle3: Özel ve Genel Satış Planı
+  wallet1: Kryxivia dağıtıcı cüzdanı
+  wallet2: Sunucu ağı barındırma cüzdanı
+  wallet3: Pazarlama, evlat edinme cüzdanı
+  wallet4: Etkinlikler, oyun içi ödül cüzdanı
+  wallet5: Staking funds cüzdanı
+  wallet6: Geliştirme fonları ekip cüzdanı
+  wallet7: Ekosistem fonları cüzdanı
+  wallet8: Rezerv hazine fonları cüzdanı
+  sale:
+    private:
+      title: Özel Satış Turu
+      discount: ~ {percent} genel satış fiyatından indirim
+      of: KXA'nın {kxa}'sı ({total} - {percent} arzı)
+      price: 'Fiyat: KXA başına {price}'
+      raise: ~ {bnb} BNB = (Toplam = ~{total})
+      close: >-
+        Özel satış Kapanış: < > TGE {percent} kilidi açıldı ve ardından bir yıl
+        boyunca doğrusal kilit açma
+    public:
+      title: Halka Açık Satış Turu
+      discount: ~ {percent} listeleme fiyatından indirim
+      of: KXA'nın {kxa}'sı ({total} - {percent} arzı)
+      price: 'Fiyat: KXA başına {price}'
+      raise: ~ {bnb} BNB = (Toplam = ~{total})
+      close: >-
+        Halka Açık Satış Kapanışı: <-> TGE {percent} kilidi açıldı ve ardından 3
+        ayda doğrusal
+    listing:
+      title: PancakeSwap'ta listeleme
+      price: 'Fiyat: KXA başına {price}'
+      raise: Unicrypt'ten toplanan fonların {percent}'si 1 yıl boyunca kilitlendi
+devblog:
+  title: Devblog ve haberler
+  metaTitle: Kryxivia • Devblog, haberler, güncellemeler ve duyurular
+  h1: Haberler, güncellemeler ve duyurular
+  back: Listeye geri dön
+devblog-slug:
+  title: Devblog ve haberler
+  metaTitle: Kryxivia Dili
+bosses:
+  title: Patronlar
+  metaTitle: Kryxivia • Kryxivia MMORPG Metaverse'in Patronları
+  h1: Kryxivia MMORPG Metaverse'in Patronları
+  fight: Şimdi {boss} ile savaşın!
+  back: Listeye geri dön
+bosses-slug:
+  title: Patronlar
+  progress: Hikaye devam ediyor, daha sonra geri dön...
+bosses-alde:
+  title: Patronlar • Alde
+  metaTitle: Kryxivia • Alde • Kryxivia'nın Patronları
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Alde'nin Alevleri
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-atesgol:
+  title: Patronlar • Ateşol
+  metaTitle: Kryxivia • Atesgol • Kryxivia'nın Patronları
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Atesgol'un Bira Üreticisi
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-valtrena:
+  title: Patronlar • Valtrena
+  metaTitle: Kryxivia • Valtrena • Kryxivia'nın Patronları
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Valtrena'nın Heyelanı
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-k1rig:
+  title: Patronlar • K1 R.I.G
+  metaTitle: Kryxivia • K1 R.I.G • Kryxivia'nın Patronları
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: K1 R.I.G.'nin Dişlileri
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-melucyna:
+  title: Patronlar • Melucyna
+  metaTitle: Kryxivia • Melucyna • Kryxivia'nın Patronları
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Melycuna'nın Dalgaları
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+factions:
+  title: Hizip
+  metaTitle: Kryxivia • Kryxivia'nın Fraksiyonları
+  h1: Üç gruptan birine katıl!
+  want: Olmak istiyorum
+  adventurers:
+    name: Maceracılar
+    title: Maceracı olmak için gerekenlere sahip misin?
+    intro: >-
+      Cesur musunuz ve atalarınızı onurlandırmaya hazır mısınız? Maceracılar
+      grubuna katılmak için güç, cesaret, cesaret ve kararlılık gerekir.
+    paragraphe:
+      - >-
+        Amacınız en zayıfları korumak ve her zamankinden daha güçlü olmak için
+        her gün kendinizi aşmak olacak, cupid insanları, özellikle de zenginlik
+        için her şeyi yapacak olan Tüccarlar fraksiyonunu sevmiyorsunuz. Macera
+        ve meydan okumaya susamış, hangi görevlerin fraksiyonunuzun ideallerini
+        güçlendireceğine karar vermek için yoldaşlarınızla bir araya geldiniz,
+        sonuçta Kry tanrısallığının soyundan geliyorsunuz.
+  nomads:
+    name: Göçebe
+    title: >-
+      Bazen, ihtiyacınız olan tek şey doğadır ve bize gerçek öncelikleri ve
+      temel ihtiyaçları hatırlatır, değil mi?
+    intro: >-
+      Doğayı seviyor musun ve onu korumaya hazır mısın? Göçebeler grubuna
+      katılmak için ormanı, bitkileri, hayvanları sevmeniz ve huzurlu ve sakin
+      bir ortamda yaşama arzusu duymanız gerekir.
+    paragraphe:
+      - >-
+        Via'nın soyundan gelen biri olarak, doğa ile birsiniz. Her bitkiye ve
+        herhangi bir canlıya saygı duyuyorsunuz, tehlikeli bir hayvan fısıldayan
+        olarak yol arkadaşı kazanıyorsunuz. Efsaneye göre en yaşlı Göçebeler
+        Ejderhalarla seyahat ediyordu. Kalbiniz saftır ve bilginizi dinleyen
+        herkesle paylaşırsınız. Öğretileriniz dünyanın cömertliği sayesinde
+        nasıl hayatta kalacağınızı gösteriyor.
+  merchants:
+    name: Tüccar
+    title: >-
+      Ay enerjisini hissediyor musunuz, her zaman ayrı, daha zeki olduğunuzu
+      hissettiniz mi, insanların zihniyle oynamak sizin için kolay mı?
+    intro: >-
+      Tüccar fraksiyonuna katılmak için sosyal ve ticari becerilere sahip
+      olmalısınız, insanların ne beklediğini ve söylemenizi istediğini tam
+      olarak biliyorsunuz, zekisiniz, ticaret becerisinde ustalaşıyorsunuz ve ne
+      zaman manipülatif ve yaramaz olmanız gerekiyorsa.
+    paragraphe:
+      - >-
+        Etrafınıza enerji çekmek için doğal bir eğiliminiz var. Parlak bir
+        büyücü olarak, kelimeleri kendi yararınıza kullanabilirsiniz, bu Xi
+        tanrıçasının etkisinden kaynaklanmaktadır. Var olan en değerli, en geniş
+        ve nadir Kryxit'i yakalamayı hayal ediyorsunuz. Sahip olma ihtiyacı
+        hissettiğiniz fedakarlık ne olursa olsun. Dünyanın acımasız olduğunu ve
+        iyi adamların çok uzun süre hayatta kalamayacağını bilerek, empati ve
+        acımadan yoksunsunuz. Bazen başkalarının ortak iyilik için
+        yapamadıklarını yapmalısınız.
+faq:
+  title: SSS
+  metaTitle: Kryxivia • Sıkça Sorulan Sorular
+  category: Kategori
+  h1: Size nasıl yardımcı olabiliriz?
+  start: Sorununuzun veya sorununuzun kategorisini seçerek başlayın.
+  no-question: Bu kategoride henüz soru listelenmemiştir, daha sonra tekrar kontrol edin!
+  no-answer: >-
+    Sorularınızın cevabını bulamıyor musunuz? Ağlarda bize sorun, ekibimiz size
+    cevap vermekten mutluluk duyacaktır.
+  back: Kategorilere geri dön
+  kryxivia-and-game:
+    title: Kryxivia ve oyun
+    list:
+      - q: Kryxivia nedir?
+        a:
+          - t: Txt
+            c: >-
+              Kryxivia, herhangi bir modern tarayıcıda oynanabilen, doğrudan
+              kryxivia.io'daki web sitemizde bulunan, Kryxit'i toplamak için
+              yeni maceracı oyuncuları bekleyen bütün bir eko-sistem olan
+              fantezi bir 3D MMORPG'dir! Dünyamızda, arkadaşlarınızla eğlenceli
+              ve işbirlikçi bir deneyim yaşarken kendinizi kripto para birimi ve
+              benzersiz nadir NFT kazanmaya hazırlayın.
+      - q: Oynamaya nasıl başlayabilirim?
+        a:
+          - t: Txt
+            c: >-
+              Kryxivia, uyumlu herhangi bir modern tarayıcıyla çalışan çevrimiçi
+              bir MMORPG oyunudur, minimum gerekli doğru GPU'ya sahip herhangi
+              bir bilgisayarda oynayabilirsiniz. Kimlik doğrulaması yapmak ve
+              oyuna giriş yapmak için Metamask tabanlı bir cüzdana sahip olmanız
+              gerekir.
+      - q: Kazanmak için oyun nedir?
+        a:
+          - t: Txt
+            c: >-
+              Kazanmak için oyna oyunları, video oyunlarının eğlencesini
+              zamanınız için gerçek ödüller kazanma fırsatıyla birleştirir.
+              Bizim durumumuzda MMORPG'nin tadını çıkarabilir ve Kryxit
+              jetonları kazanabilirsiniz.
+      - q: Gerçek sahiplik ne anlama geliyor?
+        a:
+          - t: Txt
+            c: >-
+              Gerçek Sahipler, mülkiyetin avantajlarından yararlananlardır.
+              Gerçek Sahipler, faydanın adını alan bireyler veya kuruluşlardır
+              ve bundan herhangi bir avantaj elde etme hakkına sahiptirler.
+      - q: Kryxivia oyunu kazanmak için bir oyun mudur?
+        a:
+          - t: Txt
+            c: Evet Kryxivia, Kryxit oyununu kazanmak için bir oyundur.
+      - q: Kryxivia gerçekten oynaması ücretsiz bir oyun mu?
+        a:
+          - t: Txt
+            c: >-
+              Evet, kryxivia oynamak için Metamask'ınızı sunucuya bağlamanız
+              yeterlidir.
+      - q: Kryxivia'yı nerede oynayabilirim?
+        a:
+          - t: Txt
+            c: Oyunu kryxivia.io
+      - q: Blockchain veya binance akıllı zincir ağını anlamak zorunda mıyım?
+        a:
+          - t: Txt
+            c: >-
+              Hayır, oyunu oynamak için BNBchain hakkında herhangi bir teknik
+              bilgiye sahip olmanıza gerek yoktur.
+      - q: MMORPG nedir?
+        a:
+          - t: Txt
+            c: >-
+              MMORPG, rol yapma video oyunlarının ve devasa çok oyunculu
+              çevrimiçi oyunların unsurlarını birleştiren bir video oyunudur.
+      - q: Hataları nereden bildirebilirim?
+        a:
+          - t: Txt
+            c: >-
+              Bir Alfa-Test Uzmanıysanız, Discord'daki hata raporu kanalındaki
+              hataları bildirebilir ve 40.000 $ 'lık ödülden kazanma şansı elde
+              edebilirsiniz.
+      - q: Kryxivia oynamak için bilgisayarın gereksinimleri nelerdir?
+        a:
+          - t: Txt
+            c: >-
+              Önerilen gereksinimler en az 4GB RAM, Intel Core i5, GPU GeForce
+              GTX 900 Serisi ve katı hal sürücüsüdür.
+  wallet-kxa-kxs:
+    title: Cüzdanlar, KXA ve KXS
+    list:
+      - q: $KXA nedir?
+        a:
+          - t: Txt
+            c: >-
+              $KXA veya Kryxivia Coin belirteci, başlangıç paketleri, özel NFT
+              satış etkinlikleri veya Kryxit Shard anlamına gelen oyun içi para
+              birimi $KXS için değişim gibi zincir içi ödemeler için kullanılan
+              kripto para birimidir.
+      - q: $KXS nedir?
+        a:
+          - t: Txt
+            c: >-
+              Kryxivia Shard Coin'in kısaltması olan $KXS madeni para, Kryxivia
+              dünyasında oynamak, satın almak, ticaret yapmak ve yeni çevrimiçi
+              parçalara sahip olmak için çevrimiçi para birimidir.
+      - q: $KXA ve $KXS nasıl alıp satabilirim?
+        a:
+          - t: Txt
+            c: 'Burada listelenen borsalardan $KXA satın alabilirsiniz:'
+          - t: düğme
+            c: CoinMarketCap
+            link: https://coinmarketcap.com/currencies/kryxivia/
+          - t: Txt
+            c: $KXS henüz listelenmemiştir.
+      - q: Kripto ve oyun eşyalarım güvende mi?
+        a:
+          - t: Txt
+            c: >-
+              Evet, Kryxivia Solidproof tarafından güvenli olduğu doğrulanmıştır
+              ve tüm oyun içi varlıklarınız ve kriptolarınız bizimle güvendedir.
+          - t: düğme
+            c: SolidProof Denetimi
+            link: >-
+              https://github.com/solidproof/projects/blob/main/Kryxivia/MysteryBox/SmartContract_Audit_Solidproof_Kryxivia%20MysteryBox.pdf
+      - q: Airdrop'lar nedir ve bunları nasıl alabilirim?
+        a:
+          - t: Txt
+            c: >-
+              Airdrops, benimsenmeyi artırmak için topluluklarına toplu olarak
+              token sağlayan kripto projelerini içerir.
+          - t: Txt
+            c: >-
+              Kryxivia airdropları ile ilgili tüm duyurular resmi twitter
+              hesabında duyurulacaktı.
+      - q: Kripto ve nft cüzdanımı nasıl bağlayabilirim?
+        a:
+          - t: Txt
+            c: >-
+              Üzerinde Binance ağı olan bir metamask hesabınızın olması gerekir,
+              bundan sonra kryxivia web sitesini açmanız ve cüzdanı bağla'ya
+              tıklamanız gerekir.
+          - t: Txt
+            c: Bundan sonra, bağlantının izni için cüzdan bildirimi açılacaktır.
+      - q: NFT'lerimi veya kriptomu başka bir cüzdana nasıl gönderebilirim?
+        a:
+          - t: düğme
+            c: Devamını oku
+            link: https://nftdesire.io/how-to-transfer-nft-to-another-wallet/
+  login-and-account:
+    title: Giriş ve Hesap
+    list: []
+  website-and-social:
+    title: Web Sitesi ve Sosyal
+    list:
+      - q: Sorular veya endişeler için kiminle konuşmalı?
+        a:
+          - t: Txt
+            c: >-
+              Tüm sosyal medya sohbetlerimiz modlarla aktiftir, Discord ve
+              Telegram'ımıza katılabilirsiniz.
+  characters-and-equipments:
+    title: Karakterler ve Ekipmanlar
+    list: []
+  monsters-and-dungeons:
+    title: Canavarlar ve Zindanlar
+    list: []
+  others:
+    title: Diğer
+    list: []
+faq-slug:
+  title: SSS
+dungeons:
+  title: Kryxivia Madeni
+  metaTitle: Kryxivia • Kryxivia Madeni
+  h1: Kryxivia Madeni'ni keşfedin ve değerli NFT'leri toplayın!
+  intro: >-
+    Kryxivia Şehrinin içinde, uzun zaman önce keşfedilen eski bir madene giden
+    dev bir kapı bulacaksınız. Maceracılar, madenin içindeki Kryxit'i anlamak ve
+    onları toplamak için Kryxivia Şehrini etrafına inşa etmeye karar verdiler.
+    Korkunç canavarların o madeni koruduğunu ve ellerini üzerlerine koymak için
+    ölümüne savaşmaları gerektiğini çabucak anladılar!
+  txt1: >-
+    Üç tanrısallığın gücünün kaynağı gibi görünen Kryxit'i korumak için
+    Madeni'ni büyüleyecek olan tanrıça Via hakkında hikayeler duyduk: Kry, Xi ve
+    Via.
+  catalysts:
+    sub: Katalizörler
+    title1: Maden zindanlarına farklı modlarda girin!
+    txt1: >-
+      Katalizörler sizi alternatif 'mayın hatlarına' götürür. Girmeden önce bir
+      tane kullanırsanız, içeride karşılaştığınız patronlar çok daha güçlü
+      olacak ve çok daha güçlü kriksitler bırakacaktır - yeni büyüler ve daha
+      iyi istatistikler için eşyalarınızı soketleyebileceğiniz büyülü taşlar.
+    txt2: >-
+      Her Katalizör eşit yaratılmamıştır - bazıları zorluğu diğerlerinden daha
+      fazla ayarlayacaktır. Zorluk seviyesi zindanın Crux seviyesi olarak
+      bilinir. Crux ne kadar yüksek olursa, patronlar o kadar zor ve damlalar o
+      kadar iyi olur.
+    blue: Mavi Katalizör
+    yellow: Sarı Katalizör
+    orange: Turuncu Katalizör
+    red: Kırmızı Katalizör
+    purple: Mor Katalizör
+  boss:
+    sub: Kryxivia'nın Patronları
+    title1: >-
+      En zor patronları yenerek ve yeni zirvelere ulaşmak için Catalyst'i
+      kullanarak karakter NFT'lerinizin seviyesini yükseltin!
+    txt1: >-
+      Kryxivia'da, NFT'ler yasa yapar, bu da karakter seviyenizin donattığınız,
+      pazarda takas ettiğiniz veya Kryxivia madenindeki canavarlara karşı
+      kazandığınız eşyalara dayandığı anlamına gelir. Karakterdeki eşyalarınıza
+      bağlı bir I-Lvl dediğimiz şeye sahipsiniz. Patronlar size ekipman, Kryxit
+      Shard coin (KXS) ve büyüler verecek. Algoritmik değere dayanarak,
+      ganimetler sürdürülebilir bir ekonomi sağlamak için oyuncuların
+      faaliyetlerine dayanan farklı hesaplamalarla belirlenir. Bazı NFT'ler
+      süper sınırlı olabilir ve potansiyel olarak bir kez konuşlandırıldıktan
+      sonra bir daha asla yağmalanmayabilir ve belirli bir miktar zaten düşmüş
+      veya günlük, haftalık, aylık veya yıllık olarak sınırlandırılmıştır.
+kryxivia:
+  title: Kryxivia Dili
+  metaTitle: Kryxivia • Şehir ve Tarih
+  h1: Kryxivia'nın fantastik dünyasını keşfedin
+  intro: >-
+    Dünyamızda doğduğunuzda, maceranıza başlamak için Kryxivia şehrine
+    gönderilirsiniz, şehirde, büyülü madende oyununuza başlamadan önce tüm
+    ihtiyaçlarınızı bulacaksınız.
+  txt1: >-
+    Tüm oyuncular lobi alanında, o gizemli kapının içinde savaşmaya
+    hazırlanırken şehirde bir şeyler yapıyor! Yolculuğunuz boyunca size
+    rehberlik edecek birkaç NPC bulabilir ve birlikte baskınlar veya zindanlar
+    yapmak için insanlarla ittifaklar / gruplar oluşturabilirsiniz.
+  txt2: >-
+    Maden ile şehir arasında gidiş-dönüş yapmak için zaman kaybını önlemek için
+    ana ihtiyaç duyulan NPC'lere sahip merkezi bir yer var, diğerleri için
+    onları diğerlerinden sıradışı görünen belirli binalarda bulabilirsiniz.
+  story:
+    sub1: Kryxivia Şehri
+    title1: Kryxivia Şehri vakfının hikayesi
+    txt1: >-
+      İnsanın henüz endüstriyi icat etmediği bir zamanda. Bazıları dağda
+      kaybolan garip bir kapı keşfetmişti. Oradan Kryxit'i, muazzam güce sahip
+      sihirli mücevherleri buldular. Birçoğu ilk önce ülkeler tarafından
+      gönderilen toplanmaya başlar.
+    txt2: ' Kryxivia, birkaç yıl önce keşfedilen büyük bir kapının etrafındaki dağlarda bulunan, çoğunlukla küçük maceracı ve tüccar grupları tarafından plansız inşa edilen yeni ve çiçek açan bir şehirdir.'
+    txt3: >-
+      Kryxivia halkı birçok ufuktan geliyor, neredeyse hiçbiri düzenli bir
+      ordudan gelmiyor, bu yüzden kıyafetleri çoğunlukla uyumsuz ve yol boyunca
+      toplanıyor. Tam metal dişli bu dünyada kolayca bulunamaz, bu nedenle aşırı
+      derecede zengin olmadıkça, insanlar hem kumaş, hem deri hem de metali bir
+      arada giyme eğilimindedir.
+    txt4: >-
+      Erkekler kapıdan çok fazla ganimet getirecekler ama her zaman geri
+      gelmeyecekler. Kryxivia şehri kapının etrafında oluşmaya başladı ve birçok
+      tüccar bu çok sık ziyaret edilen yerden kar elde etti. Şimdi, birkaç yıl
+      sonra, şanslarını deneyen insanların çoğu sizin gibi paralı askerler veya
+      bağımsızlar. 
+  map:
+    sub1: Kryxivia Haritası
+    title1: En önemli binalar
+    banks:
+      title: Banka
+      desc: >-
+        İçe aktarılan NFT'lerinizi veya KX'lerinizi Banka'dan alın, APY veya
+        ihtiyacınız olmayan envanter öğeleri için para birimleri yatırın.
+    leader:
+      title: Liderlik Tablosu
+      desc: >-
+        Kryxivia'daki en iyi savaşçıları buradan görüntüleyin, bu merdiven en
+        iyi PVP ve PVE oyuncularını içerir.
+    nft:
+      title: NFT Dışa Aktarma
+      desc: >-
+        Bu NPC, NFT öğelerinizi yalnızca birini seçerek blok zinciri cüzdanınıza
+        aktarmak için kullanılır.
+    portail:
+      title: Kryxivia Madeni
+      desc: >-
+        Bu, zindanlarda patronlar bulacağınız Kryxivia Madeni'ne girmenin
+        kapısıdır.
+    socketing:
+      title: Demirci
+      desc: >-
+        Kryxit'lerinizi envanter öğelerinize yerleştirmek için Demirci ile
+        konuşun.
+    training:
+      title: Antrenman
+      desc: >-
+        Antrenman alanında, yeteneklerinizi ve yumruk topunda verdiğiniz hasarı
+        test edebilirsiniz.
+patchnotes:
+  nav: Yama Notları
+  title: Yama Notları ve Sürümler
+  metaTitle: Kryxivia • Yama Notları ve Sürümler
+  h1: En son yama notları ve sürümleri keşfedin
+  sub: Yama Notları
+  know: 'Bilinen hatalar:'

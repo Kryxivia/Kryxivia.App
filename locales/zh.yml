@@ -1,0 +1,695 @@
+all:
+  title: Kryxivia • 一款利用区块链上NFT的创新MMORPG游戏
+  desc: 欢迎来到克雷西维亚！区块链上的3D NFT多元宇宙MMORPG网页游戏。全新的创新游戏体验，助您一臂之力。使用币安智能链网络。
+  open: 打开
+  close: 关闭
+  back: 返回
+  progress: 进行中
+  finish: 完成
+  view_details: 查看详情
+  step: 步
+  discover: 发现
+  lvl: 水平
+  more: 阅读更多
+  soon: 即将推出。。。
+  alpha: 公共阿尔法开始于
+  buy: 买
+wallets:
+  metamask:
+    name: 元掩码
+    connect: 连接到您的元掩码
+  walletconnect:
+    name: 钱包连接
+    connect: 连接到您的钱包连接
+  fortmatic:
+    name: 福特马泰克
+    connect: 与您的 Fortmatic 帐户连接
+  bcw:
+    name: 币安链钱包
+    connect: 连接您的币安链钱包
+play:
+  intro: 选择一个平台，探索Kryxivia的世界！
+  launcher:
+    title: Kryxivia Launcher
+    desc: 下载Kryxivia以获得最佳体验！
+  client:
+    title: WebGL Client
+    desc: 在您的网络浏览器上玩Kryxivia！
+header:
+  connect: 连接
+  play: 现在玩
+  nav: 导航
+  dev: Devblog & news
+  game: 游戏
+  apps: 应用程序
+  view: 查看所有新闻
+  rights: 保留所有权利。
+  policy: 隐私策略
+  press: 新闻资源
+  partner: 合作 伙伴
+  doc: 文档
+nav:
+  kryxivia:
+    home: 家
+    kxa: 令牌$KXA
+    kxs: 令牌$KXS
+    team: 团队
+    dev: 开发博客
+    road: 路线图
+    lite: 精简版
+  game:
+    kryxivia: 克雷西维亚
+    faction: 派别
+    dungeon: 克雷西维亚矿
+    boss: 老板
+    kryxit: 氪星
+    equipment: 设备
+    pvp: PVP 竞技场
+  apps:
+    market: 市场
+    staking: 打
+    nft: NFT 查看器
+    launcher: 发射
+    client: 客户
+    leaderboard: 排行榜
+    faq: 常见问题
+bottom:
+  sound: 音乐
+  scroll: 滚动浏览
+  powered: 提供者
+  developed: 开发者
+  online: 在线
+index:
+  metaTitle: Kryxivia • 一款利用区块链上NFT的创新MMORPG游戏
+  title: 家
+  h1: 主页
+home:
+  sub1: 一款创新的MMORPG游戏，利用区块链上的NFT
+  h1: 欢迎使用“玩赢”体验
+  play: 现在玩
+  trailer: 拖车
+  sec1:
+    sub1: 一个互动和有趣的3D大型多人在线角色扮演游戏
+    title1: 加密货币作为游戏经济的革命
+    txt1: >-
+      现在，在您的浏览器或PC上与朋友一起玩一个互动和有趣的3D
+      MMORPG，同时收集NFT，这些NFT为您提供奖励，这些奖励由您在Kryxivia宇宙中的进步获得的加密货币利润支持！
+    txt2: 在Kryxivia，我们使用区块链可以提供的最佳功能，为您带来最佳的游戏内经济性。
+    bn: 探索克雷希维亚
+  sec2:
+    sub1: 一个结合了NFTS和加密货币的世界
+    title1: 探索Kryxivia世界中的地下城，并收集NFT与其他玩家进行交易。
+    txt1: >-
+      通过与Kryxivia矿中最强大的Boss战斗来获得有价值和独家的NFT。战利品消耗品，你可以应用于你的角色的盔甲和可用作法术的Kryxit宝石。所有这些都将允许您自定义游戏玩法。
+    bn: 探索地牢
+  sec3:
+    sub1: 独一无二的经济
+    title1: 元界宇宙的两种加密货币
+    txt1: >-
+      KXA令牌代表部署在Ethereum上的Kryxivia
+      Coin令牌，是链上支付和特殊捆绑，化妆品，特殊NFT销售活动或KXS游戏内货币交换的基础加密货币，以及在我们的NFT市场上买卖。
+    txt2: >-
+      KXS令牌，代表在Ethereum上实现的Kryxivia Shard
+      Coin，是一种在线货币，可以直接在游戏中玩，购买，交易，并在Kryxivia世界中拥有新的在线棋子。由于它带来了更多的风险和经济走势，它必须有巨大的供应，以便每个玩家都可以玩一些。
+  sec4:
+    sub1: 现在就开始玩吧！
+    title1: 加入克雷西维亚冒险！
+team:
+  metaTitle: Kryxivia • Kryxivia团队
+  title: 团队
+  h1: Kryxivia团队
+  role:
+    '1': 领导
+    '2': 游戏开发
+    '3': 设计师3D和VFX艺术家
+    '4': UI/UX Designer & Front Developer
+    '5': 营销与传播
+    '6': 声音设计师
+  poste:
+    '1': 首席执行官兼创始人
+    '2': 首席技术官
+    '3': 引导客户端游戏玩法
+    '4': 首席区块链工程师
+    '5': 软件全栈工程师
+    '6': Unity 3D Developer
+    '7': 全栈开发人员
+    '8': 视觉特效游戏设计师
+    '9': 关卡设计师 / 3D艺术
+    '10': 3D角色/物品艺术家
+    '11': 合作伙伴工作室/ 3D艺术家
+    '12': 游戏设计师顾问
+    '13': 首席 UI/UX 设计师
+    '14': 全栈开发者网站
+    '15': 创意开发者
+    '16': 平面设计师
+    '17': 影音制作
+    '18': 首席营销官
+    '19': 社区经理
+    '20': 声音设计师
+    '21': 音乐作曲家
+    '22': 团队管理
+    '23': 软件工程师
+leaderboard:
+  title: 排行榜
+  metaTitle: Kryxivia • 排行榜 • Kryxivia最伟大的玩家
+  h1: Kryxivia最伟大的球员
+roadmap:
+  metaTitle: Kryxivia • Kryxivia的路线图
+  title: 路线图
+  discover: 了解我们的路线图
+  h1: Kryxivia的路线图
+  road:
+    q3_2021:
+      desc: Kryxivia项目的开始
+      list:
+        '1': 在币安智能链测试网上部署KXA和KXS令牌，用于Alpha。
+        '2': 开始开发，测试基本游戏玩法，游戏服务器和区块链链接。
+        '3': 致力于Kryxivia宇宙的3D建模。
+        '4': 做城市的关卡设计，我的，在游戏的传说中工作，探索Kryxit和宝石功能系统。
+    q4_2021:
+      desc: Kryxivia项目的开始
+      list:
+        '1': 推出包含Kryxivia基础知识的在线网站，发布演示文稿文件。
+        '2': 在我们的GitHub存储库和不同的智能合约上开源发布Kryxivia代码库。
+        '3': 使用Unity WebGL，C#和Node准备游戏的概念验证.js。
+        '4': 审核我们与平衡计分卡区块链交互的不同智能合约。
+        '5': 发布Kryxivia Alpha的预告片。
+        '6': 通过公开销售启动KXA令牌，以创建资产池流动性和游戏基础基金（ILO）。
+        '7': 为私有Alpha预访问部署白名单（参与国际劳工组织的钱包将具有优势）。
+        '8': 处理所有游戏方面，客户端/服务器以及NFT的集中化/分散化服务之间的连接。
+        '9': 做Kryxivia团队成员的KYC程序。
+        '10': 为游戏内KXS令牌创建一个Pancake Swap控制池（占筹集资金的10%）。
+        '11': 在CoinMarketCap，CoinGecko上市...
+    q1_2022:
+      desc: Kryxivia项目的开始
+      list:
+        '1': 让 WebGL 浏览器游戏做好部署准备
+        '2': 部署NFT物品市场，与链上的其他玩家交易游戏内的东西。
+        '3': 启动私有的 alpha 前期访问，让选定的成员在 kryxivia.io 浏览器中玩 Kryxivia 世界。
+        '4': 使用测试网作为pre-alpha来发现错误，并奖励在KXA令牌中报告问题的bug赏金玩家。
+        '5': 添加新的地下城和更多物品规格，Kryxit宝石和法术游戏开发。
+        '6': 启动不同的入门包（NFT包）以进行测试版访问启动，以直接开始玩您购买的包。
+        '7': 增加团队能力，招募新的3D设计师，关卡和场景设计师。
+        '8': 改进了 PVE 内容。
+    q2_2022:
+      desc: Kryxivia项目的开始
+      list:
+        '1': 在平衡计分卡网络的主网络上发布Kryxivia World的测试版公开访问。
+        '2': 修复玩家发现的 alpha 之前 （Q1） 中的错误。
+        '3': 开始在Kryxivia矿场开发突袭系统（+20名玩家在突袭战斗中一起战斗）。
+        '4': 添加每日任务系统来奖励玩家的活动，从而奖励最活跃的玩家。
+        '5': 在矿井中建造一套更大的地下城房间，难度更大，Kryxit更好，还有东西奖励。
+        '6': 在顶级主要T1中心化交易所应用和上市KXA和KXS代币。
+        '7': 银行游戏内投注系统，以赢得KXA / KXS令牌的奖励（每年新奖励的真正投资回报率）。
+    q3_2022:
+      desc: Kryxivia项目的开始
+      list:
+        '1': 公会系统，与你的伙伴组队，制定每日/每周目标，以达到奖励或奖金率。
+        '2': 添加一个事件系统赛季，其中包含特殊的独特NFT和特定的新老板（新的有限装饰品...
+        '3': DAO治理，对事件主题，路线图上要实现的下一个里程碑以及nerf或升级进行游戏内游戏更新进行投票（以钱包百分比限制）。
+        '4': 游戏中的视觉设计，用于有关KXS价值和价格变动的统计信息和信息。
+        '5': 在线阶梯查看所有玩家，他们的电子水平和声誉+库存NFT的独特性。
+token-kxs:
+  title: 令牌$KXS
+  metaTitle: Kryxivia • Kryxivia Coin $KXS
+  h1: Kryxivia $KXS Coin
+  intro: >-
+    KXS硬币，代表Kryxivia碎片硬币，是在线货币，可以在Kryxivia世界中玩，购买，交易和拥有新的在线零件，因为它携带更多的风险和经济举措，它需要有巨大的供应，以便每个玩家都可以玩一些。
+  txt1: >-
+    KXS令牌的总最大供应量上限为5，000，000，000
+    KXS（5B），这使得它在游戏中比KXA令牌更易于访问和可用。KXS令牌是可小规模的，这意味着可以为诸如耕种游戏内奖励或特殊在线活动之类的事情创建新的令牌。它可以像CEX和DEX上的任何其他货币一样进行交易。
+  txt2: >-
+    这也是一个通货紧缩令牌，因为你可以在游戏中使用KXS令牌获得特殊奖励，例如，如果你想将你的物品链接到Kryxit宝石，你需要燃烧一些KXS来实现它，或者如果你想购买药水等消耗品物品来帮助你完成旅程;你需要将KXS代币刻录到城市NPC身上。
+  txt3: >-
+    游戏内代币将基于托管池上的KXA代币支持的分散协议，以确保游戏内代币的购买能力和可售性，但获得KXS代币的主要方式仍然是通过玩游戏和赢得奖励在游戏中，因为我们的系统被描述为“玩赚取”。
+token-kxa:
+  title: 令牌$KXA
+  metaTitle: Kryxivia • Kryxivia Coin $KXA
+  h1: Kryxivia $KXA Coin
+  intro: >-
+    KXA硬币代表部署在Ethereum上的Kryxivia
+    Coin令牌，是链上支付和特殊软件包的基础加密货币，例如入门包，特殊NFT销售活动或KXS游戏内货币的交换，代表Kryxit Shard。
+  txt1: >-
+    Kryxivia硬币的总最大供应量为250，000，000
+    KXA硬币，如下所述，我们的令牌组学相当具体和恒定。KXA令牌不是可铸造的，这意味着它不能有超过2.5亿个KXA。
+  txt2: >-
+    我们使用平衡计分卡链来避免高昂的链上交易费用。您还可以使用KXA硬币使用您的钱包（如Metamask）从游戏中购买和出售NFT属性（物品，Kryxit，咒语......）到我们的在线市场。
+  sub: 代币组学
+  title1: Kryxivia Coin的Tokenomics
+  subtitle1: 代币$KXA分配
+  td1: 服务器托管、游戏客户端和服务器引擎成本
+  td2: 营销，采用增加和激励扩大项目受众
+  td3: 游戏内事件奖励、特殊农业和 NFT 奖励
+  td4: 为银行系统抵押资金，为玩家提供净APY奖励
+  td5: 开发团队支付成本、团队分成
+  td6: 私人代币预售轮次以启动项目
+  td7: 在Unicrypt协议上发布游戏测试版的公开代币销售（ILO*）
+  td8: 用于额外运营的生态系统基金
+  td9: 储备国库基金
+  subtitle2: 团队官方钱包
+  subtitle3: 私人和公开销售计划
+  wallet1: Kryxivia deployer wallet
+  wallet2: 服务器网络托管钱包
+  wallet3: 营销，采用钱包
+  wallet4: 事件，游戏内奖励钱包
+  wallet5: 质押资金钱包
+  wallet6: 开发资金团队钱包
+  wallet7: 生态系统基金钱包
+  wallet8: 储备国库资金钱包
+  sale:
+    private:
+      title: 私人销售回合
+      discount: ~ {percent} 公开销售价格的折扣
+      of: '{kxa} of KXA （{total} - {percent} supply）'
+      price: 价格：{price} 每个 KXA
+      raise: 提高 ~ {bnb} BNB = （总计 = ~{total}）
+      close: 私下销售平仓：<-> TGE {percent} 解锁，然后在一年内线性解锁
+    public:
+      title: 公开销售回合
+      discount: ~ {percent} 从上市价格折扣
+      of: '{kxa} of KXA （{total} - {percent} supply）'
+      price: 价格：{price} 每个 KXA
+      raise: 提高 ~ {bnb} BNB = （总计 = ~{total}）
+      close: 公开发售平仓：<-> TGE {percent} 解锁，然后在 3 个月内线性关闭
+    listing:
+      title: 在PancakeSwap上列出
+      price: 价格：{price} 每个 KXA
+      raise: 从Unicrypt筹集的资金的{percent}被锁定1年
+devblog:
+  title: Devblog & news
+  metaTitle: Kryxivia • Devblog， news， updates & notices
+  h1: 新闻，更新和公告
+  back: 返回列表
+devblog-slug:
+  title: Devblog & news
+  metaTitle: 克雷西维亚
+bosses:
+  title: 老板
+  metaTitle: Kryxivia • Kryxivia MMORPG Metaverse 的 Boss
+  h1: Kryxivia MMORPG Metaverse 的 Boss
+  fight: 现在就打{boss}！
+  back: 返回列表
+bosses-slug:
+  title: 老板
+  progress: 故事正在进行中，稍后再回来...
+bosses-alde:
+  title: 老板 • 阿尔德
+  metaTitle: Kryxivia • Alde • Kryxivia的老板
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: 奥尔德之火
+  intro: >-
+    Lorem， ipsum dolor sit amet consectetur adipisicing elit.Quod， aliquid quos
+    vero hic accusamus， repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione！
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia，
+    corrupti veniam amet consectetur tempore ad assumenda， distinctio odio， quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia，
+      corrupti veniam amet consectetur tempore ad assumenda， distinctio odio，
+      quas fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia， corrupti veniam amet consectetur tempore ad assumenda， distinctio
+      odio， quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia，
+      corrupti veniam amet consectetur tempore ad assumenda， distinctio odio，
+      quas fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia， corrupti veniam amet consectetur tempore ad assumenda， distinctio
+      odio， quas fuga.
+bosses-atesgol:
+  title: 老板 • 阿特斯格尔
+  metaTitle: Kryxivia • Atesgol • Kryxivia的老板
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: 阿特斯戈尔的酿酒师
+  intro: >-
+    Lorem， ipsum dolor sit amet consectetur adipisicing elit.Quod， aliquid quos
+    vero hic accusamus， repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione！
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia，
+    corrupti veniam amet consectetur tempore ad assumenda， distinctio odio， quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia，
+      corrupti veniam amet consectetur tempore ad assumenda， distinctio odio，
+      quas fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia， corrupti veniam amet consectetur tempore ad assumenda， distinctio
+      odio， quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia，
+      corrupti veniam amet consectetur tempore ad assumenda， distinctio odio，
+      quas fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia， corrupti veniam amet consectetur tempore ad assumenda， distinctio
+      odio， quas fuga.
+bosses-valtrena:
+  title: 老板 • 瓦尔特琳娜
+  metaTitle: Kryxivia • Valtrena • Kryxivia的老板
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: 瓦尔特雷纳山体滑坡
+  intro: >-
+    Lorem， ipsum dolor sit amet consectetur adipisicing elit.Quod， aliquid quos
+    vero hic accusamus， repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione！
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia，
+    corrupti veniam amet consectetur tempore ad assumenda， distinctio odio， quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia，
+      corrupti veniam amet consectetur tempore ad assumenda， distinctio odio，
+      quas fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia， corrupti veniam amet consectetur tempore ad assumenda， distinctio
+      odio， quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia，
+      corrupti veniam amet consectetur tempore ad assumenda， distinctio odio，
+      quas fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia， corrupti veniam amet consectetur tempore ad assumenda， distinctio
+      odio， quas fuga.
+bosses-k1rig:
+  title: 老板 • K1 R.I.G
+  metaTitle: Kryxivia • K1 R.I.G • Kryxivia 的 Bosss
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: K1 R.I.G 的齿轮
+  intro: >-
+    Lorem， ipsum dolor sit amet consectetur adipisicing elit.Quod， aliquid quos
+    vero hic accusamus， repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione！
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia，
+    corrupti veniam amet consectetur tempore ad assumenda， distinctio odio， quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia，
+      corrupti veniam amet consectetur tempore ad assumenda， distinctio odio，
+      quas fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia， corrupti veniam amet consectetur tempore ad assumenda， distinctio
+      odio， quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia，
+      corrupti veniam amet consectetur tempore ad assumenda， distinctio odio，
+      quas fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia， corrupti veniam amet consectetur tempore ad assumenda， distinctio
+      odio， quas fuga.
+bosses-melucyna:
+  title: 老板 • 梅露西娜
+  metaTitle: Kryxivia • Melucyna • Kryxivia的老板
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: 梅利库纳的波浪
+  intro: >-
+    Lorem， ipsum dolor sit amet consectetur adipisicing elit.Quod， aliquid quos
+    vero hic accusamus， repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione！
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia，
+    corrupti veniam amet consectetur tempore ad assumenda， distinctio odio， quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia，
+      corrupti veniam amet consectetur tempore ad assumenda， distinctio odio，
+      quas fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia， corrupti veniam amet consectetur tempore ad assumenda， distinctio
+      odio， quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia，
+      corrupti veniam amet consectetur tempore ad assumenda， distinctio odio，
+      quas fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia， corrupti veniam amet consectetur tempore ad assumenda， distinctio
+      odio， quas fuga.
+factions:
+  title: 派别
+  metaTitle: Kryxivia • Kryxivia的派系
+  h1: 加入三个派系之一！
+  want: 我想成为
+  adventurers:
+    name: 探险 家
+    title: 你有什么需要成为一名冒险家吗？
+    intro: 你大胆，准备好尊重你的祖先了吗？要加入冒险家派系，你需要力量、勇气、勇气和决心。
+    paragraphe:
+      - >-
+        你的目标将是保护最弱者，每天超越自己，变得比以往任何时候都更强大，你不喜欢丘比特人，尤其是商人派系，他们会为财富做任何事情。渴望冒险和挑战，你已经和你的同伴一起决定哪些任务会加强你的派系的理想，毕竟你是Kry神性的后裔。
+  nomads:
+    name: 游牧 民族
+    title: 有时，大自然就是您所需要的一切，并提醒我们真正的优先事项和基本必需品，对吧？
+    intro: 你热爱大自然，准备好保护她了吗？要加入游牧民族派系，你需要热爱森林，植物，动物，并希望生活在一个和平和平静的环境中。
+    paragraphe:
+      - >-
+        作为维亚的后裔，你与自然合而为一。你尊重每一种植物和任何生物，作为一个危险的动物低语者，你得到了同伴。传说最古老的游牧民族与龙一起旅行。你的心是纯洁的，你与每个倾听的人分享你的知识。你的教導展示了如何因著地球的慷慨而生存。
+  merchants:
+    name: 客商
+    title: 你是否感受到月亮的能量，你是否一直觉得自己是分开的，更聪明，你很容易玩弄别人的心灵吗？
+    intro: 要加入商人派系，你必须具有社交和商业技能的天赋，你确切地知道人们期望和希望你说什么，你是聪明的，掌握交易的技能，以及当它需要时操纵和恶作剧。
+    paragraphe:
+      - >-
+        你有一种吸引周围能量的自然倾向。作为一个才华横溢的魅惑者，你可以用言语来发挥自己的优势，这是由于西女神的影响。你梦想着捕捉到现存最珍贵，最广阔和最稀有的Kryxit。无论你做出什么样的牺牲，你都觉得有必要拥有。知道这个世界是残酷的，好人活不了多久，你缺乏同理心和怜悯。有时，为了共同的利益，你必须做别人做不到的事情。
+faq:
+  title: 常见问题
+  metaTitle: 克雷西维亚 • 常见问题
+  category: 类别
+  h1: 我们能为您提供什么帮助？
+  start: 首先选择您的问题或问题的类别。
+  no-question: 此类别中尚未列出任何问题，请稍后再回来查看！
+  no-answer: 您找不到问题的答案？在网络上询问我们，我们的团队将很乐意回答您。
+  back: 返回类别
+  kryxivia-and-game:
+    title: Kryxivia和游戏
+    list:
+      - q: 什么是Kryxivia？
+        a:
+          - t: txt
+            c: >-
+              Kryxivia是一款奇幻3D MMORPG，可在任何现代浏览器上玩，可直接在我们的网站上
+              kryxivia.io，这是一个完整的生态系统，等待新的冒险玩家收集Kryxit！在我们的世界中，准备好赚取加密货币和独特的稀有NFT，同时与您的朋友一起享受有趣和合作的体验。
+      - q: 如何开始游戏？
+        a:
+          - t: txt
+            c: >-
+              Kryxivia是一款在线MMORPG游戏，可与任何兼容的现代浏览器配合使用，您可以在任何计算机上使用最低要求的正确GPU进行游戏。要进行身份验证并登录游戏，您需要拥有一个基于Metamask的钱包。
+      - q: 什么是游戏赚取？
+        a:
+          - t: txt
+            c: 玩游戏赚取游戏将视频游戏的乐趣与为您的时间赚取真正奖励的机会相结合。在我们的例子中，您可以享受MMORPG并赚取Kryxit代币。
+      - q: 真正的所有权意味着什么？
+        a:
+          - t: txt
+            c: 实际所有者是那些获得所有权利益的人。真正的所有者是那些确实获得福利名称的个人或实体，他们有权从中获得任何好处。
+      - q: Kryxivia是赢得比赛吗？
+        a:
+          - t: txt
+            c: 是的，Kryxivia是一款赚取Kryxit游戏的游戏。
+      - q: Kryxivia真的是一款免费游戏吗？
+        a:
+          - t: txt
+            c: 是的，要玩kryxivia，你只需要将Metamask与服务器连接起来。
+      - q: 我在哪里可以玩Kryxivia？
+        a:
+          - t: txt
+            c: 您可以在 kryxivia.io 玩游戏
+      - q: 我必须了解区块链还是币安智能链网络？
+        a:
+          - t: txt
+            c: 不，您不需要具备任何BNBchain技术知识即可玩游戏。
+      - q: 什么是大型多人在线角色扮演游戏？
+        a:
+          - t: txt
+            c: MMORPG是一款结合了角色扮演视频游戏和大型多人在线游戏元素的视频游戏。
+      - q: 在哪里可以报告错误？
+        a:
+          - t: txt
+            c: >-
+              如果您是 Alpha 测试人员，则可以在 Discord 上的 bug 报告频道上报告 bug，并有机会从 40，000
+              美元的赏金中获利。
+      - q: 玩Kryxivia的PC要求是什么？
+        a:
+          - t: txt
+            c: 建议的要求是至少4GB的RAM，Intel Core i5，GPU GeForce GTX 900系列和固态硬盘。
+  wallet-kxa-kxs:
+    title: 钱包、KXA 和 KXS
+    list:
+      - q: 什么是$KXA？
+        a:
+          - t: txt
+            c: >-
+              $KXA或Kryxivia
+              Coin令牌是用于链上支付的加密货币，例如入门包，特殊的NFT销售活动，或交换游戏内货币$KXS，代表Kryxit Shard。
+      - q: 什么是$KXS？
+        a:
+          - t: txt
+            c: $KXS硬币，代表Kryxivia碎片硬币，是在线货币，可以在Kryxivia世界中玩，购买，交易和拥有新的在线物品。
+      - q: 我如何买卖$KXA和$KXS？
+        a:
+          - t: txt
+            c: 您可以在此处列出的交易所购买$KXA：
+          - t: 按钮
+            c: 硬币市场资本
+            link: https://coinmarketcap.com/currencies/kryxivia/
+          - t: txt
+            c: $KXS尚未列出。
+      - q: 我的加密货币和游戏物品安全吗？
+        a:
+          - t: txt
+            c: 是的，Kryxivia已通过Solidproof验证是安全的，并且您的所有游戏资产和加密货币在我们这里都是安全的。
+          - t: 按钮
+            c: 固体验证审核
+            link: >-
+              https://github.com/solidproof/projects/blob/main/Kryxivia/MysteryBox/SmartContract_Audit_Solidproof_Kryxivia%20MysteryBox.pdf
+      - q: 什么是空投，我如何获得它们？
+        a:
+          - t: txt
+            c: 空投涉及加密项目，向社区集体提供代币以提高采用率。
+          - t: txt
+            c: 所有关于Kryxivia空投的公告都将在官方推特账号上公布。
+      - q: 如何链接我的加密货币和nft钱包？
+        a:
+          - t: txt
+            c: 您需要在Binance网络上拥有一个元掩码帐户，之后您需要打开kryxivia网站并单击连接钱包。
+          - t: txt
+            c: 之后，钱包通知将弹出，以获得连接权限。
+      - q: 如何将我的NFT或加密货币发送到另一个钱包？
+        a:
+          - t: 按钮
+            c: 阅读更多
+            link: https://nftdesire.io/how-to-transfer-nft-to-another-wallet/
+  login-and-account:
+    title: 登录名和帐户
+    list: []
+  website-and-social:
+    title: 网站和社交
+    list:
+      - q: 与谁交谈以提出问题或疑虑？
+        a:
+          - t: txt
+            c: 我们所有的社交媒体聊天都与mods一起活跃，您可以加入我们的Discord和Telegram。
+  characters-and-equipments:
+    title: 角色和装备
+    list: []
+  monsters-and-dungeons:
+    title: 怪物和地牢
+    list: []
+  others:
+    title: 别人
+    list: []
+faq-slug:
+  title: 常见问题
+dungeons:
+  title: 克雷西维亚矿
+  metaTitle: 克雷西维亚 • 克雷希维亚的矿山
+  h1: 探索Kryxivia矿，并收集珍贵的NFT！
+  intro: >-
+    在Kryxivia市内，您会发现一扇巨大的门，通往很久以前发现的一座旧矿井。冒险家们决定在它周围建造Kryxivia
+    City，以便了解矿井内的Kryxit并收集它们。他们很快意识到，可怕的怪物会保护着那枚地雷，他们必须拼死搏斗才能把手放在他们身上！
+  txt1: 我们听说过关于女神维亚的故事，她会让矿山着迷以保护Kryxit，这似乎是三个神灵的力量来源：Kry，Xi和Via。
+  catalysts:
+    sub: 催化剂
+    title1: 以不同的模式进入矿井地下城！
+    txt1: >-
+      催化剂将您带到交替的“矿线”。如果你在进入之前使用一个，你在里面遇到的Boss会更强，并掉落更强大的氪星 -
+      这些神奇的宝石，你可以用你的物品来放置新的法术和更好的属性。
+    txt2: 并非每个催化剂都是平等的 - 有些人会比其他人更多地调整难度。难度级别被称为地下城的Crux级别。Crux越高，Boss越难，掉落越好。
+    blue: 蓝色催化剂
+    yellow: 黄色催化剂
+    orange: 橙色催化剂
+    red: 红色催化剂
+    purple: 紫色催化剂
+  boss:
+    sub: 克雷希维亚的老板
+    title1: 通过击败最难的Boss并使用Catalyst达到新的高度来升级你的角色NFT！
+    txt1: >-
+      在Kryxivia中，NFT会制定法律，这意味着你的角色等级取决于你装备的物品，你在市场上交易的物品，或者战胜Kryxivia矿井中的怪物。你有一个我们称之为I-Lvl的东西附加到你在角色上的东西上。Boss会给你装备、Kryxit碎片币（KXS）和法术。基于算法价值，战利品根据玩家的活动通过不同的计算来确定，以确保可持续的经济。一些NFT可能是超级有限的，一旦部署并且已经下降一定数量，可能永远不会再被掠夺，或者每天，每周，每月或每年有限。
+kryxivia:
+  title: 克雷西维亚
+  metaTitle: Kryxivia • City & History
+  h1: 探索克雷西维亚的奇幻世界
+  intro: 当你在我们的世界中生成时，你会被送到Kryxivia城市开始你的冒险，在城市里，你会发现你所有的需求，然后在魔法矿井中开始你的游戏。
+  txt1: >-
+    所有玩家都在大堂区，在城市里做一些事情，同时准备在那扇神秘的门内战斗！你可以找到几个NPC来指导你完成你的旅程，并与人们结成联盟/小组，一起进行突袭或地下城。
+  txt2: 有一个中心位置，主要需要NPC，以避免浪费时间在矿山和城市之间往返，对于其他的，你可以在特定的建筑物上找到它们，这些建筑物看起来与其他建筑物不同。
+  story:
+    sub1: 克雷西维亚市
+    title1: Kryxivia City Foundation的故事
+    txt1: >-
+      在人类尚未发明这个行业的时代。有些人在山上发现了一扇奇怪的门。从那里，他们发现了Kryxit，这是具有巨大力量的魔法宝石。许多人开始收集首先由国家发送的。
+    txt2: Kryxivia是一个新的和盛开的城市，坐落在几年前发现的一扇巨大门周围的山区，大部分都是由一小群冒险家和商人建造的。
+    txt3: >-
+      Kryxivia的人来自许多地平线，几乎没有一个来自正规军，所以他们的服装大多不匹配，一路上被捡起来。全金属装备在这个世界上并不容易获得，所以除非非常富有，否则人们倾向于同时穿布，皮革和金属组合。
+    txt4: >-
+      男人会从门口带来很多战利品，但他们并不总是回来。Kryxivia市开始在门周围形成，许多商人从这个高度频繁的地方获利。现在，几年后，大多数碰碰运气的人都是雇佣兵或独立人士，就像你一样。
+  map:
+    sub1: 克雷西维亚市地图
+    title1: 最重要的建筑
+    banks:
+      title: 银行
+      desc: 在银行接收您进口的NFT或KXS，抵押APY货币或您不需要的库存物品。
+    leader:
+      title: 排行榜
+      desc: 在这里查看Kryxivia中最好的战士，这个梯子包含最好的PVP和PVE玩家。
+    nft:
+      title: NFT 出口
+      desc: 此NPC用于将您的NFT项目导出到您的区块链钱包，只需选择一个即可。
+    portail:
+      title: 克雷西维亚矿
+      desc: 这是进入Kryxivia矿的门，在那里你会发现地牢中的老板。
+    socketing:
+      title: 铁匠
+      desc: 与铁匠交谈，将你的Kryxits放在你的物品栏物品上。
+    training:
+      title: 训练
+      desc: 在训练区，你可以测试你的技能和你对拳击造成的伤害。
+patchnotes:
+  nav: 补丁说明
+  title: 补丁说明和发布
+  metaTitle: Kryxivia • 补丁说明和发布
+  h1: 发现最新的补丁说明和发布
+  sub: 补丁说明
+  know: 已知错误：

@@ -1,0 +1,711 @@
+all:
+  title: クリキシビア • ブロックチェーン上でNFTを活用した革新的なMMORPGゲーム
+  desc: >-
+    クリキシビアへようこそ!ブロックチェーン上の3D
+    NFT多元宇宙MMORPGウェブゲーム。勝つための新しい革新的なゲーム体験。バイナンススマートチェーンネットワークの使用。
+  open: 開ける
+  close: 閉める
+  back: 戻る
+  progress: 進行中で
+  finish: 完了
+  view_details: 詳細を見る
+  step: 歩
+  discover: ディスカバー
+  lvl: レベル
+  more: 続きを読む
+  soon: もうすぐです。。。
+  alpha: パブリックアルファは
+  buy: 買う
+wallets:
+  metamask:
+    name: メタマスク
+    connect: メタマスクに接続する
+  walletconnect:
+    name: ウォレットコネクト
+    connect: ウォレットに接続するコネクト
+  fortmatic:
+    name: フォートマティック
+    connect: フォートマティックアカウントで接続する
+  bcw:
+    name: バイナンスチェーンウォレット
+    connect: バイナンスチェーンウォレットとつながる
+play:
+  intro: プラットフォームを選択し、クリキシビアの世界を発見!
+  launcher:
+    title: クリキシビアランチャー
+    desc: 最適な経験のためにクリキシビアをダウンロードしてください!
+  client:
+    title: ウェブGL クライアント
+    desc: あなたのウェブブラウザでクリキシビアをプレイ!
+header:
+  connect: 繋ぐ
+  play: 今すぐプレイ
+  nav: 航法
+  dev: Devblog & news
+  game: ゲーム
+  apps: アプリ
+  view: すべてのニュースを見る
+  rights: すべての権利予約。
+  policy: プライバシー・ポリシー
+  press: プレス資料
+  partner: パートナー
+  doc: ドキュメンテーション
+nav:
+  kryxivia:
+    home: 家
+    kxa: トークン$KXA
+    kxs: トークン$KXS
+    team: チーム
+    dev: 開発ブログ
+    road: ロードマップ
+    lite: ライトペーパー
+  game:
+    kryxivia: クリキシビア
+    faction: 派閥
+    dungeon: クリキシビア鉱山
+    boss: ボス
+    kryxit: クリクシッツ
+    equipment: 機器
+    pvp: PVPアリーナ
+  apps:
+    market: 市場
+    staking: 打つ
+    nft: NFTビューア
+    launcher: ランチャー
+    client: クライアント
+    leaderboard: リーダーボード
+    faq: FAQ
+bottom:
+  sound: 音楽
+  scroll: スクロールして探索する
+  powered: 協力を受けています
+  developed: 開発元
+  online: オンライン
+index:
+  metaTitle: クリキシビア • ブロックチェーン上でNFTを活用した革新的なMMORPGゲーム
+  title: 家
+  h1: ホームページ
+home:
+  sub1: ブロックチェーン上のNFTを活用した革新的なMMORPGゲーム
+  h1: プレイ・トゥ・アーン体験へようこそ
+  play: 今すぐプレイ
+  trailer: トレーラー
+  sec1:
+    sub1: インタラクティブで楽しい3D MMORPG
+    title1: ゲーム経済の革命としての暗号通貨
+    txt1: >-
+      インタラクティブで楽しい3D
+      MMORPGをブラウザやPCで友達とプレイしながら、クリキシビアの宇宙での進歩を通じて獲得した暗号通貨の利益に裏打ちされた報酬を与えるNFTを集めましょう!
+    txt2: Kryxiviaでは、ブロックチェーンが提供できる最高の機能を使用して、最高のゲーム内経済性をもたらします。
+    bn: クリキシビアを発見
+  sec2:
+    sub1: NFTSと暗号通貨を組み合わせた世界
+    title1: クリキシビアの世界のダンジョンを探索し、他のプレイヤーとの貿易のためにNFTを収集します。
+    txt1: >-
+      クリキシビア鉱山で最も強力なボスと戦うことで、貴重で排他的なNFTを獲得してください。戦利品の消耗品、キャラクターに適用できる鎧、呪文として使用するクリクシットの宝石。それらのすべては、あなたのゲームプレイをカスタマイズすることができます。
+    bn: ダンジョンを発見
+  sec3:
+    sub1: 類まれな経済の一つ
+    title1: メタバース宇宙のための2つの暗号通貨
+    txt1: >-
+      バイナンススマートチェーンに展開されたKryxivia
+      Coinトークンの略であるKXAトークンは、オンチェーン支払い、特別なバンドル、化粧品、特別なNFT販売イベント、またはKXSゲーム内通貨の交換、およびNFTマーケットプレイスでの売買の基本暗号通貨です。
+    txt2: >-
+      バイナンススマートチェーンに実装されたクリキシビアシャードコインの略であるKXSトークンは、ゲームで直接プレイ、購入、取引し、クリキシビアの世界で新しいオンラインピースを持つためのオンライン通貨です。それはより多くのリスクと経済の動きを運ぶので、それはすべてのプレーヤーが遊ぶためにいくつかを持つことができるように巨大な供給を持たなければなりません。
+  sec4:
+    sub1: 今すぐプレイを始めましょう!
+    title1: クリキシビアの冒険に参加しましょう!
+team:
+  metaTitle: クリキシビア • クリキシビアのチーム
+  title: チーム
+  h1: クリキシビアのチーム
+  role:
+    '1': リーダー
+    '2': ゲーム開発
+    '3': デザイナー 3D & VFX アーティスト
+    '4': UI/UX Designer & Front Developer
+    '5': マーケティングとコミュニケーション
+    '6': サウンドデザイナー
+  poste:
+    '1': 最高経営責任者(CEO)兼創設者
+    '2': 最高技術責任者
+    '3': リードクライアントのゲームプレイ
+    '4': リードブロックチェーンエンジニア
+    '5': ソフトウェアフルスタックエンジニア
+    '6': Unity 3D 開発者
+    '7': フルスタック開発者
+    '8': VFXゲームデザイナー
+    '9': レベルデザイナー / 3Dアート
+    '10': 3Dキャラクター/アイテムアーティスト
+    '11': パートナースタジオ/3Dアーティスト
+    '12': ゲームデザイナーコンサルタント
+    '13': リードUI/UXデザイナー
+    '14': フルスタック開発者向けウェブ
+    '15': クリエイティブ開発者
+    '16': グラフィックデザイナー
+    '17': ムービーメーカー
+    '18': 最高マーケティング責任者
+    '19': コミュニティマネージャー
+    '20': サウンドデザイナー
+    '21': 音楽作曲家
+    '22': チーム管理
+    '23': ソフトウェアエンジニア
+leaderboard:
+  title: リーダーボード
+  metaTitle: クリキシビア • リーダーボード • クリキシビアの偉大な選手
+  h1: クリキシビアの偉大な選手
+roadmap:
+  metaTitle: クリキシビア • クリキシビアのロードマップ
+  title: ロードマップ
+  discover: ロードマップを見る
+  h1: クリキシビアのロードマップ
+  road:
+    q3_2021:
+      desc: クリキシビアプロジェクトの開始
+      list:
+        '1': アルファ版のバイナンススマートチェーンテストネットへのKXAトークンとKXSトークンの展開。
+        '2': 開発を開始し、基本ゲームプレイ、ゲームサーバー、ブロックチェーンリンクをテストします。
+        '3': クリキシビア宇宙の3Dモデリングに取り組んでいる。
+        '4': 都市のレベルデザインを行い、ゲームの伝承に取り組み、クリクシットと宝石の機能システムを探求しています。
+    q4_2021:
+      desc: クリキシビアプロジェクトの開始
+      list:
+        '1': クリキシビアに関する基本をオンラインウェブサイトで立ち上げ、プレゼンテーション論文をリリース。
+        '2': GitHubリポジトリ上のKryxiviaコードベースのオープンソースリリースとさまざまなスマートコントラクト。
+        '3': Unity WebGL、C#、Node.js を使用したゲームの概念実証の準備。
+        '4': BSCブロックチェーンと対話するさまざまなスマートコントラクトを監査します。
+        '5': クリキシビアアルファの発売のためのティーザーをリリース。
+        '6': 資産プールの流動性とゲームベースファンド(ILO)を作成するための公開販売を行うことで、KXAトークンをキックスタートします。
+        '7': プライベートアルファプリアクセス用のホワイトリストを展開すると(ILOに参加しているウォレットには利点があります)。
+        '8': すべてのゲームの側面、クライアント/サーバー、およびNFTの集中化/分散化サービス間の接続に取り組んでいます。
+        '9': クリキシビアチームメンバーのKYC手続きを行う。
+        '10': ゲーム内のKXSトークン(調達資金の10%を含む)用のパンケーキスワップ制御プールを作成する。
+        '11': CoinMarketCap、CoinGeckoに上場...
+    q1_2022:
+      desc: クリキシビアプロジェクトの開始
+      list:
+        '1': WebGL ブラウザー ゲームを展開する準備ができた状態にする
+        '2': NFTアイテムマーケットプレイスを展開して、ゲーム内のものをチェーン上の他のプレイヤーと交換する。
+        '3': 選択したメンバーが kryxivia.io のブラウザでクリキシビアワールドにプレイするためのプライベートプレアルファアクセスを開始します。
+        '4': プレアルファ版のテストネットを使用してバグを見つけ、KXAトークンの問題を報告するバグ報奨金プレーヤーに報酬を与えます。
+        '5': 新しいダンジョンとアイテムのより多くの仕様を追加し、Kryxitの宝石と呪文のゲームプレイ開発。
+        '6': ベータアクセス開始用のさまざまなスターターパック(NFTパック)を起動して、購入したパックで直接プレイを開始します。
+        '7': チームのキャパシティを高め、新しい3Dデザイナー、レベル、シーンリストを募集します。
+        '8': PVE含有量の改善。
+    q2_2022:
+      desc: クリキシビアプロジェクトの開始
+      list:
+        '1': BSCネットワークのメインネット上でクリキシビアワールドのベータパブリックアクセスをリリースする。
+        '2': プレイヤーが見つけたプレアルファ版(Q1)のバグを修正しました。
+        '3': クリキシビア鉱山のレイドシステム(+20人のプレイヤーがレイドファイトで一緒に戦う)の開発を開始。
+        '4': 毎日のクエストシステムを追加してプレイヤーのアクティビティに報酬を与え、最もアクティブなアクティビティに報酬を与えます。
+        '5': 鉱山内のダンジョンルームのより大きなセットに取り組んで、より多くの困難とより良いクリクシットとスタッフの報酬で。
+        '6': KXAトークンとKXSトークンを主要なT1集中型取引所に適用およびリストする。
+        '7': KXA / KXSトークンで報酬(年間新しい報酬で実際のROI)を獲得するための銀行ゲーム内ステーキングシステム。
+    q3_2022:
+      desc: クリキシビアプロジェクトの開始
+      list:
+        '1': ギルドシステムは、報酬やボーナス率に到達するために毎日/毎週の目標であなたの仲間とチームを組んでください。
+        '2': 特定の新しいボス(新しい限定化粧品...)を持つ特別なユニークなNFTでイベントシステムシーズンを追加します。
+        '3': >-
+          イベントテーマに投票するためのDAOガバナンス、達成すべきロードマップの次のマイルストーン、ゲーム内のゲームプレイアップデートを行うためのナーフまたはアップグレード(パーセンテージの点でウォレットで上限)。
+        '4': KXSの価値と価格の動きに関する統計と情報のためのゲーム内のビジュアルデザイン。
+        '5': すべてのプレイヤー、彼らの電子レベルと評判+インベントリNFTの独自性を見るためのオンラインはしご。
+token-kxs:
+  title: トークン$KXS
+  metaTitle: クリキシビア•クリキシビアコイン$KXS
+  h1: クリキシビア$KXSコイン
+  intro: >-
+    Kryxivia Shard Coinの略であるKXSコインは、Kryxivia
+    の世界で新しいオンライン作品をプレイ、購入、取引、および持つためのオンライン通貨であり、より多くのリスクと経済的な動きを伴うため、すべてのプレイヤーが遊ぶことができるように膨大な供給が必要です。
+  txt1: >-
+    KXSトークンの総最大供給量は5,000,000,000
+    KXS(5B)に制限されているため、KXAトークンよりもゲーム内でアクセスしやすく使いやすいものになります。KXSトークンはミンティング可能で、ゲーム内の報酬や特別なオンラインイベントの農業などのために新しいトークンを作成できます。CEX
+    & DEXの他の通貨と同様に取引できます。
+  txt2: >-
+    また、ゲーム内でKXSトークンを使用して特別な報酬を得ることができるため、例えば、アイテムをKryxitの宝石にリンクしたい場合は、KXSを燃やしてそれを実現する必要がある場合、またはポーションなどの消耗品アイテムを購入して旅を手助けしたい場合など、デフレトークンです。KXSトークンを都市のNPCに焼く必要があります。
+  txt3: >-
+    ゲーム内トークンは、ゲーム内トークンの購入能力と販売可能性を保証するために、マネージドプール上のKXAトークンに裏打ちされた分散型プロトコルに基づく基本流動性を持ちますが、KXSトークンを取得する主な方法は、システムが「Play
+    to Earn」と説明されているように、ゲーム内でプレイして報酬を獲得することです。
+token-kxa:
+  title: トークン$KXA
+  metaTitle: クリキシビア•クリキシビアコイン$KXA
+  h1: クリキシビア$KXAコイン
+  intro: >-
+    バイナンススマートチェーンに展開されたクリキシビアコイントークンの略であるKXAコインは、オンチェーン支払いとスターターパック、特別なNFT販売イベント、またはKryxit
+    Shardの略であるKXSゲーム内通貨の交換などの特別なパッケージのための基本暗号通貨です。
+  txt1: >-
+    クリキシビアコインの総最大供給量は250,000,000
+    KXAコインで、以下に詳述するように、当社のトークノミクスはかなり具体的で一定です。KXAトークンはミンティングできないため、2億5,000万を超えるKXAを発行することはできません。
+  txt2: >-
+    BSCチェーンを使用して、高いオンチェーン取引手数料を回避します。また、KXAコインを使用して、ウォレット(メタマスクなど)を使用して、ゲームからNFTプロパティ(アイテム、クリクシット、呪文など)をオンラインマーケットプレイスに売買することもできます。
+  sub: トケノミクス
+  title1: クリキシビアコインのトケノミクス
+  subtitle1: トークン$KXAの配布
+  td1: サーバーネットワークホスティング、ゲームクライアント、サーバーエンジンのコスト
+  td2: マーケティング、採用の増加、プロジェクトのオーディエンス拡大へのインセンティブ
+  td3: ゲーム内イベント報酬、スペシャル農業、NFT報酬
+  td4: 銀行システムのためのステーキング資金とプレイヤーのための純APY報酬
+  td5: 開発チームの支払いコスト、チームシェア
+  td6: プロジェクトをキックスタートするためのプライベートトークンプレセールラウンド
+  td7: Unicryptプロトコルでのゲームのベータリリースのためのパブリックトークンセール(ILO*)
+  td8: エクストラオペレーションのためのエコシステム資金
+  td9: 自己資金の準備
+  subtitle2: チーム公式ウォレット
+  subtitle3: プライベート&パブリックセールプラン
+  wallet1: クリキシビア・デプロイヤー・ウォレット
+  wallet2: ウォレットをホストするサーバーネットワーク。
+  wallet3: マーケティング、採用財布
+  wallet4: イベント、ゲーム内報酬ウォレット
+  wallet5: ステーキングファンドウォレット
+  wallet6: 開発資金チームウォレット
+  wallet7: エコシステムファンドウォレット
+  wallet8: 準備金自己資金財布
+  sale:
+    private:
+      title: プライベートセールラウンド
+      discount: ~ {percent} パブリックセール価格からの割引
+      of: '{kxa} of KXA ({total} - {percent} supply)'
+      price: '価格: KXA あたりの {price}'
+      raise: ~ {bnb} BNB の引き上げ = (合計 = ~{total})
+      close: プライベートセールクローズ:<>TGE {percent}ロック解除され、1年以上リニアロック解除
+    public:
+      title: パブリックセールラウンド
+      discount: ~ {percent} リスティング価格からの割引
+      of: '{kxa} of KXA ({total} - {percent} supply)'
+      price: '価格: KXA あたりの {price}'
+      raise: ~ {bnb} BNB の引き上げ = (合計 = ~{total})
+      close: パブリックセールクローズ:<>TGE {percent}ロック解除され、3ヶ月でリニア
+    listing:
+      title: パンケーキスワップに上場
+      price: '価格: KXA あたりの {price}'
+      raise: Unicrypt から調達した資金の {percent} が 1 年間ロックされている
+devblog:
+  title: Devblog & news
+  metaTitle: Kryxivia • Devblog, news, updates & announcements
+  h1: ニュース、アップデート、お知らせ
+  back: 一覧に戻る
+devblog-slug:
+  title: Devblog & news
+  metaTitle: クリキシビア
+bosses:
+  title: ボス
+  metaTitle: クリキシビア • クリキシビアMMORPGメタバースのボス
+  h1: クリキシビアMMORPGメタバースのボス
+  fight: 今すぐ {boss} と戦おう!
+  back: 一覧に戻る
+bosses-slug:
+  title: ボス
+  progress: 進行中のストーリー、後で戻ってきてください...
+bosses-alde:
+  title: ボス • アルデ
+  metaTitle: クリキシヴィア • アルデ • クリキシヴィアのボス
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: アルデの炎
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit.Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+      odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+      odio, quas fuga.
+bosses-atesgol:
+  title: ボス • アテスゴル
+  metaTitle: クリキシビア • アテスゴル • クリキシビアのボス
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: アテスゴルの醸造家
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit.Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+      odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+      odio, quas fuga.
+bosses-valtrena:
+  title: ボス • バルトレナ
+  metaTitle: クリキシヴィア • ヴァルトレナ • クリキシヴィアのボス
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: バルトレナの地すべり
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit.Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+      odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+      odio, quas fuga.
+bosses-k1rig:
+  title: ボス • K1 R.I.G
+  metaTitle: クリキシビア • K1 R.I.G • クリキシビアのボス
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: K1 R.I.Gの歯車
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit.Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+      odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+      odio, quas fuga.
+bosses-melucyna:
+  title: ボス • メルシーナ
+  metaTitle: クリキシビア • メルシーナ • クリキシビアのボス
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: メリクーナの波
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit.Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+      odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit.Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+      odio, quas fuga.
+factions:
+  title: 派閥
+  metaTitle: クリキシビア • クリキシヴィアの派閥
+  h1: 3つの派閥のうちの1つに参加!
+  want: 私はなりたい
+  adventurers:
+    name: 冒険
+    title: 冒険者になるために必要なものはありますか?
+    intro: あなたは大胆で,先祖を敬う準備ができていますか。冒険者派閥に参加するには、強さ、勇気、勇気、決意が必要です。
+    paragraphe:
+      - >-
+        あなたの目標は、最も弱いものを守り、これまで以上に強くなるために毎日自分自身を凌駕することです、あなたはキューピッドの人々、特に富のために何でもする商人派閥が好きではありません。冒険と挑戦に渇望しているあなたは、どのミッションがあなたの派閥の理想を強化するかを決めるためにあなたの仲間と一緒にいました、あなたは結局のところKry神性の子孫です。
+  nomads:
+    name: 遊牧 民
+    title: 時には、自然があなたが必要とするすべてであり、私たちに本当の優先順位と基本的な必需品を思い出させますよね?
+    intro: >-
+      あなたは自然を愛し、彼女を守る準備ができていますか?遊牧民の派閥に参加するには、森、植物、動物を愛し、平和で穏やかな環境に住むことを願う必要があります。
+    paragraphe:
+      - >-
+        ヴィアの子孫として、あなたは自然と一体です。あなたはそれぞれの植物や生き物を尊重し、危険な動物のささやきとして、あなたは仲間の旅行者を得ます。伝説によると、最古の遊牧民はドラゴンと一緒に旅をしました。あなたの心は純粋で、あなたの知識を耳を傾けるすべての人と共有します。あなた方の教えは、地球の寛大さのおかげで生き残る方法を示しています。
+  merchants:
+    name: 商人
+    title: あなたは月のエネルギーを感じていますか、あなたはいつもあなたが離れているように感じてきましたか、より賢く、あなたが人々の心で遊ぶのは簡単ですか?
+    intro: >-
+      マーチャント派閥に参加するには、社会的およびビジネススキルに恵まれている必要があり、人々が期待していることやあなたに何を言ってほしいかを正確に知っていて、知的で、取引のスキルを習得し、必要なときに操作的でいたずら好きです。
+    paragraphe:
+      - >-
+        あなたは周りにエネルギーを引き付ける自然な傾向があります。華麗なチャーマーとして、あなたはあなたの利点に言葉を使うことができます、これはXiの女神の影響によるものです。あなたは存在する最も貴重で、広大で珍しいクリクシットを捕まえることを夢見ています。どんな犠牲を払っても,あなたは持つ必要があると感じています。世界が残酷で、善良な人々がり長く生き残れないことを知っているので、あなたは共感と哀れみに欠けます。時には、他の人が共通の利益のためにできないことをしなければならないこともあります。
+faq:
+  title: FAQ
+  metaTitle: クリキシビア • よくある質問
+  category: カテゴリ
+  h1: どのように私たちはあなたを助けることができますか?
+  start: まず、質問または問題のカテゴリを選択します。
+  no-question: このカテゴリにはまだ質問が記載されていませんので、後で確認してください!
+  no-answer: 質問に対する答えが見つかりませんか?ネットワーク上で私達に尋ねなさい、私達のチームはあなたに答えて幸せになります。
+  back: カテゴリに戻る
+  kryxivia-and-game:
+    title: クリキシビアとゲーム
+    list:
+      - q: クリキシビアとは何ですか?
+        a:
+          - t: ティッカー
+            c: >-
+              クリキシビアはファンタジー3D MMORPGで、現代のブラウザでプレイ可能で、kryxivia.io
+              のウェブサイトで直接入手でき、クリクシットを収集する新しい冒険的なプレイヤーを待っているエコシステム全体です!私たちの世界では、あなたの友人と楽しく協力的な経験をしながら、暗号通貨とユニークな珍しいNFTを獲得する準備をしてください。
+      - q: プレイを開始するにはどうすればいいですか?
+        a:
+          - t: ティッカー
+            c: >-
+              Kryxiviaは、互換性のある最新のブラウザで動作するオンラインMMORPGゲームです、あなたは最低限必要な正しいGPUを持つ任意のコンピュータ上でそれを再生することができます。ゲームを認証してログインするには、メタマスクベースのウォレットが必要です。
+      - q: 獲得するプレイとは何ですか?
+        a:
+          - t: ティッカー
+            c: >-
+              プレイして稼ぐゲームは、ビデオゲームの楽しさとあなたの時間のための本当の報酬を獲得する機会を兼ね備えています。私たちの場合、MMORPGを楽しんでクリクシットトークンを獲得できます。
+      - q: 真の所有権とはどういう意味ですか?
+        a:
+          - t: ティッカー
+            c: >-
+              実際の所有者は、所有権の恩恵を受ける人です。真の所有者とは、給付金の名前を受け取る個人または団体であり、そこからあらゆる利益を得る権利があります。
+      - q: クリキシビアは勝つための遊びですか?
+        a:
+          - t: ティッカー
+            c: はい、クリキシビアはクリキシットゲームを獲得するための遊びです。
+      - q: クリキシビアは本当に無料でプレイできるゲームですか?
+        a:
+          - t: ティッカー
+            c: はい、クリキシビアをプレイするには、メタマスクをサーバーに接続するだけです。
+      - q: クリキシビアはどこでプレイできますか?
+        a:
+          - t: ティッカー
+            c: あなたは kryxivia.io でゲームをプレイすることができます
+      - q: ブロックチェーンまたはバイナンススマートチェーンネットワークを理解する必要がありますか?
+        a:
+          - t: ティッカー
+            c: いいえ、ゲームをプレイするためにBNBchainの技術的な知識は必要ありません。
+      - q: MMORPGとは何ですか?
+        a:
+          - t: ティッカー
+            c: MMORPGは、ロールプレイングビデオゲームと多人数参加型オンラインゲームの要素を組み合わせたビデオゲームです。
+      - q: エラーはどこで報告できますか?
+        a:
+          - t: ティッカー
+            c: >-
+              アルファテスターであれば、Discordのバグレポートチャンネルでバグを報告し、40,000ドルのバウンティから利益を得ることができます。
+      - q: クリキシビアをプレイするためのPCの要件は何ですか?
+        a:
+          - t: ティッカー
+            c: >-
+              推奨される要件は、少なくとも 4 GB の RAM、Intel Core i5、GPU GeForce GTX 900
+              シリーズ、およびソリッドステート ドライブです。
+  wallet-kxa-kxs:
+    title: ウォレット、KXAおよびKXS
+    list:
+      - q: $KXAとは何ですか?
+        a:
+          - t: ティッカー
+            c: >-
+              $KXA、またはKryxivia Coinトークンは、スターターパック、特別なNFTセールイベント、またはKryxit
+              Shardの略であるゲーム内通貨$KXSとの交換など、チェーン上の支払いに使用される暗号通貨です。
+      - q: $KXSとは何ですか?
+        a:
+          - t: ティッカー
+            c: >-
+              クリキシビアシャードコインの略である$KXSコインは、クリキシビアの世界で新しいオンライン作品をプレイ、購入、取引、および持つためのオンライン通貨です。
+      - q: $KXAや$KXSを売買するにはどうすればいいですか?
+        a:
+          - t: ティッカー
+            c: 'あなたはここにリストされている取引所で$KXAを購入することができます:'
+          - t: ボタン
+            c: コインマーケットキャップ
+            link: https://coinmarketcap.com/currencies/kryxivia/
+          - t: ティッカー
+            c: $KXSはまだリストされていません。
+      - q: 私の暗号とゲームアイテムは安全ですか?
+        a:
+          - t: ティッカー
+            c: はい、KryxiviaはSolidproofによって安全であることが確認されており、ゲーム内のすべての資産と暗号は安全です。
+          - t: ボタン
+            c: ソリッドプルーフ監査
+            link: >-
+              https://github.com/solidproof/projects/blob/main/Kryxivia/MysteryBox/SmartContract_Audit_Solidproof_Kryxivia%20MysteryBox.pdf
+      - q: エアドロップとは何ですか?また、どうすれば入手できますか?
+        a:
+          - t: ティッカー
+            c: Airdropsには、採用を増やすためにコミュニティにトークンをまとめて提供する暗号プロジェクトが含まれます。
+          - t: ティッカー
+            c: クリキシビアの空中投下に関するすべての発表は、公式ツイッターのハンドルネームで発表されます。
+      - q: 私の暗号とnftウォレットをリンクする方法は?
+        a:
+          - t: ティッカー
+            c: >-
+              バイナンスネットワークを持つメタマスクアカウントを持っている必要があり、その後、クリキシビアのウェブサイトを開いて[ウォレットを接続]をクリックする必要があります。
+          - t: ティッカー
+            c: その後、接続の許可のためにウォレット通知がポップアップ表示されます。
+      - q: NFTまたは暗号を別のウォレットに送信する方法は?
+        a:
+          - t: ボタン
+            c: 続きを読む
+            link: https://nftdesire.io/how-to-transfer-nft-to-another-wallet/
+  login-and-account:
+    title: ログインとアカウント
+    list: []
+  website-and-social:
+    title: ウェブサイトとソーシャル
+    list:
+      - q: 質問や懸念事項については、誰に相談すればよいですか?
+        a:
+          - t: ティッカー
+            c: すべての私たちのソーシャルメディアのチャットは改造でアクティブです、あなたは私たちのDiscordと電報に参加することができます。
+  characters-and-equipments:
+    title: キャラクターと装備
+    list: []
+  monsters-and-dungeons:
+    title: モンスターとダンジョン
+    list: []
+  others:
+    title: 余人
+    list: []
+faq-slug:
+  title: FAQ
+dungeons:
+  title: クリキシビア鉱山
+  metaTitle: クリキシビア • クリキシビアの鉱山
+  h1: クリキシビア鉱山を探索し、貴重なNFTを集めよう!
+  intro: >-
+    クリキシヴィア市の内部には、ずっと前に発見された古い鉱山につながる巨大な扉があります。冒険者たちは、鉱山内のクリクシットを理解し、それらを集めるために、その周囲にクリキシビア都市を建設することに決めました。彼らはすぐに恐ろしいモンスターがその鉱山を保護し、彼らが彼らに手を置くために死ぬまで戦わなければならないことに気付きました!
+  txt1: 私たちは、クライ、シー、ビアの3つの神性の力の源であると思われるクリクシットを守るために鉱山を魅了したであろう女神ヴィアについての話を聞きました。
+  catalysts:
+    sub: 触媒
+    title1: さまざまなモードで鉱山ダンジョンを入力してください!
+    txt1: >-
+      触媒はあなたを代替の「鉱山」に連れて行きます。あなたが入る前に1つを使用すると、あなたが内部で遭遇するボスははるかに強くなり、はるかに強力なクリクシット
+      - あなたが新しい呪文とより良い統計のためにあなたのアイテムをソケットすることができる魔法の宝石 - をドロップします。
+    txt2: >-
+      すべての触媒が同じように作成されたわけではありません -
+      いくつかは他のものよりもさらに難易度を調整します。難易度はダンジョンのクルックスレベルとして知られています。Cruxが高いほど、ボスは難しくなり、ドロップは良くなります。
+    blue: ブルー触媒
+    yellow: イエロー触媒
+    orange: オレンジ触媒
+    red: 赤色触媒
+    purple: パープル触媒
+  boss:
+    sub: クリキシビアのボス
+    title1: 最も難しいボスを倒し、カタリストを使用して新しい高値に到達することで、キャラクターのNFTをレベルアップしてください!
+    txt1: >-
+      クリキシビアでは、NFTが法律を制定しており、キャラクターレベルは装備したアイテム、市場で取引したアイテム、またはクリキシビア鉱山のモンスターに勝ったアイテムに基づいています。あなたは私たちがキャラクターのあなたのものに添付しているI-Lvalと呼ばれるものを持っています。ボスはあなたに装備、クリクシットシャードコイン(KXS)、そして呪文を与えます。アルゴリズムの価値に基づいて、戦利品は持続可能な経済を保証するためにプレイヤーの活動に基づいて異なる計算によって決定されます。一部のNFTは、非常に制限されており、展開され、一定量がすでにドロップされたり、毎日、毎週、毎月、または毎年制限されたりすると、二度と略奪されない可能性があります。
+kryxivia:
+  title: クリキシビア
+  metaTitle: クリキシビア • 都市と歴史
+  h1: クリキシビアの幻想的な世界を探検
+  intro: >-
+    あなたが私たちの世界でスポーンするとき、あなたはあなたの冒険を始めるためにクリキシビアの街に送られます、街で、あなたは魔法の鉱山であなたのゲームプレイを始める前にすべてのあなたのニーズを見つけるでしょう。
+  txt1: >-
+    すべてのプレイヤーはロビーエリアにいて、その神秘的なドアの中で戦う準備をしながら、街で何かをしています!いくつかのNPCを見つけて旅を案内し、人々と同盟/グループを組んで一緒に襲撃やダンジョンを作ることができます。
+  txt2: >-
+    鉱山と都市の間を往復する時間の無駄を避けるために、主に必要なNPCを持つ中心的な場所があり、他のものについては、他のものとは違って見える特定の建物でそれらを見つけることができます。
+  story:
+    sub1: クリキシビア市
+    title1: クリキシビア市財団の物語
+    txt1: >-
+      人間がまだ業界を発明していない時代に。山で失われた奇妙な扉を発見した人もいました。そこから彼らはクリクシット、途方もない力を持つ魔法の宝石を見つけました。多くの人々が最初に各国から送られた集まり始めます。
+    txt2: >-
+      クリキシヴィアは、数年前に発見された巨大な扉の周りの山々に位置し、冒険家や商人の小さなグループによる計画なしにほとんど建設された、新しくて咲き誇る都市です。
+    txt3: >-
+      クリキシヴィアの人々は多くの地平線から来ており、正規軍から来た人はほとんどいないので、彼らの服装はほとんど不一致で、途中で拾われます。フルメタルギアはこの世ではなかなか手に入らないので、極端に裕福でない限り、布、革、金属の両方を合わせて身に着けがちです。
+    txt4: >-
+      男性はドアからたくさんの戦利品を持ってきますが、いつも戻ってくるとは限りません。クリキシヴィアの街はドアの周りに形成され始め、多くの商人がこの非常に頻繁な場所から利益を得ました。数年後の今、運試しをする人々のほとんどは、あなたのような傭兵や独立者です。
+  map:
+    sub1: クリキシヴィア市の地図
+    title1: 最も重要な建物
+    banks:
+      title: 銀行
+      desc: ートしたNFTまたはKXSを銀行で受け取り、APYのステーク通貨、または不要な在庫アイテムを受け取ります。
+    leader:
+      title: リーダーボード
+      desc: ここでクリキシビアで最高の戦士を見る、このはしごは最高のPVPとPVEの選手が含まれています。
+    nft:
+      title: NFT エクスポート
+      desc: このNPCは、NFTアイテムをブロックチェーンウォレットにエクスポートするために使用されます。
+    portail:
+      title: クリキシビア鉱山
+      desc: これはクリキシビア鉱山に入るための扉で、ダンジョンでボスを見つけることができます。
+    socketing:
+      title: 鍛冶屋
+      desc: 鍛冶屋に相談して、クリクシットを在庫品にソケットに入れてください。
+    training:
+      title: 訓練
+      desc: トレーニングエリアでは、あなたのスキルとパンチングボールで与えているダメージをテストすることができます。
+patchnotes:
+  nav: パッチノート
+  title: パッチノート＆リリース
+  metaTitle: Kryxivia • パッチノート＆リリース
+  h1: 最新のパッチノート＆リリースを発見
+  sub: パッチノート
+  know: '既知のバグ:'

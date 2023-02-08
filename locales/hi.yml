@@ -1,0 +1,917 @@
+all:
+  title: Kryxivia • एक अभिनव MMORPG खेल blockchain पर NFT का लाभ उठाने
+  desc: >-
+    Kryxivia में आपका स्वागत है! Blockchain पर एक 3 D NFT Multiverse MMORPG वेब
+    गेम। जीतने के लिए एक नया अभिनव गेमिंग अनुभव। Binance स्मार्ट चेन नेटवर्क का
+    उपयोग करें।
+  open: खोलना
+  close: बंद करना
+  back: पीठ
+  progress: प्रगति पर है
+  finish: पूरा किया
+  view_details: विवरण देखें
+  step: क़दम
+  discover: खोजना
+  lvl: स्तर
+  more: और अधिक पढ़ें
+  soon: जल्दी ही आगमन।।।
+  alpha: सार्वजनिक अल्फा में शुरू होता है
+  buy: खरीदना
+wallets:
+  metamask:
+    name: मेटामास्क
+    connect: अपने मेटामास्क से कनेक्ट करें
+  walletconnect:
+    name: WalletConnect
+    connect: अपने WalletConnect से कनेक्ट करें
+  fortmatic:
+    name: फोर्टमैटिक
+    connect: अपने फोर्टमैटिक खाते से कनेक्ट करें
+  bcw:
+    name: Binance चेन बटुआ
+    connect: अपने Binance चेन वॉलेट के साथ कनेक्ट करें
+play:
+  intro: एक मंच का चयन करें और Kryxivia की दुनिया की खोज!
+  launcher:
+    title: क्रिक्सीविया लांचर
+    desc: एक इष्टतम अनुभव के लिए Kryxivia डाउनलोड करें!
+  client:
+    title: WebGL क्लाइंट
+    desc: अपने वेब ब्राउज़र पर Kryxivia खेलते हैं!
+header:
+  connect: जोड़ना
+  play: अभी चलाएँ
+  nav: नौसंचालन
+  dev: Devblog & समाचार
+  game: खेल
+  apps: ऐप्लिकेशन
+  view: सभी समाचार देखें
+  rights: सभी अधिकार सुरक्षित हैं.
+  policy: गोपनीयता नीति
+  press: प्रेस संसाधन
+  partner: भागीदारों
+  doc: प्रलेखन
+nav:
+  kryxivia:
+    home: घर
+    kxa: टोकन $KXA
+    kxs: टोकन $KXS
+    team: टीम
+    dev: देवब्लॉग
+    road: रोडमैप
+    lite: लाइटपेपर
+  game:
+    kryxivia: क्रिक्सीविया
+    faction: गुटों
+    dungeon: क्रिक्सीविया खान
+    boss: मालिकों
+    kryxit: Kryxits
+    equipment: उपकरणों
+    pvp: PVP Arena
+  apps:
+    market: बाज़ार
+    staking: हड़ताल
+    nft: NFT व्यूअर
+    launcher: प्रक्षेपक
+    client: ग्राहक
+    leaderboard: लीडरबोर्ड
+    faq: अक्सर पूछे जाने वाले प्रश्न
+bottom:
+  sound: संगीत
+  scroll: एक्सप्लोर करने के लिए स्क्रॉल करें
+  powered: इसके द्वारा संचालित
+  developed: द्वारा विकसित
+  online: ऑनलाइन
+index:
+  metaTitle: Kryxivia • एक अभिनव MMORPG खेल blockchain पर NFT का लाभ उठाने
+  title: घर
+  h1: होम पेज
+home:
+  sub1: एक अभिनव MMORPG खेल Blockchain पर NFT का लाभ उठाने
+  h1: प्ले-टू-अर्न अनुभव में आपका स्वागत है
+  play: अभी चलाएँ
+  trailer: ट्रेलर
+  sec1:
+    sub1: एक इंटरैक्टिव और मजेदार 3 डी MMORPG
+    title1: खेल अर्थव्यवस्था में एक क्रांति के रूप में cryptocurrencies
+    txt1: >-
+      अब अपने ब्राउज़र में या अपने दोस्तों के साथ अपने पीसी पर एक इंटरैक्टिव और
+      मजेदार 3 डी MMORPG खेलते हैं, WHILST NFTs है कि आप पुरस्कार है कि
+      क्रिप्टोक्यूरेंसी लाभ द्वारा समर्थित कर रहे हैं Kryxivia ब्रह्मांड में
+      अपनी प्रगति के माध्यम से अर्जित कर रहे हैं दे इकट्ठा whilst!
+    txt2: >-
+      Kryxivia में, हम सबसे अच्छी सुविधाओं का उपयोग करते हैं जो ब्लॉकचेन आपको
+      सबसे अच्छा इन-गेम अर्थशास्त्र लाने के लिए पेश कर सकता है।
+    bn: खोज Kryxivia
+  sec2:
+    sub1: एक दुनिया जो NFTS और cryptocurrency को जोड़ती है
+    title1: >-
+      Kryxivia की दुनिया में कालकोठरी का अन्वेषण करें और अन्य खिलाड़ियों के साथ
+      व्यापार के लिए NFTs इकट्ठा।
+    txt1: >-
+      Kryxivia खान में सबसे शक्तिशाली मालिकों से लड़कर मूल्यवान और अनन्य NFTs
+      कमाएँ. लूट उपभोग्य, कवच है कि आप अपने चरित्र और Kryxit जवाहरात के लिए लागू
+      कर सकते हैं मंत्र के रूप में इस्तेमाल किया जा करने के लिए. उनमें से सभी
+      आपको अपने गेमप्ले को अनुकूलित करने की अनुमति देंगे।
+    bn: डिस्कवर कालकोठरी
+  sec3:
+    sub1: एक तरह की अर्थव्यवस्था में से एक
+    title1: Metaverse ब्रह्मांड के लिए दो cryptocurrencies
+    txt1: >-
+      KXA टोकन, जो Ethereum पर तैनात Kryxivia Coin टोकन के लिए खड़ा है, ऑन-चेन
+      भुगतान और विशेष बंडल, सौंदर्य प्रसाधन, एक विशेष NFT बिक्री घटनाओं या KXS
+      इन-गेम मुद्रा के लिए एक एक्सचेंज के लिए आधार क्रिप्टोकरेंसी है, साथ ही साथ
+      हमारे NFT मार्केटप्लेस पर खरीदने और बेचने के लिए।
+    txt2: >-
+      KXS टोकन, जो Kryxivia Shard Coin Ethereum पर लागू किया गया है, एक ऑनलाइन
+      मुद्रा है जो सीधे गेम में खेलने, खरीदने, व्यापार करने और Kryxivia की
+      दुनिया में नए ऑनलाइन टुकड़े रखने के लिए है। जैसा कि यह अधिक जोखिम और
+      आर्थिक आंदोलनों को वहन करता है, इसमें एक बड़ी आपूर्ति होनी चाहिए ताकि हर
+      खिलाड़ी के पास खेलने के लिए कुछ हो सके।
+  sec4:
+    sub1: अब खेलना शुरू करो!
+    title1: Kryxivia साहसिक में शामिल हों!
+team:
+  metaTitle: Kryxivia • Kryxivia की टीम
+  title: टीम
+  h1: Kryxivia की टीम
+  role:
+    '1': नेता
+    '2': खेल विकास
+    '3': डिजाइनर 3D और VFX कलाकार
+    '4': UI/UX Designer और Front Developer
+    '5': विपणन और संचार
+    '6': ध्वनि डिजाइनर
+  poste:
+    '1': CEO और Founder
+    '2': मुख्य तकनीकी अधिकारी
+    '3': लीड क्लाइंट Gameplay
+    '4': लीड ब्लॉकचेन इंजीनियर
+    '5': सॉफ्टवेयर पूर्ण स्टैक इंजीनियर
+    '6': एकता 3 डी डेवलपर
+    '7': पूर्ण स्टैक डेवलपर
+    '8': VFX खेल डिजाइनर
+    '9': स्तर डिजाइनर /
+    '10': 3 डी चरित्र / आइटम कलाकार
+    '11': पार्टनर स्टूडियो /
+    '12': खेल डिजाइनर सलाहकार
+    '13': लीड UI/
+    '14': पूर्ण स्टैक डेवलपर वेब
+    '15': क्रिएटिव डेवलपर
+    '16': ग्राफ़िक डिज़ाइनर
+    '17': मूवी निर्माता
+    '18': मुख्य विपणन अधिकारी
+    '19': सामुदायिक प्रबंधक
+    '20': ध्वनि डिजाइनर
+    '21': संगीत संगीतकार
+    '22': टीम प्रबंधन
+    '23': सॉफ्टवेयर इंजीनियर
+leaderboard:
+  title: लीडरबोर्ड
+  metaTitle: Kryxivia • लीडरबोर्ड • Kryxivia के सबसे बड़े खिलाड़ी
+  h1: Kryxivia के महानतम खिलाड़ी
+roadmap:
+  metaTitle: Kryxivia • Kryxivia के रोडमैप
+  title: रोडमैप
+  discover: हमारे रोडमैप की खोज
+  h1: Kryxivia का रोडमैप
+  road:
+    q3_2021:
+      desc: Kryxivia परियोजना की शुरुआत
+      list:
+        '1': >-
+          अल्फा के लिए Binance स्मार्ट-चेन परीक्षण-नेट पर KXA और KXS टोकन का
+          परिनियोजन।
+        '2': >-
+          विकास शुरू करना, आधार गेमप्ले, गेम सर्वर और ब्लॉकचेन लिंक का परीक्षण
+          करना।
+        '3': Kryxivia यूनिवर्स के 3 डी मॉडलिंग पर काम कर रहे हैं.
+        '4': >-
+          शहरों के स्तर डिजाइन कर रही है, मेरा, खेल की विद्या पर काम कर रहा है,
+          Kryxit और जवाहरात कार्यात्मक प्रणालियों की खोज.
+    q4_2021:
+      desc: Kryxivia परियोजना की शुरुआत
+      list:
+        '1': >-
+          Kryxivia के बारे में मूल बातें के साथ ऑनलाइन वेबसाइट शुरू करना,
+          प्रस्तुति पेपर जारी करना।
+        '2': >-
+          हमारे GitHub भंडार और विभिन्न स्मार्ट अनुबंधों पर Kryxivia codebase के
+          ओपन-सोर्स रिलीज।
+        '3': >-
+          एकता WebGL, C# और नोड का उपयोग कर खेल के सबूत की अवधारणा तैयार
+          करना.js।
+        '4': >-
+          हमारे विभिन्न स्मार्ट अनुबंधों का ऑडिट करना जो बीएससी ब्लॉकचेन के साथ
+          बातचीत करते हैं।
+        '5': Kryxivia अल्फा के लॉन्च के लिए टीज़र जारी.
+        '6': >-
+          संपत्ति पूल तरलता और खेल आधार-धन (आईएलओ) बनाने के लिए एक सार्वजनिक
+          बिक्री करके KXA टोकन किकस्टार्ट करना।
+        '7': >-
+          निजी अल्फा पूर्व-पहुंच के लिए व्हाइटलिस्ट को तैनात करना (आईएलओ में भाग
+          लेने वाले वॉलेट के फायदे होंगे)।
+        '8': >-
+          सभी खेल पहलुओं, क्लाइंट / सर्वर, और NFTs के केंद्रीकरण / विकेंद्रीकरण
+          सेवाओं के बीच कनेक्शन पर काम करना।
+        '9': Kryxivia टीम के सदस्यों की KYC प्रक्रियाओं कर रही है.
+        '10': >-
+          इन-गेम KXS टोकन के लिए एक पैनकेक स्वैप नियंत्रित पूल बनाना (जुटाए गए
+          धन के 10% के साथ)।
+        '11': CoinMarketCap, CoinGecko पर लिस्टिंग ...
+    q1_2022:
+      desc: Kryxivia परियोजना की शुरुआत
+      list:
+        '1': WebGL ब्राउज़र गेम परिनियोजन के लिए तैयार होने के नाते
+        '2': >-
+          अन्य खिलाड़ियों के साथ इन-गेम सामान का व्यापार करने के लिए एनएफटी आइटम
+          मार्केटप्लेस को तैनात करना।
+        '3': >-
+          चयनित सदस्यों के लिए निजी पूर्व-अल्फा एक्सेस शुरू करने के लिए
+          kryxivia.io में अपने ब्राउज़र में क्रिक्सिविया वर्ल्ड में खेलने के
+          लिए।
+        '4': >-
+          पूर्व अल्फा के लिए परीक्षण-नेट का उपयोग करने के लिए कीड़े स्पॉट और
+          पुरस्कृत बग-बाउंटी खिलाड़ियों है कि KXA टोकन में मुद्दों की रिपोर्ट.
+        '5': >-
+          नए कालकोठरी और वस्तुओं के अधिक विनिर्देशों, Kryxit जवाहरात और मंत्र
+          gameplay विकास जोड़ना.
+        '6': >-
+          बीटा एक्सेस-लॉन्च के लिए विभिन्न स्टार्टर पैक (एनएफटी पैक) लॉन्च करें,
+          सीधे अपने खरीदे गए पैक के साथ खेलना शुरू करने के लिए।
+        '7': टीम की क्षमता में वृद्धि, नए 3 डी डिजाइनर, स्तर और scenarist भर्ती.
+        '8': PVE सामग्री में सुधार.
+    q2_2022:
+      desc: Kryxivia परियोजना की शुरुआत
+      list:
+        '1': >-
+          BSC नेटवर्क के मुख्य नेट पर Kryxivia विश्व के बीटा सार्वजनिक पहुँच
+          जारी.
+        '2': खिलाड़ियों द्वारा पाए गए पूर्व-अल्फा (Q1) से कीड़े को ठीक करना।
+        '3': >-
+          Kryxivia खान में छापे प्रणालियों (+ 20 खिलाड़ियों को छापे झगड़े में एक
+          साथ लड़ने) विकसित करने के लिए शुरू करना।
+        '4': >-
+          खिलाड़ियों की गतिविधियों को पुरस्कृत करने के लिए दैनिक खोज प्रणालियों
+          को जोड़ना, इसलिए सबसे सक्रिय लोगों को पुरस्कृत करना।
+        '5': >-
+          अधिक कठिनाइयों और बेहतर Kryxit और सामान पुरस्कार के साथ खान में
+          dungeons कमरे के एक बड़े सेट पर काम कर रहा है.
+        '6': >-
+          शीर्ष प्रमुख T1 केंद्रीकृत एक्सचेंजों पर KXA और KXS टोकन को लागू करना
+          और सूचीबद्ध करना।
+        '7': >-
+          KXA / KXS टोकन के साथ पुरस्कार (प्रति वर्ष नए पुरस्कार के साथ वास्तविक
+          ROI) जीतने के लिए बैंक इन-गेम स्टेकिंग सिस्टम।
+    q3_2022:
+      desc: Kryxivia परियोजना की शुरुआत
+      list:
+        '1': >-
+          Guilds प्रणाली दैनिक / साप्ताहिक उद्देश्यों के साथ अपने साथियों के साथ
+          टीम बनाने के लिए पुरस्कार या बोनस दरों के लिए पहुँचने के लिए.
+        '2': >-
+          विशिष्ट नए मालिकों (नए सीमित कॉस्मेटिक ...) के साथ विशेष अद्वितीय NFTs
+          के साथ एक घटना प्रणाली के मौसम को जोड़ना।
+        '3': >-
+          डीएओ शासन घटना विषयों पर वोट करने के लिए, प्राप्त करने के लिए रोडमैप
+          पर अगले मील के पत्थर, और nerf या उन्नयन में खेल gameplay अद्यतन
+          (प्रतिशत के मामले में बटुए द्वारा कैप्ड) बनाने के लिए।
+        '4': KXS मान और मूल्य चाल पर आँकड़े और जानकारी के लिए दृश्य डिजाइन इन-गेम.
+        '5': >-
+          सभी खिलाड़ियों को देखने के लिए ऑनलाइन सीढ़ी, उनके ई-स्तर और प्रतिष्ठा
+          + इन्वेंट्री एनएफटी की विशिष्टता।
+token-kxs:
+  title: टोकन $KXS
+  metaTitle: Kryxivia • Kryxivia सिक्का $KXS
+  h1: Kryxivia $KXS सिक्का
+  intro: >-
+    KXS सिक्का, जो Kryxivia Shard Coin के लिए खड़ा है, ऑनलाइन मुद्रा खेलने के
+    लिए, खरीदने, व्यापार करने और Kryxivia दुनिया में सामान के नए ऑनलाइन टुकड़े
+    है, क्योंकि यह अधिक जोखिम और आर्थिक चाल ों को वहन करता है, इसे एक बड़ी
+    आपूर्ति की आवश्यकता है ताकि हर खिलाड़ी के साथ खेलने के लिए कुछ हो सके।
+  txt1: >-
+    KXS टोकन की कुल अधिकतम आपूर्ति 5,000,000,000 KXS (5B) पर कैप्ड है जो इसे KXA
+    टोकन की तुलना में अधिक सुलभ और उपयोग करने योग्य इन-गेम बनाती है। KXS टोकन
+    mintable है जिसका अर्थ है कि नए लोगों को इस तरह के खेल में पुरस्कार या विशेष
+    ऑनलाइन घटनाओं की खेती के रूप में चीजों के लिए बनाया जा सकता है. इसे CEX और
+    DEX पर किसी भी अन्य मुद्रा की तरह कारोबार किया जा सकता है।
+  txt2: >-
+    यह एक अपस्फीति टोकन भी है क्योंकि आप विशेष पुरस्कारों के लिए केएक्सएस टोकन
+    इन-गेम का उपयोग कर सकते हैं, उदाहरण के लिए, यदि आप अपनी वस्तुओं को क्रिक्सिट
+    रत्नों से जोड़ना चाहते हैं, तो आपको ऐसा करने के लिए कुछ केएक्सएस को जलाने की
+    आवश्यकता होगी, या यदि आप अपनी यात्रा के माध्यम से आपकी मदद करने के लिए औषधि
+    या अन्य जैसे उपभोग्य वस्तुओं को खरीदना चाहते हैं; आप शहर NPCs के लिए KXS
+    टोकन जलाने की आवश्यकता होगी.
+  txt3: >-
+    इन-गेम टोकन में इन-गेम टोकन की खरीद क्षमता और बिक्री क्षमता को सुनिश्चित
+    करने के लिए प्रबंधित पूल पर केएक्सए टोकन द्वारा समर्थित विकेंद्रीकृत
+    प्रोटोकॉल पर आधार तरलता होगी, लेकिन केएक्सएस टोकन प्राप्त करने का मुख्य
+    तरीका अभी भी खेल और पुरस्कार जीतकर इन-गेम होगा, क्योंकि हमारी प्रणाली को
+    "कमाने के लिए खेलें" वर्णित किया गया है।
+token-kxa:
+  title: टोकन $KXA
+  metaTitle: Kryxivia • Kryxivia सिक्का $KXA
+  h1: Kryxivia $KXA सिक्का
+  intro: >-
+    KXA सिक्का, जो Binance स्मार्ट चेन पर तैनात Kryxivia Coin टोकन के लिए खड़ा
+    है, ऑन-चेन भुगतान और स्टार्टर पैक, विशेष NFT बिक्री घटनाओं या KXS इन-गेम
+    मुद्रा के लिए विनिमय जैसे विशेष पैकेजों के लिए आधार क्रिप्टोक्यूरेंसी है, जो
+    Kryxit Shard के लिए खड़ा है।
+  txt1: >-
+    Kryxivia सिक्के 250,000,000 KXA सिक्कों की कुल अधिकतम आपूर्ति है, जैसा कि
+    नीचे विस्तृत है, हमारे tokenomics काफी विशिष्ट और स्थिर हैं। KXA टोकन
+    mintable नहीं है, जिसका अर्थ है कि यह 250M KXAs से अधिक जारी नहीं किया जा
+    सकता है।
+  txt2: >-
+    हम उच्च ऑन-चेन लेनदेन शुल्क से बचने के लिए बीएससी श्रृंखला का उपयोग करते
+    हैं। आप अपने वॉलेट (जैसे मेटामास्क) का उपयोग करके हमारे ऑनलाइन मार्केटप्लेस
+    में खेल से NFT संपत्तियों (आइटम, Kryxit, मंत्र ...) को खरीदने और बेचने के
+    लिए KXA सिक्के का भी उपयोग कर सकते हैं।
+  sub: Tokenomics
+  title1: Kryxivia सिक्के के Tokenomics
+  subtitle1: टोकन $KXA वितरण
+  td1: सर्वर नेटवर्क होस्टिंग, खेल क्लाइंट, और सर्वर इंजन लागत
+  td2: >-
+    विपणन, गोद लेने में वृद्धि और परियोजनाओं के दर्शकों को बढ़ाने के लिए
+    प्रोत्साहन
+  td3: इन-गेम इवेंट्स पुरस्कार, विशेष खेती, और एनएफटी पुरस्कार
+  td4: बैंक प्रणालियों और खिलाड़ियों के लिए शुद्ध APY पुरस्कार के लिए धन स्टेकिंग
+  td5: विकास टीम भुगतान लागत, टीम का हिस्सा
+  td6: निजी टोकन presale दौर परियोजना किकस्टार्ट करने के लिए
+  td7: Unicrypt प्रोटोकॉल पर खेल बीटा-रिलीज के लिए सार्वजनिक टोकन बिक्री (ILO*)
+  td8: अतिरिक्त संचालन के लिए पारिस्थितिकी तंत्र फंड
+  td9: आरक्षित खजाना निधियां
+  subtitle2: टीम के आधिकारिक वॉलेट
+  subtitle3: निजी और सार्वजनिक बिक्री योजना
+  wallet1: Kryxivia तैनाती बटुए
+  wallet2: सर्वर नेटवर्क होस्टिंग वॉलेट
+  wallet3: विपणन, गोद लेने के बटुआ
+  wallet4: घटनाओं, में खेल पुरस्कार बटुआ
+  wallet5: स्टेकिंग फंड वॉलेट
+  wallet6: विकास निधि टीम बटुआ
+  wallet7: पारिस्थितिकी तंत्र धन बटुआ
+  wallet8: आरक्षित खजाना निधि बटुआ
+  sale:
+    private:
+      title: निजी बिक्री दौर
+      discount: ~ सार्वजनिक बिक्री मूल्य से {percent} छूट
+      of: KXA का {kxa} ({total} - {percent} supply)
+      price: 'मूल्य: {price} प्रति KXA'
+      raise: ~ {bnb} BNB = (कुल = ~{total}) का उठाव
+      close: 'निजी बिक्री बंद करें: <-> TGE {percent} एक वर्ष में रैखिक अनलॉक तो अनलॉक'
+    public:
+      title: सार्वजनिक बिक्री दौर
+      discount: ~ {percent} लिस्टिंग मूल्य से छूट
+      of: KXA का {kxa} ({total} - {percent} supply)
+      price: 'मूल्य: {price} प्रति KXA'
+      raise: ~ {bnb} BNB = (कुल = ~{total}) का उठाव
+      close: 'सार्वजनिक बिक्री बंद करें: <-> TGE {percent} अनलॉक तो 3 महीने पर रैखिक'
+    listing:
+      title: PancakeSwap पर लिस्टिंग
+      price: 'मूल्य: {price} प्रति KXA'
+      raise: Unicrypt से जुटाए गए धन का {percent} 1 वर्ष के लिए बंद कर दिया गया
+devblog:
+  title: Devblog & समाचार
+  metaTitle: Kryxivia • Devblog, समाचार, अद्यतन और घोषणाएं
+  h1: समाचार, अद्यतन और घोषणाएँ
+  back: सूची पर वापस जाएँ
+devblog-slug:
+  title: Devblog & समाचार
+  metaTitle: क्रिक्सीविया
+bosses:
+  title: मालिकों
+  metaTitle: Kryxivia • Kryxivia MMORPG Metaverse के मालिकों
+  h1: Kryxivia MMORPG Metaverse के मालिकों
+  fight: अब {boss} से लड़ो!
+  back: सूची पर वापस जाएँ
+bosses-slug:
+  title: मालिकों
+  progress: कहानी प्रगति पर है, बाद में वापस आओ ...
+bosses-alde:
+  title: मालिकों • एल्डे
+  metaTitle: Kryxivia • Alde • Kryxivia के मालिकों
+  sub: लोरेम इप्सम डोलर अभिषेक आदिपिसीसिंग
+  h1: Alde की लपटें
+  intro: >-
+    Lorem, ipsum dolor बैठते हैं amet अभिषेक आदिपिसिकिंग elit. Quod, aliquid
+    quos vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor बैठते हैं amet consectetur adipisicing elit. Facilis
+    quaerat placeat dolores saepe doloribus provident delectus facere nobis
+    quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+    odio, quas fuga.
+  content:
+    sub1: Lorem ipsum dolor बैठते हैं amet अभिषेक
+    title1: Lorem ipsum dolor बैठो amet अभिषेक elit adipisicing
+    subtitle1: अभिषेक elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor बैठते हैं amet consectetur adipisicing elit. Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+      odio, quas fuga. Lorem ipsum dolor बैठते हैं amet consectetur adipisicing
+      elit. Facilis quaerat placeat dolores saepe doloribus provident delectus
+      facere nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: अभिषेक elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor बैठते हैं amet consectetur adipisicing elit. Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+      odio, quas fuga. Lorem ipsum dolor बैठते हैं amet consectetur adipisicing
+      elit. Facilis quaerat placeat dolores saepe doloribus provident delectus
+      facere nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-atesgol:
+  title: मालिकों • Atesgol
+  metaTitle: Kryxivia • Atesgol • Kryxivia के मालिकों
+  sub: लोरेम इप्सम डोलर अभिषेक आदिपिसीसिंग
+  h1: Atesgol के ब्रेवर
+  intro: >-
+    Lorem, ipsum dolor बैठते हैं amet अभिषेक आदिपिसिकिंग elit. Quod, aliquid
+    quos vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor बैठते हैं amet consectetur adipisicing elit. Facilis
+    quaerat placeat dolores saepe doloribus provident delectus facere nobis
+    quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+    odio, quas fuga.
+  content:
+    sub1: Lorem ipsum dolor बैठते हैं amet अभिषेक
+    title1: Lorem ipsum dolor बैठो amet अभिषेक elit adipisicing
+    subtitle1: अभिषेक elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor बैठते हैं amet consectetur adipisicing elit. Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+      odio, quas fuga. Lorem ipsum dolor बैठते हैं amet consectetur adipisicing
+      elit. Facilis quaerat placeat dolores saepe doloribus provident delectus
+      facere nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: अभिषेक elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor बैठते हैं amet consectetur adipisicing elit. Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+      odio, quas fuga. Lorem ipsum dolor बैठते हैं amet consectetur adipisicing
+      elit. Facilis quaerat placeat dolores saepe doloribus provident delectus
+      facere nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-valtrena:
+  title: मालिकों • Valtrena
+  metaTitle: Kryxivia • Valtrena • Kryxivia के मालिकों
+  sub: लोरेम इप्सम डोलर अभिषेक आदिपिसीसिंग
+  h1: Valtrena का भूस्खलन
+  intro: >-
+    Lorem, ipsum dolor बैठते हैं amet अभिषेक आदिपिसिकिंग elit. Quod, aliquid
+    quos vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor बैठते हैं amet consectetur adipisicing elit. Facilis
+    quaerat placeat dolores saepe doloribus provident delectus facere nobis
+    quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+    odio, quas fuga.
+  content:
+    sub1: Lorem ipsum dolor बैठते हैं amet अभिषेक
+    title1: Lorem ipsum dolor बैठो amet अभिषेक elit adipisicing
+    subtitle1: अभिषेक elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor बैठते हैं amet consectetur adipisicing elit. Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+      odio, quas fuga. Lorem ipsum dolor बैठते हैं amet consectetur adipisicing
+      elit. Facilis quaerat placeat dolores saepe doloribus provident delectus
+      facere nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: अभिषेक elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor बैठते हैं amet consectetur adipisicing elit. Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+      odio, quas fuga. Lorem ipsum dolor बैठते हैं amet consectetur adipisicing
+      elit. Facilis quaerat placeat dolores saepe doloribus provident delectus
+      facere nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-k1rig:
+  title: मालिकों • K1 R.I.G
+  metaTitle: Kryxivia • K1 R.I.G • Kryxivia के मालिकों
+  sub: लोरेम इप्सम डोलर अभिषेक आदिपिसीसिंग
+  h1: K1 R.I.G. के Cogs
+  intro: >-
+    Lorem, ipsum dolor बैठते हैं amet अभिषेक आदिपिसिकिंग elit. Quod, aliquid
+    quos vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor बैठते हैं amet consectetur adipisicing elit. Facilis
+    quaerat placeat dolores saepe doloribus provident delectus facere nobis
+    quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+    odio, quas fuga.
+  content:
+    sub1: Lorem ipsum dolor बैठते हैं amet अभिषेक
+    title1: Lorem ipsum dolor बैठो amet अभिषेक elit adipisicing
+    subtitle1: अभिषेक elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor बैठते हैं amet consectetur adipisicing elit. Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+      odio, quas fuga. Lorem ipsum dolor बैठते हैं amet consectetur adipisicing
+      elit. Facilis quaerat placeat dolores saepe doloribus provident delectus
+      facere nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: अभिषेक elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor बैठते हैं amet consectetur adipisicing elit. Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+      odio, quas fuga. Lorem ipsum dolor बैठते हैं amet consectetur adipisicing
+      elit. Facilis quaerat placeat dolores saepe doloribus provident delectus
+      facere nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-melucyna:
+  title: मालिकों • Melucyna
+  metaTitle: Kryxivia • Melucyna • Kryxivia के मालिकों
+  sub: लोरेम इप्सम डोलर अभिषेक आदिपिसीसिंग
+  h1: मेलिकुना की लहरें
+  intro: >-
+    Lorem, ipsum dolor बैठते हैं amet अभिषेक आदिपिसिकिंग elit. Quod, aliquid
+    quos vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor बैठते हैं amet consectetur adipisicing elit. Facilis
+    quaerat placeat dolores saepe doloribus provident delectus facere nobis
+    quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+    odio, quas fuga.
+  content:
+    sub1: Lorem ipsum dolor बैठते हैं amet अभिषेक
+    title1: Lorem ipsum dolor बैठो amet अभिषेक elit adipisicing
+    subtitle1: अभिषेक elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor बैठते हैं amet consectetur adipisicing elit. Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+      odio, quas fuga. Lorem ipsum dolor बैठते हैं amet consectetur adipisicing
+      elit. Facilis quaerat placeat dolores saepe doloribus provident delectus
+      facere nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: अभिषेक elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor बैठते हैं amet consectetur adipisicing elit. Facilis
+      quaerat placeat dolores saepe doloribus provident delectus facere nobis
+      quia, corrupti veniam amet consectetur tempore ad assumenda, distinctio
+      odio, quas fuga. Lorem ipsum dolor बैठते हैं amet consectetur adipisicing
+      elit. Facilis quaerat placeat dolores saepe doloribus provident delectus
+      facere nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+factions:
+  title: गुटों
+  metaTitle: Kryxivia • Kryxivia के गुटों
+  h1: तीन गुटों में से एक में शामिल हों!
+  want: मैं बनना चाहता हूँ
+  adventurers:
+    name: साहसी
+    title: क्या आपके पास एक साहसी होने के लिए क्या है?
+    intro: >-
+      क्या आप साहसी हैं, और अपने पूर्वजों का सम्मान करने के लिए तैयार हैं?
+      Adventurers गुट में शामिल होने के लिए आप शक्ति, साहस, बहादुरी, और दृढ़
+      संकल्प की जरूरत है.
+    paragraphe:
+      - >-
+        आपका लक्ष्य सबसे कमजोर लोगों की रक्षा करना होगा और पहले से कहीं अधिक
+        मजबूत बनने के लिए हर दिन खुद को पार करना होगा, आप कामदेव लोगों को पसंद
+        नहीं करते हैं, विशेष रूप से व्यापारी गुट जो धन के लिए कुछ भी करेंगे।
+        साहसिक और चुनौती के लिए प्यासा, आप अपने साथियों के साथ शामिल हो गए हैं
+        यह तय करने के लिए कि कौन से मिशन आपके गुट के आदर्शों को मजबूत करेंगे, आप
+        सभी के बाद क्रि दिव्यता के वंशज हैं।
+  nomads:
+    name: खानाबदोश
+    title: >-
+      कभी-कभी, प्रकृति आपको सभी की आवश्यकता होती है और हमें वास्तविक
+      प्राथमिकताओं और बुनियादी आवश्यकताओं को याद दिलाती है, है ना?
+    intro: >-
+      क्या आप प्रकृति से प्यार करते हैं और उसकी रक्षा करने के लिए तैयार हैं?
+      खानाबदोश गुट में शामिल होने के लिए आपको जंगल, पौधों, जानवरों से प्यार करने
+      की आवश्यकता है, और एक शांतिपूर्ण और शांत वातावरण में रहने के लिए इच्छुक
+      हैं।
+    paragraphe:
+      - >-
+        Via के वंशज के रूप में, आप प्रकृति के साथ एक हैं। आप प्रत्येक पौधे और
+        किसी भी जीवित प्राणी का सम्मान करते हैं, एक खतरनाक जानवर फुसफुसाने वाले
+        के रूप में आप साथी यात्रियों को प्राप्त करते हैं। किंवदंती थी कि सबसे
+        पुराने खानाबदोशों ने ड्रैगन के साथ यात्रा की थी। आपका दिल शुद्ध है और आप
+        अपने ज्ञान को हर किसी के साथ साझा करते हैं जो सुनता है। आपकी शिक्षाओं से
+        पता चलता है कि पृथ्वी की उदारता के लिए धन्यवाद कैसे जीवित रहें।
+  merchants:
+    name: व्यापारियों
+    title: >-
+      क्या आप चंद्रमा की ऊर्जा महसूस करते हैं, क्या आपने हमेशा महसूस किया है कि
+      आप अलग थे, चालाक थे, क्या आपके लिए लोगों के दिमाग के साथ खेलना आसान है?
+    intro: >-
+      मर्चेंट गुट में शामिल होने के लिए आपको सामाजिक और व्यावसायिक कौशल के साथ
+      उपहार दिया जाना चाहिए, आप जानते हैं कि लोग वास्तव में क्या उम्मीद करते हैं
+      और चाहते हैं कि आप कहें, आप बुद्धिमान हैं, व्यापार के कौशल में महारत हासिल
+      करते हैं, और जब इसकी आवश्यकता होती है तो जोड़तोड़ और शरारती।
+    paragraphe:
+      - >-
+        आपके पास चारों ओर ऊर्जा को आकर्षित करने की एक प्राकृतिक प्रवृत्ति है। एक
+        शानदार आकर्षण के रूप में, आप अपने लाभ के लिए शब्दों का उपयोग कर सकते
+        हैं, यह शी देवी के प्रभाव के कारण है। आप मौजूद सबसे कीमती, विशाल और
+        दुर्लभ क्रिक्सिट को पकड़ने का सपना देखते हैं। कोई फर्क नहीं पड़ता कि
+        बलिदान आप अपने पास रखने की आवश्यकता महसूस करते हैं। यह जानते हुए कि
+        दुनिया क्रूर है और अच्छे लोग बहुत लंबे समय तक जीवित नहीं रहते हैं, आपको
+        सहानुभूति और दया की कमी है। कभी-कभी आपको वह करना होगा जो अन्य लोग आम
+        अच्छे के लिए नहीं कर सकते हैं।
+faq:
+  title: अक्सर पूछे जाने वाले प्रश्न
+  metaTitle: Kryxivia • अकसर किये गए सवाल
+  category: श्रेणियाँ
+  h1: हम आपकी मदद कैसे कर सकते हैं?
+  start: अपने प्रश्न या समस्या की श्रेणी का चयन करके शुरू करें।
+  no-question: इस श्रेणी में अभी तक कोई प्रश्न सूचीबद्ध नहीं हैं, बाद में वापस जांचें!
+  no-answer: >-
+    क्या आपको अपने सवालों का जवाब नहीं मिल रहा है? नेटवर्क पर हमसे पूछें, हमारी
+    टीम आपको जवाब देने में खुश होगी।
+  back: श्रेणियों पर वापस जाएँ
+  kryxivia-and-game:
+    title: क्रिक्सिविया और खेल
+    list:
+      - q: Kryxivia क्या है?
+        a:
+          - t: txt
+            c: >-
+              Kryxivia एक काल्पनिक 3 डी MMORPG, किसी भी आधुनिक ब्राउज़र पर खेलने
+              योग्य है, सीधे kryxivia.io पर हमारी वेबसाइट पर उपलब्ध है, एक पूरे
+              पारिस्थितिकी प्रणाली Kryxit इकट्ठा करने के लिए नए साहसिक
+              खिलाड़ियों की प्रतीक्षा कर रहा है! हमारी दुनिया में, अपने दोस्तों
+              के साथ एक मजेदार और सहकारी अनुभव होने के दौरान क्रिप्टो-मुद्रा और
+              अद्वितीय दुर्लभ एनएफटी अर्जित करने के लिए खुद को तैयार करें।
+      - q: मैं कैसे खेलना शुरू करूं?
+        a:
+          - t: txt
+            c: >-
+              Kryxivia किसी भी संगत आधुनिक ब्राउज़रों के साथ काम कर रहा एक
+              ऑनलाइन MMORPG खेल है, आप इसे न्यूनतम आवश्यक सही GPU के साथ किसी भी
+              कंप्यूटर पर खेल सकते हैं। प्रमाणित करने और खेल में लॉग इन करने के
+              लिए, आप एक Metamask आधारित बटुआ की आवश्यकता होगी।
+      - q: कमाने के लिए खेल क्या है?
+        a:
+          - t: txt
+            c: >-
+              प्ले-टू-अर्न गेम आपके समय के लिए वास्तविक पुरस्कार अर्जित करने के
+              अवसर के साथ वीडियो गेम के मज़े को जोड़ते हैं। हमारे मामले में आप
+              MMORPG का आनंद लें और Kryxit टोकन कमा सकते हैं.
+      - q: असली स्वामित्व का क्या मतलब है?
+        a:
+          - t: txt
+            c: >-
+              वास्तविक मालिक वे होते हैं जो स्वामित्व के लाभ प्राप्त करते हैं।
+              सच्चे मालिक वे व्यक्ति या संस्थाएं हैं जो लाभ का नाम प्राप्त करते
+              हैं, और वे उससे किसी भी लाभ के हकदार हैं।
+      - q: Kryxivia खेल जीतने के लिए एक खेल है?
+        a:
+          - t: txt
+            c: हाँ Kryxivia Kryxit खेल कमाने के लिए एक खेल है.
+      - q: क्या क्रिक्सिविया वास्तव में खेल खेलने के लिए स्वतंत्र है?
+        a:
+          - t: txt
+            c: >-
+              हाँ, kryxivia खेलने के लिए आप केवल सर्वर के साथ अपने Metamask
+              कनेक्ट करने की जरूरत है.
+      - q: मैं Kryxivia कहाँ खेल सकते हैं?
+        a:
+          - t: txt
+            c: आप kryxivia.io पर खेल खेल सकते हैं
+      - q: क्या मुझे ब्लॉकचेन या बिनेंस स्मार्ट चेन नेटवर्क को समझना होगा?
+        a:
+          - t: txt
+            c: >-
+              नहीं, आपको गेम खेलने के लिए BNBchain का कोई तकनीकी ज्ञान होने की
+              आवश्यकता नहीं है।
+      - q: MMORPG क्या है?
+        a:
+          - t: txt
+            c: >-
+              एक MMORPG एक वीडियो गेम है जो रोल-प्लेइंग वीडियो गेम और बड़े
+              पैमाने पर मल्टीप्लेयर ऑनलाइन गेम के तत्वों को जोड़ता है।
+      - q: मैं त्रुटियों की रिपोर्ट कहां कर सकता हूं?
+        a:
+          - t: txt
+            c: >-
+              यदि आप एक अल्फा-परीक्षक हैं, तो आप डिस्कॉर्ड पर बग रिपोर्ट चैनल पर
+              बग रिपोर्ट कर सकते हैं और $ 40,000 के इनाम से कमाने का मौका
+              प्राप्त कर सकते हैं।
+      - q: क्रिक्सीविया खेलने के लिए पीसी आवश्यकताएं क्या हैं?
+        a:
+          - t: txt
+            c: >-
+              अनुशंसित आवश्यकताएं कम से कम 4GB RAM, एक Intel Core i5, एक GPU
+              GeForce GTX 900 Series, और एक ठोस राज्य ड्राइव हैं।
+  wallet-kxa-kxs:
+    title: बटुआ, KXA और KXS
+    list:
+      - q: $KXA क्या है?
+        a:
+          - t: txt
+            c: >-
+              $KXA, या क्रिक्सिविया कॉइन टोकन, क्रिप्टो-मुद्रा है जिसका उपयोग
+              ऑन-चेन भुगतान के लिए किया जाता है, जैसे कि स्टार्टर पैक, विशेष
+              एनएफटी बिक्री ईवेंट, या इन-गेम मुद्रा $KXS के लिए विनिमय करना, जो
+              क्रिक्सिट शार्ड के लिए खड़ा है।
+      - q: $KXS क्या है?
+        a:
+          - t: txt
+            c: >-
+              $KXS सिक्का, जो Kryxivia Shard Coin के लिए खड़ा है, ऑनलाइन मुद्रा
+              खेलने, खरीदने, व्यापार करने और Kryxivia दुनिया में सामान के नए
+              ऑनलाइन टुकड़े है।
+      - q: मैं $KXA और $KXS कैसे खरीद और बेचसकता हूं?
+        a:
+          - t: txt
+            c: 'आप यहां सूचीबद्ध एक्सचेंजों पर $KXA खरीद सकते हैं:'
+          - t: बटन
+            c: CoinMarketCap
+            link: https://coinmarketcap.com/currencies/kryxivia/
+          - t: txt
+            c: $KXS अभी तक सूचीबद्ध नहीं है।
+      - q: क्या मेरे क्रिप्टो और गेम आइटम सुरक्षित हैं?
+        a:
+          - t: txt
+            c: >-
+              हाँ, Kryxivia Solidproof द्वारा सुरक्षित सत्यापित किया गया है और
+              खेल परिसंपत्तियों और क्रिप्टो में अपने सभी हमारे साथ सुरक्षित है.
+          - t: बटन
+            c: SolidProof ऑडिट
+            link: >-
+              https://github.com/solidproof/projects/blob/main/Kryxivia/MysteryBox/SmartContract_Audit_Solidproof_Kryxivia%20MysteryBox.pdf
+      - q: Airdrops क्या हैं और मैं उन्हें कैसे प्राप्त करूं?
+        a:
+          - t: txt
+            c: >-
+              एयरड्रॉप्स में क्रिप्टो परियोजनाएं शामिल हैं जो गोद लेने को बढ़ाने
+              के लिए अपने समुदायों को बड़े पैमाने पर टोकन प्रदान करती हैं।
+          - t: txt
+            c: >-
+              Kryxivia airdrops के बारे में सभी घोषणाओं की घोषणा आधिकारिक ट्विटर
+              हैंडल पर की जाएगी।
+      - q: मेरे क्रिप्टो और एनएफटी वॉलेट को कैसे लिंक करें?
+        a:
+          - t: txt
+            c: >-
+              आपको उस पर बिनेंस नेटवर्क के साथ एक मेटामास्क खाता होना चाहिए,
+              उसके बाद आपको क्रिक्सिविया वेबसाइट खोलने और कनेक्ट वॉलेट पर क्लिक
+              करने की आवश्यकता है।
+          - t: txt
+            c: उसके बाद वॉलेट अधिसूचना कनेक्शन की अनुमति के लिए पॉप अप होगा।
+      - q: अपने NFT या क्रिप्टो को किसी अन्य बटुए में कैसे भेजें?
+        a:
+          - t: बटन
+            c: और अधिक पढ़ें
+            link: https://nftdesire.io/how-to-transfer-nft-to-another-wallet/
+  login-and-account:
+    title: लॉगिन और खाता
+    list: []
+  website-and-social:
+    title: वेबसाइट और सामाजिक
+    list:
+      - q: सवालों या चिंताओं के लिए किससे बात करें?
+        a:
+          - t: txt
+            c: >-
+              हमारे सभी सोशल मीडिया चैट मॉड्स के साथ सक्रिय हैं, आप हमारे
+              डिस्कॉर्ड और टेलीग्राम में शामिल हो सकते हैं।
+  characters-and-equipments:
+    title: वर्ण और उपकरण
+    list: []
+  monsters-and-dungeons:
+    title: राक्षसों और Dungeons
+    list: []
+  others:
+    title: दूसरों
+    list: []
+faq-slug:
+  title: अक्सर पूछे जाने वाले प्रश्न
+dungeons:
+  title: क्रिक्सीविया खान
+  metaTitle: Kryxivia • Kryxivia की खान
+  h1: Kryxivia खान का अन्वेषण करें, और कीमती NFTs इकट्ठा!
+  intro: >-
+    Kryxivia सिटी के अंदर, आपको एक विशाल दरवाजा मिलेगा जो एक पुरानी खान की ओर
+    जाता है जो बहुत समय पहले खोजा गया था। एडवेंचरर्स ने खदान के अंदर क्रिक्सिट
+    को समझने और उन्हें इकट्ठा करने के लिए इसके चारों ओर क्रिक्सिविया सिटी बनाने
+    का फैसला किया है। उन्होंने जल्दी से महसूस किया है कि भयानक राक्षस उस मेरी
+    रक्षा करते हैं और उन्हें उन पर अपना हाथ रखने के लिए मौत से लड़ना होगा!
+  txt1: >-
+    हमने देवी Via के बारे में कहानियां सुनीं जो कि Kryxit की रक्षा के लिए खान को
+    मंत्रमुग्ध कर देती थीं, जो तीन देवताओं की शक्ति का स्रोत प्रतीत होता है:
+    Kry, Xi, और Via।
+  catalysts:
+    sub: उत्प्रेरक
+    title1: विभिन्न मोड में खदान कालकोठरी दर्ज करें!
+    txt1: >-
+      उत्प्रेरक आपको वैकल्पिक 'minelines' पर ले जाते हैं। यदि आप प्रवेश करने से
+      पहले एक का उपयोग करते हैं, तो आपके अंदर आने वाले मालिक बहुत मजबूत होंगे और
+      बहुत अधिक शक्तिशाली क्रिक्सिट छोड़ देंगे - जादुई रत्न जिन्हें आप नए मंत्र
+      और बेहतर आंकड़ों के लिए अपने आइटम सॉकेट कर सकते हैं।
+    txt2: >-
+      प्रत्येक उत्प्रेरक को बराबर नहीं बनाया गया था - कुछ दूसरों की तुलना में भी
+      अधिक कठिनाई को समायोजित करेंगे। कठिनाई स्तर को कालकोठरी के क्रक्स स्तर के
+      रूप में जाना जाता है। क्रक्स जितना अधिक होगा, मालिकों की संख्या उतनी ही
+      कठिन होगी और बूंदें उतनी ही बेहतर होंगी।
+    blue: ब्लू उत्प्रेरक
+    yellow: पीला उत्प्रेरक
+    orange: नारंगी उत्प्रेरक
+    red: लाल उत्प्रेरक
+    purple: बैंगनी उत्प्रेरक
+  boss:
+    sub: Kryxivia के मालिकों
+    title1: >-
+      स्तर-सबसे कठिन मालिकों को हराने और नए उच्च तक पहुंचने के लिए उत्प्रेरक का
+      उपयोग करके अपने चरित्र NFTs ऊपर!
+    txt1: >-
+      Kryxivia में, NFTs कानून बनाते हैं, जिसका अर्थ है कि आपका चरित्र स्तर उन
+      वस्तुओं पर आधारित है जिन्हें आपने सुसज्जित किया है, जिसे आपने बाजार पर
+      कारोबार किया है, या Kryxivia खान में राक्षसों के खिलाफ जीता है। आपके पास
+      वह है जिसे हम चरित्र पर आपके सामान से जुड़े एक आई-एलवीएल कहते हैं। मालिकों
+      आप उपकरण, Kryxit शार्ड सिक्का (KXS), और मंत्र दे देंगे. एल्गोरिथम मूल्य के
+      आधार पर, लूट एक स्थायी अर्थव्यवस्था को आश्वस्त करने के लिए खिलाड़ियों की
+      गतिविधि के आधार पर विभिन्न गणनाओं द्वारा निर्धारित की जाती है। कुछ एनएफटी
+      सुपर-सीमित हो सकते हैं और संभावित रूप से एक बार तैनात होने के बाद फिर से
+      कभी नहीं लूटे जा सकते हैं और एक निश्चित राशि पहले से ही गिरा दी गई है, या
+      सीमित दैनिक, साप्ताहिक, मासिक या वार्षिक है।
+kryxivia:
+  title: क्रिक्सीविया
+  metaTitle: Kryxivia • शहर और इतिहास
+  h1: Kryxivia की शानदार दुनिया का अन्वेषण करें
+  intro: >-
+    जब आप हमारी दुनिया में स्पॉन करते हैं, तो आपको अपना साहसिक कार्य शुरू करने
+    के लिए क्रिक्सिविया शहर में भेजा जाता है, शहर में, आप जादुई खान में अपना
+    गेमप्ले शुरू करने से पहले अपनी सभी आवश्यकताओं को पाएंगे।
+  txt1: >-
+    सभी खिलाड़ी लॉबी क्षेत्र में हैं, शहर में सामान कर रहे हैं, जबकि उस रहस्यमय
+    दरवाजे के अंदर लड़ने के लिए तैयार हो रही है! आप अपनी यात्रा के माध्यम से
+    आपका मार्गदर्शन करने के लिए कई एनपीसी पा सकते हैं और लोगों के साथ गठबंधन /
+    समूह बना सकते हैं ताकि छापे या कालकोठरी को एक साथ बनाया जा सके।
+  txt2: >-
+    खान और शहर के बीच गोल यात्रा करने में समय की बर्बादी से बचने के लिए मुख्य
+    आवश्यक एनपीसी के साथ एक केंद्रीय स्थान है, अन्य लोगों के लिए, आप उन्हें
+    विशिष्ट इमारतों पर पा सकते हैं जो दूसरों से असामान्य दिखते हैं।
+  story:
+    sub1: क्रिक्सिविया सिटी
+    title1: Kryxivia City Foundation की कहानी
+    txt1: >-
+      एक ऐसे समय में जहां मनुष्य ने अभी तक उद्योग का आविष्कार नहीं किया है। कुछ
+      लोगों ने पहाड़ में खोए हुए एक अजीब दरवाजे की खोज की थी। वहां से उन्हें
+      क्रिक्सिट, जबरदस्त शक्ति के साथ जादू के रत्न मिले। कई देशों द्वारा भेजे गए
+      पहले इकट्ठा होना शुरू करते हैं।
+    txt2: ' क्रिक्सिविया एक नया और खिलने वाला शहर है, जो कुछ साल पहले खोजे गए एक विशाल दरवाजे के चारों ओर पहाड़ों में स्थित है, जो ज्यादातर साहसी और व्यापारियों के छोटे समूहों द्वारा एक योजना के बिना बनाया गया था।'
+    txt3: >-
+      क्रिक्सिविया के लोग कई क्षितिजों से आते हैं, उनमें से लगभग कोई भी नियमित
+      सेना से नहीं आता है, इसलिए उनके संगठन ज्यादातर बेमेल होते हैं और रास्ते
+      में उठाए जाते हैं। पूर्ण धातु गियर इस दुनिया में आसानी से उपलब्ध नहीं है,
+      इसलिए जब तक कि बेहद समृद्ध नहीं है, लोग कपड़े, चमड़े और धातु दोनों को
+      संयुक्त रूप से पहनते हैं।
+    txt4: >-
+      पुरुष दरवाजे से बहुत सारी लूट लाएंगे लेकिन वे हमेशा वापस नहीं आएंगे।
+      क्रिक्सिविया शहर दरवाजे के चारों ओर बनना शुरू हो गया और कई व्यापारियों ने
+      इस अत्यधिक बार-बार रहने वाली जगह से लाभ उठाया। अब, कुछ साल बाद, ज्यादातर
+      लोग जो अपनी किस्मत आजमाते हैं, वे आपके जैसे भाड़े के सैनिक या निर्दलीय
+      हैं। 
+  map:
+    sub1: Kryxivia सिटी का नक्शा
+    title1: सबसे महत्वपूर्ण इमारतें
+    banks:
+      title: बैंकों
+      desc: >-
+        बैंक में अपने आयातित NFTs या KXS प्राप्त करें, APY या इन्वेंट्री आइटम के
+        लिए मुद्राओं को दांव पर रखें जिनकी आपको आवश्यकता नहीं है।
+    leader:
+      title: लीडरबोर्ड
+      desc: >-
+        यहाँ Kryxivia में सबसे अच्छा योद्धाओं देखें, इस सीढ़ी सबसे अच्छा PVP और
+        PVE खिलाड़ियों शामिल हैं.
+    nft:
+      title: NFT निर्यात
+      desc: >-
+        इस एनपीसी का उपयोग आपके एनएफटी आइटम को आपके ब्लॉकचेन वॉलेट में निर्यात
+        करने के लिए किया जाता है, बस एक का चयन करके।
+    portail:
+      title: क्रिक्सीविया खान
+      desc: >-
+        यह दरवाजा Kryxivia खान में प्रवेश करने के लिए है जहां आप कालकोठरी में
+        मालिकों मिल जाएगा.
+    socketing:
+      title: लोहार
+      desc: >-
+        अपनी इन्वेंट्री आइटम पर अपने Kryxits सॉकेट करने के लिए लोहार से बात
+        करें।
+    training:
+      title: प्रशिक्षण
+      desc: >-
+        प्रशिक्षण क्षेत्र में, आप अपने कौशल और नुकसान का परीक्षण कर सकते हैं जो
+        आप पंचिंग-बॉल पर कर रहे हैं।
+patchnotes:
+  nav: पैच नोट्स
+  title: पैच नोट्स और रिलीज़
+  metaTitle: Kryxivia • पैच नोट्स और रिलीज़
+  h1: नवीनतम पैच नोट्स और रिलीज़ को जानें
+  sub: पैच नोट्स
+  know: 'जाने जाने वाले बग्स :'

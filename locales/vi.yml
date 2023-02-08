@@ -1,0 +1,933 @@
+all:
+  title: Kryxivia • Một trò chơi MMORPG sáng tạo tận dụng NFT trên blockchain
+  desc: >-
+    Chào mừng bạn đến với Kryxivia! Một trò chơi web MMORPG đa vũ trụ NFT 3D
+    trên blockchain. Một trải nghiệm chơi game sáng tạo mới để giành chiến
+    thắng. Sử dụng mạng lưới Ethereum.
+  open: Mở
+  close: Đóng
+  back: Lưng
+  progress: Đang tiến hành
+  finish: Hoàn thành
+  view_details: Xem chi tiết
+  step: Bước
+  discover: Khám phá
+  lvl: Mức
+  more: Đọc thêm
+  soon: Đến sớm...
+  alpha: Alpha công khai bắt đầu bằng
+  buy: Mua
+wallets:
+  metamask:
+    name: Mặt nạ MetaMask
+    connect: Kết nối với Metamask của bạn
+  walletconnect:
+    name: WalletKết nối
+    connect: Kết nối với WalletConnect của bạn
+  fortmatic:
+    name: Pháo đài
+    connect: Kết nối với tài khoản Fortmatic của bạn
+  bcw:
+    name: Ví Binance Chain
+    connect: Kết nối với Ví Binance Chain
+play:
+  intro: Chọn một nền tảng và khám phá thế giới kryxivia!
+  launcher:
+    title: Trình khởi chạy Kryxivia
+    desc: Tải xuống Kryxivia để có trải nghiệm tối ưu!
+  client:
+    title: Ứng dụng khách WebGL
+    desc: Chơi Kryxivia trên trình duyệt web của bạn!
+header:
+  connect: Kết nối
+  play: Bắt đầu chơi
+  nav: Menu
+  dev: Devblog &tin tức
+  game: Trò chơi
+  apps: Ứng dụng
+  view: Xem tất cả tin tức
+  rights: Đã đăng ký Bản quyền.
+  policy: Chính sách bảo mật
+  press: Tài nguyên báo chí
+  partner: Đối tác
+  doc: Tư liệu
+nav:
+  kryxivia:
+    home: Nhà
+    kxa: $KXA token
+    kxs: $KXS token
+    team: Đội
+    dev: Devblog ·
+    road: Lộ trình
+    lite: Giấy thu nhỏ
+  game:
+    kryxivia: Kryxivia ·
+    faction: Phe
+    dungeon: Mỏ Kryxivia
+    boss: Trùm
+    kryxit: Kryxits ·
+    equipment: Thiết bị
+    pvp: Đấu trường PVP
+  apps:
+    market: Chợ
+    staking: Đánh
+    nft: Trình xem NFT
+    launcher: Phóng
+    client: Khách hàng
+    leaderboard: Bảng xếp hạng
+    faq: FAQ
+bottom:
+  sound: Âm nhạc
+  scroll: Cuộn để khám phá
+  powered: Được tài trợ bởi
+  developed: Phát triển bởi
+  online: trực tuyến
+index:
+  metaTitle: Kryxivia • Một trò chơi MMORPG sáng tạo tận dụng NFT trên blockchain
+  title: Nhà
+  h1: Trang nhà
+home:
+  sub1: Một trò chơi MMORPG sáng tạo tận dụng NFT trên Blockchain
+  h1: Chào mừng bạn đến với trải nghiệm Play-to-Earn
+  play: Bắt đầu chơi
+  trailer: Trailer
+  sec1:
+    sub1: Một MMORPG 3D tương tác và thú vị
+    title1: Tiền điện tử như một cuộc cách mạng trong nền kinh tế trò chơi
+    txt1: >-
+      Chơi ngay một MMORPG 3D tương tác và thú vị trong trình duyệt của bạn hoặc
+      trên PC của bạn với bạn bè của bạn, trong khi thu thập NFT cung cấp cho
+      bạn phần thưởng được hỗ trợ bởi lợi nhuận tiền điện tử kiếm được thông qua
+      sự tiến bộ của bạn trong vũ trụ Kryxivia!
+    txt2: >-
+      Tại Kryxivia, chúng tôi sử dụng các tính năng tốt nhất mà blockchain có
+      thể cung cấp để mang đến cho bạn tính kinh tế trong trò chơi tốt nhất.
+    bn: Khám phá Kryxivia
+  sec2:
+    sub1: Một thế giới kết hợp NFTS và tiền điện tử
+    title1: >-
+      Khám phá ngục tối trong thế giới Kryxivia và thu thập NFT để giao dịch với
+      những người chơi khác.
+    txt1: >-
+      Kiếm NFT có giá trị và độc quyền bằng cách chiến đấu với những tên trùm
+      mạnh nhất trong Mỏ Kryxivia. Vật tư tiêu hao cướp bóc, áo giáp mà bạn có
+      thể áp dụng cho nhân vật của mình và đá quý Kryxit để được sử dụng làm
+      phép thuật. Tất cả chúng sẽ cho phép bạn tùy chỉnh lối chơi của mình.
+    bn: Khám phá ngục tối
+  sec3:
+    sub1: MỘT TRONG NHỮNG NỀN KINH TẾ CÓ MỘT KHÔNG HAI
+    title1: Hai loại tiền điện tử cho vũ trụ Metaverse
+    txt1: >-
+      Mã thông báo KXA, viết tắt của mã thông báo Kryxivia Coin được triển khai
+      trên Ethereum, là tiền điện tử cơ bản để thanh toán trên chuỗi và các gói
+      đặc biệt, mỹ phẩm, sự kiện bán NFT đặc biệt hoặc trao đổi lấy tiền tệ
+      trong trò chơi KXS, cũng như mua và bán trên thị trường NFT của chúng tôi.
+    txt2: >-
+      Mã thông báo KXS, viết tắt của Kryxivia Shard Coin được triển khai trên
+      Ethereum là một loại tiền tệ trực tuyến để chơi, mua, giao dịch, trực tiếp
+      trong trò chơi và có các phần trực tuyến mới trong thế giới Kryxivia. Vì
+      nó mang nhiều rủi ro và chuyển động kinh tế hơn, nó phải có một nguồn cung
+      cấp khổng lồ để mọi người chơi có thể có một số để chơi cùng.
+  sec4:
+    sub1: Bắt đầu chơi ngay bây giờ!
+    title1: Tham gia cuộc phiêu lưu Kryxivia!
+team:
+  metaTitle: Kryxivia • Đội của Kryxivia
+  title: Đội
+  h1: Đội của Kryxivia
+  role:
+    '1': Lãnh đạo
+    '2': Phát triển game
+    '3': Nhà thiết kế 3D &vFX Artist
+    '4': Ui/UX Designer &Front Developer
+    '5': Tiếp thị &truyền thông
+    '6': Nhà thiết kế âm thanh
+  poste:
+    '1': GIÁM ĐỐC ĐIỀU HÀNH &Nhà sáng lập
+    '2': Giám đốc kỹ thuật
+    '3': Trò chơi khách hàng chính
+    '4': Kỹ sư blockchain chính
+    '5': Kỹ sư full-stack phần mềm
+    '6': Nhà phát triển Unity 3D
+    '7': Nhà phát triển Full-Stack
+    '8': Nhà thiết kế trò chơi VFX
+    '9': Nhà thiết kế cấp độ / Nghệ thuật 3D
+    '10': Nhân vật 3D / Nghệ sĩ vật phẩm
+    '11': Studio đối tác / Nghệ sĩ 3D
+    '12': Tư vấn thiết kế game
+    '13': Nhà thiết kế UI / UX chính
+    '14': Web dành cho nhà phát triển ngăn xếp đầy đủ
+    '15': Nhà phát triển sáng tạo
+    '16': Nhà thiết kế đồ họa
+    '17': Trình làm phim
+    '18': Giám đốc Tiếp thị
+    '19': Quản lý cộng đồng
+    '20': Nhà thiết kế âm thanh
+    '21': Nhà soạn nhạc
+    '22': Quản lý nhóm
+    '23': Kỹ sư phần mềm
+leaderboard:
+  title: Bảng xếp hạng
+  metaTitle: Kryxivia • Bảng xếp hạng • Những người chơi vĩ đại nhất của Kryxivia
+  h1: Những cầu thủ vĩ đại nhất của Kryxivia
+roadmap:
+  metaTitle: Kryxivia • Lộ trình của Kryxivia
+  title: Lộ trình
+  discover: Khám phá lộ trình của chúng tôi
+  h1: Lộ trình của Kryxivia
+  road:
+    q3_2021:
+      desc: Bắt đầu dự án Kryxivia
+      list:
+        '1': >-
+          Triển khai mã thông báo KXA và KXS trên mạng thử nghiệm Binance
+          Smart-chain cho Alpha.
+        '2': >-
+          Bắt đầu phát triển, thử nghiệm lối chơi cơ bản, máy chủ trò chơi và
+          các liên kết blockchain.
+        '3': Làm việc trên Mô hình 3D của Vũ trụ Kryxivia.
+        '4': >-
+          Thực hiện Thiết kế cấp độ của các thành phố, của tôi, làm việc trên
+          Lore của trò chơi, khám phá Kryxit và các hệ thống chức năng đá quý.
+    q4_2021:
+      desc: Bắt đầu dự án Kryxivia
+      list:
+        '1': >-
+          Khởi chạy trang web trực tuyến với những điều cơ bản về Kryxivia, phát
+          hành bài thuyết trình.
+        '2': >-
+          Phát hành mã nguồn mở của cơ sở mã Kryxivia trên kho lưu trữ GitHub
+          của chúng tôi và các hợp đồng thông minh khác nhau.
+        '3': >-
+          Chuẩn bị Proof-Of-Concept của trò chơi bằng unity WebGL, C# và
+          Node.js.
+        '4': >-
+          Kiểm tra các hợp đồng thông minh khác nhau của chúng tôi tương tác với
+          blockchain BSC.
+        '5': Phát hành Teaser cho sự ra mắt của Kryxivia Alpha.
+        '6': >-
+          Khởi động mã thông báo KXA bằng cách thực hiện một giao dịch bán công
+          khai để tạo ra tính thanh khoản của nhóm tài sản và quỹ cơ sở trò chơi
+          (ILO).
+        '7': >-
+          Triển khai Whitelist cho alpha tư nhân truy cập trước (ví tham gia ILO
+          sẽ có lợi thế).
+        '8': >-
+          Làm việc trên tất cả các khía cạnh trò chơi, máy khách / máy chủ và
+          kết nối giữa các dịch vụ tập trung / phân quyền của NFT.
+        '9': Thực hiện các thủ tục KYC của các thành viên Nhóm Kryxivia.
+        '10': >-
+          Tạo nhóm kiểm soát Pancake Swap cho mã thông báo KXS trong trò chơi
+          (với 10% số tiền huy động được).
+        '11': Liệt kê qua CoinMarketCap, CoinGecko ...
+    q1_2022:
+      desc: Bắt đầu dự án Kryxivia
+      list:
+        '1': Chuẩn bị sẵn trò chơi trình duyệt WebGL để triển khai
+        '2': >-
+          Triển khai thị trường vật phẩm NFT để giao dịch nội dung trong trò
+          chơi với những người chơi khác trên chuỗi.
+        '3': >-
+          Bắt đầu truy cập pre-alpha riêng tư cho các thành viên được chọn để
+          chơi vào Thế giới Kryxivia trong trình duyệt của họ tại kryxivia.io.
+        '4': >-
+          Sử dụng mạng thử nghiệm cho pre-alpha để phát hiện lỗi và thưởng cho
+          người chơi tiền thưởng lỗi báo cáo các vấn đề trong mã thông báo KXA.
+        '5': >-
+          Thêm ngục tối mới và nhiều thông số kỹ thuật hơn của vật phẩm, đá quý
+          Kryxit và phát triển trò chơi phép thuật.
+        '6': >-
+          Khởi chạy các gói khởi động khác nhau (gói NFT) để khởi chạy quyền
+          truy cập beta, để trực tiếp bắt đầu chơi với các gói đã mua của bạn.
+        '7': >-
+          Tăng năng lực nhóm, tuyển dụng nhà thiết kế 3D mới, cấp độ và
+          scenarist.
+        '8': Cải thiện nội dung PVE.
+    q2_2022:
+      desc: Bắt đầu dự án Kryxivia
+      list:
+        '1': >-
+          Phát hành quyền truy cập công khai beta của Kryxivia World trên mạng
+          chính của mạng BSC.
+        '2': Sửa lỗi từ pre-alpha (Q1) được tìm thấy bởi người chơi.
+        '3': >-
+          Bắt đầu phát triển các hệ thống đột kích (+20 người chơi chiến đấu
+          cùng nhau trong các trận chiến đột kích) trong Mỏ Kryxivia.
+        '4': >-
+          Thêm hệ thống nhiệm vụ hàng ngày để thưởng cho các hoạt động của người
+          chơi, do đó sẽ thưởng cho những hoạt động tích cực nhất.
+        '5': >-
+          Làm việc trên một tập hợp lớn hơn các phòng ngục tối vào mỏ với nhiều
+          khó khăn hơn và Kryxit tốt hơn và phần thưởng công cụ.
+        '6': >-
+          Áp dụng &niêm yết token KXA và KXS trên các sàn giao dịch tập trung T1
+          lớn hàng đầu.
+        '7': >-
+          Hệ thống đặt cọc ngân hàng trong trò chơi để giành phần thưởng (ROI
+          thực với phần thưởng mới mỗi năm) với mã thông báo KXA / KXS.
+    q3_2022:
+      desc: Bắt đầu dự án Kryxivia
+      list:
+        '1': >-
+          Hệ thống bang hội để lập nhóm với bạn bè của bạn với các mục tiêu hàng
+          ngày / hàng tuần để đạt được phần thưởng hoặc tỷ lệ tiền thưởng.
+        '2': >-
+          Thêm một mùa hệ thống sự kiện với các NFT độc đáo đặc biệt với các ông
+          chủ mới cụ thể (mỹ phẩm giới hạn mới...).
+        '3': >-
+          Quản trị DAO để bỏ phiếu về các chủ đề sự kiện, các cột mốc tiếp theo
+          trong lộ trình đạt được và nerf hoặc nâng cấp để thực hiện cập nhật
+          trò chơi trong trò chơi (được giới hạn bởi ví về tỷ lệ phần trăm).
+        '4': >-
+          Thiết kế trực quan trong trò chơi để thống kê và thông tin về giá trị
+          KXS và biến động giá.
+        '5': >-
+          Thang trực tuyến để xem tất cả người chơi, cấp độ điện tử và danh
+          tiếng của họ + tính độc đáo của NFT hàng tồn kho.
+token-kxs:
+  title: $KXS token
+  metaTitle: Kryxivia • Đồng xu Kryxivia $KXS
+  h1: Đồng xu Kryxivia $KXS
+  intro: >-
+    Đồng KXS, viết tắt của Kryxivia Shard Coin là loại tiền tệ trực tuyến để
+    chơi, mua, giao dịch và có những thứ trực tuyến mới trong thế giới Kryxivia,
+    vì nó mang lại nhiều rủi ro và động thái kinh tế hơn, nó cần phải có một
+    nguồn cung cấp khổng lồ để mọi người chơi có thể có một số thứ để chơi cùng.
+  txt1: >-
+    Tổng nguồn cung tối đa của mã thông báo KXS được giới hạn ở mức
+    5,000,000,000 KXS (5B), điều này làm cho nó dễ tiếp cận và có thể sử dụng
+    hơn trong trò chơi so với mã thông báo KXA. Mã thông báo KXS có thể đúc
+    được, có nghĩa là những mã thông báo mới có thể được tạo cho những thứ như
+    trồng phần thưởng trong trò chơi hoặc các sự kiện trực tuyến đặc biệt. Nó có
+    thể được giao dịch như bất kỳ loại tiền tệ nào khác trên CEX &DEX.
+  txt2: >-
+    Nó cũng là một mã thông báo giảm phát vì bạn có thể sử dụng mã thông báo KXS
+    trong trò chơi để nhận phần thưởng đặc biệt, ví dụ: nếu bạn muốn liên kết
+    các vật phẩm của mình với đá quý Kryxit, bạn sẽ cần phải đốt một số KXS để
+    biến nó thành hiện thực hoặc nếu bạn muốn mua các vật phẩm tiêu hao như bình
+    thuốc hoặc những thứ khác để giúp bạn vượt qua hành trình của mình; bạn sẽ
+    cần phải đốt mã thông báo KXS vào các NPC của thành phố.
+  txt3: >-
+    Mã thông báo trong trò chơi sẽ có tính thanh khoản cơ bản trên giao thức phi
+    tập trung được hỗ trợ bởi mã thông báo KXA trên một nhóm được quản lý để đảm
+    bảo khả năng mua và khả năng bán của mã thông báo trong trò chơi, nhưng cách
+    chính để nhận mã thông báo KXS vẫn sẽ là trong trò chơi bằng cách chơi và
+    giành phần thưởng, vì hệ thống của chúng tôi được mô tả là "Chơi để kiếm
+    tiền".
+token-kxa:
+  title: $KXA token
+  metaTitle: Kryxivia • Đồng xu Kryxivia $KXA
+  h1: Đồng xu Kryxivia $KXA
+  intro: >-
+    Đồng KXA, viết tắt của mã thông báo Kryxivia Coin được triển khai trên
+    Ethereum, là tiền điện tử cơ bản để thanh toán trên chuỗi và các gói đặc
+    biệt như gói khởi động, sự kiện bán NFT đặc biệt hoặc trao đổi lấy tiền tệ
+    trong trò chơi KXS, viết tắt của Kryxit Shard.
+  txt1: >-
+    Đồng Kryxivia có tổng nguồn cung tối đa là 250.000.000 đồng KXA, Như chi
+    tiết bên dưới, tokenomics của chúng tôi khá cụ thể và không đổi. Mã thông
+    báo KXA không thể đúc được, có nghĩa là nó không thể có hơn 250 triệu KXA
+    được phát hành.
+  txt2: >-
+    Chúng tôi sử dụng chuỗi BSC để tránh phí giao dịch trên chuỗi cao. Bạn cũng
+    có thể sử dụng đồng KXA để mua và bán các thuộc tính NFT (vật phẩm, Kryxit,
+    phép thuật...) từ trò chơi vào Thị trường trực tuyến của chúng tôi bằng ví
+    của bạn (như Metamask).
+  sub: Tokenomics
+  title1: Tokenomics của Đồng xu Kryxivia
+  subtitle1: Phân phối $KXA token
+  td1: Chi phí lưu trữ mạng máy chủ, máy khách trò chơi và công cụ máy chủ
+  td2: Tiếp thị, tăng cường áp dụng và khuyến khích để mở rộng đối tượng dự án
+  td3: Phần thưởng sự kiện trong trò chơi, canh tác đặc biệt và phần thưởng NFT
+  td4: Đặt cọc tiền cho hệ thống Ngân hàng và phần thưởng APY ròng cho người chơi
+  td5: Chi phí thanh toán nhóm phát triển, chia sẻ nhóm
+  td6: Vòng bán trước token riêng để bắt đầu dự án
+  td7: >-
+    Bán token công khai (ILO*) cho bản phát hành beta trò chơi trên Unicrypt
+    Protocol
+  td8: Quỹ hệ sinh thái cho các hoạt động bổ sung
+  td9: Quỹ quỹ dự trữ
+  subtitle2: Ví chính thức của nhóm
+  subtitle3: Kế hoạch bán riêng lẻ &công khai
+  wallet1: Ví triển khai Kryxivia
+  wallet2: Ví lưu trữ mạng máy chủ
+  wallet3: Ví tiếp thị, áp dụng
+  wallet4: Sự kiện, ví phần thưởng trong trò chơi
+  wallet5: Ví đặt cọc tiền
+  wallet6: Ví nhóm quỹ phát triển
+  wallet7: Ví quỹ hệ sinh thái
+  wallet8: Ví quỹ dự trữ
+  sale:
+    private:
+      title: Vòng bán hàng riêng
+      discount: ~ {percent} giảm giá so với giá bán công khai
+      of: '{kxa} của KXA ({total} - {percent} cung cấp)'
+      price: 'Giá: {price} mỗi KXA'
+      raise: Tăng ~ {bnb} BNB = (Total = ~{total})
+      close: >-
+        Bán riêng Đóng cửa: <-> TGE {percent} được mở khóa sau đó mở khóa tuyến
+        tính trong hơn một năm
+    public:
+      title: Vòng bán công khai
+      discount: ~ {percent} giảm giá từ giá niêm yết
+      of: '{kxa} của KXA ({total} - {percent} cung cấp)'
+      price: 'Giá: {price} mỗi KXA'
+      raise: Tăng ~ {bnb} BNB = (Total = ~{total})
+      close: >-
+        Đóng cửa bán công khai: <-> TGE {percent} được mở khóa sau đó tuyến tính
+        vào 3 tháng
+    listing:
+      title: Niêm yết trên PancakeSwap
+      price: 'Giá: {price} mỗi KXA'
+      raise: '{percent} số tiền huy động được từ Unicrypt bị khóa trong 1 năm'
+devblog:
+  title: Devblog &tin tức
+  metaTitle: Kryxivia • Devblog, tin tức, cập nhật & thông báo
+  h1: Tin tức, cập nhật & thông báo
+  back: Quay lại danh sách
+devblog-slug:
+  title: Devblog &tin tức
+  metaTitle: Kryxivia ·
+bosses:
+  title: Trùm
+  metaTitle: Kryxivia • Ông chủ của Kryxivia MMORPG Metaverse
+  h1: Ông chủ của Kryxivia MMORPG Metaverse
+  fight: Chiến đấu với {boss} ngay bây giờ!
+  back: Quay lại danh sách
+bosses-slug:
+  title: Trùm
+  progress: Câu chuyện đang diễn ra, quay lại sau...
+bosses-alde:
+  title: Ông chủ • Alde
+  metaTitle: Kryxivia • Alde • Ông chủ của Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Ngọn lửa của Alde
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-atesgol:
+  title: Ông chủ • Atesgol
+  metaTitle: Kryxivia • Atesgol • Ông chủ của Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Nhà sản xuất bia của Atesgol
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-valtrena:
+  title: Ông chủ • Valtrena
+  metaTitle: Kryxivia • Valtrena • Ông chủ của Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Trận lở đất của Valtrena
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-k1rig:
+  title: Ông chủ • K1 R.I.G
+  metaTitle: Kryxivia • K1 R.I.G • Ông chủ của Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Các bánh răng của K1 R.I.G
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-melucyna:
+  title: Ông chủ • Melucyna
+  metaTitle: Kryxivia • Melucyna • Ông chủ của Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Những con sóng của Melycuna
+  intro: >-
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid quos
+    vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+factions:
+  title: Phe
+  metaTitle: Kryxivia • Các phe phái của Kryxivia
+  h1: Tham gia một trong ba phe phái!
+  want: Tôi muốn trở thành
+  adventurers:
+    name: Thám hiểm
+    title: Bạn có những gì nó cần để trở thành một Nhà thám hiểm?
+    intro: >-
+      Bạn có táo bạo, và sẵn sàng tôn vinh tổ tiên của bạn? Để gia nhập phe Mạo
+      hiểm giả, bạn cần có sức mạnh, lòng dũng cảm, bản lĩnh và quyết tâm.
+    paragraphe:
+      - >-
+        Mục tiêu của bạn sẽ là bảo vệ những người yếu đuối nhất và vượt qua
+        chính mình mỗi ngày để trở nên mạnh mẽ hơn bao giờ hết, bạn không thích
+        những người cupid, đặc biệt là phe Thương gia, những người sẽ làm bất cứ
+        điều gì vì sự giàu có. Khát khao phiêu lưu và thử thách, bạn đã tham gia
+        với những người bạn đồng hành của mình để quyết định nhiệm vụ nào sẽ
+        củng cố lý tưởng của phe bạn, dù sao bạn cũng là hậu duệ của thần thánh
+        Kry.
+  nomads:
+    name: Nomads
+    title: >-
+      Đôi khi, bản chất là tất cả những gì bạn cần và nhắc nhở chúng ta những ưu
+      tiên thực sự và những nhu cầu cơ bản, phải không?
+    intro: >-
+      Bạn có yêu thiên nhiên và sẵn sàng bảo vệ cô ấy? Để gia nhập phe Nomads,
+      bạn cần phải yêu thích khu rừng, thực vật, động vật và mong muốn được sống
+      trong một môi trường yên bình và bình tĩnh.
+    paragraphe:
+      - >-
+        Là hậu duệ của Via, bạn là một với thiên nhiên. Bạn tôn trọng từng loài
+        thực vật và bất kỳ sinh vật sống nào, như một người thì thầm động vật
+        nguy hiểm, bạn có được những người bạn đồng hành. Truyền thuyết kể rằng
+        những người du mục lâu đời nhất đã đi du lịch với Rồng. Trái tim của bạn
+        là thuần khiết và bạn chia sẻ kiến thức của bạn với tất cả những người
+        lắng nghe. Những lời dạy của bạn cho thấy làm thế nào để tồn tại nhờ vào
+        sự hào phóng của trái đất.
+  merchants:
+    name: Merchants
+    title: >-
+      Bạn có cảm nhận được năng lượng mặt trăng, bạn luôn cảm thấy như mình xa
+      nhau, thông minh hơn, bạn có dễ dàng chơi với tâm trí của mọi người không?
+    intro: >-
+      Để gia nhập phe Thương gia, bạn phải có năng khiếu về các kỹ năng xã hội
+      và kinh doanh, bạn biết chính xác những gì mọi người mong đợi và muốn bạn
+      nói, bạn thông minh, thành thạo kỹ năng giao dịch và khi cần thao túng và
+      tinh nghịch.
+    paragraphe:
+      - >-
+        Bạn có xu hướng tự nhiên để thu hút năng lượng xung quanh. Là một người
+        quyến rũ xuất sắc, bạn có thể sử dụng lời nói để có lợi cho mình, điều
+        này là do ảnh hưởng của nữ thần Xi. Bạn mơ ước bắt được Kryxit quý giá,
+        rộng lớn và quý hiếm nhất tồn tại. Bất kể sự hy sinh nào bạn cảm thấy
+        cần phải sở hữu. Biết rằng thế giới thật tàn khốc và những người tốt
+        không tồn tại được lâu, bạn thiếu sự đồng cảm và thương hại. Đôi khi bạn
+        phải làm những gì những người khác không thể vì lợi ích chung.
+faq:
+  title: FAQ
+  metaTitle: Kryxivia • Câu hỏi thường gặp
+  category: Loại
+  h1: Chúng tôi có thể giúp gì được bạn?
+  start: Bắt đầu bằng cách chọn danh mục câu hỏi hoặc vấn đề của bạn.
+  no-question: Không có câu hỏi nào được liệt kê trong danh mục này, hãy kiểm tra lại sau!
+  no-answer: >-
+    Bạn không thể tìm thấy câu trả lời cho câu hỏi của mình? Hỏi chúng tôi trên
+    các mạng, nhóm của chúng tôi sẽ sẵn lòng trả lời bạn.
+  back: Quay lại danh mục
+  kryxivia-and-game:
+    title: Kryxivia và trò chơi
+    list:
+      - q: Kryxivia là gì?
+        a:
+          - t: Txt
+            c: >-
+              Kryxivia là một game MMORPG 3D giả tưởng, có thể chơi được trên
+              bất kỳ trình duyệt hiện đại nào, có sẵn trực tiếp trên trang web
+              của chúng tôi tại kryxivia.io, toàn bộ hệ thống sinh thái đang chờ
+              những người chơi mạo hiểm mới thu thập Kryxit! Trong thế giới của
+              chúng ta, hãy chuẩn bị tinh thần để kiếm tiền điện tử và NFT quý
+              hiếm độc đáo trong khi có trải nghiệm vui vẻ và hợp tác với bạn bè
+              của bạn.
+      - q: Làm cách nào để bắt đầu chơi?
+        a:
+          - t: Txt
+            c: >-
+              Kryxivia là một trò chơi MMORPG trực tuyến hoạt động với bất kỳ
+              trình duyệt hiện đại tương thích nào, bạn có thể chơi nó trên bất
+              kỳ máy tính nào có GPU chính xác yêu cầu tối thiểu. Để xác thực và
+              đăng nhập vào trò chơi, bạn sẽ cần phải có ví dựa trên Metamask.
+      - q: Chơi để kiếm tiền là gì?
+        a:
+          - t: Txt
+            c: >-
+              Trò chơi chơi để kiếm tiền kết hợp niềm vui của trò chơi điện tử
+              với cơ hội kiếm được phần thưởng thực sự cho thời gian của bạn.
+              Trong trường hợp của chúng tôi, bạn có thể thưởng thức MMORPG và
+              kiếm mã thông báo Kryxit.
+      - q: Quyền sở hữu thực sự có nghĩa là gì?
+        a:
+          - t: Txt
+            c: >-
+              Chủ sở hữu thực tế là những người nhận được lợi ích của quyền sở
+              hữu. Chủ sở hữu thực sự là những cá nhân hoặc tổ chức nhận được
+              tên của lợi ích và họ được hưởng bất kỳ lợi thế nào từ đó.
+      - q: Kryxivia có phải là một trò chơi để giành chiến thắng trong trò chơi?
+        a:
+          - t: Txt
+            c: Có Kryxivia là một trò chơi để kiếm trò chơi Kryxit.
+      - q: Kryxivia có thực sự là một trò chơi miễn phí để chơi?
+        a:
+          - t: Txt
+            c: >-
+              Có, để chơi kryxivia, bạn chỉ cần kết nối Metamask của mình với
+              máy chủ.
+      - q: Tôi có thể chơi Kryxivia ở đâu?
+        a:
+          - t: Txt
+            c: Bạn có thể chơi trò chơi trên kryxivia.io
+      - q: >-
+          Tôi có phải hiểu về blockchain hay mạng lưới binance smart chain
+          không?
+        a:
+          - t: Txt
+            c: >-
+              Không, bạn không cần phải có bất kỳ kiến thức kỹ thuật nào về
+              BNBchain để chơi trò chơi.
+      - q: MMORPG là gì?
+        a:
+          - t: Txt
+            c: >-
+              MMORPG là một trò chơi điện tử kết hợp các yếu tố của trò chơi
+              điện tử nhập vai và các trò chơi trực tuyến nhiều người chơi.
+      - q: Tôi có thể báo cáo lỗi ở đâu?
+        a:
+          - t: Txt
+            c: >-
+              Nếu bạn là Alpha-Tester, bạn có thể báo cáo lỗi trên kênh báo cáo
+              lỗi trên Discord và có cơ hội kiếm tiền từ tiền thưởng 40,000 đô
+              la.
+      - q: Yêu cầu PC để chơi Kryxivia là gì?
+        a:
+          - t: Txt
+            c: >-
+              Các yêu cầu được đề xuất là ít nhất 4GB RAM, Intel Core i5, GPU
+              GeForce GTX 900 Series và ổ đĩa trạng thái rắn.
+  wallet-kxa-kxs:
+    title: Ví, KXA và KXS
+    list:
+      - q: $KXA là gì?
+        a:
+          - t: Txt
+            c: >-
+              $KXA, hoặc mã thông báo Kryxivia Coin, là loại tiền điện tử được
+              sử dụng để thanh toán trên chuỗi, chẳng hạn như gói khởi động, sự
+              kiện bán NFT đặc biệt hoặc trao đổi lấy tiền tệ trong trò chơi
+              $KXS, viết tắt của Kryxit Shard.
+      - q: $KXS là gì?
+        a:
+          - t: Txt
+            c: >-
+              Đồng $KXS, viết tắt của Kryxivia Shard Coin là loại tiền tệ trực
+              tuyến để chơi, mua, giao dịch và có những thứ trực tuyến mới trong
+              thế giới Kryxivia.
+      - q: Làm cách nào để mua và bán $KXA và $KXS?
+        a:
+          - t: Txt
+            c: 'Bạn có thể mua $KXA trên các sàn giao dịch được liệt kê ở đây:'
+          - t: nút
+            c: CoinMarketCap
+            link: https://coinmarketcap.com/currencies/kryxivia/
+          - t: Txt
+            c: $KXS chưa được liệt kê.
+      - q: Tiền điện tử và vật phẩm trò chơi của tôi có an toàn không?
+        a:
+          - t: Txt
+            c: >-
+              Có, Kryxivia đã được Xác minh an toàn bởi Solidproof và tất cả tài
+              sản trong trò chơi và tiền điện tử của bạn đều an toàn với chúng
+              tôi.
+          - t: nút
+            c: Kiểm toán SolidProof
+            link: >-
+              https://github.com/solidproof/projects/blob/main/Kryxivia/MysteryBox/SmartContract_Audit_Solidproof_Kryxivia%20MysteryBox.pdf
+      - q: Airdrop là gì và làm cách nào để nhận được chúng?
+        a:
+          - t: Txt
+            c: >-
+              Airdrop liên quan đến các dự án tiền điện tử cung cấp hàng loạt mã
+              thông báo cho cộng đồng của họ để tăng cường áp dụng.
+          - t: Txt
+            c: >-
+              Tất cả các thông báo liên quan đến airdrop Kryxivia sẽ được công
+              bố trên twitter chính thức.
+      - q: Làm thế nào để liên kết tiền điện tử và ví nft của tôi?
+        a:
+          - t: Txt
+            c: >-
+              Bạn cần có tài khoản metamask với mạng Binance trên đó, sau đó bạn
+              cần mở trang web kryxivia và nhấp vào kết nối ví.
+          - t: Txt
+            c: Sau đó, thông báo ví sẽ bật lên để được phép kết nối.
+      - q: Làm cách nào để gửi NFT hoặc tiền mã hóa của tôi đến một ví khác?
+        a:
+          - t: nút
+            c: Đọc thêm
+            link: https://nftdesire.io/how-to-transfer-nft-to-another-wallet/
+  login-and-account:
+    title: Đăng nhập và Tài khoản
+    list: []
+  website-and-social:
+    title: Trang web và mạng xã hội
+    list:
+      - q: Nói chuyện với ai cho các câu hỏi hoặc mối quan tâm?
+        a:
+          - t: Txt
+            c: >-
+              Tất cả các cuộc trò chuyện trên mạng xã hội của chúng tôi đều hoạt
+              động với các bản mod, bạn có thể tham gia Discord và Telegram của
+              chúng tôi.
+  characters-and-equipments:
+    title: Nhân vật và trang bị
+    list: []
+  monsters-and-dungeons:
+    title: Quái vật và Ngục tối
+    list: []
+  others:
+    title: Khác
+    list: []
+faq-slug:
+  title: FAQ
+dungeons:
+  title: Mỏ Kryxivia
+  metaTitle: Kryxivia • Mỏ Kryxivia
+  h1: Khám phá Mỏ Kryxivia và thu thập các NFT quý giá!
+  intro: >-
+    Bên trong thành phố Kryxivia, bạn sẽ tìm thấy một cánh cửa khổng lồ dẫn đến
+    một mỏ cũ được phát hiện từ lâu. Các nhà thám hiểm đã quyết định xây dựng
+    Thành phố Kryxivia xung quanh nó để hiểu Kryxit bên trong mỏ và thu thập
+    chúng. Họ đã nhanh chóng nhận ra rằng những con quái vật khủng khiếp bảo vệ
+    mỏ đó và họ sẽ phải chiến đấu đến chết để đặt tay lên chúng!
+  txt1: >-
+    Chúng tôi đã nghe những câu chuyện về nữ thần Via sẽ mê hoặc Mỏ để bảo vệ
+    Kryxit, dường như là nguồn sức mạnh của ba vị thần: Kry, Xi và Via.
+  catalysts:
+    sub: Chất xúc tác
+    title1: Vào các ngục tối của mỏ ở các chế độ khác nhau!
+    txt1: >-
+      Các chất xúc tác đưa bạn đến các 'đường mìn' xen kẽ. Nếu bạn sử dụng một
+      con trước khi vào, những con trùm bạn gặp phải bên trong sẽ mạnh hơn nhiều
+      và thả những kryxits mạnh hơn nhiều - những viên ngọc ma thuật mà bạn có
+      thể cắm các vật phẩm của mình để có phép thuật mới và chỉ số tốt hơn.
+    txt2: >-
+      Không phải mọi Chất xúc tác đều được tạo ra như nhau - một số sẽ điều
+      chỉnh độ khó thậm chí nhiều hơn những chất xúc tác khác. Mức độ khó được
+      gọi là cấp độ Crux của ngục tối. Crux càng cao, những con trùm càng khó và
+      những cú rơi càng tốt.
+    blue: Chất xúc tác màu xanh
+    yellow: Chất xúc tác màu vàng
+    orange: Chất xúc tác màu cam
+    red: Chất xúc tác đỏ
+    purple: Chất xúc tác màu tím
+  boss:
+    sub: Ông chủ của Kryxivia
+    title1: >-
+      Nâng cấp NFT nhân vật của bạn bằng cách đánh bại những tên trùm khó nhất
+      và sử dụng Catalyst để đạt đến đỉnh cao mới!
+    txt1: >-
+      Trong Kryxivia, NFT làm luật, có nghĩa là cấp độ nhân vật của bạn dựa trên
+      các vật phẩm mà bạn đã trang bị, bạn đã giao dịch trên thị trường hoặc
+      giành chiến thắng trước những con quái vật trong mỏ Kryxivia. Bạn có cái
+      mà chúng tôi gọi là I-Lvl gắn liền với nội dung của bạn trên nhân vật. Các
+      ông chủ sẽ cung cấp cho bạn trang bị, đồng xu Kryxit Shard (KXS) và phép
+      thuật. Dựa trên giá trị thuật toán, chiến lợi phẩm được xác định bởi các
+      tính toán khác nhau dựa trên hoạt động của người chơi để đảm bảo một nền
+      kinh tế bền vững. Một số NFT có thể siêu hạn chế và có khả năng không bao
+      giờ bị cướp bóc nữa sau khi được triển khai và một số lượng nhất định đã
+      giảm hoặc giới hạn hàng ngày, hàng tuần, hàng tháng hoặc hàng năm.
+kryxivia:
+  title: Kryxivia ·
+  metaTitle: Kryxivia • Thành phố &lịch sử
+  h1: Khám phá thế giới tuyệt vời của Kryxivia
+  intro: >-
+    Khi bạn sinh sản trong thế giới của chúng ta, bạn được đưa đến thành phố
+    Kryxivia để bắt đầu cuộc phiêu lưu của mình, trong thành phố, bạn sẽ tìm
+    thấy tất cả các nhu cầu của mình trước khi bắt đầu trò chơi của mình trong
+    mỏ ma thuật.
+  txt1: >-
+    Tất cả người chơi đều ở trong khu vực sảnh đợi, làm những việc trong thành
+    phố trong khi sẵn sàng chiến đấu bên trong cánh cửa bí ẩn đó! Bạn có thể tìm
+    thấy một số NPC để hướng dẫn bạn trong suốt cuộc hành trình của mình và liên
+    minh / nhóm với mọi người để cùng nhau thực hiện các cuộc đột kích hoặc ngục
+    tối.
+  txt2: >-
+    Có một vị trí trung tâm với các NPC cần thiết chính để tránh lãng phí thời
+    gian thực hiện chuyến đi khứ hồi giữa mỏ và thành phố, đối với những người
+    khác, bạn có thể tìm thấy chúng trên các tòa nhà cụ thể trông khác thường so
+    với những tòa nhà khác.
+  story:
+    sub1: Thành phố Kryxivia
+    title1: Câu chuyện về nền tảng thành phố Kryxivia
+    txt1: >-
+      Trong một thời đại mà con người chưa phát minh ra ngành công nghiệp này.
+      Một số người đã phát hiện ra một cánh cửa kỳ lạ bị mất trên núi. Từ đó họ
+      tìm thấy Kryxit, những viên ngọc ma thuật với sức mạnh khủng khiếp. Nhiều
+      người bắt đầu thu thập đầu tiên được gửi bởi các quốc gia.
+    txt2: ' Kryxivia là một thành phố mới và nở rộ, nằm trên những ngọn núi xung quanh một cánh cửa khổng lồ được phát hiện cách đây vài năm, được xây dựng hầu như không có kế hoạch của một nhóm nhỏ các nhà thám hiểm và thương nhân.'
+    txt3: >-
+      Người dân Kryxivia đến từ nhiều chân trời, hầu như không ai trong số họ
+      đến từ một đội quân chính quy, vì vậy trang phục của họ hầu hết không khớp
+      và nhặt được trên đường đi. Thiết bị kim loại đầy đủ không có sẵn trên thế
+      giới này, vì vậy trừ khi cực kỳ phong phú, mọi người có xu hướng mặc cả
+      vải, da và kim loại kết hợp.
+    txt4: >-
+      Đàn ông sẽ mang theo rất nhiều chiến lợi phẩm từ cửa nhưng không phải lúc
+      nào họ cũng quay trở lại. Thành phố Kryxivia bắt đầu hình thành xung quanh
+      cánh cửa và nhiều thương nhân đã thu lợi từ nơi rất thường xuyên này. Bây
+      giờ, một vài năm sau, hầu hết những người thử vận may của họ là lính đánh
+      thuê hoặc những người độc lập, như bạn. 
+  map:
+    sub1: Bản đồ thành phố Kryxivia
+    title1: Những tòa nhà quan trọng nhất
+    banks:
+      title: Ngân hàng
+      desc: >-
+        Nhận NFT hoặc KXS đã nhập của bạn trong Ngân hàng, đặt cọc tiền tệ cho
+        APY hoặc các mặt hàng tồn kho mà bạn không cần.
+    leader:
+      title: Bảng xếp hạng
+      desc: >-
+        Xem ở đây những chiến binh giỏi nhất ở Kryxivia, bậc thang này chứa
+        những người chơi PVP và PVE giỏi nhất.
+    nft:
+      title: Xuất khẩu NFT
+      desc: >-
+        NPC này được sử dụng để xuất các mục NFT của bạn sang ví blockchain của
+        bạn, chỉ bằng cách chọn một.
+    portail:
+      title: Mỏ Kryxivia
+      desc: >-
+        Đây là cánh cửa để vào Mỏ Kryxivia, nơi bạn sẽ tìm thấy những tên trùm
+        trong ngục tối.
+    socketing:
+      title: Thợ rèn
+      desc: >-
+        Nói chuyện với Thợ rèn để cắm Kryxits của bạn vào các mặt hàng tồn kho
+        của bạn.
+    training:
+      title: Đào tạo
+      desc: >-
+        Trong khu vực đào tạo, bạn có thể kiểm tra kỹ năng của mình và sát
+        thương bạn đang gây ra khi đấm bóng.
+patchnotes:
+  nav: Ghi chú bản vá
+  title: Ghi chú bản vá và phát hành
+  metaTitle: Kryxivia • Ghi chú bản vá và phát hành
+  h1: Khám phá các ghi chú bản vá và phát hành mới nhất
+  sub: Ghi chú bản vá
+  know: 'Lỗi đã biết:'

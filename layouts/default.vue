@@ -1,0 +1,53 @@
+<script setup>
+
+  const route = useRoute()
+  const { t } = useI18n()
+  const head = useLocaleHead({
+    addDirAttribute: true,
+    identifierAttribute: 'id',
+    addSeoAttributes: true
+  })
+  
+  const idPage = computed(() => route.name.split('___')[0])
+  const metaTitle = computed(() => t(idPage.value + '.metaTitle'))
+  const title = computed(() => t(idPage.value + '.title'))
+  const description = computed(() => t('all.desc'))
+  const themeColor = 'rgb(201,169,130)'
+  const thumbnail = 'https://kryxivia.io/img/thumbnail.jpg'
+  const url = 'https://kryxivia.io/'
+
+</script>
+
+<template>
+  <Html :lang="head.htmlAttrs.lang" :dir="head.htmlAttrs.dir">
+    <Head>
+      <Title>{{ metaTitle }}</Title>
+      <Link rel="icon" type="image/x-icon" href="/favicon.png" />
+      <Meta name="viewport" content="width=device-width, initial-scale=1" />
+      <Meta name="theme-color" :content="themeColor" />
+      <Meta name="format-detection" content="telephone=no" />
+      <Meta property="og:title" :content="metaTitle" />
+      <Meta property="og:description" :content="description" />
+      <Meta property="og:image" :content="thumbnail" />
+      <Meta property="og:url" :content="url" />
+      <Meta property="og:type" content="siteweb" />
+      <Meta property="twitter:title" :content="metaTitle" />
+      <Meta property="twitter:site" :content="url" />
+      <Meta property="twitter:url" :content="url" />
+      <Meta property="twitter:description" :content="description" />
+      <Meta property="twitter:image" :content="thumbnail" />
+      <Meta property="twitter:card" content="summary_large_image" />
+      <template v-for="link in head.link" :key="link.id">
+        <Link :id="link.id" :rel="link.rel" :href="link.href" :hreflang="link.hreflang" />
+      </template>
+      <template v-for="meta in head.meta" :key="meta.id">
+        <Meta :id="meta.id" :property="meta.property" :content="meta.content" />
+      </template>
+    </Head>
+    <Body :data-page-id="idPage">
+      <HeaderBar :title="title" />
+      <slot />
+      <Bottom />
+    </Body>
+  </Html>
+</template>

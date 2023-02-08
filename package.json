@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/i18n": "^8.0.0-beta.9",
+    "nuxt": "^3.1.2"
+  },
+  "dependencies": {
+    "gsap": "^3.11.4",
+    "smooth-scrollbar": "^8.8.1"
+  }
+}

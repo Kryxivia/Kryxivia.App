@@ -1,0 +1,940 @@
+all:
+  title: Kryxivia • Game MMORPG inovatif yang memanfaatkan NFT di blockchain
+  desc: >-
+    Selamat datang di Kryxivia! Game web MMORPG Multiverse NFT 3D di blockchain.
+    Pengalaman bermain game inovatif baru untuk menang. Penggunaan jaringan
+    Ethereum.
+  open: Buka
+  close: Tutup
+  back: Belakang
+  progress: Sedang berlangsung
+  finish: Selesai
+  view_details: Lihat detail
+  step: Langkah
+  discover: Menemukan
+  lvl: Tingkat
+  more: Baca lebih lanjut
+  soon: Segera datang...
+  alpha: Alfa publik dimulai di
+  buy: Membeli
+wallets:
+  metamask:
+    name: MetaMask
+    connect: Hubungkan ke Metamask Anda
+  walletconnect:
+    name: WalletConnect
+    connect: Hubungkan ke WalletConnect Anda
+  fortmatic:
+    name: Fortmatik
+    connect: Terhubung dengan akun Fortmatic Anda
+  bcw:
+    name: Dompet Binance Chain
+    connect: Terhubung dengan Dompet Binance Chain Anda
+play:
+  intro: Pilih platform dan temukan dunia Kryxivia!
+  launcher:
+    title: Kryxivia Launcher
+    desc: Unduh Kryxivia untuk pengalaman yang optimal!
+  client:
+    title: Klien WebGL
+    desc: Mainkan Kryxivia di browser web Anda!
+header:
+  connect: Sambung
+  play: Mainkan sekarang
+  nav: Navigasi
+  dev: Devblog & berita
+  game: Permainan
+  apps: Apps
+  view: Lihat semua berita
+  rights: Semua hak dilindungi undang-undang.
+  policy: Kebijakan Privasi
+  press: Sumber Daya Pers
+  partner: Mitra
+  doc: Dokumentasi
+nav:
+  kryxivia:
+    home: Rumah
+    kxa: $KXA Token
+    kxs: $KXS Token
+    team: Tim
+    dev: Devblog
+    road: Roadmap
+    lite: Litepaper
+  game:
+    kryxivia: Kryxivia
+    faction: Faksi
+    dungeon: Tambang Kryxivia
+    boss: Bos
+    kryxit: Kryxits
+    equipment: Peralatan
+    pvp: PVP Arena
+  apps:
+    market: Pasar
+    staking: Pukul
+    nft: Penampil NFT
+    launcher: Launcher
+    client: Klien
+    leaderboard: Papan peringkat
+    faq: FAQ
+bottom:
+  sound: Musik
+  scroll: Gulir untuk menjelajah
+  powered: Didukung oleh
+  developed: Dikembangkan oleh
+  online: daring
+index:
+  metaTitle: Kryxivia • Game MMORPG inovatif yang memanfaatkan NFT di blockchain
+  title: Rumah
+  h1: Halaman beranda
+home:
+  sub1: Game MMORPG inovatif yang memanfaatkan NFT di Blockchain
+  h1: Selamat datang di pengalaman Play-to-Earn
+  play: Mainkan sekarang
+  trailer: Trailer
+  sec1:
+    sub1: MMORPG 3D yang interaktif dan menyenangkan
+    title1: Cryptocurrency sebagai revolusi dalam ekonomi game
+    txt1: >-
+      Mainkan sekarang MMORPG 3D yang interaktif dan menyenangkan di browser
+      atau di PC kamu bersama teman-temanmu, sambil mengumpulkan NFT yang
+      memberimu hadiah yang didukung oleh keuntungan cryptocurrency yang
+      diperoleh melalui kemajuanmu di alam semesta Kryxivia!
+    txt2: >-
+      Di Kryxivia, kami menggunakan fitur terbaik yang dapat ditawarkan
+      blockchain untuk memberi Anda ekonomi dalam game terbaik.
+    bn: Temukan Kryxivia
+  sec2:
+    sub1: Dunia yang menggabungkan NFTS dan cryptocurrency
+    title1: >-
+      Jelajahi ruang bawah tanah di dunia Kryxivia dan kumpulkan NFT untuk
+      diperdagangkan dengan pemain lain.
+    txt1: >-
+      Dapatkan NFT yang berharga dan eksklusif dengan melawan bos paling kuat di
+      Tambang Kryxivia. Loot consumables, armor yang bisa kamu terapkan pada
+      karakter dan permata Kryxit untuk digunakan sebagai mantra. Semuanya akan
+      memungkinkan Anda untuk menyesuaikan gameplay Anda.
+    bn: Temukan ruang bawah tanah
+  sec3:
+    sub1: SALAH SATU EKONOMI YANG BAIK
+    title1: Dua cryptocurrency untuk alam semesta Metaverse
+    txt1: >-
+      Token KXA, yang merupakan singkatan dari token Kryxivia Coin yang
+      digunakan di Ethereum, adalah mata uang kripto dasar untuk pembayaran
+      on-chain dan bundel khusus, kosmetik, acara penjualan NFT khusus atau
+      pertukaran mata uang dalam game KXS, serta pembelian dan penjualan di
+      pasar NFT kami.
+    txt2: >-
+      Token KXS, yang merupakan singkatan dari Kryxivia Shard Coin yang
+      diimplementasikan di Ethereum adalah mata uang online untuk dimainkan,
+      dibeli, diperdagangkan, langsung dalam game dan memiliki karya online baru
+      di dunia Kryxivia. Karena membawa lebih banyak risiko dan pergerakan
+      ekonomi, ia harus memiliki pasokan yang sangat besar sehingga setiap
+      pemain dapat memiliki beberapa untuk dimainkan.
+  sec4:
+    sub1: Mulai mainkan sekarang!
+    title1: Bergabunglah dengan petualangan Kryxivia!
+team:
+  metaTitle: Kryxivia • Tim Kryxivia
+  title: Tim
+  h1: Tim Kryxivia
+  role:
+    '1': Kepala
+    '2': Pengembangan Game
+    '3': Desainer Artis 3D & VFX
+    '4': Ui/UX Designer &Pengembang Depan
+    '5': Pemasaran & Komunikasi
+    '6': Desainer Suara
+  poste:
+    '1': Direktur Utama &Pendiri
+    '2': Direktur Teknis
+    '3': Gameplay Klien Utama
+    '4': Insinyur Blockchain Utama
+    '5': Insinyur Full-Stack Perangkat Lunak
+    '6': Pengembang Unity 3D
+    '7': Pengembang Full-Stack
+    '8': Desainer Game VFX
+    '9': Desainer Level / Seni 3D
+    '10': Karakter 3D / Item Artis
+    '11': Studio Mitra / Artis 3D
+    '12': Konsultan Desainer Game
+    '13': Desainer UI/UX Utama
+    '14': Web Pengembang Tumpukan Penuh
+    '15': Pengembang Kreatif
+    '16': Desainer Grafis
+    '17': Pembuat Film
+    '18': Direktur Pemasaran
+    '19': Manajer Komunitas
+    '20': Desainer Suara
+    '21': Komposer Musik
+    '22': Manajemen Tim
+    '23': Insinyur Perangkat Lunak
+leaderboard:
+  title: Papan peringkat
+  metaTitle: Kryxivia • Papan Peringkat • Pemain terhebat Kryxivia
+  h1: Pemain terhebat Kryxivia
+roadmap:
+  metaTitle: Kryxivia • Peta Jalan Kryxivia
+  title: Roadmap
+  discover: Temukan peta jalan kami
+  h1: Peta Jalan Kryxivia
+  road:
+    q3_2021:
+      desc: Mulai dari proyek Kryxivia
+      list:
+        '1': >-
+          Penyebaran token KXA dan KXS pada test-net Binance Smart-chain untuk
+          Alpha.
+        '2': >-
+          Memulai pengembangan, menguji gameplay dasar, server game, dan tautan
+          blockchain.
+        '3': Bekerja pada Pemodelan 3D Alam Semesta Kryxivia.
+        '4': >-
+          Melakukan Desain Level kota, milikku, mengerjakan Lore of the game,
+          menjelajahi Kryxit dan sistem fungsional permata.
+    q4_2021:
+      desc: Mulai dari proyek Kryxivia
+      list:
+        '1': >-
+          Meluncurkan situs web online dengan dasar-dasar tentang Kryxivia,
+          merilis makalah Presentasi.
+        '2': >-
+          Rilis Open-Source dari basis kode Kryxivia di repositori GitHub kami
+          dan kontrak pintar yang berbeda.
+        '3': >-
+          Mempersiapkan Proof-Of-Concept Game menggunakan Unity WebGL, C# dan
+          Node.js.
+        '4': >-
+          Mengaudit berbagai kontrak pintar kami yang berinteraksi dengan
+          blockchain BSC.
+        '5': Merilis Teaser untuk peluncuran Kryxivia Alpha.
+        '6': >-
+          Memulai token KXA dengan melakukan penjualan publik untuk menciptakan
+          likuiditas kumpulan aset dan dana dasar permainan (ILO).
+        '7': >-
+          Menerapkan Daftar Putih untuk pra-akses Alpha pribadi (dompet yang
+          berpartisipasi dalam ILO akan memiliki keuntungan).
+        '8': >-
+          Bekerja pada semua aspek permainan, klien / server, dan koneksi antara
+          layanan sentralisasi / desentralisasi NFT.
+        '9': Melakukan prosedur KYC dari anggota Tim Kryxivia.
+        '10': >-
+          Membuat kumpulan terkontrol Pancake Swap untuk token KXS dalam game
+          (dengan 10% dari dana yang terkumpul).
+        '11': Daftar melalui CoinMarketCap, CoinGecko...
+    q1_2022:
+      desc: Mulai dari proyek Kryxivia
+      list:
+        '1': Memiliki game browser WebGL yang siap untuk penyebaran
+        '2': >-
+          Menyebarkan pasar item NFT untuk memperdagangkan barang-barang dalam
+          game dengan pemain lain secara on-chain.
+        '3': >-
+          Memulai akses pra-alfa pribadi bagi anggota terpilih untuk bermain ke
+          Dunia Kryxivia di browser mereka di kryxivia.io.
+        '4': >-
+          Menggunakan test-net untuk pra-alpha untuk menemukan bug dan memberi
+          penghargaan kepada pemain bug-bounty yang melaporkan masalah dalam
+          token KXA.
+        '5': >-
+          Menambahkan ruang bawah tanah baru dan lebih banyak spesifikasi item,
+          permata Kryxit, dan pengembangan gameplay mantra.
+        '6': >-
+          Luncurkan paket pemula yang berbeda (paket NFT) untuk peluncuran akses
+          beta, untuk langsung mulai bermain dengan paket yang Anda beli.
+        '7': >-
+          Meningkatkan kapasitas tim, merekrut desainer 3D baru, level dan
+          scenarist.
+        '8': Peningkatan konten PVE.
+    q2_2022:
+      desc: Mulai dari proyek Kryxivia
+      list:
+        '1': Merilis akses publik beta Dunia Kryxivia di jaring utama jaringan BSC.
+        '2': Memperbaiki bug dari pra-alfa (Q1) yang ditemukan oleh pemain.
+        '3': >-
+          Mulai mengembangkan sistem serangan (+20 pemain yang bertarung bersama
+          dalam pertarungan serangan) di Tambang Kryxivia.
+        '4': >-
+          Menambahkan sistem pencarian harian untuk menghargai aktivitas pemain,
+          oleh karena itu memberi penghargaan kepada yang paling aktif.
+        '5': >-
+          Mengerjakan satu set ruang bawah tanah yang lebih besar ke dalam
+          tambang dengan lebih banyak kesulitan dan Kryxit yang lebih baik dan
+          hadiah barang-barang.
+        '6': >-
+          Menerapkan &Mencantumkan token KXA dan KXS di bursa terpusat T1 utama
+          teratas.
+        '7': >-
+          Sistem staking dalam game bank untuk memenangkan hadiah (ROI nyata
+          dengan hadiah baru per tahun) dengan token KXA / KXS.
+    q3_2022:
+      desc: Mulai dari proyek Kryxivia
+      list:
+        '1': >-
+          Sistem guild untuk bekerja sama dengan teman-temanmu dengan tujuan
+          harian/mingguan untuk mencapai hadiah atau tingkat bonus.
+        '2': >-
+          Menambahkan musim sistem acara dengan NFT unik khusus dengan bos baru
+          tertentu (kosmetik terbatas baru ...).
+        '3': >-
+          Tata kelola DAO untuk memberikan suara pada tema acara, tonggak
+          berikutnya pada peta jalan yang ingin dicapai, dan nerf atau
+          peningkatan untuk membuat pembaruan gameplay dalam game (dibatasi oleh
+          dompet dalam hal persentase).
+        '4': >-
+          Desain visual dalam game untuk statistik dan informasi tentang nilai
+          KXS dan pergerakan harga.
+        '5': >-
+          Tangga online untuk melihat semua pemain, e-level dan reputasi mereka
+          + keunikan nft persediaan.
+token-kxs:
+  title: $KXS Token
+  metaTitle: Kryxivia • $KXS Koin Kryxivia
+  h1: Koin $KXS Kryxivia
+  intro: >-
+    Koin KXS, yang merupakan singkatan dari Kryxivia Shard Coin adalah mata uang
+    online untuk dimainkan, dibeli, diperdagangkan, dan memiliki barang-barang
+    online baru di dunia Kryxivia, karena membawa lebih banyak risiko dan
+    langkah ekonomi, ia perlu memiliki pasokan yang sangat besar sehingga setiap
+    pemain dapat memiliki beberapa untuk dimainkan.
+  txt1: >-
+    Total pasokan maksimum token KXS dibatasi pada 5.000.000.000 KXS (5B) yang
+    membuatnya jauh lebih mudah diakses dan digunakan dalam game daripada token
+    KXA. Token KXS dapat dicetak yang berarti bahwa token baru dapat dibuat
+    untuk hal-hal seperti bertani hadiah dalam game atau acara online khusus.
+    Ini dapat diperdagangkan seperti mata uang lainnya di CEX & DEX.
+  txt2: >-
+    Ini juga merupakan token deflasi karena Anda dapat menggunakan token KXS
+    dalam game untuk hadiah khusus, misalnya, jika Anda ingin menautkan item
+    Anda ke permata Kryxit, Anda perlu membakar beberapa KXS untuk
+    mewujudkannya, atau jika Anda ingin membeli item barang habis pakai seperti
+    ramuan atau lainnya untuk membantu Anda melalui perjalanan Anda; Anda harus
+    membakar token KXS ke NPC kota.
+  txt3: >-
+    Token dalam game akan memiliki likuiditas dasar pada protokol
+    terdesentralisasi yang didukung oleh token KXA pada kumpulan terkelola untuk
+    memastikan kemampuan membeli dan menjual token dalam game, tetapi cara utama
+    untuk mendapatkan token KXS akan tetap ada di dalam game dengan bermain dan
+    memenangkan hadiah, karena sistem kami dijelaskan "Play to Earn".
+token-kxa:
+  title: $KXA Token
+  metaTitle: Kryxivia • koin Kryxivia $KXA
+  h1: Koin $KXA Kryxivia
+  intro: >-
+    Koin KXA, yang merupakan singkatan dari token Kryxivia Coin yang digunakan
+    di Ethereum, adalah mata uang kripto dasar untuk pembayaran on-chain dan
+    paket khusus seperti paket perdana, acara penjualan NFT khusus, atau
+    pertukaran dengan mata uang dalam game KXS, yang merupakan singkatan dari
+    Kryxit Shard.
+  txt1: >-
+    Koin Kryxivia memiliki total pasokan maksimum 250.000.000 koin KXA, Seperti
+    yang dijelaskan di bawah ini, tokenomik kami cukup spesifik dan konstan.
+    Token KXA tidak dapat dicetak, yang berarti tidak dapat memiliki lebih dari
+    250 juta KXA yang dikeluarkan.
+  txt2: >-
+    Kami menggunakan rantai BSC untuk menghindari biaya transaksi on-chain yang
+    tinggi. Anda juga dapat menggunakan koin KXA untuk membeli dan menjual
+    properti NFT (item, Kryxit, mantra ...) dari game ke Marketplace online kami
+    menggunakan Dompet Anda (seperti Metamask).
+  sub: Tokenomik
+  title1: Tokenomik Koin Kryxivia
+  subtitle1: Distribusi $KXA token
+  td1: Hosting jaringan server, klien game, dan biaya mesin server
+  td2: Pemasaran, peningkatan adopsi, dan insentif untuk memperbesar audiens proyek
+  td3: Hadiah acara dalam Game, pertanian spesial, dan hadiah NFT
+  td4: Staking dana untuk sistem Bank dan hadiah APY bersih untuk pemain
+  td5: Biaya pembayaran tim pengembangan, pembagian tim
+  td6: Putaran prapenjualan token privat untuk memulai proyek
+  td7: Penjualan token publik (ILO*) untuk rilis beta game di Protokol Unicrypt
+  td8: Dana ekosistem untuk operasi ekstra
+  td9: Dana perbendaharaan cadangan
+  subtitle2: Dompet Resmi Tim
+  subtitle3: Paket penjualan pribadi & publik
+  wallet1: Dompet deployer Kryxivia
+  wallet2: Dompet hosting jaringan server
+  wallet3: Dompet pemasaran, adopsi
+  wallet4: Acara, dompet hadiah dalam game
+  wallet5: Dompet dana staking
+  wallet6: Dompet tim dana pengembangan
+  wallet7: Dompet dana ekosistem
+  wallet8: Cadangan dompet dana perbendaharaan
+  sale:
+    private:
+      title: Putaran Penjualan Pribadi
+      discount: ~ {percent} diskon dari harga jual publik
+      of: '{kxa} dari KXA ({total} - {percent} pasokan)'
+      price: 'Harga: {price} per KXA'
+      raise: Kenaikan ~ {bnb} BNB = (Total = ~{total})
+      close: >-
+        Penjualan pribadi Tutup: <-> TGE {percent} dibuka kuncinya kemudian buka
+        kunci linier lebih dari satu tahun
+    public:
+      title: Putaran Penjualan Publik
+      discount: ~ {percent} diskon dari harga listing
+      of: '{kxa} dari KXA ({total} - {percent} pasokan)'
+      price: 'Harga: {price} per KXA'
+      raise: Kenaikan ~ {bnb} BNB = (Total = ~{total})
+      close: >-
+        Penutupan Penjualan Publik: <-> TGE {percent} dibuka kemudian linier pada
+        3 bulan
+    listing:
+      title: Daftar di PancakeSwap
+      price: 'Harga: {price} per KXA'
+      raise: '{percent} dari dana yang terkumpul dari Unicrypt terkunci selama 1 tahun'
+devblog:
+  title: Devblog & berita
+  metaTitle: Kryxivia • Devblog, berita, pembaruan & pengumuman
+  h1: Berita, update &pengumuman
+  back: Kembali ke daftar
+devblog-slug:
+  title: Devblog & berita
+  metaTitle: Kryxivia
+bosses:
+  title: Bos
+  metaTitle: Kryxivia • Bos dari Kryxivia MMORPG Metaverse
+  h1: Bos dari Kryxivia MMORPG Metaverse
+  fight: Lawan {boss} sekarang!
+  back: Kembali ke daftar
+bosses-slug:
+  title: Bos
+  progress: Cerita sedang berlangsung, kembali lagi nanti ...
+bosses-alde:
+  title: Bos • Alde
+  metaTitle: Kryxivia • Alde • Bos Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Api Alde
+  intro: >-
+    Lorem, ipsum dolor duduk amet consectetur adipisicing elit. Quod, aliquid
+    quos vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-atesgol:
+  title: Bos • Atesgol
+  metaTitle: Kryxivia • Atesgol • Bos Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Pembuat Bir Atesgol
+  intro: >-
+    Lorem, ipsum dolor duduk amet consectetur adipisicing elit. Quod, aliquid
+    quos vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-valtrena:
+  title: Bos • Valtrena
+  metaTitle: Kryxivia • Valtrena • Bos Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Tanah Longsor Valtrena
+  intro: >-
+    Lorem, ipsum dolor duduk amet consectetur adipisicing elit. Quod, aliquid
+    quos vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-k1rig:
+  title: Bos • K1 R.I.G
+  metaTitle: Kryxivia • K1 R.I.G • Bos Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Roda Gigi K1 R.I.G
+  intro: >-
+    Lorem, ipsum dolor duduk amet consectetur adipisicing elit. Quod, aliquid
+    quos vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+bosses-melucyna:
+  title: Bos • Melucyna
+  metaTitle: Kryxivia • Melucyna • Bos Kryxivia
+  sub: Lorem ipsum dolor consectetur adipisicing
+  h1: Gelombang Melycuna
+  intro: >-
+    Lorem, ipsum dolor duduk amet consectetur adipisicing elit. Quod, aliquid
+    quos vero hic accusamus, repellendus quibusdam illo quaerat sint laudantium
+    beatae nemo molestias id reprehenderit temporibus quidem ipsa eaque ratione!
+  txt: >-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+    placeat dolores saepe doloribus provident delectus facere nobis quia,
+    corrupti veniam amet consectetur tempore ad assumenda, distinctio odio, quas
+    fuga.
+  content:
+    sub1: Lorem ipsum dolor sit amet consectetur
+    title1: Lorem ipsum dolor sit amet consectetur elit adipisicing
+    subtitle1: Consectetur elit adipisicing
+    txt1: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+    subtitle2: Consectetur elit adipisicing
+    txt2: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quaerat
+      placeat dolores saepe doloribus provident delectus facere nobis quia,
+      corrupti veniam amet consectetur tempore ad assumenda, distinctio odio,
+      quas fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Facilis quaerat placeat dolores saepe doloribus provident delectus facere
+      nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
+      distinctio odio, quas fuga.
+factions:
+  title: Faksi
+  metaTitle: Kryxivia • Faksi Kryxivia
+  h1: Bergabunglah dengan salah satu dari tiga Factions!
+  want: Saya ingin menjadi
+  adventurers:
+    name: Petualang
+    title: Apakah Anda memiliki apa yang diperlukan untuk menjadi seorang Petualang?
+    intro: >-
+      Apakah Anda berani, dan siap untuk menghormati leluhur Anda? Untuk
+      bergabung dengan faksi Petualang, Anda membutuhkan kekuatan, keberanian,
+      keberanian, dan tekad.
+    paragraphe:
+      - >-
+        Tujuan Anda adalah untuk melindungi yang terlemah dan melampaui diri
+        Anda setiap hari untuk menjadi lebih kuat dari sebelumnya, Anda tidak
+        suka orang cupid, terutama faksi Pedagang yang akan melakukan apa saja
+        untuk kekayaan. Haus akan petualangan dan tantangan, Anda telah
+        bergabung dengan teman-teman Anda untuk memutuskan misi mana yang akan
+        memperkuat cita-cita faksi Anda, Anda adalah keturunan dari keilahian
+        Kry.
+  nomads:
+    name: Nomads
+    title: >-
+      Terkadang, sifatnya adalah semua yang Anda butuhkan dan mengingatkan kami
+      tentang prioritas dan kebutuhan dasar yang sebenarnya, bukan?
+    intro: >-
+      Apakah Anda mencintai alam dan siap melindunginya? Untuk bergabung dengan
+      faksi Nomads, Anda harus mencintai hutan, tumbuhan, hewan, dan angan-angan
+      untuk hidup di lingkungan yang damai dan tenang.
+    paragraphe:
+      - >-
+        Sebagai keturunan Via, Anda adalah satu dengan alam. Anda menghormati
+        setiap tanaman dan makhluk hidup apa pun, sebagai pembisik hewan
+        berbahaya, Anda mendapatkan sesama pelancong. Legenda mengatakan bahwa
+        Pengembara tertua bepergian dengan Naga. Hati Anda murni dan Anda
+        berbagi pengetahuan Anda dengan semua orang yang mendengarkan. Ajaran
+        Anda menunjukkan bagaimana bertahan hidup berkat kemurahan hati bumi.
+  merchants:
+    name: Pedagang
+    title: >-
+      Apakah Anda merasakan energi bulan, apakah Anda selalu merasa seperti
+      terpisah, lebih pintar, apakah mudah bagi Anda untuk bermain dengan
+      pikiran orang?
+    intro: >-
+      Untuk bergabung dengan faksi Merchant Anda harus berbakat dengan
+      keterampilan sosial dan bisnis, Anda tahu persis apa yang orang harapkan
+      dan ingin Anda katakan, Anda cerdas, menguasai keterampilan trading, dan
+      kapan itu dibutuhkan manipulatif dan nakal.
+    paragraphe:
+      - >-
+        Anda memiliki kecenderungan alami untuk menarik energi di sekitar.
+        Sebagai perayu yang brilian, Anda dapat menggunakan kata-kata untuk
+        keuntungan Anda, ini karena pengaruh dewi Xi. Anda bermimpi menangkap
+        Kryxit yang paling berharga, luas, dan langka yang ada. Tidak peduli
+        pengorbanan yang Anda rasa perlu anda miliki. Mengetahui bahwa dunia ini
+        kejam dan orang-orang baik tidak bertahan lama, Anda kurang empati dan
+        kasihan. Terkadang Anda harus melakukan apa yang orang lain tidak bisa
+        untuk kebaikan bersama.
+faq:
+  title: FAQ
+  metaTitle: Kryxivia • Pertanyaan Umum
+  category: Kategori
+  h1: Bagaimana kami dapat membantu Anda?
+  start: Mulailah dengan memilih kategori pertanyaan atau masalah Anda.
+  no-question: >-
+    Belum ada pertanyaan yang tercantum dalam kategori ini, periksa kembali
+    nanti!
+  no-answer: >-
+    Anda tidak dapat menemukan jawaban atas pertanyaan Anda? Tanyakan kepada
+    kami di jaringan, tim kami akan dengan senang hati menjawab Anda.
+  back: Kembali ke kategori
+  kryxivia-and-game:
+    title: Kryxivia dan permainan
+    list:
+      - q: Apa itu Kryxivia?
+        a:
+          - t: Txt
+            c: >-
+              Kryxivia adalah MMORPG 3D fantasi, dapat dimainkan di browser
+              modern apa pun, langsung tersedia di situs web kami di
+              kryxivia.io, seluruh sistem ramah lingkungan yang menunggu pemain
+              petualang baru untuk mengumpulkan Kryxit! Di dunia kita,
+              persiapkan diri Anda untuk mendapatkan mata uang kripto dan NFT
+              langka yang unik sambil bersenang-senang dan kooperatif dengan
+              teman-teman Anda.
+      - q: Bagaimana cara mulai bermain?
+        a:
+          - t: Txt
+            c: >-
+              Kryxivia adalah game MMORPG online yang bekerja dengan browser
+              modern yang kompatibel, Anda dapat memainkannya di komputer mana
+              pun dengan GPU minimum yang diperlukan dengan benar yang
+              diperlukan. Untuk mengautentikasi dan masuk ke dalam game, Anda
+              harus memiliki dompet berbasis Metamask.
+      - q: Apa yang dimaksud dengan permainan untuk menghasilkan?
+        a:
+          - t: Txt
+            c: >-
+              Game play-to-earn menggabungkan kesenangan video game dengan
+              kesempatan untuk mendapatkan hadiah nyata untuk waktu Anda. Dalam
+              kasus kami, Anda dapat menikmati MMORPG dan mendapatkan token
+              Kryxit.
+      - q: Apa yang dimaksud dengan kepemilikan sejati?
+        a:
+          - t: Txt
+            c: >-
+              Pemilik Sebenarnya adalah mereka yang menerima manfaat
+              kepemilikan. Pemilik Sejati adalah individu atau entitas yang
+              menerima nama manfaat, dan mereka berhak atas keuntungan apa pun
+              darinya.
+      - q: Apakah Kryxivia adalah permainan untuk memenangkan permainan?
+        a:
+          - t: Txt
+            c: Ya Kryxivia adalah permainan untuk mendapatkan permainan Kryxit.
+      - q: Apakah Kryxivia benar-benar game gratis untuk dimainkan?
+        a:
+          - t: Txt
+            c: >-
+              Ya, untuk bermain kryxivia Anda hanya perlu menghubungkan Metamask
+              Anda dengan server.
+      - q: Di mana saya bisa bermain Kryxivia?
+        a:
+          - t: Txt
+            c: Anda dapat memainkan game di kryxivia.io
+      - q: >-
+          Apakah saya harus memahami blockchain atau jaringan rantai pintar
+          binance?
+        a:
+          - t: Txt
+            c: >-
+              Tidak, Anda tidak perlu memiliki pengetahuan teknis tentang
+              BNBchain untuk bermain game.
+      - q: Apa itu MMORPG?
+        a:
+          - t: Txt
+            c: >-
+              MMORPG adalah gim video yang menggabungkan elemen video game
+              role-playing dan gim online multipemain masif.
+      - q: Di mana saya dapat melaporkan error?
+        a:
+          - t: Txt
+            c: >-
+              Jika Anda seorang Alpha-Tester, Anda dapat melaporkan bug di
+              saluran laporan bug di Discord dan mendapatkan kesempatan untuk
+              mendapatkan penghasilan dari bounty $40,000.
+      - q: Apa saja persyaratan PC untuk memainkan Kryxivia?
+        a:
+          - t: Txt
+            c: >-
+              Persyaratan yang disarankan adalah setidaknya 4GB RAM, Intel Core
+              i5, GPU GeForce GTX 900 Series, dan solid state drive.
+  wallet-kxa-kxs:
+    title: Dompet, KXA dan KXS
+    list:
+      - q: Apa itu $KXA?
+        a:
+          - t: Txt
+            c: >-
+              $KXA, atau token Koin Kryxivia, adalah mata uang kripto yang
+              digunakan untuk pembayaran on-chain, seperti kartu perdana, acara
+              penjualan NFT khusus, atau menukarnya dengan mata uang dalam game
+              $KXS, yang merupakan singkatan dari Kryxit Shard.
+      - q: Apa itu $KXS?
+        a:
+          - t: Txt
+            c: >-
+              Koin $KXS, yang merupakan singkatan dari Kryxivia Shard Coin
+              adalah mata uang online untuk dimainkan, dibeli, diperdagangkan,
+              dan memiliki barang-barang online baru di dunia Kryxivia.
+      - q: Bagaimana cara membeli &menjual $KXA dan $KXS?
+        a:
+          - t: Txt
+            c: 'Anda dapat membeli $KXA di bursa yang tercantum di sini:'
+          - t: kancing
+            c: CoinMarketCap
+            link: https://coinmarketcap.com/currencies/kryxivia/
+          - t: Txt
+            c: $KXS belum terdaftar.
+      - q: Apakah item kripto &game saya aman?
+        a:
+          - t: Txt
+            c: >-
+              Ya, Kryxivia telah diverifikasi dengan aman oleh Solidproof dan
+              semua aset dalam game dan kripto Anda aman bersama kami.
+          - t: kancing
+            c: SolidProof Audit
+            link: >-
+              https://github.com/solidproof/projects/blob/main/Kryxivia/MysteryBox/SmartContract_Audit_Solidproof_Kryxivia%20MysteryBox.pdf
+      - q: Apa itu airdrop dan bagaimana cara mendapatkannya?
+        a:
+          - t: Txt
+            c: >-
+              Airdrops melibatkan proyek kripto yang menyediakan token secara
+              massal kepada komunitas mereka untuk meningkatkan adopsi.
+          - t: Txt
+            c: >-
+              Semua pengumuman mengenai airdrop Kryxivia akan diumumkan di akun
+              twitter resmi.
+      - q: Bagaimana cara menautkan dompet kripto dan nft saya?
+        a:
+          - t: Txt
+            c: >-
+              Anda harus memiliki akun metamask dengan jaringan Binance di
+              dalamnya, setelah itu Anda perlu membuka situs web kryxivia dan
+              mengklik hubungkan dompet.
+          - t: Txt
+            c: Setelah itu pemberitahuan dompet akan muncul untuk izin koneksi.
+      - q: Bagaimana cara mengirim NFT atau kripto saya ke dompet lain?
+        a:
+          - t: kancing
+            c: Baca lebih lanjut
+            link: https://nftdesire.io/how-to-transfer-nft-to-another-wallet/
+  login-and-account:
+    title: Login dan Akun
+    list: []
+  website-and-social:
+    title: Situs Web dan Sosial
+    list:
+      - q: Siapa yang harus diajak bicara untuk pertanyaan atau masalah?
+        a:
+          - t: Txt
+            c: >-
+              Semua obrolan media sosial kami aktif dengan mod, Anda dapat
+              bergabung dengan Discord dan Telegram kami.
+  characters-and-equipments:
+    title: Karakter dan Peralatan
+    list: []
+  monsters-and-dungeons:
+    title: Monster dan Ruang Bawah Tanah
+    list: []
+  others:
+    title: Lain
+    list: []
+faq-slug:
+  title: FAQ
+dungeons:
+  title: Tambang Kryxivia
+  metaTitle: Kryxivia • Tambang Kryxivia
+  h1: Jelajahi Tambang Kryxivia, dan kumpulkan NFT yang berharga!
+  intro: >-
+    Di dalam Kota Kryxivia, Anda akan menemukan pintu raksasa yang mengarah ke
+    tambang tua yang ditemukan sejak lama. Para petualang telah memutuskan untuk
+    membangun Kota Kryxivia di sekitarnya untuk memahami Kryxit di dalam tambang
+    dan mengumpulkannya. Mereka dengan cepat menyadari bahwa monster mengerikan
+    melindungi tambang itu dan bahwa mereka harus bertarung sampai mati untuk
+    meletakkan tangan mereka di atas mereka!
+  txt1: >-
+    Kami mendengar cerita tentang dewi Via yang akan memikat Tambang untuk
+    melindungi Kryxit, yang tampaknya menjadi sumber kekuatan tiga dewa: Kry,
+    Xi, dan Via.
+  catalysts:
+    sub: Katalis
+    title1: Masuki ruang bawah tanah tambang dalam mode yang berbeda!
+    txt1: >-
+      Katalis membawa Anda ke 'minelines' alternatif. Jika Anda menggunakannya
+      sebelum masuk, bos yang Anda temui di dalamnya akan jauh lebih kuat dan
+      menjatuhkan kryxit yang jauh lebih kuat – permata ajaib yang dapat Anda
+      gunakan untuk soket item Anda untuk mantra baru dan statistik yang lebih
+      baik.
+    txt2: >-
+      Tidak setiap Catalyst diciptakan sama - beberapa akan menyesuaikan
+      kesulitan bahkan lebih dari yang lain. Tingkat kesulitannya dikenal
+      sebagai level Crux penjara bawah tanah. Semakin tinggi Crux, semakin keras
+      bos dan semakin baik tetesnya.
+    blue: Katalis Biru
+    yellow: Katalis Kuning
+    orange: Katalis Oranye
+    red: Katalis Merah
+    purple: Katalis Ungu
+  boss:
+    sub: Bos Kryxivia
+    title1: >-
+      Tingkatkan NFT karakter Anda dengan mengalahkan bos tersulit dan
+      menggunakan Catalyst untuk mencapai titik tertinggi baru!
+    txt1: >-
+      Di Kryxivia, NFT membuat hukum, yang berarti bahwa level karakter Anda
+      didasarkan pada item yang telah Anda lengkapi, yang Anda perdagangkan di
+      pasar, atau menang melawan monster di tambang Kryxivia. Anda memiliki apa
+      yang kami sebut I-Lvl yang melekat pada barang-barang Anda pada karakter.
+      Bos akan memberi Anda peralatan, koin Kryxit Shard (KXS), dan mantra.
+      Berdasarkan nilai algoritmik, jarahan ditentukan oleh perhitungan yang
+      berbeda berdasarkan aktivitas pemain untuk memastikan ekonomi yang
+      berkelanjutan. Beberapa NFT dapat sangat terbatas dan berpotensi tidak
+      pernah dijarah lagi setelah digunakan dan jumlah tertentu sudah turun,
+      atau dibatasi setiap hari, mingguan, bulanan, atau tahunan.
+kryxivia:
+  title: Kryxivia
+  metaTitle: Kryxivia • Kota & Sejarah
+  h1: Jelajahi dunia Kryxivia yang fantastis
+  intro: >-
+    Ketika Anda bertelur di dunia kita, Anda dikirim ke kota Kryxivia untuk
+    memulai petualangan Anda, di kota, Anda akan menemukan semua kebutuhan Anda
+    sebelum memulai gameplay Anda di tambang ajaib.
+  txt1: >-
+    Semua pemain berada di area lobi, melakukan hal-hal di kota sambil
+    bersiap-siap untuk bertarung di dalam pintu misterius itu! Anda dapat
+    menemukan beberapa NPC untuk memandu Anda melalui perjalanan Anda dan
+    membuat aliansi / kelompok dengan orang-orang untuk melakukan penggerebekan
+    atau ruang bawah tanah bersama-sama.
+  txt2: >-
+    Ada tempat sentral dengan NPC utama yang dibutuhkan untuk menghindari
+    buang-buang waktu melakukan perjalanan pulang pergi antara tambang dan kota,
+    untuk yang lain, Anda dapat menemukannya di bangunan tertentu yang terlihat
+    tidak biasa dari yang lain.
+  story:
+    sub1: Kota Kryxivia
+    title1: Kisah yayasan Kota Kryxivia
+    txt1: >-
+      Di masa di mana manusia belum menemukan industri ini. Beberapa telah
+      menemukan pintu aneh yang hilang di gunung. Dari sana mereka menemukan
+      Kryxit, permata ajaib dengan kekuatan luar biasa. Banyak yang mulai
+      berkumpul pertama kali dikirim oleh negara-negara.
+    txt2: ' Kryxivia adalah kota baru dan mekar, terletak di pegunungan di sekitar pintu besar yang ditemukan beberapa tahun yang lalu, sebagian besar dibangun tanpa rencana oleh sekelompok kecil petualang dan pedagang.'
+    txt3: >-
+      Orang-orang Kryxivia berasal dari banyak cakrawala, hampir tidak ada dari
+      mereka yang berasal dari pasukan reguler, sehingga pakaian mereka sebagian
+      besar tidak cocok dan diambil di sepanjang jalan. Perlengkapan logam penuh
+      tidak tersedia di dunia ini, jadi kecuali menjadi sangat kaya, orang
+      cenderung memakai kain, kulit, dan logam yang digabungkan.
+    txt4: >-
+      Pria akan membawa banyak jarahan dari pintu tetapi mereka tidak akan
+      selalu kembali. Kota Kryxivia mulai terbentuk di sekitar pintu dan banyak
+      pedagang mengambil keuntungan dari tempat yang sangat sering dikunjungi
+      ini. Sekarang, beberapa tahun kemudian sebagian besar orang yang mencoba
+      peruntungan mereka adalah tentara bayaran atau independen, seperti Anda. 
+  map:
+    sub1: Peta Kota Kryxivia
+    title1: Bangunan yang paling penting
+    banks:
+      title: Bank
+      desc: >-
+        Terima NFT atau KXS yang diimpor di Bank, staking mata uang untuk APY
+        atau item inventaris yang tidak Anda perlukan.
+    leader:
+      title: Papan peringkat
+      desc: >-
+        Lihat di sini prajurit terbaik di Kryxivia, tangga ini berisi pemain PVP
+        dan PVE terbaik.
+    nft:
+      title: Ekspor NFT
+      desc: >-
+        NPC ini digunakan untuk mengekspor item NFT Anda ke dompet blockchain
+        Anda, hanya dengan memilih satu.
+    portail:
+      title: Tambang Kryxivia
+      desc: >-
+        Ini adalah pintu untuk masuk ke Tambang Kryxivia di mana Anda akan
+        menemukan bos di ruang bawah tanah.
+    socketing:
+      title: Tukang besi
+      desc: >-
+        Bicaralah dengan Pandai Besi untuk soket Kryxits Anda pada item
+        inventaris Anda.
+    training:
+      title: Pelatihan
+      desc: >-
+        Di area pelatihan, Anda dapat menguji keterampilan Anda dan kerusakan
+        yang Anda buat pada bola tinju.
+patchnotes:
+  nav: Catatan Patch
+  title: Catatan Patch dan Rilis
+  metaTitle: Kryxivia • Catatan Patch dan Rilis
+  h1: Temukan catatan patch dan rilis terbaru
+  sub: Catatan Patch
+  know: 'Bug yang diketahui:'
