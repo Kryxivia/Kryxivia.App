@@ -5,8 +5,9 @@
   const { stateNavigation } = useNavigation()
   
   /** Init timeline navigation animation */
-  const tl = gsap.timeline({paused:true})
+  let tl
   onMounted(() => {
+    tl = gsap.timeline({paused:true})
     tl
       .set('#n', {opacity:1})
       .fromTo('#n .bg', 1, {height:0}, {height:'100%',ease:"power2.out"}, 'a')
