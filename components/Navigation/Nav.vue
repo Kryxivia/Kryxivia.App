@@ -1,55 +1,5 @@
 <script setup>
-
-  import gsap from 'gsap'
-
-  const { stateNavigation } = useNavigation()
-  
-  /** Init timeline navigation animation */
-  let tl
-  onMounted(() => {
-    tl = gsap.timeline({paused:true})
-    tl
-      .set('#n', {opacity:1})
-      .fromTo('#n .bg', 1, {height:0}, {height:'100%',ease:"power2.out"}, 'a')
-      .fromTo('#n .title > *', .8, {y:'105%'}, {y:'0%',ease:"power3.out",delay:.3}, 'a')
-      .fromTo('#n nav ul li', .8, {opacity:0,y:50}, {opacity:1,y:0,ease:"power2.out",stagger:.02,delay:.3}, 'a')
-      .fromTo('#n .foot .ln', .5, {opacity:0}, {opacity:1,delay:.7}, 'a')
-      .fromTo('#n .foot .ln', 1, {width:30}, {width:'100%',ease:"power3.inOut",delay:.7}, 'a')
-      .fromTo('#n .foot .left', 1, {opacity:0,x:-30}, {opacity:1,x:0,ease:"power3.out",delay:.9}, 'a')
-      .fromTo('#n .foot .right li', 1.2, {opacity:0}, {opacity:1,ease:"power3.out",stagger:-.05,delay:.9}, 'a')
-  })
-
-  /** Open navigation */
-  function openNavigation() {
-    if (!stateNavigation.value) {
-      tl.timeScale(1).restart()
-      stateNavigation.value = true  
-      document.body.classList.add('onav')
-    }
-  }
-
-  /** Close navigation */
-  function closeNavigation() {
-    if (stateNavigation.value) {
-      tl.timeScale(3).reverse()
-      stateNavigation.value = false
-      document.body.classList.remove('onav')
-    }
-  }
-
-  /** Toggle navigation */
-  function toggleNavigation() {
-    if (stateNavigation.value) {
-      closeNavigation()
-    } else {
-      openNavigation()
-    }
-  }
-
-  /** Close nav when change page */
-  const route = useRoute()
-  watch(route, () => closeNavigation())
-
+  const { toggleNavigation } = useNavigation()
 </script>
 
 <template>
