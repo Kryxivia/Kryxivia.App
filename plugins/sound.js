@@ -135,6 +135,15 @@
 // }
 
 export default defineNuxtPlugin(nuxtApp => {
+  
+  const dir = '~sound/'
+  const sound = {
+    ambient: {
+      file: dir + 'music.mp3',
+      vol: .3,
+      play: true
+    }
+  }
 
   // const sound = new Sound()
 

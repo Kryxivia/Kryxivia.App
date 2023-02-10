@@ -1,16 +1,14 @@
 <script setup>
   const localePath = useLocalePath()
   defineProps({
-    title: {
-      type: String
-    }
+    title: String
   })
 </script>
 
 <template>
   <header id="h" class="bars">
     <NuxtLink class="logo" :to="localePath('/')">
-      <img src="~img/logo-kryxivia.png" width="500" height="169" alt="Kryxivia" draggable="false" loading="lazy">
+      <img src="/img/logo-kryxivia.png" width="500" height="169" alt="Kryxivia" draggable="false" loading="lazy">
     </NuxtLink>
     <HeaderSpace n="1" />
     <HeaderLangSwitcher />
@@ -22,7 +20,7 @@
     </div>
     <HeaderSpace n="3" />
     <div class="butt">
-      <button type="button" class="btn" data-modal-open="play">{{ $t('header.play') }}</button>
+      <button type="button" class="btn" @click="$modal.open('play')">{{ $t('header.play') }}</button>
     </div>
     <HeaderSpace n="4" />
     <NavigationNav />

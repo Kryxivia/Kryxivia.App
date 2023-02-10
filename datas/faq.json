@@ -1,0 +1,22 @@
+{
+  "faq": {
+    "kryxivia-and-game": {
+      "icon": "pc"
+    },
+    "wallet-kxa-kxs": {
+      "icon": "wallet"
+    },
+    "login-and-account": {
+      "icon": "security"
+    },
+    "website-and-social": {
+      "icon": "web"
+    },
+    "characters-and-equipments": {
+      "icon": "character"
+    },
+    "monsters-and-dungeons": {
+      "icon": "monster"
+    }
+  }
+}

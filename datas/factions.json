@@ -1,0 +1,16 @@
+{
+  "factions": {
+    "adventurers": {
+      "name": "factions.adventurers.name",
+      "logo": "/img/factions/faction-kryxivia_adventurers-new.png"
+    },
+    "nomads": {
+      "name": "factions.nomads.name",
+      "logo": "/img/factions/faction-kryxivia_nomads-new.png"
+    },
+    "merchants": {
+      "name": "factions.merchants.name",
+      "logo": "/img/factions/faction-kryxivia_merchants-new.png"
+    }
+  }
+}

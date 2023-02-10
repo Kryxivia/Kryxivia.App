@@ -8,9 +8,7 @@
       type: String,
       default: "0 0 24 24"
     },
-    title: {
-      type: String
-    }
+    title: String
   })
 </script>
 

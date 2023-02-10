@@ -6,7 +6,7 @@ export const useNavigation = () => {
    * State navigation
    * Open = true / Close = false
    */
-  const stateNavigation = useState('stateNavigation', () => false)
+  let stateNavigation = ref(false)
 
   /** Init timeline navigation animation */
   let tl
@@ -17,6 +17,7 @@ export const useNavigation = () => {
       .fromTo('#n .bg', 1, {height:0}, {height:'100%',ease:"power2.out"}, 'a')
       .fromTo('#n .title > *', .8, {y:'105%'}, {y:'0%',ease:"power3.out",delay:.3}, 'a')
       .fromTo('#n nav ul li', .8, {opacity:0,y:50}, {opacity:1,y:0,ease:"power2.out",stagger:.02,delay:.3}, 'a')
+      .fromTo('#n .actu', .8, {opacity:0,y:50}, {opacity:1,y:0,ease:"power2.out",stagger:.1,delay:.3}, 'a')
       .fromTo('#n .foot .ln', .5, {opacity:0}, {opacity:1,delay:.7}, 'a')
       .fromTo('#n .foot .ln', 1, {width:30}, {width:'100%',ease:"power3.inOut",delay:.7}, 'a')
       .fromTo('#n .foot .left', 1, {opacity:0,x:-30}, {opacity:1,x:0,ease:"power3.out",delay:.9}, 'a')
@@ -35,7 +36,7 @@ export const useNavigation = () => {
   /** Close navigation */
   function closeNavigation() {
     if (stateNavigation.value) {
-      tl.timeScale(3).reverse()
+      tl.timeScale(2).reverse()
       stateNavigation.value = false
       document.body.classList.remove('onav')
     }
@@ -50,7 +51,7 @@ export const useNavigation = () => {
     }
   }
 
-  /** Close nav when change page */
+  // /** Close nav when change page */
   const route = useRoute()
   watch(route, () => closeNavigation())
 

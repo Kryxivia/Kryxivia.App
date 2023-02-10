@@ -1,0 +1,34 @@
+{
+  "boss": {
+    "k1rig": {
+      "name": "K1 R.I.G",
+      "logo": "/img/boss/k1-rig-logo_kryxivia.png",
+      "bg": "/img/boss/k1-rig-bg-new.jpg",
+      "bg2": "/img/boss/k1-rig-bg-2.jpg"
+    },
+    "valtrena": {
+      "name": "Valtrena",
+      "logo": "/img/boss/valtrena-logo_kryxivia.png",
+      "bg": "/img/boss/valtrena-bg-new.jpg",
+      "bg2": "/img/boss/valtrena-bg-2.jpg"
+    },
+    "alde": {
+      "name": "Alde",
+      "logo": "/img/boss/alde-logo_kryxivia.png",
+      "bg": "/img/boss/alde-bg-new.jpg",
+      "bg2": "/img/boss/alde-bg-2.jpg"
+    },
+    "melucyna": {
+      "name": "Melucyna",
+      "logo": "/img/boss/melucyna-logo_kryxivia.png",
+      "bg": "/img/boss/melucyna-bg-new.jpg",
+      "bg2": "/img/boss/melucyna-bg-2.jpg"
+    },
+    "atesgol": {
+      "name": "Atesgol",
+      "logo": "/img/boss/atesgol-logo_kryxivia.png",
+      "bg": "/img/boss/atesgol-bg-new.jpg",
+      "bg2": "/img/boss/atesgol-bg-2.jpg"
+    }
+  }
+}

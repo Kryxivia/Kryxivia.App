@@ -3,11 +3,6 @@ export default defineNuxtConfig({
   
   typescript: {
     strict: true
-  }, 
-
-  alias: {
-    img: "/assets/img",
-    sound: "/assets/sound"
   },
 
   css: [
@@ -98,7 +93,7 @@ export default defineNuxtConfig({
           {
             code: 'zh',
             name: 'Chinese',
-            iso: 'zh-CHS',
+            iso: 'zh-CN',
             file: 'zh.yml'
           }
         ]

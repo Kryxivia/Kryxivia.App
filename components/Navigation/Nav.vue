@@ -23,7 +23,7 @@
             </div>
             <NavigationMenu />
           </div>
-          <!-- <NavigationDevblog /> -->
+          <NavigationDevblog />
           <div class="foot">
             <LnShape />
             <div class="foot-ct">

@@ -1,0 +1,195 @@
+{
+  "team": {
+    "1": [
+      {
+        "name": "Frédérick MARINHO",
+        "profil": "fred.png",
+        "lang": "fr",
+        "poste": 1,
+        "social": {
+          "linkedin": "https://www.linkedin.com/in/fr%C3%A9d%C3%A9rick-marinho-4ba80761/",
+          "twitter": "https://twitter.com/FrderickMARINH1",
+          "github": "https://github.com/w0dm4n"
+        }
+      },
+      {
+        "name": "Antoine LELIEVRE",
+        "profil": "antoine.png",
+        "lang": "fr",
+        "poste": 2,
+        "social": {
+          "github": "https://github.com/alelievr"
+        }
+      }
+    ],
+    "2": [
+      {
+        "name": "Jean ROMAGNANI",
+        "profil": "jean.png",
+        "lang": "fr",
+        "poste": 3,
+        "social": {
+          "linkedin": "https://www.linkedin.com/in/jean-romagnani-4a2192141/",
+          "github": "https://github.com/jromagna42"
+        }
+      },
+      {
+        "name": "Noé MOURTON-COMTE",
+        "profil": "noe.png",
+        "lang": "fr",
+        "poste": 4,
+        "social": {
+          "linkedin": "https://www.linkedin.com/in/noe-comte/",
+          "github": "https://github.com/Zaliro"
+        }
+      },
+      {
+        "name": "Jérémy GUYET",
+        "profil": "jerem.png",
+        "lang": "fr",
+        "poste": 5,
+        "social": {
+          "linkedin": "https://www.linkedin.com/in/jeremy-guyet-36aaa3122/",
+          "github": "https://github.com/jguyet"
+        }
+      },
+      {
+        "name": "Valentin SAPPA",
+        "profil": "val.png",
+        "lang": "fr",
+        "poste": 6,
+        "social": {}
+      },
+      {
+        "name": "Jérémy JAGUT",
+        "profil": "jeremy-j.png",
+        "lang": "fr",
+        "poste": 6,
+        "social": {}
+      },
+      {
+        "name": "Saad EL MADAFRI",
+        "profil": "saad.png",
+        "lang": "fr",
+        "poste": 23,
+        "social": {
+          "linkedin": "https://www.linkedin.com/in/saad-el-madafri-4ab208190/"
+        }
+      }
+    ],
+    "3": [
+      {
+        "name": "N-Hance Studio",
+        "profil": "n-hance.png",
+        "lang": "is",
+        "poste": 11,
+        "social": {
+          "website": "https://nhance.artstation.com/"
+        }
+      },
+      {
+        "name": "Idris OULMANE",
+        "profil": "idris.png",
+        "lang": "fr",
+        "poste": 9,
+        "social": {
+          "linkedin": "https://www.linkedin.com/in/idris-oulmane-a2a7741b8/"
+        }
+      },
+      {
+        "name": "Nicolas VALENTIN",
+        "profil": "_no-men.png",
+        "lang": "fr",
+        "poste": 12,
+        "social": {}
+      }
+    ],
+    "4": [
+      {
+        "name": "Nicolas DURAND",
+        "profil": "nico.png",
+        "lang": "fr",
+        "poste": 13,
+        "social": {
+          "linkedin": "https://www.linkedin.com/in/nicolas-durand-ux-designer/",
+          "github": "https://github.com/nd-uix"
+        }
+      },
+      {
+        "name": "Matt",
+        "profil": "matt.png",
+        "lang": "us",
+        "poste": 14,
+        "social": {}
+      },
+      {
+        "name": "Julien HÉRICOURT",
+        "profil": "julien.png",
+        "lang": "fr",
+        "poste": 15,
+        "social": {
+          "linkedin": "https://www.linkedin.com/in/hericourtjulien/",
+          "twitter": "https://twitter.com/JulienHrct"
+        }
+      },
+      {
+        "name": "Lakshay GUPTA",
+        "profil": "lakshay.png",
+        "lang": "hi",
+        "poste": 16,
+        "social": {
+          "linkedin": "https://www.linkedin.com/in/iamlakshaygupta/"
+        }
+      }
+    ],
+    "5": [
+      {
+        "name": "Olga KUBALIÑSKA",
+        "profil": "olga.png",
+        "lang": "po",
+        "poste": 18,
+        "social": {
+          "linkedin": "https://www.linkedin.com/in/olga-kubali%C5%84ska/",
+          "twitter": "https://twitter.com/kubalinskahg",
+          "instagram": "https://www.instagram.com/kubalinskaolga/"
+        }
+      },
+      {
+        "name": "Sarvottam MISHRA",
+        "profil": "sarvottam.png",
+        "lang": "hi",
+        "poste": 19,
+        "social": {
+          "linkedin": "https://www.linkedin.com/in/sarvottam-mishra-b60037113/"
+        }
+      },
+      {
+        "name": "Mina SAIDI",
+        "profil": "mina.png",
+        "lang": "fr",
+        "poste": 22,
+        "social": {}
+      }
+    ],
+    "6": [
+      {
+        "name": "Rémi AGULLO",
+        "profil": "remi.png",
+        "lang": "fr",
+        "poste": 21,
+        "social": {
+          "website": "https://operagames.co/"
+        }
+      },
+      {
+        "name": "Emile BOUDGHENE",
+        "profil": "emile.png",
+        "lang": "fr",
+        "poste": 20,
+        "social": {
+          "website": "https://operagames.co/"
+        }
+      }
+    ]
+  }
+}

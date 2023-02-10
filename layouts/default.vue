@@ -22,7 +22,7 @@
   <Html :lang="head.htmlAttrs.lang" :dir="head.htmlAttrs.dir">
     <Head>
       <Title>{{ metaTitle }}</Title>
-      <Link rel="icon" type="image/x-icon" href="/favicon.png" />
+      <Link rel="icon" type="image/x-icon" href="/favicon.png?v=1" />
       <Meta name="viewport" content="width=device-width, initial-scale=1" />
       <Meta name="theme-color" :content="themeColor" />
       <Meta name="format-detection" content="telephone=no" />
@@ -48,6 +48,7 @@
       <HeaderBar :title="title" />
       <slot />
       <Bottom />
+      <ModalList />
     </Body>
   </Html>
 </template>

@@ -1,5 +1,5 @@
 <script setup>
-  const { socials } = useSocial()
+  import { social as socials } from '@/datas'
 </script>
 
 <template>

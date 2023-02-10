@@ -1,0 +1,39 @@
+{
+  "patchnotes": [
+    {
+      "version": "0.1.1",
+      "date": "1674129569",
+      "resolve": [
+        "Overall, the dungeon balancing has been reviewed",
+        "The armor penetration and scaling damages of mobs",
+        "Modified the armor scaling",
+        "Completing a quest now give you KXS",
+        "Fixed a bug that created issues on enchantment in certain conditions",
+        "NPCs such as NFT panel and socketing manager open dialogs again",
+        "Food are now stackable",
+        "Dialog typo has been removed",
+        "Mobs attack range has been reduced",
+        "Bosses Alde & Atesgol are now playable",
+        "The first dungeon (dummy) now automatically teleport you back to the city",
+        "Mining loot has been balanced",
+        "The weapons disappearing after mining",
+        "Modified dungeons access order",
+        "Fixed multi-player mining, everyone can mine now",
+        "You cannot gather resources while in a fight anymore",
+        "Various performance optimization",
+        "Lobby crashes are fixed, we improved dungeons stability, we are still monitoring",
+        "Clicking on the dungeon door is now easier",
+        "Fixed iron recipes for crafting",
+        "You can say now say \"Kill\" and \"Dummy\" in the chat"
+      ],
+      "know": [
+        "Quest that require you to pick a reward are still uncompletable",
+        "Boss health bar should not appear before you encounter it",
+        "Some NPCs still have no dialog while still having an exclamation mark over their head",
+        "Disenchanting multiple items at the same time still cause dust loss, you need to do it one by one",
+        "Some bosses can still be attacked from too far away",
+        "Visual bugs still occurs with the profession panel"
+      ]
+    }
+  ]
+}

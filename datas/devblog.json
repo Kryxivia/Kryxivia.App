@@ -1,0 +1,100 @@
+{
+  "devblog": {
+    "a-beginner-guide-to-kryxivia": {
+      "cover":"kryxivia_cover_a-beginner-guide-to-kryxivia.jpg",
+      "category":"2",
+      "date":1658586600,
+      "lang":{
+        "en":{
+          "title":"A Beginner’s Guide to Kryxivia",
+          "desc":"Things are moving fast at Kryxivia: there are lots of new faces in the community and the world of Kryxivia continues to expand and improve.",
+          "content":{
+            "1":{
+              "type": "txt",
+              "c":"In the lead-up to our public Alpha launch, we wanted to put out a quick resource to get our early supporters and newcomers alike up to speed with how to navigate Kryxivia. This is that resource."
+            },
+            "2":{
+              "type": "txt",
+              "c":"If you know nothing about Kryxivia, here’s our quick pitch: Kryxivia is an exciting new Play-to-Earn MMORPG built on BNB Chain. As a player, you will explore the city of Kryxivia and the deep, mysterious mine that it was built around. In the mine, you’ll find many formidable bosses who drop extremely valuable loot."
+            },
+            "3": {
+              "type": "txt",
+              "c": "<strong>In today’s article, we’ll be running you through how to start playing Kryxivia, setting up your first character, and then setting up your action bar to start dominating some bosses in the mine.</strong>"
+            },
+            "4": {
+              "type": "title",
+              "c": "First contact"
+            },
+            "5": {
+              "type": "txt",
+              "c": "After we launch on July 25, you’ll be able to begin playing by navigating to kryxivia.io and clicking the ‘Play Now!’ button. You’ll see an option to claim a free NFT - this will be your alpha access pass. Connect your wallet, claim the NFT, then head back to begin playing the game."
+            },
+            "6": {
+              "type": "txt",
+              "c": "Once the game loads, click ‘New Character’ to start creating your avatar."
+            },
+            "7": {
+              "type": "txt",
+              "c": "Here you’ll find some fun character customization options including gender, hair, skin and eye color, hairstyle and name. Once you’re happy with your character, click ‘Validate’."
+            },
+            "8": {
+              "type": "txt",
+              "c": "Finally, click ‘Play Now’ to enter the world."
+            },
+            "9": {
+              "type": "title",
+              "c": "A newcomer!"
+            },
+            "10": {
+              "type": "txt",
+              "c": "Hello and welcome to the beautiful city of Kryxivia. There’s a lot to explore around town, so we’ll let you do that in your own time. For today, let’s focus on navigating to the entrance to the mine."
+            },
+            "11": {
+              "type": "txt",
+              "c": "Turn around from where you spawn, head down the stairs, cross the bridge and you’ll find yourself standing before the glowing doors to the mine. If you get lost, you’re looking for the purple arrow on your minimap."
+            },
+            "12": {
+              "type": "txt",
+              "c": "Before you head in, you’ll want to prepare your abilities. Click on the bag of purple kryxits in the bottom left corner of your screen. This will take you to your spells, which you can drag and drop into your action bar and cast by pressing the respective number on your keyboard. Mouse over each of them to learn more about what they do."
+            },
+            "13": {
+              "type": "txt",
+              "c": "Remember, spells and abilities in Kryxivia are given by the Kryxits you embed in your armor and weapons. If you’re not wearing any armor (and therefore no kryxits) you won’t be able to do anything!"
+            },
+            "14": {
+              "type": "txt",
+              "c": "Once you’re happy with your setup, head to the gates and press E – we’d recommend starting with the Training boss. Be warned though, he’s not as easy as he sounds. You might want to send some of your friends this article and get them to join you in your adventures through the mine - if you want to survive, that is."
+            },
+            "15": {
+              "type": "txt",
+              "c": "Speaking of friends - if you’d like to play with your friends, or a stranger you meet in the hall, create a party by clicking the plus icon in the bottom left corner. When one party member enters the mine, all the other members will enter with them and face the boss together."
+            },
+            "16": {
+              "type": "txt",
+              "c": "These aren’t all the features we’ve got in the game, but this will get you started. Don’t forget to explore and try things out, and if you get stuck reach out to our community in Discord or even ask another player in the game!"
+            },
+            "17": {
+              "type": "title",
+              "c": "The world awaits"
+            },
+            "18": {
+              "type": "txt",
+              "c": "We wish you luck on your adventures. Remember, this is just the beginning - a lot is coming to Kryxivia very soon (like a PVP tournament, for example). If you experience any bugs or want to leave any other feedback, we would love to hear it. Head over to our Discord and get in contact with a team member to do so."
+            },
+            "19": {
+              "type": "txt",
+              "c": "Good luck Kryxivian, and we’ll see you soon with more exciting updates from the team ❤️‍🔥"
+            },
+            "20": {
+              "type": "txt",
+              "c": "<strong>The Kryxivia Team</strong>"
+            }
+          }
+        }
+      }
+    },
+    "kryxivia-pre-alpha-update": {"cover":"kryxivia-twitch-cover.jpg","category":"2","date":1648753759,"lang":{"en":{"title":"Kryxivia Pre-alpha update","desc":"Some update from the Team about the alpha coming soon","content":{"1":{"type":"title","c":"Welcome back for a new post on the Kryxivia devblog!"},"2":{"type":"txt","c":"It's been a long time since we last posted an article on the blog. Indeed, the team has been focused on the constant improvement of the game for the upcoming alpha. The upcoming alpha version has nothing to do with the first test versions as the team progresses so much: the UI has been completely updated, new spells have been added, new dungeons, NFT import/export is functional, etc."},"3":{"type":"txt","c":"This post will focus mainly on the visual improvements."},"4":{"type":"title","c":"UI/UX improvements"},"5":{"type":"txt","c":"The menus have been completely modified to be in the same colors as Kryxivia, it will be possible to change them as you like:"},"6":{"type":"img","c":"kryxivia-ui-button-2.png","a":"UI Kryxivia button"},"7":{"type":"txt","c":"The group and dungeon menu has been updated:"},"8":{"type":"img","c":"kryxivia-ui-dungeon-group-2.png","a":"Kryxivia group and dungeon"},"9":{"type":"txt","c":"Here is an overview of the inventory:"},"10":{"type":"img","c":"kryxivia-inventory-2.png","a":"Kryxivia inventory"},"11":{"type":"txt","c":"It will be possible to add Kryxits to your items to increase their specs!"},"12":{"type":"img","c":"kryxivia-ui-krixits-2.png","a":"Kryxivia inventory Kryxits"},"13":{"type":"title","c":"NFT import/export"},"14":{"type":"txt","c":"The import/export system has been implemented via an NPC. We will let early stakers who have access to the Alpha discover their unique NFT in game after talking to this NPC !"},"15":{"type":"img","c":"kryxivia-nft-import-2.png","a":"Kryxivia NFT import"},"16":{"type":"title","c":"Spells menu"},"17":{"type":"txt","c":"The spell menu has also been redesigned. We added the drag of the spells directly in the bar of the spells:"},"18":{"type":"img","c":"kryxivia-spells.png","a":"Kryxivia Spells"},"19":{"type":"txt","c":"We can't wait to show you the world of Kryxivia and all our advancements at the launch of the alpha."},"20":{"type":"txt","c":"Tomorrow you can have a preview while waiting for the alpha launch : we will stream the game on Twitch with some team members at 13:00 UTC on our official Twitch channel : <a href='https://twitch.tv/kryxiviaoff' title='go' target='_blank' rel='noopener noreferrer'>https://twitch.tv/kryxiviaoff</a>"}}}}},
+    "first-look-at-the-combat-system": {"cover":"kryxivia-combat-system-cover.png","category":"2","date":1643216273,"lang":{"en":{"title":"First Look at the Combat System!","desc":"First look at the combat system!","content":{"1":{"type":"title","c":"Overview"},"2":{"type":"txt","c":"Welcome back to the magical world of Kryxivia! Today we will take a look at the Kryxivia combat system which is a key component to overall game play. Players will find that it has both a familiarity and uniqueness when compared to other MMORPGs they may have played. The battle stats component of the combat system is something many MMO players will already be very familiar with but the addition of the concepts of elemental backlash and awakening will provide a very unique gameplay experience for all players."},"3":{"type":"title","c":"Battle Stats"},"4":{"type":"txt","c":"The core foundation of the game is centered around battle stats that are found on weapons and equipment in game. These stats are used in the battle formulas to help determine the damage and healing components of effects."},"5":{"type":"txt","c":"<u>Attack</u>:&nbsp;&nbsp;Primary offensive stat used to calculate both physical and magical damage dealt"},"6":{"type":"txt","c":"<u>Resistance</u>:&nbsp;&nbsp;Primary defensive stat used to calculate both physical and magical damage mitigation"},"7":{"type":"txt","c":"<u>Critical Hit Chance</u>:&nbsp;&nbsp;Determines the chance of critical hits"},"8":{"type":"txt","c":"<u>Critical Damage</u>:&nbsp;&nbsp;Determines the increase in the amount of damage dealt on critical hits"},"9":{"type":"txt","c":"<u>Healing</u>:&nbsp;&nbsp;Primary stat used to calculate healing effects"},"10":{"type":"txt","c":"<u>Health</u>:&nbsp;&nbsp;Determines your characters overall health points"},"15":{"type":"title","c":"Elemental Backlash"},"16":{"type":"txt","c":"The effects in Kryxivia are tied to a specific element which after casting creates an elemental backlash effect on the target – that target gains the buff of whatever element they were last hit with. This includes both allies and enemy targets, so for example healing an ally with a water effect will give them reduced cooldown on their effects. It will be vital for players to understand how the effects of their elemental backlash and be able to take advantage of it during combat."},"17":{"type":"img","c":"kryxivia-combat-system-elemental_backlash_strip.png","a":"Elemental backlash buff icons"},"18":{"type":"txt","c":"<u>Fire</u>:&nbsp;&nbsp;Increased efficiency of spell effects"},"19":{"type":"txt","c":"<u>Water</u>:&nbsp;&nbsp;Cooldown reduction of spell effects"},"20":{"type":"txt","c":"<u>Thunder</u>:&nbsp;&nbsp;Increased critical chance rate"},"21":{"type":"txt","c":"<u>Wind</u>:&nbsp;&nbsp;Increased size of spell effects"},"22":{"type":"txt","c":"<u>Earth</u>:&nbsp;&nbsp;Increased awakening chance rate"},"23":{"type":"title","c":"Spell Mechanics"},"24":{"type":"txt","c":"A key aspect to game play in an MMO is understanding the impact of how and when you cast your spells effects your damage and mobility. All spells in Kryxivia will either be instant or have a specified casting time. In addition they will also have one of the following spell effect mechanics:"},"25":{"type":"txt","c":"<u>Instant Effects</u>:&nbsp;&nbsp;The spell effect occurs immediately"},"26":{"type":"txt","c":"<u>Incantation Effects</u>:&nbsp;&nbsp;The spell effect takes place over a period of time during which you may move"},"27":{"type":"txt","c":"<u>Channeled Effects</u>:&nbsp;&nbsp;The spell effect takes place over a period of time during which you may not move"},"28":{"type":"title","c":"Telegraphs"},"29":{"type":"txt","c":"Another very unique aspect to Kryxivia's combat system is the use of telegraphs for spell effects.  A telegraph is a visual cue to a player that an enemy is casting a spell plus what the area of effect is and it's duration."},"30":{"type":"img","c":"kryxivia-combat-system-telegraph.gif","a":"Telegraph showing area of effect and cast duration"},"31":{"type":"txt","c":"The combat system currently supports a number different types of telegraph shapes:"},"32":{"type":"img","c":"kryxivia-combat-system-telegraph-cone.png","a":"Cone shaped telegraph typically used for spells like cleaves"},"33":{"type":"img","c":"kryxivia-combat-system-telegraph-cube.png","a":"Rectangle shaped telegraph which can vary in width and length"},"34":{"type":"img","c":"kryxivia-combat-system-telegraph-cylinder2.png","a":"Cylinder shaped telegraph which is cast at range and shows area of effect"},"35":{"type":"img","c":"kryxivia-combat-system-telegraph-cylinder-self.png","a":"Cylinder shaped telegraph which is cast on self or follows character"}}}}},
+    "first-post-on-the-kryxivia-devblog": {"cover":"kryxivia_cover_first-post-on-the-kryxivia-devblog.jpg","category":"2","date":1640042260,"lang":{"en":{"title":"First post on the Kryxivia Devblog!","desc":"First post on the Kryxivia devblog, check out our latest advancements and our artists works!","content":{"1":{"type":"title","c":"Introduction"},"2":{"type":"txt","c":"Hey everyone, welcome to the first devblog article of the Kryxivia team, we will use it to show you the progress of the game and our struggling points on the game development due to his unique crypto aspects and the complexity of handling a whole network protocol for an MMORPG, especially based on the WebGL technology (playable on the browser).\n\nTo start our brainstorming and design we first make mocks-up, decide, update and then move to a 3D environment to make happen the magic!"},"3":{"type":"img","c":"kryxivia_first-post-on-the-kryxivia-devblog_base-figure-of-the-male-kryxivia-character.jpg","a":"Base figure of the male Kryxivia character"},"4":{"type":"txt","c":"Lately, we started a rebranding of our male and female characters, we made multiple versions before being quite satisfied with the results:"},"5":{"type":"img","c":"kryxivia_first-post-on-the-kryxivia-devblog_first-representation-in-3d-for-the-kryxivia-male-first-version.jpg","a":"First representation in 3D for the Kryxivia male, first version"},"6":{"type":"txt","c":"Since we are playable on a browser, it means that we need low-polygon models to avoid low-FPS or GPU issues for players: it adds a point of complexity where we trying to combine a good looking, fun, and appealing character and the optimization process for stable gameplay."},"7":{"type":"img","c":"kryxivia_first-post-on-the-kryxivia-devblog_reworked-version-of-the-male-character-in-kryxivia.png","a":"Reworked version of the male character in Kryxivia"},"8":{"type":"img","c":"kryxivia_first-post-on-the-kryxivia-devblog_female-character-of-the-kryxivia-world.png","a":"Female character of the Kryxivia World"},"9":{"type":"title","c":"In-game PVE"},"10":{"type":"txt","c":"For the alpha release, we do work on multiple dungeons\/bosses to have a smooth game experience mixing cool animations, difficulty, and good NFT rewards. For example, this is an old civilization with long-forgotten ruin.\n\nWe work on a story first for a new zone, by creating the concept art and moving on to the creation of the 3d level design environment, and then the boss that will live inside it.\n\nThe boss here is the guardian of the entrance of \"a big underground city\" it's a 3 legged mechanical spider robot powered by magic crystals, with apparent wear from ages of work.\n\nHere is a mood board that we created to think about the civilization design and 3D environment: <a href=\"https:\/\/docs.google.com\/presentation\/d\/1Az1n6N-52jPvOKppE31E9HlmPhca2I-rUf8ZmxfJIqA\/edit#slide=id.g1044ce2ccd5_0_14\" rel=\"noopener noreferrer\" target=\"_blank\">Here<\/a>"},"11":{"type":"img","c":"kryxivia_first-post-on-the-kryxivia-devblog_civilization-dungeon-1-first-look-on-the-environment.png","a":"Civilization dungeon #1 - first look on the environment"},"12":{"type":"img","c":"kryxivia_first-post-on-the-kryxivia-devblog_civilization-dungeon-2-second-twist-on-the-environment.png","a":"Civilization dungeon #2 - second twist on the environment"},"13":{"type":"txt","c":"Our game studio partners N-Hance help us on bringing our ideas to the Kryxivia world, we send them specific details on the boss design and animations:"},"14":{"type":"img","c":"kryxivia_first-post-on-the-kryxivia-devblog_first-mock-up-of-the-boss-in-the-civilization-dungeon.jpg","a":"First Mock-up of the boss in the civilization dungeon"},"15":{"type":"img","c":"kryxivia_first-post-on-the-kryxivia-devblog_with-the-differents-animations-of-the-boss-design.jpg","a":"With the differents animations of the boss design"},"16":{"type":"txt","c":"For a final version of:"},"17":{"type":"img","c":"kryxivia_first-post-on-the-kryxivia-devblog_final-version-of-the-kryxivia-ancient-civilization-boss.png","a":"Final version of the Kryxivia ancient civilization boss"},"18":{"type":"txt","c":"Once we have the boss concept and 3D design, we create the gameplay linked to it and the animations:\nAs a global rule, the gears of the boss spins faster during anticipation frames\n"},"19":{"type":"sub","c":"MOVEMENT"},"20":{"type":"txt","c":"walk ;\nidle -> small movement up and down;\njump start -> the boss crouch to prepare for the jump and then leaps into the air;\njump loop -> the boss is in a jumping loop;\njump land -> the boss land on the ground unbalanced and raise to his idle state;"},"21":{"type":"sub","c":"ATTACKS"},"22":{"type":"txt","c":"ground slam -> the boss raise up and slam the ground with his bottom;\ncast start -> the boss's gear start spinning fast and reveal the crystal on top of the boss;\ncast loop -> the boss does small shaky movement;\ncast end -> the boss top hatche closes and goes back to idle;"},"23":{"type":"sub","c":"CONTEXTUAL"},"24":{"type":"txt","c":"During the boss fight, the boss will have two ways of recharging his energy,\none is by putting the pin on his legs into a wall socket; this occurs when he is fully functional\nand the other one is by engaging one of his gears into gear in the wall; this happen when he already took a lot of damage"},"25":{"type":"txt","c":"Our main priority at the moment is the in-game content and gameplay to have the alpha ready, we also do some coding network optimization too.\nReview the current list of spells existing at the moment in the Kryxivia universe:\n\n<a href=\"https:\/\/docs.google.com\/spreadsheets\/d\/10i3DEWooGhS0Nair6wk_2swaZNn6dMadTgHbvN7fZaY\/\" rel=\"noopener noreferrer\" target=\"_blank\">Here<\/a>"}}}}}
+  }
+}

@@ -1,8 +1,6 @@
 <script setup>
   defineProps({
-    n: {
-      type: String
-    }
+    n: String
   })
 </script>
 

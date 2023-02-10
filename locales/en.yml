@@ -159,7 +159,7 @@ team:
     '10': 3D Character / Items Artist
     '11': Partner Studio / 3D Artist
     '12': Game Designer Consultant
-    '13': Lead UI/UX Designer
+    '13': Lead UI/UX Designer / Front Dev
     '14': Full Stack Developer Web
     '15': Creative Developer
     '16': Graphic Designer
@@ -1056,3 +1056,7 @@ app-nft-viewer:
 app-bridge:
   title: Bridge
   metaTitle: Kryxivia • Bridge
+newsletter:
+  title: Newsletter
+  txt: Subscribe to our newsletter to receive all our news, updates, promotions & events!
+  address: Our address email
