@@ -1,0 +1,29 @@
+{
+  "catalysts": {
+    "blue": {
+      "lvl": 1,
+      "title": "dungeons.catalysts.blue",
+      "img": "catalyst-kryxivia_lvl-1_blue.png"
+    },
+    "yellow": {
+      "lvl": 2,
+      "title": "dungeons.catalysts.yellow",
+      "img": "catalyst-kryxivia_lvl-2_yellow.png"
+    },
+    "orange": {
+      "lvl": 3,
+      "title": "dungeons.catalysts.orange",
+      "img": "catalyst-kryxivia_lvl-3_orange.png"
+    },
+    "red": {
+      "lvl": 4,
+      "title": "dungeons.catalysts.red",
+      "img": "catalyst-kryxivia_lvl-4_red.png"
+    },
+    "purple": {
+      "lvl": 5,
+      "title": "dungeons.catalysts.purple",
+      "img": "catalyst-kryxivia_lvl-5_purple.png"
+    }
+  }
+}

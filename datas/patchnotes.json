@@ -2,7 +2,7 @@
   "patchnotes": [
     {
       "version": "0.1.1",
-      "date": "1674129569",
+      "date": 1674129569,
       "resolve": [
         "Overall, the dungeon balancing has been reviewed",
         "The armor penetration and scaling damages of mobs",

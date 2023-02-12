@@ -1,8 +1,6 @@
 <script setup>
   const localePath = useLocalePath()
-  defineProps({
-    title: String
-  })
+  const { title } = useMetaData()
 </script>
 
 <template>

@@ -122,24 +122,13 @@
         style.remove()
       }
 
-      /** Scroller proxy */
-      // ScrollTrigger.scrollerProxy('body', {
-      //   scrollTop(value) {
-      //     arguments.length ? smooth.scrollTop = value : !1
-      //     return smooth.scrollTop
-      //   },
-      //   scrollLeft(value) {
-      //     arguments.length ? smooth.scrollLeft = value : !1
-      //     return smooth.scrollLeft
-      //   }
-      // })
-
       /** Smooth listener */
       smooth.addListener(ScrollTrigger.update)
       smooth.addListener(() => ScrollTrigger.refresh())
 
     } else {
 
+      /** Add class global for mobile */
       html.classList.add('mob')
 
     }

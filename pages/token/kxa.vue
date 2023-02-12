@@ -30,7 +30,7 @@
 <template>
   <Smooth>
     <div class="top-page top-token">
-      <div class="l">
+      <div class="l" data-reveal>
         <div class="tok">
           <img src="/img/tokens/kxa-shape.png" alt="$KXA" loading="lazy" draggable="false">
         </div>

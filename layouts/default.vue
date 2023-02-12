@@ -1,17 +1,13 @@
 <script setup>
 
-  const route = useRoute()
-  const { t } = useI18n()
   const head = useLocaleHead({
     addDirAttribute: true,
     identifierAttribute: 'id',
     addSeoAttributes: true
   })
   
-  const idPage = computed(() => route.name.split('___')[0])
-  const metaTitle = computed(() => t(idPage.value + '.metaTitle'))
-  const title = computed(() => t(idPage.value + '.title'))
-  const description = computed(() => t('all.desc'))
+  const { idPage, metaTitle, description } = useMetaData()
+
   const themeColor = 'rgb(201,169,130)'
   const thumbnail = 'https://kryxivia.io/img/thumbnail.jpg'
   const url = 'https://kryxivia.io/'
@@ -45,7 +41,7 @@
       </template>
     </Head>
     <Body :data-page-id="idPage">
-      <HeaderBar :title="title" />
+      <HeaderBar />
       <slot />
       <Bottom />
       <ModalList />

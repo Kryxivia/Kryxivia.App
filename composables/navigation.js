@@ -77,9 +77,9 @@ export const useNavigation = () => {
         faction: { name: 'nav.game.faction', link: "/factions" },
         mine: { name: 'nav.game.dungeon', link: "/dungeons" },
         boss: { name: 'nav.game.boss', link: "/bosses" },
-        kryxit: { name: 'nav.game.kryxit', link: "/#" },
-        equipment: { name: 'nav.game.equipment', link: "/#" },
-        pvp: { name: 'nav.game.pvp', link: "/#" }
+        kryxit: { name: 'nav.game.kryxit', link: "#" },
+        equipment: { name: 'nav.game.equipment', link: "#" },
+        pvp: { name: 'nav.game.pvp', link: "#" }
       }
     },
     apps: {

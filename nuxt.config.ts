@@ -1,5 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({  
+export default defineNuxtConfig({
+
+  runtimeConfig: {
+    public: {
+      api: {
+        kxa: 'https://kryx-app-web-api.azurewebsites.net/api/v1/stats/price/KXA',
+        player_online: 'https://kryx-app-auth-api.azurewebsites.net/api/v1/login/online-players',
+        leader_solo: 'https://kryx-app-web-api.azurewebsites.net/api/v1/leaderboards/pull/solo-versus-rank'
+      }
+    }
+  },
   
   typescript: {
     strict: true

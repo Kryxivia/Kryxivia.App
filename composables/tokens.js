@@ -7,7 +7,6 @@ export const useTokenPage = () => {
     /** Reveal plan token */
     const top = gsap.timeline()
     top
-      .to('.top-token .l', 1, {opacity:1}, 'a')
       .to('.top-token .plan-1 img', 2.5, {scale:1,ease:'power2.easeInOut'}, 'a')
       .to('.top-token .plan-2 img', 2.5, {scale:1,ease:'power2.easeInOut'}, 'a')
       .to('.top-token .plan-3 img', 2.5, {scale:1,ease:'power2.easeInOut'}, 'a')

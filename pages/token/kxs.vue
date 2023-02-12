@@ -7,7 +7,7 @@
 <template>
   <Smooth>
     <div class="top-page top-token">
-      <div class="l">
+      <div class="l" data-reveal>
         <div class="tok">
           <img src="/img/tokens/kxs-shape.png" alt="$KXS" loading="lazy" draggable="false">
         </div>
