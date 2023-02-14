@@ -1,6 +1,49 @@
 {
   "patchnotes": [
     {
+      "version": "0.2.0",
+      "date": 1676213394,
+      "new": [
+        "Player position in the lobby is saved between plays, use /unstuck in the chat to respawn if you have a problem",
+        "New enchantments",
+        "New supplies for enchantments",
+        "Bank is now limited to 144 items",
+        "Raptors now spawn in the dungeon",
+        "When fighting a boss, a curse will hit you if the boss can't reach you",
+        "Auto mob targeting, by default bound on Q",
+        "It's now possible to buy items in bulk at merchants"
+      ],
+      "resolve": [
+        "Improved overall stability of the bank, crafting and enchanting functionalities",
+        "NFT export / import no longer locks your items or limit your actions in game",
+        "Fixed some colliders in the dungeons",
+        "Reviewed the balancing of a lot of spells",
+        "Overall quality of life improvements and UI changes",
+        "When a mob looses it's aggro it no longer marks you in combat",
+        "Only crafting modifiers items can be added during crafting",
+        "Improved some spells on NPCs",
+        "Fixed issue with talent tree points when learning or forgetting trees",
+        "Fixed bugged items on some merchants",
+        "Improve the stability of dungeon servers",
+        "Fixed issues when inspecting stuff of other players",
+        "Improve the precision of the synchronization for player and NPC movements",
+        "The mouse is no longer locked / invisible in the character screen when a connection bug occur",
+        "On windows the mouse is now confined to the window when it's not locked",
+        "Fixed nameplates of NPCs",
+        "Fixed a bug where the pickaxe would stay in your hands after mining ores",
+        "Boss health bar is now displayed only when you aggro it",
+        "Fixed quest rewards",
+        "Fixed a bug that made crafting modifiers not apply in certain situations",
+        "Dungeon door should be even easier to be clicked on",
+        "You can now disenchant multiple items at the same time"
+      ],
+      "know": [
+        "The Find Group button in the dungeon panel still has issue matchmaking players",
+        "Roll / Charge spells sometimes doesn't trigger",
+        "Gathering animation sometimes stops prematurely"
+      ]
+    },
+    {
       "version": "0.1.1",
       "date": 1674129569,
       "resolve": [

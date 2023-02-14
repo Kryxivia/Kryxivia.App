@@ -1,11 +1,11 @@
 <script setup>
-  const route = useRoute()
-  const idPage = computed(() => route.name.split('___')[0])
+  const { idPage } = useMetaData()
 </script>
 
 <template>
   <div id="mod">
     <ModalPlay />
     <ModalRoadmap v-if="idPage === 'roadmap'" />
+    <ModalTrailer v-if="idPage === 'index'" />
   </div>
 </template>

@@ -124,7 +124,20 @@
 
       /** Smooth listener */
       smooth.addListener(ScrollTrigger.update)
-      smooth.addListener(() => ScrollTrigger.refresh())
+      smooth.addListener(status => {
+
+        ScrollTrigger.refresh()
+
+        let y = status.offset.y
+        let x = status.offset.x
+
+        if (props.horizontal) {
+          html.classList.contains('stop') ? smooth.setPosition(sessionStorage.getItem('x' + props.target), 0) : sessionStorage.setItem('x' + props.target, x)
+        }else{
+          html.classList.contains('stop') ? smooth.setPosition(0, sessionStorage.getItem('y' + props.target)) : sessionStorage.setItem('y' + props.target, y)
+        }
+
+      })
 
     } else {
 

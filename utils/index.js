@@ -2,6 +2,10 @@ function qs(selector, parent = document) {
   return parent.querySelector(selector)
 }
 
+function qst(selector, parent = document) {
+  return parent.getElementsByTagName(selector)
+}
+
 function qsa(selector, parent = document) {
   return [...parent.querySelectorAll(selector)]
 }
@@ -23,7 +27,8 @@ function isFirefox() {
 }
 
 export {
-  qs, 
+  qs,
+  qst,
   qsa, 
   isMobile, 
   isFirefox

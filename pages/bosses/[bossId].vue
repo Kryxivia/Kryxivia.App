@@ -1,12 +1,16 @@
 <script setup>
   import { bosses } from '@/datas'
   import gsap from 'gsap'
-
+  
   const { t } = useI18n()
   const localePath = useLocalePath()
   const route = useRoute()
   const router = useRouter()
   const bossId = route.params.bossId
+
+  /** Set id page with alias */
+  const { setIdPage } = useMetaData()
+  setIdPage(`bosses-${bossId}`)
 
   /** Boss informations */
   const boss = bosses[bossId]
@@ -15,7 +19,7 @@
   if (!boss) {
     router.push(localePath('/bosses'))
   }
-  
+
   /** translate for boss */
   function trans(id) {
     return t(`bosses-${bossId}.${id}`)
@@ -40,6 +44,7 @@
     }})
 
   })
+  
 </script>
 
 <template>

@@ -375,7 +375,7 @@ devblog:
   metaTitle: Kryxivia • Devblog, समाचार, अद्यतन और घोषणाएं
   h1: समाचार, अद्यतन और घोषणाएँ
   back: सूची पर वापस जाएँ
-devblog-slug:
+devblog-article:
   title: Devblog & समाचार
   metaTitle: क्रिक्सीविया
 bosses:
@@ -787,7 +787,7 @@ faq:
   others:
     title: दूसरों
     list: []
-faq-slug:
+faq-category:
   title: अक्सर पूछे जाने वाले प्रश्न
 dungeons:
   title: क्रिक्सीविया खान
@@ -914,4 +914,13 @@ patchnotes:
   metaTitle: Kryxivia • पैच नोट्स और रिलीज़
   h1: नवीनतम पैच नोट्स और रिलीज़ को जानें
   sub: पैच नोट्स
-  know: 'जाने जाने वाले बग्स :'
+  new: |
+    नया:
+  resolve: |
+    सुधार और सुधार:
+  know: |
+    जानी गई बग:
+newsletter:
+  title: समाचार पत्रिका
+  txt: हमारी समाचार पत्रिका की सदस्यता लें ताकि आप हमारी सभी खबरें, अपडेट, प्रमोशन और इवेंट्स प्राप्त कर सकें!
+  address: हमारा ईमेल पता

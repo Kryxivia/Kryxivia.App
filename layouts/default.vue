@@ -1,5 +1,4 @@
 <script setup>
-
   const head = useLocaleHead({
     addDirAttribute: true,
     identifierAttribute: 'id',
@@ -12,6 +11,9 @@
   const thumbnail = 'https://kryxivia.io/img/thumbnail.jpg'
   const url = 'https://kryxivia.io/'
 
+  /** Init sound */
+  const { $sound } = useNuxtApp()
+  onMounted(() => $sound.init())
 </script>
 
 <template>

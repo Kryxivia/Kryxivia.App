@@ -385,7 +385,7 @@ devblog:
   metaTitle: Kryxivia • Devblog, berita, pembaruan & pengumuman
   h1: Berita, update &pengumuman
   back: Kembali ke daftar
-devblog-slug:
+devblog-article:
   title: Devblog & berita
   metaTitle: Kryxivia
 bosses:
@@ -649,7 +649,7 @@ faq:
     list:
       - q: Apa itu Kryxivia?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Kryxivia adalah MMORPG 3D fantasi, dapat dimainkan di browser
               modern apa pun, langsung tersedia di situs web kami di
@@ -660,7 +660,7 @@ faq:
               teman-teman Anda.
       - q: Bagaimana cara mulai bermain?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Kryxivia adalah game MMORPG online yang bekerja dengan browser
               modern yang kompatibel, Anda dapat memainkannya di komputer mana
@@ -669,7 +669,7 @@ faq:
               harus memiliki dompet berbasis Metamask.
       - q: Apa yang dimaksud dengan permainan untuk menghasilkan?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Game play-to-earn menggabungkan kesenangan video game dengan
               kesempatan untuk mendapatkan hadiah nyata untuk waktu Anda. Dalam
@@ -677,7 +677,7 @@ faq:
               Kryxit.
       - q: Apa yang dimaksud dengan kepemilikan sejati?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Pemilik Sebenarnya adalah mereka yang menerima manfaat
               kepemilikan. Pemilik Sejati adalah individu atau entitas yang
@@ -685,42 +685,42 @@ faq:
               darinya.
       - q: Apakah Kryxivia adalah permainan untuk memenangkan permainan?
         a:
-          - t: Txt
+          - t: txt
             c: Ya Kryxivia adalah permainan untuk mendapatkan permainan Kryxit.
       - q: Apakah Kryxivia benar-benar game gratis untuk dimainkan?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Ya, untuk bermain kryxivia Anda hanya perlu menghubungkan Metamask
               Anda dengan server.
       - q: Di mana saya bisa bermain Kryxivia?
         a:
-          - t: Txt
+          - t: txt
             c: Anda dapat memainkan game di kryxivia.io
       - q: >-
           Apakah saya harus memahami blockchain atau jaringan rantai pintar
           binance?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Tidak, Anda tidak perlu memiliki pengetahuan teknis tentang
               BNBchain untuk bermain game.
       - q: Apa itu MMORPG?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               MMORPG adalah gim video yang menggabungkan elemen video game
               role-playing dan gim online multipemain masif.
       - q: Di mana saya dapat melaporkan error?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Jika Anda seorang Alpha-Tester, Anda dapat melaporkan bug di
               saluran laporan bug di Discord dan mendapatkan kesempatan untuk
               mendapatkan penghasilan dari bounty $40,000.
       - q: Apa saja persyaratan PC untuk memainkan Kryxivia?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Persyaratan yang disarankan adalah setidaknya 4GB RAM, Intel Core
               i5, GPU GeForce GTX 900 Series, dan solid state drive.
@@ -729,7 +729,7 @@ faq:
     list:
       - q: Apa itu $KXA?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               $KXA, atau token Koin Kryxivia, adalah mata uang kripto yang
               digunakan untuk pembayaran on-chain, seperti kartu perdana, acara
@@ -737,23 +737,23 @@ faq:
               $KXS, yang merupakan singkatan dari Kryxit Shard.
       - q: Apa itu $KXS?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Koin $KXS, yang merupakan singkatan dari Kryxivia Shard Coin
               adalah mata uang online untuk dimainkan, dibeli, diperdagangkan,
               dan memiliki barang-barang online baru di dunia Kryxivia.
       - q: Bagaimana cara membeli &menjual $KXA dan $KXS?
         a:
-          - t: Txt
+          - t: txt
             c: 'Anda dapat membeli $KXA di bursa yang tercantum di sini:'
           - t: kancing
             c: CoinMarketCap
             link: https://coinmarketcap.com/currencies/kryxivia/
-          - t: Txt
+          - t: txt
             c: $KXS belum terdaftar.
       - q: Apakah item kripto &game saya aman?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Ya, Kryxivia telah diverifikasi dengan aman oleh Solidproof dan
               semua aset dalam game dan kripto Anda aman bersama kami.
@@ -763,22 +763,22 @@ faq:
               https://github.com/solidproof/projects/blob/main/Kryxivia/MysteryBox/SmartContract_Audit_Solidproof_Kryxivia%20MysteryBox.pdf
       - q: Apa itu airdrop dan bagaimana cara mendapatkannya?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Airdrops melibatkan proyek kripto yang menyediakan token secara
               massal kepada komunitas mereka untuk meningkatkan adopsi.
-          - t: Txt
+          - t: txt
             c: >-
               Semua pengumuman mengenai airdrop Kryxivia akan diumumkan di akun
               twitter resmi.
       - q: Bagaimana cara menautkan dompet kripto dan nft saya?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Anda harus memiliki akun metamask dengan jaringan Binance di
               dalamnya, setelah itu Anda perlu membuka situs web kryxivia dan
               mengklik hubungkan dompet.
-          - t: Txt
+          - t: txt
             c: Setelah itu pemberitahuan dompet akan muncul untuk izin koneksi.
       - q: Bagaimana cara mengirim NFT atau kripto saya ke dompet lain?
         a:
@@ -793,7 +793,7 @@ faq:
     list:
       - q: Siapa yang harus diajak bicara untuk pertanyaan atau masalah?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Semua obrolan media sosial kami aktif dengan mod, Anda dapat
               bergabung dengan Discord dan Telegram kami.
@@ -806,7 +806,7 @@ faq:
   others:
     title: Lain
     list: []
-faq-slug:
+faq-category:
   title: FAQ
 dungeons:
   title: Tambang Kryxivia
@@ -937,4 +937,13 @@ patchnotes:
   metaTitle: Kryxivia • Catatan Patch dan Rilis
   h1: Temukan catatan patch dan rilis terbaru
   sub: Catatan Patch
-  know: 'Bug yang diketahui:'
+  new: |
+    Baru:
+  resolve: |
+    Perbaikan & Peningkatan:
+  know: |
+    Bug yang Diketahui:
+newsletter:
+  title: Buletin Berita
+  txt: Berlangganan buletin berita kami untuk menerima semua berita, pembaruan, promosi, dan acara kami!
+  address: Alamat email kami

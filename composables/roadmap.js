@@ -2,6 +2,7 @@ import { roadmap } from '@/datas'
 
 export const useRoadmap = () => {
 
+  /** Create array with step counter */
   roadmap.forEach((road, index) => {
     let ok = 0
     roadmap[index].step = road.list.length

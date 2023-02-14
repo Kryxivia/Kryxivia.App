@@ -6,7 +6,7 @@
 <template>
   <header id="h" class="bars">
     <NuxtLink class="logo" :to="localePath('/')">
-      <img src="/img/logo-kryxivia.png" width="500" height="169" alt="Kryxivia" draggable="false" loading="lazy">
+      <img src="/img/logo-kryxivia.png" width="500" height="169" alt="Kryxivia" draggable="false">
     </NuxtLink>
     <HeaderSpace n="1" />
     <HeaderLangSwitcher />

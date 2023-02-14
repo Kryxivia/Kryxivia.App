@@ -1,10 +1,6 @@
-<script setup>
-  const { toggleNavigation } = useNavigation()
-</script>
-
 <template>
   <div>
-    <button id="bnv" type="button" class="bnv" :aria-label="$t('header.nav')" @click="toggleNavigation">
+    <button id="bnv" type="button" class="bnv" :aria-label="$t('header.nav')" @click="$navigation.toggle()">
       <svg viewBox="0 0 100 100">
         <title>{{ $t('header.nav') }}</title>
         <path class="l-1" d="M0,42h62c13,0,6,26-4,16L35,35" />

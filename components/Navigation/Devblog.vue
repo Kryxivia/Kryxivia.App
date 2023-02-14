@@ -8,7 +8,7 @@
     <div class="title">
       <span>{{ $t('header.dev') }}</span>
       <div>
-        <NuxtLink :to="localePath('/devblog')" :title="$t('header.view')">{{ $t('header.view') }}</NuxtLink>
+        <NuxtLink :to="localePath('/devblog')" :title="$t('header.view')" @click="$navigation.close()">{{ $t('header.view') }}</NuxtLink>
       </div>
     </div>
     <div class="lst">

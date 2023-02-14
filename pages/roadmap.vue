@@ -2,10 +2,25 @@
   import gsap from 'gsap'
   
   const { roadmap } = useRoadmap()
+  const { $sound } = useNuxtApp()
 
   onMounted(() => {
 
     const horizontal = isMobile() ? false : true
+
+    /** Update ambiant sound */
+    $sound.update({
+      all: {
+        play: false
+      },
+      music: {
+        play: true,
+        vol: .15
+      },
+      grotte: {
+        play: true
+      }
+    })
 
     /** Rain effect */
     useRain('.front-row', '.back-row')
@@ -93,6 +108,8 @@
     }
 
   })
+  
+  onBeforeUnmount(() => $sound.reset())
 
 </script>
 
@@ -104,7 +121,7 @@
         <div class="tit">
           <h1>{{ $t('roadmap.h1') }}</h1>
           <div class="ln">
-            <div class="progress"></div>
+            <div class="progress"/>
           </div>
         </div>
       </div>
@@ -113,9 +130,9 @@
       <div class="head">
         <div class="illu">
           <div class="cover">
-            <div :style="`background-image:url(${road.cover});`"></div>
+            <div :style="`background-image:url(${road.cover});`"/>
           </div>
-          <div class="shadow"></div>
+          <div class="shadow"/>
           <svg viewBox="0 0 100 100">
             <circle class="draw" cx="50" cy="50" r="49.5"></circle>
           </svg>
@@ -128,7 +145,7 @@
             <div v-if="road.step !== road.step_ok" class="sub">{{ $t('all.progress') }}</div>
             <div v-else class="sub color-success">{{ $t('all.finish') }}</div>
             <div class="ln">
-              <div class="progress"></div>
+              <div class="progress"/>
             </div>
           </div>
           <div class="y">
@@ -148,11 +165,11 @@
       </div>
     </div>
   </Smooth>
-  <div class="shadow-road"></div>
+  <div class="shadow-road"/>
   <div class="stal-road">
-    <div></div>
+    <div/>
   </div>
   <Bg name="road" />
-  <div class="rain front-row"></div>
-  <div class="rain back-row"></div>
+  <div class="rain front-row"/>
+  <div class="rain back-row"/>
 </template>

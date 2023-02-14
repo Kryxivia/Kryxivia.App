@@ -384,7 +384,7 @@ devblog:
   metaTitle: Kryxivia • Devblog, haberler, güncellemeler ve duyurular
   h1: Haberler, güncellemeler ve duyurular
   back: Listeye geri dön
-devblog-slug:
+devblog-article:
   title: Devblog ve haberler
   metaTitle: Kryxivia Dili
 bosses:
@@ -643,7 +643,7 @@ faq:
     list:
       - q: Kryxivia nedir?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Kryxivia, herhangi bir modern tarayıcıda oynanabilen, doğrudan
               kryxivia.io'daki web sitemizde bulunan, Kryxit'i toplamak için
@@ -653,7 +653,7 @@ faq:
               benzersiz nadir NFT kazanmaya hazırlayın.
       - q: Oynamaya nasıl başlayabilirim?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Kryxivia, uyumlu herhangi bir modern tarayıcıyla çalışan çevrimiçi
               bir MMORPG oyunudur, minimum gerekli doğru GPU'ya sahip herhangi
@@ -662,7 +662,7 @@ faq:
               gerekir.
       - q: Kazanmak için oyun nedir?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Kazanmak için oyna oyunları, video oyunlarının eğlencesini
               zamanınız için gerçek ödüller kazanma fırsatıyla birleştirir.
@@ -670,47 +670,47 @@ faq:
               jetonları kazanabilirsiniz.
       - q: Gerçek sahiplik ne anlama geliyor?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Gerçek Sahipler, mülkiyetin avantajlarından yararlananlardır.
               Gerçek Sahipler, faydanın adını alan bireyler veya kuruluşlardır
               ve bundan herhangi bir avantaj elde etme hakkına sahiptirler.
       - q: Kryxivia oyunu kazanmak için bir oyun mudur?
         a:
-          - t: Txt
+          - t: txt
             c: Evet Kryxivia, Kryxit oyununu kazanmak için bir oyundur.
       - q: Kryxivia gerçekten oynaması ücretsiz bir oyun mu?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Evet, kryxivia oynamak için Metamask'ınızı sunucuya bağlamanız
               yeterlidir.
       - q: Kryxivia'yı nerede oynayabilirim?
         a:
-          - t: Txt
+          - t: txt
             c: Oyunu kryxivia.io
       - q: Blockchain veya binance akıllı zincir ağını anlamak zorunda mıyım?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Hayır, oyunu oynamak için BNBchain hakkında herhangi bir teknik
               bilgiye sahip olmanıza gerek yoktur.
       - q: MMORPG nedir?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               MMORPG, rol yapma video oyunlarının ve devasa çok oyunculu
               çevrimiçi oyunların unsurlarını birleştiren bir video oyunudur.
       - q: Hataları nereden bildirebilirim?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Bir Alfa-Test Uzmanıysanız, Discord'daki hata raporu kanalındaki
               hataları bildirebilir ve 40.000 $ 'lık ödülden kazanma şansı elde
               edebilirsiniz.
       - q: Kryxivia oynamak için bilgisayarın gereksinimleri nelerdir?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Önerilen gereksinimler en az 4GB RAM, Intel Core i5, GPU GeForce
               GTX 900 Serisi ve katı hal sürücüsüdür.
@@ -719,7 +719,7 @@ faq:
     list:
       - q: $KXA nedir?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               $KXA veya Kryxivia Coin belirteci, başlangıç paketleri, özel NFT
               satış etkinlikleri veya Kryxit Shard anlamına gelen oyun içi para
@@ -727,23 +727,23 @@ faq:
               kripto para birimidir.
       - q: $KXS nedir?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Kryxivia Shard Coin'in kısaltması olan $KXS madeni para, Kryxivia
               dünyasında oynamak, satın almak, ticaret yapmak ve yeni çevrimiçi
               parçalara sahip olmak için çevrimiçi para birimidir.
       - q: $KXA ve $KXS nasıl alıp satabilirim?
         a:
-          - t: Txt
+          - t: txt
             c: 'Burada listelenen borsalardan $KXA satın alabilirsiniz:'
           - t: düğme
             c: CoinMarketCap
             link: https://coinmarketcap.com/currencies/kryxivia/
-          - t: Txt
+          - t: txt
             c: $KXS henüz listelenmemiştir.
       - q: Kripto ve oyun eşyalarım güvende mi?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Evet, Kryxivia Solidproof tarafından güvenli olduğu doğrulanmıştır
               ve tüm oyun içi varlıklarınız ve kriptolarınız bizimle güvendedir.
@@ -753,22 +753,22 @@ faq:
               https://github.com/solidproof/projects/blob/main/Kryxivia/MysteryBox/SmartContract_Audit_Solidproof_Kryxivia%20MysteryBox.pdf
       - q: Airdrop'lar nedir ve bunları nasıl alabilirim?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Airdrops, benimsenmeyi artırmak için topluluklarına toplu olarak
               token sağlayan kripto projelerini içerir.
-          - t: Txt
+          - t: txt
             c: >-
               Kryxivia airdropları ile ilgili tüm duyurular resmi twitter
               hesabında duyurulacaktı.
       - q: Kripto ve nft cüzdanımı nasıl bağlayabilirim?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Üzerinde Binance ağı olan bir metamask hesabınızın olması gerekir,
               bundan sonra kryxivia web sitesini açmanız ve cüzdanı bağla'ya
               tıklamanız gerekir.
-          - t: Txt
+          - t: txt
             c: Bundan sonra, bağlantının izni için cüzdan bildirimi açılacaktır.
       - q: NFT'lerimi veya kriptomu başka bir cüzdana nasıl gönderebilirim?
         a:
@@ -783,7 +783,7 @@ faq:
     list:
       - q: Sorular veya endişeler için kiminle konuşmalı?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Tüm sosyal medya sohbetlerimiz modlarla aktiftir, Discord ve
               Telegram'ımıza katılabilirsiniz.
@@ -796,7 +796,7 @@ faq:
   others:
     title: Diğer
     list: []
-faq-slug:
+faq-category:
   title: SSS
 dungeons:
   title: Kryxivia Madeni
@@ -923,4 +923,13 @@ patchnotes:
   metaTitle: Kryxivia • Yama Notları ve Sürümler
   h1: En son yama notları ve sürümleri keşfedin
   sub: Yama Notları
-  know: 'Bilinen hatalar:'
+  new: |
+    Yenilikler:
+  resolve: |
+    Düzeltmeler ve İyileştirmeler:
+  know: |
+    Bilinen Hatalar:
+newsletter:
+  title: Bülten
+  txt: Tüm haberlerimizi, güncellemelerimizi, promosyonlarımızı ve etkinliklerimizi almak için bültenimize abone olun!
+  address: E-posta adresimiz

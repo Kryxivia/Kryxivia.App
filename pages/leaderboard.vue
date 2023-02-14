@@ -2,8 +2,8 @@
   const runTimeConfig = useRuntimeConfig()
   const max_player = 100
 
-  const { data: players, pending } = await useLazyFetch(runTimeConfig.public.api.leader_solo, {
-    method: "POST",
+  const { data: players, pending, error } = await useLazyFetch(runTimeConfig.public.api.leader_solo, {
+    method: 'POST',
     body: { 
       limit: max_player
     }
@@ -20,6 +20,7 @@
     <div class="ct">
       <div class="lb" data-reveal="bottom">
         <Loader v-if="pending" />
+        <div v-else-if="error">Error</div>
         <template v-else>
           <div v-for="player, key in players.entries" :class="`card lb-card rank-${rank(key)}`">
             <div class="pos">

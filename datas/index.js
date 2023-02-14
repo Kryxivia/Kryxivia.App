@@ -1,3 +1,4 @@
+export { menu } from './menu'
 export { bosses } from './bosses'
 export { roadmap } from './roadmap'
 export { faq } from './faq'

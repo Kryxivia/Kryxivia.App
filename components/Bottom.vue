@@ -3,7 +3,7 @@
     <div class="left bars">
       <div>
         <div class="txt">{{ $t('bottom.sound') }}</div>
-        <!-- <Sound/> -->
+        <Sound />
       </div>
       <div class="ln ln-space"></div>
       <div class="logo">

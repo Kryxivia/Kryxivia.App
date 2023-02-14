@@ -383,7 +383,7 @@ devblog:
   metaTitle: Kryxivia • Devblog, uudised, uuendused ja teadaanded
   h1: Uudised, uuendused ja teadaanded
   back: Tagasi nimekirja juurde
-devblog-slug:
+devblog-article:
   title: Devblog & uudised
   metaTitle: Kryxivia
 bosses:
@@ -640,7 +640,7 @@ faq:
     list:
       - q: Mis on Kryxivia?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Kryxivia on fantaasia 3D MMORPG, mida saab mängida igas kaasaegses
               brauseris, mis on otse kättesaadav meie veebisaidil aadressil
@@ -650,7 +650,7 @@ faq:
               samal ajal lõbusat ja koostöökogemust oma sõpradega.
       - q: Kuidas ma mängima hakkan?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Kryxivia on online MMORPG mäng, mis töötab mis tahes ühilduvate
               kaasaegsete brauseritega, saate seda mängida mis tahes arvutis,
@@ -658,54 +658,54 @@ faq:
               sisselogimiseks peab teil olema Metamaskil põhinev rahakott.
       - q: Mis on mäng, mida teenida?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Play-to-earn mängud ühendavad videomängude lõbu võimalusega
               teenida oma aja eest tõelisi hüvesid. Meie puhul saate nautida
               MMORPG-d ja teenida Kryxiti märke.
       - q: Mida tähendab tõeline omamine?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Tegelikud omanikud on need, kes saavad omandiõiguse eeliseid.
               Tõelised omanikud on need isikud või üksused, kes saavad kasusaaja
               nime ja neil on õigus sellest kasu saada.
       - q: Kas Kryxivia on mäng, et võita mäng?
         a:
-          - t: Txt
+          - t: txt
             c: Jah Kryxivia on mäng teenida Kryxit mäng.
       - q: Kas Kryxivia on tõesti vaba mängima?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Jah, kryxivia mängimiseks peate ühendama ainult oma Metamaski
               serveriga.
       - q: Kus saab Kryxiviat mängida?
         a:
-          - t: Txt
+          - t: txt
             c: Mängu saab mängida kryxivia.io
       - q: Kas ma pean mõistma plokiahelat või binance'i nutikat ketivõrku?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Ei, sa ei pea olema mingeid tehnilisi teadmisi BNBchain mängu
               mängimiseks.
       - q: Mis on MMORPG?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               MMORPG on videomäng, mis ühendab rollimängude videomängude
               elemente ja massiliselt mitme mängijaga võrgumänge.
       - q: Kus saab vigadest teatada?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Kui olete Alpha-Tester, võite teatada vigadest ebakõlade veateate
               kanalil ja saada võimalus teenida 40 000 dollari suurusest
               pearahast.
       - q: Millised on arvuti nõuded Kryxivia mängimiseks?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Soovitatavad nõuded on vähemalt 4 GB RAM-i, Intel Core i5, GPU
               GeForce GTX 900 seeria ja tahkis-draiv.
@@ -714,7 +714,7 @@ faq:
     list:
       - q: Mis on $KXA?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               $KXA või Kryxivia coin token on krüptovaluuta, mida kasutatakse
               ahela makseteks, näiteks starterpakendid, spetsiaalsed NFT
@@ -722,22 +722,22 @@ faq:
               tähistab Kryxit Shardi.
       - q: Mis on $KXS?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               $KXS mündi, mis tähistab Kryxivia Shard Coin on online valuuta
               mängida, osta, kaubelda ja on uusi online tükki kryxivia maailmas.
       - q: Kuidas osta ja müüa $KXA ja $KXS?
         a:
-          - t: Txt
+          - t: txt
             c: '$KXA saate osta siin loetletud börsidelt:'
           - t: nupp
             c: CoinMarketCap
             link: https://coinmarketcap.com/currencies/kryxivia/
-          - t: Txt
+          - t: txt
             c: $KXS ei ole veel nimekirjas.
       - q: Kas minu krüpto- ja mänguüksused on turvalised?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Jah, Solidproof on Kryxivia turvaliselt kinnitanud ja kõik teie
               mänguvarad ja krüpto on meie juures turvalised.
@@ -747,21 +747,21 @@ faq:
               https://github.com/solidproof/projects/blob/main/Kryxivia/MysteryBox/SmartContract_Audit_Solidproof_Kryxivia%20MysteryBox.pdf
       - q: Mis on õhupiisad ja kuidas neid saada?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Airdrops hõlmab krüptoprojekte, mis pakuvad oma kogukondadele
               massiliselt žetoone, et suurendada lapsendamist.
-          - t: Txt
+          - t: txt
             c: >-
               Kõik teated Kryxivia õhupiiskade kohta tehakse teatavaks ametlikul
               Twitteri käepidemel.
       - q: Kuidas siduda oma krüpto- ja nft-rahakotti?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Teil peab olema metamaskkonto Binance'i võrguga, pärast seda peate
               avama kryxivia veebisaidi ja klõpsama connect-rahakotil.
-          - t: Txt
+          - t: txt
             c: Pärast seda ilmub ühenduse loa saamiseks rahakoti teatis.
       - q: Kuidas saata NFT-d või krüptot teise rahakotti?
         a:
@@ -776,7 +776,7 @@ faq:
     list:
       - q: Kellega küsimuste või murede pärast rääkida?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Kõik meie sotsiaalmeedia vestlused on modifikatsioonidega
               aktiivsed, võite liituda meie ebakõlade ja telegrammiga.
@@ -789,7 +789,7 @@ faq:
   others:
     title: Teised
     list: []
-faq-slug:
+faq-category:
   title: KKK
 dungeons:
   title: Kryxivia kaevandus
@@ -910,4 +910,13 @@ patchnotes:
   metaTitle: Kryxivia • Paranduse märkused ja väljalasud
   h1: Tutvuge viimaste paranduse märkustega ja väljalasudega
   sub: Paranduse märkused
-  know: 'Teadaolevad vead:'
+  new: |
+    Uus:
+  resolve: |
+    Parandused ja täiustused:
+  know: |
+    Tuntud vead:
+newsletter:
+  title: Uudiskiri
+  txt: Telli meie uudiskiri, et saada kõik meie uudised, uuendused, pakkumised ja üritused!
+  address: Meie e-posti aadress

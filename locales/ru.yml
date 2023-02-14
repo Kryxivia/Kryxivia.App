@@ -390,7 +390,7 @@ devblog:
   metaTitle: Kryxivia • Devblog, новости, обновления и объявления
   h1: Новости, обновления и объявления
   back: Вернуться к списку
-devblog-slug:
+devblog-article:
   title: Devblog & новости
   metaTitle: Криксивия
 bosses:
@@ -804,7 +804,7 @@ faq:
   others:
     title: Другие
     list: []
-faq-slug:
+faq-category:
   title: ВОПРОСЫ И ОТВЕТЫ
 dungeons:
   title: Шахта Криксивия
@@ -932,4 +932,13 @@ patchnotes:
   metaTitle: Kryxivia • Патч Заметки и Релизы
   h1: Узнайте последние патч заметки и релизы
   sub: Патч Заметки
-  know: 'Известные ошибки:'
+  new: |
+    Новое:
+  resolve: |
+    Исправления и улучшения:
+  know: |
+    Известные ошибки:
+newsletter:
+  title: Рассылка
+  txt: Подпишитесь на нашу рассылку, чтобы получать все наши новости, обновления, акции и мероприятия!
+  address: Наш адрес электронной почты

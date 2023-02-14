@@ -385,7 +385,7 @@ devblog:
   metaTitle: Kryxivia • Devblog, tin tức, cập nhật & thông báo
   h1: Tin tức, cập nhật & thông báo
   back: Quay lại danh sách
-devblog-slug:
+devblog-article:
   title: Devblog &tin tức
   metaTitle: Kryxivia ·
 bosses:
@@ -645,7 +645,7 @@ faq:
     list:
       - q: Kryxivia là gì?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Kryxivia là một game MMORPG 3D giả tưởng, có thể chơi được trên
               bất kỳ trình duyệt hiện đại nào, có sẵn trực tiếp trên trang web
@@ -656,7 +656,7 @@ faq:
               của bạn.
       - q: Làm cách nào để bắt đầu chơi?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Kryxivia là một trò chơi MMORPG trực tuyến hoạt động với bất kỳ
               trình duyệt hiện đại tương thích nào, bạn có thể chơi nó trên bất
@@ -664,7 +664,7 @@ faq:
               đăng nhập vào trò chơi, bạn sẽ cần phải có ví dựa trên Metamask.
       - q: Chơi để kiếm tiền là gì?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Trò chơi chơi để kiếm tiền kết hợp niềm vui của trò chơi điện tử
               với cơ hội kiếm được phần thưởng thực sự cho thời gian của bạn.
@@ -672,49 +672,49 @@ faq:
               kiếm mã thông báo Kryxit.
       - q: Quyền sở hữu thực sự có nghĩa là gì?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Chủ sở hữu thực tế là những người nhận được lợi ích của quyền sở
               hữu. Chủ sở hữu thực sự là những cá nhân hoặc tổ chức nhận được
               tên của lợi ích và họ được hưởng bất kỳ lợi thế nào từ đó.
       - q: Kryxivia có phải là một trò chơi để giành chiến thắng trong trò chơi?
         a:
-          - t: Txt
+          - t: txt
             c: Có Kryxivia là một trò chơi để kiếm trò chơi Kryxit.
       - q: Kryxivia có thực sự là một trò chơi miễn phí để chơi?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Có, để chơi kryxivia, bạn chỉ cần kết nối Metamask của mình với
               máy chủ.
       - q: Tôi có thể chơi Kryxivia ở đâu?
         a:
-          - t: Txt
+          - t: txt
             c: Bạn có thể chơi trò chơi trên kryxivia.io
       - q: >-
           Tôi có phải hiểu về blockchain hay mạng lưới binance smart chain
           không?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Không, bạn không cần phải có bất kỳ kiến thức kỹ thuật nào về
               BNBchain để chơi trò chơi.
       - q: MMORPG là gì?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               MMORPG là một trò chơi điện tử kết hợp các yếu tố của trò chơi
               điện tử nhập vai và các trò chơi trực tuyến nhiều người chơi.
       - q: Tôi có thể báo cáo lỗi ở đâu?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Nếu bạn là Alpha-Tester, bạn có thể báo cáo lỗi trên kênh báo cáo
               lỗi trên Discord và có cơ hội kiếm tiền từ tiền thưởng 40,000 đô
               la.
       - q: Yêu cầu PC để chơi Kryxivia là gì?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Các yêu cầu được đề xuất là ít nhất 4GB RAM, Intel Core i5, GPU
               GeForce GTX 900 Series và ổ đĩa trạng thái rắn.
@@ -723,7 +723,7 @@ faq:
     list:
       - q: $KXA là gì?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               $KXA, hoặc mã thông báo Kryxivia Coin, là loại tiền điện tử được
               sử dụng để thanh toán trên chuỗi, chẳng hạn như gói khởi động, sự
@@ -731,23 +731,23 @@ faq:
               $KXS, viết tắt của Kryxit Shard.
       - q: $KXS là gì?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Đồng $KXS, viết tắt của Kryxivia Shard Coin là loại tiền tệ trực
               tuyến để chơi, mua, giao dịch và có những thứ trực tuyến mới trong
               thế giới Kryxivia.
       - q: Làm cách nào để mua và bán $KXA và $KXS?
         a:
-          - t: Txt
+          - t: txt
             c: 'Bạn có thể mua $KXA trên các sàn giao dịch được liệt kê ở đây:'
           - t: nút
             c: CoinMarketCap
             link: https://coinmarketcap.com/currencies/kryxivia/
-          - t: Txt
+          - t: txt
             c: $KXS chưa được liệt kê.
       - q: Tiền điện tử và vật phẩm trò chơi của tôi có an toàn không?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Có, Kryxivia đã được Xác minh an toàn bởi Solidproof và tất cả tài
               sản trong trò chơi và tiền điện tử của bạn đều an toàn với chúng
@@ -758,21 +758,21 @@ faq:
               https://github.com/solidproof/projects/blob/main/Kryxivia/MysteryBox/SmartContract_Audit_Solidproof_Kryxivia%20MysteryBox.pdf
       - q: Airdrop là gì và làm cách nào để nhận được chúng?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Airdrop liên quan đến các dự án tiền điện tử cung cấp hàng loạt mã
               thông báo cho cộng đồng của họ để tăng cường áp dụng.
-          - t: Txt
+          - t: txt
             c: >-
               Tất cả các thông báo liên quan đến airdrop Kryxivia sẽ được công
               bố trên twitter chính thức.
       - q: Làm thế nào để liên kết tiền điện tử và ví nft của tôi?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Bạn cần có tài khoản metamask với mạng Binance trên đó, sau đó bạn
               cần mở trang web kryxivia và nhấp vào kết nối ví.
-          - t: Txt
+          - t: txt
             c: Sau đó, thông báo ví sẽ bật lên để được phép kết nối.
       - q: Làm cách nào để gửi NFT hoặc tiền mã hóa của tôi đến một ví khác?
         a:
@@ -787,7 +787,7 @@ faq:
     list:
       - q: Nói chuyện với ai cho các câu hỏi hoặc mối quan tâm?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Tất cả các cuộc trò chuyện trên mạng xã hội của chúng tôi đều hoạt
               động với các bản mod, bạn có thể tham gia Discord và Telegram của
@@ -801,7 +801,7 @@ faq:
   others:
     title: Khác
     list: []
-faq-slug:
+faq-category:
   title: FAQ
 dungeons:
   title: Mỏ Kryxivia
@@ -930,4 +930,13 @@ patchnotes:
   metaTitle: Kryxivia • Ghi chú bản vá và phát hành
   h1: Khám phá các ghi chú bản vá và phát hành mới nhất
   sub: Ghi chú bản vá
-  know: 'Lỗi đã biết:'
+  new: |
+    Mới:
+  resolve: |
+    Sửa lỗi và cải tiến:
+  know: |
+    Các lỗi đã biết:
+newsletter:
+  title: Thư thông báo
+  txt: Đăng ký thư thông báo của chúng tôi để nhận tất cả tin tức, cập nhật, khuyến mãi và sự kiện của chúng tôi!
+  address: Địa chỉ email của chúng tôi

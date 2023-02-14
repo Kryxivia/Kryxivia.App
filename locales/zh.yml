@@ -280,7 +280,7 @@ devblog:
   metaTitle: Kryxivia • Devblog， news， updates & notices
   h1: 新闻，更新和公告
   back: 返回列表
-devblog-slug:
+devblog-article:
   title: Devblog & news
   metaTitle: 克雷西维亚
 bosses:
@@ -620,7 +620,7 @@ faq:
   others:
     title: 别人
     list: []
-faq-slug:
+faq-category:
   title: 常见问题
 dungeons:
   title: 克雷西维亚矿
@@ -692,4 +692,13 @@ patchnotes:
   metaTitle: Kryxivia • 补丁说明和发布
   h1: 发现最新的补丁说明和发布
   sub: 补丁说明
-  know: 已知错误：
+  new: |
+    新增：
+  resolve: |
+    修复和改进：
+  know: |
+    已知问题：
+newsletter:
+  title: 电子报
+  txt: 订阅我们的电子报以获取所有新闻、更新、促销和活动！
+  address: 我们的电子邮件地址

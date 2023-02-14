@@ -67,7 +67,7 @@
                 <img :src="boss.logo" :alt="`${boss.name} • Kryxivia`" class="logo" width="600" height="252" loading="lazy" draggable="false">
               </div>
               <div class="bg">
-                <div :style="`background-image:url(${boss.bg});`"></div>
+                <div :style="`background-image:url(${boss.bg});`"/>
               </div>
             </NuxtLink>
           </div>

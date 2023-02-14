@@ -394,21 +394,21 @@ devblog:
   metaTitle: Kryxivia • Devblog, nouvelles, mises à jour et annonces
   h1: Nouvelles, mises à jour et annonces
   back: Retour à la liste
-devblog-slug:
+devblog-article:
   title: Devblog & actualités
   metaTitle: Kryxivia
 bosses:
-  title: Patrons
+  title: Boss
   metaTitle: Kryxivia • Boss de Kryxivia MMORPG Metaverse
   h1: Boss de Kryxivia MMORPG Metaverse
   fight: Combattez {boss} maintenant !
   back: Retour à la liste
 bosses-slug:
-  title: Patrons
+  title: Boss
   progress: Histoire en cours, revenez plus tard...
 bosses-alde:
-  title: Patrons • Alde
-  metaTitle: Kryxivia • Alde • Patrons de Kryxivia
+  title: Boss • Alde
+  metaTitle: Kryxivia • Alde • Boss de Kryxivia
   sub: Lorem ipsum dolor consectetur adipisicing
   h1: Les flammes d’Alde
   intro: >-
@@ -442,7 +442,7 @@ bosses-alde:
       nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
       distinctio odio, quas fuga.
 bosses-atesgol:
-  title: Patrons • Atesgol
+  title: Boss • Atesgol
   metaTitle: Kryxivia • Atesgol • Boss de Kryxivia
   sub: Lorem ipsum dolor consectetur adipisicing
   h1: Le Brasseur d’Atesgol
@@ -477,8 +477,8 @@ bosses-atesgol:
       nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
       distinctio odio, quas fuga.
 bosses-valtrena:
-  title: Patrons • Valtrena
-  metaTitle: Kryxivia • Valtrena • Patrons de Kryxivia
+  title: Boss • Valtrena
+  metaTitle: Kryxivia • Valtrena • Boss de Kryxivia
   sub: Lorem ipsum dolor consectetur adipisicing
   h1: Le glissement de terrain de Valtrena
   intro: >-
@@ -512,8 +512,8 @@ bosses-valtrena:
       nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
       distinctio odio, quas fuga.
 bosses-k1rig:
-  title: Patrons • K1 R.I.G
-  metaTitle: Kryxivia • K1 R.I.G • Patrons de Kryxivia
+  title: Boss • K1 R.I.G
+  metaTitle: Kryxivia • K1 R.I.G • Boss de Kryxivia
   sub: Lorem ipsum dolor consectetur adipisicing
   h1: Les rouages de K1 R.I.G
   intro: >-
@@ -547,7 +547,7 @@ bosses-k1rig:
       nobis quia, corrupti veniam amet consectetur tempore ad assumenda,
       distinctio odio, quas fuga.
 bosses-melucyna:
-  title: Patrons • Melucyna
+  title: Boss • Melucyna
   metaTitle: Kryxivia • Melucyna • Boss de Kryxivia
   sub: Lorem ipsum dolor consectetur adipisicing
   h1: Les vagues de Melycuna
@@ -661,7 +661,7 @@ faq:
     list:
       - q: Qu’est-ce que Kryxivia?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Kryxivia est un MMORPG 3D fantastique, jouable sur n’importe quel
               navigateur moderne, directement disponible sur notre site web à
@@ -671,7 +671,7 @@ faq:
               une expérience amusante et coopérative avec vos amis.
       - q: Comment puis-je commencer à jouer ?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Kryxivia est un jeu MMORPG en ligne fonctionnant avec tous les
               navigateurs modernes compatibles, vous pouvez y jouer sur
@@ -680,7 +680,7 @@ faq:
               d’un portefeuille basé sur Metamask.
       - q: Qu’est-ce que le jeu à gagner?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Les jeux Play-to-Earn combinent le plaisir des jeux vidéo avec la
               possibilité de gagner de vraies récompenses pour votre temps. Dans
@@ -688,7 +688,7 @@ faq:
               Kryxit.
       - q: Que signifie la véritable propriété?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Les propriétaires réels sont ceux qui reçoivent les avantages de
               la propriété. Les vrais propriétaires sont les personnes ou les
@@ -696,42 +696,42 @@ faq:
               à tout avantage de cela.
       - q: Kryxivia est-il un jeu à gagner?
         a:
-          - t: Txt
+          - t: txt
             c: Oui Kryxivia est un jeu pour gagner Kryxit.
       - q: Kryxivia est-il vraiment un jeu gratuit ?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Oui, pour jouer à kryxivia, il vous suffit de connecter votre
               Metamask au serveur.
       - q: Où puis-je jouer à Kryxivia ?
         a:
-          - t: Txt
+          - t: txt
             c: Vous pouvez jouer au jeu sur kryxivia.io
       - q: >-
           Dois-je comprendre la blockchain ou le réseau de chaîne intelligente
           binance?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Non, vous n’avez pas besoin d’avoir des connaissances techniques
               de BNBchain pour jouer au jeu.
       - q: Qu’est-ce qu’un MMORPG ?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Un MMORPG est un jeu vidéo qui combine des éléments de jeux vidéo
               de rôle et de jeux en ligne massivement multijoueurs.
       - q: Où puis-je signaler des erreurs ?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Si vous êtes un Alpha-Testeur, vous pouvez signaler des bogues sur
               le canal de rapport de bogues sur Discord et avoir une chance de
               gagner de la prime de 40 000 $.
       - q: Quelles sont les exigences PC pour jouer à Kryxivia?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Les exigences recommandées sont au moins 4 Go de RAM, un Intel
               Core i5, un GPU GeForce GTX série 900 et un disque SSD.
@@ -740,7 +740,7 @@ faq:
     list:
       - q: Qu’est-ce que $KXA?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               $KXA, ou le jeton Kryxivia Coin, est la crypto-monnaie utilisée
               pour les paiements en chaîne, tels que les packs de démarrage, les
@@ -748,23 +748,23 @@ faq:
               jeu $KXS, qui signifie Kryxit Shard.
       - q: Qu’est-ce que $KXS?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               La pièce $KXS, qui signifie Kryxivia Shard Coin, est la monnaie en
               ligne pour jouer, acheter, échanger et avoir de nouveaux objets en
               ligne dans le monde de Kryxivia.
       - q: Comment puis-je acheter et vendre des $KXA et des $KXS?
         a:
-          - t: Txt
+          - t: txt
             c: 'Vous pouvez acheter $KXA sur les bourses listées ici :'
           - t: bouton
             c: CoinMarketCap
             link: https://coinmarketcap.com/currencies/kryxivia/
-          - t: Txt
+          - t: txt
             c: $KXS n’est pas encore répertorié.
       - q: Mes crypto-monnaies et mes objets de jeu sont-ils en sécurité ?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Oui, Kryxivia a été vérifié sécurisé par Solidproof et tous vos
               actifs de jeu et crypto sont en sécurité avec nous.
@@ -774,23 +774,23 @@ faq:
               https://github.com/solidproof/projects/blob/main/Kryxivia/MysteryBox/SmartContract_Audit_Solidproof_Kryxivia%20MysteryBox.pdf
       - q: Que sont les parachutages et comment puis-je les obtenir?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Les parachutages impliquent des projets cryptographiques
               fournissant des jetons en masse à leurs communautés pour augmenter
               l’adoption.
-          - t: Txt
+          - t: txt
             c: >-
               Toutes les annonces concernant les largages de Kryxivia seraient
               annoncées sur le compte Twitter officiel.
       - q: Comment lier mon portefeuille crypto et nft?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Vous devez avoir un compte metamask avec le réseau Binance dessus,
               après quoi vous devez ouvrir le site Web kryxivia et cliquer sur
               connecter le portefeuille.
-          - t: Txt
+          - t: txt
             c: >-
               Après cela, la notification du portefeuille apparaîtra pour
               l’autorisation de la connexion.
@@ -807,7 +807,7 @@ faq:
     list:
       - q: À qui s’adresser pour toute question ou préoccupation?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Tous nos chats sur les réseaux sociaux sont actifs avec les mods,
               vous pouvez rejoindre notre Discord et Telegram.
@@ -820,7 +820,7 @@ faq:
   others:
     title: Autrui
     list: []
-faq-slug:
+faq-category:
   title: FAQ
 dungeons:
   title: Kryxivia Mine
@@ -852,7 +852,7 @@ dungeons:
     red: Catalyseur rouge
     purple: Catalyseur violet
   boss:
-    sub: Patrons de Kryxivia
+    sub: Boss de Kryxivia
     title1: >-
       Améliorez les NFT de votre personnage en battant les boss les plus durs et
       en utilisant Catalyst pour atteindre un nouveau sommet !
@@ -949,4 +949,13 @@ patchnotes:
   metaTitle: Kryxivia • Notes de patch et versions
   h1: Découvrez les dernières notes de patch et versions
   sub: Notes de patch
-  know: 'Bugs connus :'
+  new: |
+    Nouveautés :
+  resolve: |
+    Corrections et améliorations :
+  know: |
+    Problèmes connus :
+newsletter:
+  title: Bulletin d'information
+  txt: Abonnez-vous à notre bulletin d'information pour recevoir toutes nos actualités, mises à jour, promotions et événements!
+  address: Notre adresse email

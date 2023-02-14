@@ -7,22 +7,19 @@
     <TitlePage :h1="$t('patchnotes.h1')" icon="icon/patchnotes" />
     <div class="ct ct-patch">
       <div v-for="patch in patchnotes" class="patch">
-        <LnShape />
-        <div class="heading">
+        <LnShape data-reveal />
+        <div class="heading" data-reveal="bottom">
           <h2>{{ $t('patchnotes.sub') }} <span>v{{ patch.version }}</span></h2>
           <DateFormat :date="patch.date" />
         </div>
-        <ul>
-          <li v-for="resolve in patch.resolve">
-            {{ resolve }}
-          </li>
-        </ul>
-        <h3>{{ $t('patchnotes.know') }}</h3>
-        <ul class="know">
-          <li v-for="know in patch.know">
-            {{ know }}
-          </li>
-        </ul>
+        <template v-for="section in ['new', 'resolve', 'know']">
+          <template v-if="patch[section]">
+            <h3 data-reveal="bottom">{{ $t('patchnotes.' + section) }}</h3>
+            <ul :class="section" data-reveal="bottom">
+              <li v-for="li in patch[section]" v-html="li"/>
+            </ul>
+          </template>
+        </template>
       </div>
     </div>
   </Smooth>

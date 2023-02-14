@@ -13,7 +13,7 @@
 </script>
 
 <template>
-  <NuxtLink :to="localePath('/devblog/' + id)" :title="actu.lang.en.title" class="card-hover actu">
+  <NuxtLink :to="localePath('/devblog/' + id)" @click="$navigation.close()" :title="actu.lang.en.title" class="card-hover actu">
     <DateFormat :date="actu.date" />
     <div class="titre">{{ actu.lang.en.title }}</div>
     <div class="cover">

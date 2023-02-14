@@ -396,7 +396,7 @@ devblog:
   metaTitle: Kryxivia • Devblog, noticias, actualizaciones y anuncios
   h1: Noticias, actualizaciones y anuncios
   back: Volver a la lista
-devblog-slug:
+devblog-article:
   title: Devblog y noticias
   metaTitle: Kryxivia
 bosses:
@@ -656,7 +656,7 @@ faq:
     list:
       - q: ¿Qué es Kryxivia?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Kryxivia es un MMORPG 3D de fantasía, jugable en cualquier
               navegador moderno, directamente disponible en nuestro sitio web en
@@ -666,7 +666,7 @@ faq:
               experiencia divertida y cooperativa con tus amigos.
       - q: ¿Cómo empiezo a jugar?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Kryxivia es un juego MMORPG en línea que funciona con cualquier
               navegador moderno compatible, puede jugarlo en cualquier
@@ -675,7 +675,7 @@ faq:
               billetera basada en Metamask.
       - q: ¿Qué es jugar para ganar?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Los juegos de jugar para ganar combinan la diversión de los
               videojuegos con la oportunidad de ganar recompensas reales por su
@@ -683,7 +683,7 @@ faq:
               Kryxit.
       - q: ¿Qué significa la verdadera propiedad?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Los propietarios reales son aquellos que reciben los beneficios de
               la propiedad. Los Verdaderos Propietarios son aquellos individuos
@@ -691,40 +691,40 @@ faq:
               a cualquier ventaja de eso.
       - q: ¿Es Kryxivia una jugada para ganar el juego?
         a:
-          - t: Txt
+          - t: txt
             c: Sí, Kryxivia es un juego para ganar el juego Kryxit.
       - q: ¿Es Kryxivia realmente un juego gratuito?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Sí, para jugar a kryxivia solo necesitas conectar tu Metamask con
               el servidor.
       - q: ¿Dónde puedo jugar a Kryxivia?
         a:
-          - t: Txt
+          - t: txt
             c: Puedes jugar el juego en kryxivia.io
       - q: ¿Tengo que entender blockchain o la red de cadena inteligente binance?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               No, no necesitas tener ningún conocimiento técnico de BNBchain
               para jugar el juego.
       - q: ¿Qué es un MMORPG?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Un MMORPG es un videojuego que combina elementos de videojuegos de
               rol y juegos multijugador masivos en línea.
       - q: ¿Dónde puedo reportar errores?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Si eres un Alpha-Tester, puedes reportar errores en el canal de
               informes de errores en Discord y tener la oportunidad de ganar con
               la recompensa de $ 40,000.
       - q: ¿Cuáles son los requisitos de PC para jugar Kryxivia?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Los requisitos recomendados son al menos 4 GB de RAM, un Intel
               Core i5, una GPU GeForce GTX serie 900 y una unidad de estado
@@ -734,7 +734,7 @@ faq:
     list:
       - q: ¿Qué es $KXA?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               $KXA, o el token Kryxivia Coin, es la criptomoneda utilizada para
               pagos en cadena, como paquetes de inicio, eventos especiales de
@@ -742,23 +742,23 @@ faq:
               significa Kryxit Shard.
       - q: ¿Qué es $KXS?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               La moneda $KXS, que significa Kryxivia Shard Coin es la moneda en
               línea para jugar, comprar, intercambiar y tener nuevas piezas de
               cosas en línea en el mundo de Kryxivia.
       - q: ¿Cómo compro y vendo $KXA y $KXS?
         a:
-          - t: Txt
+          - t: txt
             c: 'Puede comprar $KXA en los intercambios que se enumeran aquí:'
           - t: botón
             c: CoinMarketCap
             link: https://coinmarketcap.com/currencies/kryxivia/
-          - t: Txt
+          - t: txt
             c: $KXS aún no está en la lista.
       - q: ¿Son seguros mis artículos criptográficos y de juego?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Sí, Kryxivia ha sido verificado seguro por Solidproof y todos sus
               activos en el juego y criptografía están seguros con nosotros.
@@ -768,22 +768,22 @@ faq:
               https://github.com/solidproof/projects/blob/main/Kryxivia/MysteryBox/SmartContract_Audit_Solidproof_Kryxivia%20MysteryBox.pdf
       - q: ¿Qué son los airdrops y cómo los obtengo?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Airdrops involucra proyectos criptográficos que proporcionan
               tokens en masa a sus comunidades para aumentar la adopción.
-          - t: Txt
+          - t: txt
             c: >-
               Todos los anuncios relacionados con los lanzamientos aéreos de
               Kryxivia se anunciarían en la cuenta oficial de Twitter.
       - q: ¿Cómo vincular mi billetera criptográfica y nft?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Debe tener una cuenta de metamáscara con la red Binance, después
               de eso debe abrir el sitio web de kryxivia y hacer clic en
               conectar billetera.
-          - t: Txt
+          - t: txt
             c: >-
               Después de eso, la notificación de la billetera aparecerá para
               obtener el permiso de la conexión.
@@ -800,7 +800,7 @@ faq:
     list:
       - q: ¿Con quién hablar para preguntas o inquietudes?
         a:
-          - t: Txt
+          - t: txt
             c: >-
               Todos nuestros chats de redes sociales están activos con los mods,
               puedes unirte a nuestro Discord y Telegram.
@@ -813,7 +813,7 @@ faq:
   others:
     title: Otros
     list: []
-faq-slug:
+faq-category:
   title: PREGUNTAS MÁS FRECUENTES
 dungeons:
   title: Mina Kryxivia
@@ -942,4 +942,13 @@ patchnotes:
   metaTitle: Kryxivia • Notas del parche y lanzamientos
   h1: Descubre las últimas notas del parche y lanzamientos
   sub: Notas del parche
-  know: 'Errores conocidos:'
+  new: |
+    Novedades:
+  resolve: |
+    Correcciones y mejoras:
+  know: |
+    Problemas conocidos:
+newsletter:
+  title: Boletín informativo
+  txt: ¡Suscríbase a nuestro boletín informativo para recibir todas nuestras noticias, actualizaciones, promociones y eventos!
+  address: Nuestra dirección de correo electrónico

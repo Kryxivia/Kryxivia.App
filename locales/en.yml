@@ -480,7 +480,7 @@ devblog:
   metaTitle: Kryxivia • Devblog, news, updates & announcements
   h1: News, updates & announcements
   back: Back to the list
-devblog-slug:
+devblog-article:
   title: Devblog & news
   metaTitle: Kryxivia
 bosses:
@@ -897,7 +897,7 @@ faq:
   others:
     title: Others
     list: []
-faq-slug:
+faq-category:
   title: FAQ
 dungeons:
   title: Kryxivia Mine
@@ -1038,7 +1038,12 @@ patchnotes:
   metaTitle: Kryxivia • Patch Notes & Releases
   h1: Discover the latest patch notes & releases
   sub: Patch Notes
-  know: 'Known bugs:'
+  new: |
+    New:
+  resolve: |
+    Fixes & Improvements:
+  know: |
+    Known bugs:
 app-marketplace:
   title: Marketplace
   metaTitle: Kryxivia • Marketplace
