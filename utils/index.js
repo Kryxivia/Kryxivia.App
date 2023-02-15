@@ -1,3 +1,12 @@
+function formatPrice(price) {
+  const { localeProperties } = useI18n()
+  const { currency } = useUser()
+  return new Intl.NumberFormat(localeProperties.value.iso, { 
+    style: 'currency', 
+    currency: currency.value 
+  }).format(price)
+}
+
 function qs(selector, parent = document) {
   return parent.querySelector(selector)
 }
@@ -27,6 +36,7 @@ function isFirefox() {
 }
 
 export {
+  formatPrice,
   qs,
   qst,
   qsa, 

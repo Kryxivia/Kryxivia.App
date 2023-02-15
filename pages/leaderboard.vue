@@ -20,7 +20,7 @@
     <div class="ct">
       <div class="lb" data-reveal="bottom">
         <Loader v-if="pending" />
-        <div v-else-if="error">Error</div>
+        <div v-else-if="error" class="sec-toke">Unable to load leaderboard at this time.</div>
         <template v-else>
           <div v-for="player, key in players.entries" :class="`card lb-card rank-${rank(key)}`">
             <div class="pos">

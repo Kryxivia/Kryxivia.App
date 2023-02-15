@@ -82,6 +82,7 @@
   onMounted(() => {
 
     const html = qs('html')
+    const body = qs('body')
 
     /** Damping option */
     let damping = .06
@@ -91,6 +92,9 @@
       damping = .07
       html.classList.add('firefox')
     }
+
+    /** Fix class function */
+    const fixClass = y => { y > 100 ? body.classList.add('fix') : body.classList.remove('fix') }
 
     /** Init smooth if not mobile */
     if(!isMobile()){
@@ -131,6 +135,8 @@
         let y = status.offset.y
         let x = status.offset.x
 
+        fixClass(y)
+
         if (props.horizontal) {
           html.classList.contains('stop') ? smooth.setPosition(sessionStorage.getItem('x' + props.target), 0) : sessionStorage.setItem('x' + props.target, x)
         }else{
@@ -143,6 +149,9 @@
 
       /** Add class global for mobile */
       html.classList.add('mob')
+
+      /** Listener scroll for fix class */
+      window.addEventListener('scroll', () => fixClass(window.scrollY))
 
     }
 

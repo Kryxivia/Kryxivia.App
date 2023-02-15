@@ -19,6 +19,20 @@
       ease: 'none'
     })
 
+    /** Trigger background */
+    const bk = (n, id) => {
+      return `.hm${n} .bg-${id} > *`
+    }
+
+    /** Default options scrolltrigger */
+    const defs = n => {
+      return {
+        trigger: '.hm' + n,
+        horizontal: horizontal,
+        scrub: true
+      }
+    } 
+
     /** Reveal section 0 */
     const hm0_r = gsap.timeline()
     hm0_r
@@ -29,310 +43,277 @@
       .fromTo('.hm0 .sub', 2, {y:50,opacity:0}, {y:0,opacity:1,ease:'power3.out',delay:1.7}, 'a')
       .fromTo('.hm0 h1', 2, {y:50,opacity:0}, {y:0,opacity:1,ease:'power3.out',delay:2}, 'a')
       .fromTo('.hm0 .butt-c', 2, {y:50,opacity:0}, {y:0,opacity:1,ease:'power3.out',delay:2.3}, 'a')
+      .addLabel("myLabel", 3)
 
     /** Section 0 */
     const hm0 = gsap.timeline({scrollTrigger:{
-      horizontal: horizontal,
-      trigger: '.hm0',
+      ...defs(0),
       start: 'left left',
-      end: 'right left',
-      scrub: true
+      end: 'right left'
     }})
     if (horizontal) {
       hm0
-        .fromTo('.hm0 .bg-ciel > *', {x:'0%'}, {x:'10%'}, 'a')
-        .fromTo('.hm0 .bg-mountain > *', {x:'0%'}, {x:'15%'}, 'a')
-        .fromTo('.hm0 .bg-city > *', {x:'0%'}, {x:'10%'}, 'a')
-        .fromTo('.hm0 .bg-aventurier > *', {x:'0%'}, {x:'20%'}, 'a')
+        .fromTo(bk(0, 'ciel'), {x:'0%'}, {x:'10%'}, 'a')
+        .fromTo(bk(0, 'mountain'), {x:'0%'}, {x:'15%'}, 'a')
+        .fromTo(bk(0, 'city'), {x:'0%'}, {x:'10%'}, 'a')
+        .fromTo(bk(0, 'aventurier'), {x:'0%'}, {x:'20%'}, 'a')
     } else {
       hm0
-        .fromTo('.hm0 .bg-ciel > *', {y:'0%'}, {y:'10%'}, 'a')
-        .fromTo('.hm0 .bg-mountain > *', {y:'0%'}, {y:'15%'}, 'a')
-        .fromTo('.hm0 .bg-city > *', {y:'0%'}, {y:'10%'}, 'a')
-        .fromTo('.hm0 .bg-aventurier > *', {y:'0%'}, {y:'20%'}, 'a')
+        .fromTo(bk(0, 'ciel'), {y:'0%'}, {y:'10%'}, 'a')
+        .fromTo(bk(0, 'mountain'), {y:'0%'}, {y:'15%'}, 'a')
+        .fromTo(bk(0, 'city'), {y:'0%'}, {y:'10%'}, 'a')
+        .fromTo(bk(0, 'aventurier'), {y:'0%'}, {y:'20%'}, 'a')
     }
 
     /** Section 1 */
     const hm1 = gsap.timeline({scrollTrigger:{
-      horizontal: horizontal,
-      trigger: '.hm1',
+      ...defs(1),
       start: 'left right',
-      end: 'right left',
-      scrub: true
+      end: 'right left'
     }})
     if (horizontal) {
       hm1
-        .fromTo('.hm1 .bg-forest > *', {x:'-10%'}, {x:'10%'}, 'a')
-        .fromTo('.hm1 .bg-arbre > *', {x:'-15%'}, {x:'15%'}, 'a')
-        .fromTo('.hm1 .bg-autel > *, .hm1 .bg-orage > *', {x:'0%'}, {x:'5%'}, 'a')
-        .fromTo('.hm1 .bg-sol > *', {x:'-10%'}, {x:'10%'}, 'a')
-        .fromTo('.hm1 .bg-liane > *', {x:'-10%'}, {x:'20%'}, 'a')
-        .fromTo('.hm1 .bg-feuille > *', {x:'-10%'}, {x:'15%'}, 'a')
-        .fromTo('.hm1 .bg-feuille-2 > *', {x:'-20%'}, {x:'20%'}, 'a')
+        .fromTo(bk(1, 'forest'), {x:'-10%'}, {x:'10%'}, 'a')
+        .fromTo(bk(1, 'arbre'), {x:'-15%'}, {x:'15%'}, 'a')
+        .fromTo(bk(1, 'autel'), {x:'0%'}, {x:'5%'}, 'a')
+        .fromTo(bk(1, 'sol'), {x:'-10%'}, {x:'10%'}, 'a')
+        .fromTo(bk(1, 'liane'), {x:'-10%'}, {x:'20%'}, 'a')
+        .fromTo(bk(1, 'feuille'), {x:'-10%'}, {x:'15%'}, 'a')
+        .fromTo(bk(1, 'feuille-2'), {x:'-20%'}, {x:'20%'}, 'a')
     } else {
       gsap.fromTo('.hm1', {opacity:1}, {opacity:.5,scrollTrigger:{
-        trigger: '.hm1',
+        ...defs(1),
         start: 'bottom 50%',
-        end: 'bottom top',
-        scrub: true
+        end: 'bottom top'
       }})
       gsap.fromTo('.hm2', {opacity:.5}, {opacity:1,scrollTrigger:{
-        trigger: '.hm2',
+        ...defs(2),
         start: 'top bottom',
-        end: 'top 50%',
-        scrub: true
+        end: 'top 50%'
       }})
       hm1
-        .fromTo('.hm1 .bg-forest > *', {y:'0%'}, {y:'10%'}, 'a')
-        .fromTo('.hm1 .bg-arbre > *', {y:'0%'}, {y:'15%'}, 'a')
-        .fromTo('.hm1 .bg-autel > *, .hm1 .bg-orage > *', {y:'0%'}, {y:'20%'}, 'a')
-        .fromTo('.hm1 .bg-sol > *', {y:'0%'}, {y:'10%'}, 'a')
-        .fromTo('.hm1 .bg-liane > *', {y:'0%'}, {y:'25%'}, 'a')
-        .fromTo('.hm1 .bg-feuille > *', {y:'0%'}, {y:'15%'}, 'a')
+        .fromTo(bk(1, 'forest'), {y:'0%'}, {y:'10%'}, 'a')
+        .fromTo(bk(1, 'arbre'), {y:'0%'}, {y:'15%'}, 'a')
+        .fromTo(bk(1, 'autel'), {y:'0%'}, {y:'20%'}, 'a')
+        .fromTo(bk(1, 'sol'), {y:'0%'}, {y:'10%'}, 'a')
+        .fromTo(bk(1, 'liane'), {y:'0%'}, {y:'25%'}, 'a')
+        .fromTo(bk(1, 'feuille'), {y:'0%'}, {y:'15%'}, 'a')
       }
 
     /** Section 2 */
     const hm2 = gsap.timeline({scrollTrigger:{
-      horizontal: horizontal,
-      trigger: '.hm2',
+      ...defs(2),
       start: 'left right',
-      end: 'left left',
-      scrub: true
+      end: 'left left'
     }})
     if (horizontal) {
       hm2
         .fromTo('.hm2 .totem-0', {x:'-15%'}, {x:'-80%'}, 'a')
-        .fromTo('.hm2 .bg-ciel > *', {x:'-10%'}, {x:'0%'}, 'a')
-        .fromTo('.hm2 .bg-foret-entry > *', {x:'-25%'}, {x:'0%'}, 'a')
-        .fromTo('.hm2 .bg-totem > *', {x:'-15%'}, {x:'0%'}, 'a')
-        .fromTo('.hm2 .bg-porte > *', {x:'-10%'}, {x:'0%'}, 'a')
-        .fromTo('.hm2 .bg-stalagmite > *', {x:'-25%'}, {x:'0%'}, 'a')
-        .fromTo('.hm2 .bg-aventurier > *', {x:'-20%'}, {x:'0%'}, 'a')
+        .fromTo(bk(2, 'ciel'), {x:'-10%'}, {x:'0%'}, 'a')
+        .fromTo(bk(2, 'foret-entry'), {x:'-25%'}, {x:'0%'}, 'a')
+        .fromTo(bk(2, 'totem'), {x:'-15%'}, {x:'0%'}, 'a')
+        .fromTo(bk(2, 'porte'), {x:'-10%'}, {x:'0%'}, 'a')
+        .fromTo(bk(2, 'stalagmite'), {x:'-25%'}, {x:'0%'}, 'a')
+        .fromTo(bk(2, 'aventurier'), {x:'-20%'}, {x:'0%'}, 'a')
     } else {
       gsap.fromTo('.hm2', {opacity:1}, {opacity:.5,scrollTrigger:{
-        trigger: '.hm2',
+        ...defs(1),
         start: 'bottom 50%',
-        end: 'bottom top',
-        scrub: true
+        end: 'bottom top'
       }})
       gsap.fromTo('.hm3', {opacity:.5}, {opacity:1,scrollTrigger:{
-        trigger: '.hm3',
+        ...defs(3),
         start: 'top bottom',
-        end: 'top 50%',
-        scrub: true
+        end: 'top 50%'
       }})
       hm2
-        .fromTo('.hm2 .bg-ciel > *', {y:'-10%'}, {y:'0%'}, 'a')
-        .fromTo('.hm2 .bg-foret-entry > *', {y:'-25%'}, {y:'0%'}, 'a')
-        .fromTo('.hm2 .bg-totem > *', {y:'-15%'}, {y:'0%'}, 'a')
-        .fromTo('.hm2 .bg-porte > *', {y:'-10%'}, {y:'0%'}, 'a')
-        .fromTo('.hm2 .bg-stalagmite > *', {y:'-25%'}, {y:'0%'}, 'a')
-        .fromTo('.hm2 .bg-aventurier > *', {y:'-20%'}, {y:'0%'}, 'a')
+        .fromTo(bk(2, 'ciel'), {y:'-10%'}, {y:'0%'}, 'a')
+        .fromTo(bk(2, 'foret-entry'), {y:'-25%'}, {y:'0%'}, 'a')
+        .fromTo(bk(2, 'totem'), {y:'-15%'}, {y:'0%'}, 'a')
+        .fromTo(bk(2, 'porte'), {y:'-10%'}, {y:'0%'}, 'a')
+        .fromTo(bk(2, 'stalagmite'), {y:'-25%'}, {y:'0%'}, 'a')
+        .fromTo(bk(2, 'aventurier'), {y:'-20%'}, {y:'0%'}, 'a')
     }
 
     /** Section 2 end */
     const hm2_2 = gsap.timeline({scrollTrigger:{
-      horizontal: horizontal,
-      trigger: '.hm2',
+      ...defs(2),
       start: 'left left',
-      end: 'right left',
-      scrub: true
+      end: 'right left'
     }})
     if (horizontal) {
       hm2_2
-        .fromTo('.hm2 .bg-ciel > *', {x:'0%'}, {x:'-10%'}, 'a')
-        .fromTo('.hm2 .bg-foret-entry > *', {x:'0%'}, {x:'25%'}, 'a')
-        .fromTo('.hm2 .bg-totem > *', {x:'0%'}, {x:'-10%'}, 'a')
-        .fromTo('.hm2 .bg-porte > *', {x:'0%'}, {x:'-5%'}, 'a')
-        .fromTo('.hm2 .bg-aventurier > *', {x:'0%'}, {x:'20%'}, 'a')
-        .fromTo('.hm2 .bg-colonne > *', {x:'0%',display:'none'}, {x:'-20%',display:'block'}, 'a')
+        .fromTo(bk(2, 'ciel'), {x:'0%'}, {x:'-10%'}, 'a')
+        .fromTo(bk(2, 'foret-entry'), {x:'0%'}, {x:'25%'}, 'a')
+        .fromTo(bk(2, 'totem'), {x:'0%'}, {x:'-10%'}, 'a')
+        .fromTo(bk(2, 'porte'), {x:'0%'}, {x:'-5%'}, 'a')
+        .fromTo(bk(2, 'aventurier'), {x:'0%'}, {x:'20%'}, 'a')
+        .fromTo(bk(2, 'colonne'), {x:'0%',display:'none'}, {x:'-20%',display:'block'}, 'a')
     } else {
       hm2_2
-        .fromTo('.hm2 .bg-ciel > *', {y:'0%'}, {y:'-10%'}, 'a')
-        .fromTo('.hm2 .bg-foret-entry > *', {y:'0%'}, {y:'25%'}, 'a')
-        .fromTo('.hm2 .bg-totem > *', {y:'0%'}, {y:'-10%'}, 'a')
-        .fromTo('.hm2 .bg-porte > *', {y:'0%'}, {y:'-5%'}, 'a')
-        .fromTo('.hm2 .bg-aventurier > *', {x:'0%'}, {x:'20%'}, 'a')
+        .fromTo(bk(2, 'ciel'), {y:'0%'}, {y:'-10%'}, 'a')
+        .fromTo(bk(2, 'foret-entry'), {y:'0%'}, {y:'25%'}, 'a')
+        .fromTo(bk(2, 'totem'), {y:'0%'}, {y:'-10%'}, 'a')
+        .fromTo(bk(2, 'porte'), {y:'0%'}, {y:'-5%'}, 'a')
+        .fromTo(bk(2, 'aventurier'), {x:'0%'}, {x:'20%'}, 'a')
     }
 
     /** Section 3 */
     const hm3 = gsap.timeline({scrollTrigger:{
-      horizontal: horizontal,
-      trigger: '.hm3',
+      ...defs(3),
       start: 'left right',
-      end: 'left left',
-      scrub: true
+      end: 'left left'
     }})
     if (horizontal) {
       hm3
-        .fromTo('.hm3 .bg-fond > *', {x:'-20%'}, {x:'0%'}, 'a')
-        .fromTo('.hm3 .bg-aventurier-cave > *', {x:'-30%'}, {x:'0%'}, 'a')
-        .fromTo('.hm3 .bg-stalagmite-cave > *', {x:'-20%'}, {x:'0%'}, 'a')
-        .fromTo('.hm3 .bg-stalactite-cave > *', {x:'-25%'}, {x:'0%'}, 'a')
-        .fromTo('.hm3 .bg-stalactite-cave-2 > *', {x:'-10%'}, {x:'0%'}, 'a')
+        .fromTo(bk(3, 'fond'), {x:'-20%'}, {x:'0%'}, 'a')
+        .fromTo(bk(3, 'aventurier'), {x:'-30%'}, {x:'0%'}, 'a')
+        .fromTo(bk(3, 'stalagmite-cave'), {x:'-20%'}, {x:'0%'}, 'a')
+        .fromTo(bk(3, 'stalactite-cave'), {x:'-25%'}, {x:'0%'}, 'a')
+        .fromTo(bk(3, 'stalactite-cave-2'), {x:'-10%'}, {x:'0%'}, 'a')
     } else {
       gsap.fromTo('.hm3', {opacity:1}, {opacity:.5,scrollTrigger:{
-        trigger: '.hm3',
+        ...defs(3),
         start: 'bottom 50%',
-        end: 'bottom top',
-        scrub: true
+        end: 'bottom top'
       }})
       gsap.fromTo('.hm4', {opacity:.5}, {opacity:1,scrollTrigger:{
-        trigger: '.hm4',
+        ...defs(4),
         start: 'top bottom',
-        end: 'top 50%',
-        scrub: true
+        end: 'top 50%'
       }})
       hm3
-        .fromTo('.hm3 .bg-fond > *', {y:'-20%'}, {y:'0%'}, 'a')
-        .fromTo('.hm3 .bg-aventurier-cave > *', {y:'-30%'}, {y:'0%'}, 'a')
-        .fromTo('.hm3 .bg-stalagmite-cave > *', {y:'-20%'}, {y:'0%'}, 'a')
-        .fromTo('.hm3 .bg-stalactite-cave > *', {y:'-25%'}, {y:'0%'}, 'a')
-        .fromTo('.hm3 .bg-stalactite-cave-2 > *', {y:'-10%'}, {y:'0%'}, 'a')
+        .fromTo(bk(3, 'fond'), {y:'-20%'}, {y:'0%'}, 'a')
+        .fromTo(bk(3, 'aventurier'), {y:'-30%'}, {y:'0%'}, 'a')
+        .fromTo(bk(3, 'stalagmite-cave'), {y:'-20%'}, {y:'0%'}, 'a')
+        .fromTo(bk(3, 'stalactite-cave'), {y:'-25%'}, {y:'0%'}, 'a')
+        .fromTo(bk(3, 'stalactite-cave-2'), {y:'-10%'}, {y:'0%'}, 'a')
     }
 
     /** Section 3 end */
     const hm3_2 = gsap.timeline({scrollTrigger:{
-      horizontal: horizontal,
-      trigger: '.hm3',
+      ...defs(3),
       start: 'left left',
-      end: 'right left',
-      scrub: true
+      end: 'right left'
     }})
     if (horizontal) {
       gsap.fromTo('.hm3 .crystal img', {x:'20%',display:'none'}, {x:'-10%',display:'block',scrollTrigger:{
-        horizontal: horizontal,
-        trigger: '.hm3',
+        ...defs(3),
         start: 'left left',
-        end: 'right 20%',
-        scrub: true
+        end: 'right 20%'
       }}, 'a')
       gsap.fromTo('.hm3 .crystal img', {x:'-10%'}, {x:'-100%',scrollTrigger:{
-        horizontal: horizontal,
-        trigger: '.hm4',
+        ...defs(4),
         start: 'left left',
-        end: 'right 50%',
-        scrub: true
+        end: 'right 50%'
       }}, 'a')
       hm3_2
-        .fromTo('.hm2 .bg-colonne > *', {x:'-20%'}, {x:'-100%'}, 'a')
-        .fromTo('.hm3 .bg-fond > *', {x:'0%'}, {x:'-10%'}, 'a')
-        .fromTo('.hm3 .bg-aventurier-cave > *', {x:'0%'}, {x:'20%'}, 'a')
-        .fromTo('.hm3 .bg-stalactite-cave-2 > *', {x:'0%'}, {x:'20%'}, 'a')
+        .fromTo(bk(2, 'colonne'), {x:'-20%'}, {x:'-100%'}, 'a')
+        .fromTo(bk(3, 'fond'), {x:'0%'}, {x:'-10%'}, 'a')
+        .fromTo(bk(3, 'aventurier'), {x:'0%'}, {x:'20%'}, 'a')
+        .fromTo(bk(3, 'stalactite-cave-2'), {x:'0%'}, {x:'20%'}, 'a')
     } else {
       hm3_2
-        .fromTo('.hm2 .bg-colonne > *', {y:'-20%'}, {y:'-100%'}, 'a')
-        .fromTo('.hm3 .bg-fond > *', {y:'0%'}, {y:'-10%'}, 'a')
-        .fromTo('.hm3 .bg-aventurier-cave > *', {y:'0%'}, {y:'5%'}, 'a')
-        .fromTo('.hm3 .bg-stalactite-cave-2 > *', {y:'0%'}, {y:'20%'}, 'a')
+        .fromTo(bk(2, 'colonne'), {y:'-20%'}, {y:'-100%'}, 'a')
+        .fromTo(bk(3, 'fond'), {y:'0%'}, {y:'-10%'}, 'a')
+        .fromTo(bk(3, 'aventurier'), {y:'0%'}, {y:'5%'}, 'a')
+        .fromTo(bk(3, 'stalactite-cave-2'), {y:'0%'}, {y:'20%'}, 'a')
     }
 
     /** Section 4 */
     const hm4 = gsap.timeline({scrollTrigger:{
-      horizontal: horizontal,
-      trigger: '.hm4',
+      ...defs(4),
       start: 'left right',
-      end: 'left left',
-      scrub: true
+      end: 'left left'
     }})
     if (horizontal) {
       hm4
-        .fromTo('.hm4 .bg-ground > *', {x:'-10%'}, {x:'0%'}, 'a')
-        .fromTo('.hm4 .bg-aventuriers > *', {x:'-25%',y:'20%'}, {x:'0%',y:'0%'}, 'a')
-        .fromTo('.hm4 .bg-mur > *', {x:'-10%'}, {x:'0%'}, 'a')
-        .fromTo('.hm4 .bg-mur-2 > *', {x:'-15%'}, {x:'0%'}, 'a')
-        .fromTo('.hm4 .bg-mur-3 > *', {x:'-20%'}, {x:'0%'}, 'a')
-        .fromTo('.hm4 .bg-mur-4 > *', {x:'-30%'}, {x:'0%'}, 'a')
+        .fromTo(bk(4, 'ground'), {x:'-10%'}, {x:'0%'}, 'a')
+        .fromTo(bk(4, 'aventuriers'), {x:'-25%',y:'20%'}, {x:'0%',y:'0%'}, 'a')
+        .fromTo(bk(4, 'mur'), {x:'-10%'}, {x:'0%'}, 'a')
+        .fromTo(bk(4, 'mur-2'), {x:'-15%'}, {x:'0%'}, 'a')
+        .fromTo(bk(4, 'mur-3'), {x:'-20%'}, {x:'0%'}, 'a')
+        .fromTo(bk(4, 'mur-4'), {x:'-30%'}, {x:'0%'}, 'a')
     } else {
       gsap.fromTo('.hm4', {opacity:1}, {opacity:.5,scrollTrigger:{
-        trigger: '.hm4',
+        ...defs(4),
         start: 'bottom 50%',
-        end: 'bottom top',
-        scrub: true
+        end: 'bottom top'
       }})
       gsap.fromTo('.hm5', {opacity:.5}, {opacity:1,scrollTrigger:{
-        trigger: '.hm5',
+        ...defs(5),
         start: 'top bottom',
-        end: 'top 50%',
-        scrub: true
+        end: 'top 50%'
       }})
       hm4
-        .fromTo('.hm4 .bg-ground > *', {y:'-10%'}, {y:'0%'}, 'a')
-        .fromTo('.hm4 .bg-aventuriers > *', {x:'-25%',y:'20%'}, {x:'0%',y:'0%'}, 'a')
-        .fromTo('.hm4 .bg-mur > *', {y:'-10%'}, {y:'0%'}, 'a')
-        .fromTo('.hm4 .bg-mur-2 > *', {y:'-15%'}, {y:'0%'}, 'a')
-        .fromTo('.hm4 .bg-mur-3 > *', {y:'-20%'}, {y:'0%'}, 'a')
-        .fromTo('.hm4 .bg-mur-4 > *', {y:'-30%'}, {y:'0%'}, 'a')
+        .fromTo(bk(4, 'ground'), {y:'-10%'}, {y:'0%'}, 'a')
+        .fromTo(bk(4, 'aventuriers'), {x:'-25%',y:'20%'}, {x:'0%',y:'0%'}, 'a')
+        .fromTo(bk(4, 'mur'), {y:'-10%'}, {y:'0%'}, 'a')
+        .fromTo(bk(4, 'mur-2'), {y:'-15%'}, {y:'0%'}, 'a')
+        .fromTo(bk(4, 'mur-3'), {y:'-20%'}, {y:'0%'}, 'a')
+        .fromTo(bk(4, 'mur-4'), {y:'-30%'}, {y:'0%'}, 'a')
     }
 
     /** Section 4 end */
     const hm4_2 = gsap.timeline({scrollTrigger:{
-      horizontal: horizontal,
-      trigger: '.hm4',
+      ...defs(4),
       start: 'left left',
-      end: 'right left',
-      scrub: true
+      end: 'right left'
     }})
     if (horizontal) {
       hm4_2
-        .fromTo('.hm4 .bg-ground > *', {x:'0%'}, {x:'10%'}, 'a')
-        .fromTo('.hm4 .bg-aventuriers > *', {x:'0%',y:'0%'}, {x:'15%',y:'-40%'}, 'a')
-        .fromTo('.hm4 .bg-mur > *', {x:'0%'}, {x:'15%'}, 'a')
-        .fromTo('.hm4 .bg-mur-2 > *', {x:'0%'}, {x:'25%'}, 'a')
-        .fromTo('.hm4 .bg-mur-3 > *', {x:'0%'}, {x:'30%'}, 'a')
-        .fromTo('.hm4 .bg-mur-4 > *', {x:'0%'}, {x:'35%'}, 'a')
+        .fromTo(bk(4, 'ground'), {x:'0%'}, {x:'10%'}, 'a')
+        .fromTo(bk(4, 'aventuriers'), {x:'0%',y:'0%'}, {x:'15%',y:'-40%'}, 'a')
+        .fromTo(bk(4, 'mur'), {x:'0%'}, {x:'15%'}, 'a')
+        .fromTo(bk(4, 'mur-2'), {x:'0%'}, {x:'25%'}, 'a')
+        .fromTo(bk(4, 'mur-3'), {x:'0%'}, {x:'30%'}, 'a')
+        .fromTo(bk(4, 'mur-4'), {x:'0%'}, {x:'35%'}, 'a')
     } else {
       hm4_2
-        .fromTo('.hm4 .bg-ground > *', {y:'0%'}, {y:'10%'}, 'a')
-        .fromTo('.hm4 .bg-aventuriers > *', {x:'0%',y:'0%'}, {x:'15%',y:'-40%'}, 'a')
-        .fromTo('.hm4 .bg-mur > *', {y:'0%'}, {y:'15%'}, 'a')
-        .fromTo('.hm4 .bg-mur-2 > *', {y:'0%'}, {y:'25%'}, 'a')
-        .fromTo('.hm4 .bg-mur-3 > *', {y:'0%'}, {y:'30%'}, 'a')
-        .fromTo('.hm4 .bg-mur-4 > *', {y:'0%'}, {y:'35%'}, 'a')
+        .fromTo(bk(4, 'ground'), {y:'0%'}, {y:'10%'}, 'a')
+        .fromTo(bk(4, 'aventuriers'), {x:'0%',y:'0%'}, {x:'15%',y:'-40%'}, 'a')
+        .fromTo(bk(4, 'mur'), {y:'0%'}, {y:'15%'}, 'a')
+        .fromTo(bk(4, 'mur-2'), {y:'0%'}, {y:'25%'}, 'a')
+        .fromTo(bk(4, 'mur-3'), {y:'0%'}, {y:'30%'}, 'a')
+        .fromTo(bk(4, 'mur-4'), {y:'0%'}, {y:'35%'}, 'a')
     }
 
     /** Section 5 */
     const hm5 = gsap.timeline({scrollTrigger:{
-      horizontal: horizontal,
-      trigger: '.hm5',
+      ...defs(5),
       start: 'left right',
-      end: 'left left',
-      scrub: true
-    }});
+      end: 'left left'
+    }})
     if (horizontal) {
-      gsap.fromTo('.hm5 .mur > *', {x:'0%'}, {x:'-25%',scrollTrigger:{
-        horizontal: horizontal,
-        trigger: '.hm5',
+      gsap.fromTo(bk(5, 'mur'), {x:'0%'}, {x:'-25%',scrollTrigger:{
+        ...defs(5),
         start: 'left right',
-        end: 'left 5%',
-        scrub: true
-      }}, 'a')
-      gsap.fromTo('.hm5 .mur > *', {x:'-25%'}, {x:'-50%',ease:'power1.in',scrollTrigger:{
-        horizontal: horizontal,
-        trigger: '.hm5',
+        end: 'left 5%'
+      }})
+      gsap.fromTo(bk(5, 'mur'), {x:'-25%'}, {x:'-50%',ease:'power1.in',scrollTrigger:{
+        ...defs(5),
         start: 'left 5%',
-        end: 'left left',
-        scrub: true
-      }}, 'a')
+        end: 'left left'
+      }})
       hm5
-        .fromTo('.hm5 .bg-mountains > *', {x:'-5%'}, {x:'0%'}, 'a')
-        .fromTo('.hm5 .bg-mountains-2 > *', {x:'-10%'}, {x:'0%'}, 'a')
-        .fromTo('.hm5 .bg-quartier > *', {x:'-15%'}, {x:'0%'}, 'a')
-        .fromTo('.hm5 .bg-quartier-2 > *', {x:'-20%'}, {x:'0%'}, 'a')
-        .fromTo('.hm5 .bg-quartier-3 > *', {x:'-25%'}, {x:'0%'}, 'a')
-        .fromTo('.hm5 .bg-forest-land > *', {x:'-20%'}, {x:'0%'}, 'a')
-        .fromTo('.hm5 .bg-herbe > *', {x:'-15%',y:'5%'}, {x:'0%',y:'0%'}, 'a')
-        .fromTo('.hm5 .bg-aventurier-land > *', {x:'-20%',y:'10%'}, {x:'0%',y:'0%'}, 'a')
+        .fromTo(bk(5, 'mountains'), {x:'-5%'}, {x:'0%'}, 'a')
+        .fromTo(bk(5, 'mountains-2'), {x:'-10%'}, {x:'0%'}, 'a')
+        .fromTo(bk(5, 'quartier'), {x:'-15%'}, {x:'0%'}, 'a')
+        .fromTo(bk(5, 'quartier-2'), {x:'-20%'}, {x:'0%'}, 'a')
+        .fromTo(bk(5, 'quartier-3'), {x:'-25%'}, {x:'0%'}, 'a')
+        .fromTo(bk(5, 'forest-land'), {x:'-20%'}, {x:'0%'}, 'a')
+        .fromTo(bk(5, 'herbe'), {x:'-15%',y:'5%'}, {x:'0%',y:'0%'}, 'a')
+        .fromTo(bk(5, 'aventurier-land'), {x:'-20%',y:'10%'}, {x:'0%',y:'0%'}, 'a')
     } else {
       hm5
-        .fromTo('.hm5 .bg-mountains > *', {y:'-5%'}, {y:'0%'}, 'a')
-        .fromTo('.hm5 .bg-mountains-2 > *', {y:'-10%'}, {y:'0%'}, 'a')
-        .fromTo('.hm5 .bg-quartier > *', {y:'-15%'}, {y:'0%'}, 'a')
-        .fromTo('.hm5 .bg-quartier-2 > *', {y:'-20%'}, {y:'0%'}, 'a')
-        .fromTo('.hm5 .bg-quartier-3 > *', {y:'-25%'}, {y:'0%'}, 'a')
-        .fromTo('.hm5 .bg-forest-land > *', {y:'-20%'}, {y:'0%'}, 'a')
-        .fromTo('.hm5 .bg-herbe > *', {y:'-15%'}, {y:'0%'}, 'a')
-        .fromTo('.hm5 .bg-aventurier-land > *', {y:'-20%'}, {y:'0%'}, 'a')
+        .fromTo(bk(5, 'mountains'), {y:'-5%'}, {y:'0%'}, 'a')
+        .fromTo(bk(5, 'mountains-2'), {y:'-10%'}, {y:'0%'}, 'a')
+        .fromTo(bk(5, 'quartier'), {y:'-15%'}, {y:'0%'}, 'a')
+        .fromTo(bk(5, 'quartier-2'), {y:'-20%'}, {y:'0%'}, 'a')
+        .fromTo(bk(5, 'quartier-3'), {y:'-25%'}, {y:'0%'}, 'a')
+        .fromTo(bk(5, 'forest-land'), {y:'-20%'}, {y:'0%'}, 'a')
+        .fromTo(bk(5, 'herbe'), {y:'-15%'}, {y:'0%'}, 'a')
+        .fromTo(bk(5, 'aventurier-land'), {y:'-20%'}, {y:'0%'}, 'a')
     }
     
   })

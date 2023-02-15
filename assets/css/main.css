@@ -36,6 +36,9 @@ input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration{display:none;}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0;}
+input[type=number]{appearance:none;-moz-appearance:textfield;}
 
 /* var */
 
@@ -187,7 +190,7 @@ html.mob.stop{overflow:hidden;}
 /* App */
 
 #app{min-height:100vh;}
-.apps #app{background:linear-gradient(to top, rgba(var(--bg-1-rgb),.85), rgba(var(--bg-1-rgb),.2)), url(/img/bg-page-2.jpg) center top no-repeat ;background-size:cover;}
+.apps > *:before{content:'';position:fixed;top:0;left:0;width:100%;height:100vh;background:linear-gradient(to top, rgba(var(--bg-1-rgb),.85), rgba(var(--bg-1-rgb),.1)), url(/img/bg-page-2.jpg) center top no-repeat;background-size:cover;}
 
 /* WebGL */
 

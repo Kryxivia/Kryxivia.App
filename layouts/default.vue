@@ -11,6 +11,10 @@
   const thumbnail = 'https://kryxivia.io/img/thumbnail.jpg'
   const url = 'https://kryxivia.io/'
 
+  /** App page */
+  const route = useRoute()
+  const appPage = computed(() => route.fullPath.includes('/app/'))
+
   /** Init sound */
   const { $sound } = useNuxtApp()
   onMounted(() => $sound.init())
@@ -42,8 +46,9 @@
         <Meta :id="meta.id" :property="meta.property" :content="meta.content" />
       </template>
     </Head>
-    <Body :data-page-id="idPage">
+    <Body :data-page-id="idPage" :class="appPage ? 'apps' : false">
       <HeaderBar />
+      <AppPanel v-if="appPage" />
       <slot />
       <Bottom />
       <ModalList />

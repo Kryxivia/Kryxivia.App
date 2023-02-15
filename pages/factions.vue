@@ -15,7 +15,7 @@
       <div class="ct">
         <div class="head">
           <div v-for="faction, key in factions" :class="`illu ${key}`" data-reveal="bottom">
-            <img :src="faction.logo + '?v=1'" width="744" height="733" :alt="'Kryxivia • ' + $t(faction.name)" draggable="false">
+            <img :src="faction.logo + '?v=1'" width="744" height="733" :alt="`Kryxivia • ${$t(faction.name)}`" draggable="false">
           </div>
         </div>
         <LnHr name="frac" />

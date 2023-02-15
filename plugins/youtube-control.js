@@ -8,13 +8,13 @@ export default defineNuxtPlugin(nuxtApp => {
       args: ''
     }) , '*')
     if (control === 'play') {
-      nuxtApp.$sound.updateAmbient({
+      nuxtApp.$sound.update({
         all: {
           vol: 0
         }
       })
     } else {
-      nuxtApp.$sound.updateAmbientBase()
+      nuxtApp.$sound.reset()
     }
   }
 

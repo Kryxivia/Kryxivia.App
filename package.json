@@ -1,5 +1,8 @@
 {
+  "name": "kryxivia-nuxt3",
+  "version": "3.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
