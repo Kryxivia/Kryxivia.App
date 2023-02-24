@@ -22,14 +22,31 @@
     }
   }
   /** fake login */
-  const { fakeLogin } = useUser()
+  const { connectMetamask, connectBinanceWallet, connectFormatic } = useUser()
+
+  const connectWallet = (wallet) => {
+    switch (wallet) {
+      case 'metamask':
+        connectMetamask()
+        break
+      case 'bcw':
+        connectBinanceWallet()
+        break
+      case 'fortmatic':
+        connectFormatic()
+        break
+      default:
+        break
+    }
+  }
+
 </script>
 
 <template>
   <ModalTemplate id="connect">
     <div class="lst">
       <div v-for="wallet in wallets">
-        <ModalCard :infos="wallet" @click.prevent="fakeLogin" @click="$modal.close('connect')" />
+        <ModalCard :infos="wallet" @click.prevent="connectWallet(wallet.title.split('.')[1])" @click="$modal.close('connect')" />
       </div>
     </div>
   </ModalTemplate>
