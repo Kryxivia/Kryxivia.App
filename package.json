@@ -16,7 +16,9 @@
   },
   "dependencies": {
     "@walletconnect/client": "^1.5.1",
+    "buffer": "^6.0.3",
     "gsap": "^3.11.4",
+    "node-polyfill-webpack-plugin": "^2.0.1",
     "smooth-scrollbar": "^8.8.1",
     "web3": "^1.8.2"
   }

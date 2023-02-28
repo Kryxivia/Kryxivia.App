@@ -10,6 +10,10 @@ export default defineNuxtConfig({
       }
     }
   },
+
+  plugins: [
+    { src: '~/plugins/global.client.js' }
+  ],
   
   typescript: {
     strict: true

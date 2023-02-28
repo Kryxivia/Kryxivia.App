@@ -1,6 +1,6 @@
 import { ref } from "vue";
 import Web3 from "web3";
-// import { Connector } from "@walletconnect/client";
+import WalletConnect from "@walletconnect/client";
 
 export const useUser = () => {
   /** State address */
@@ -15,15 +15,12 @@ export const useUser = () => {
   });
 
   /** If user connected */
-  const isConnect = computed(() => window.ethereum.isConnected());
-
-  /** Fake loggin */
-  function fakeLogin() {
-    address.value = "0x2b4d87eff06f22798c30dc4407c7d83429aaa9abc";
-  }
+  const isConnect = computed(() =>
+    typeof window !== "undefined" ? account.value : false
+  );
 
   /* web3Login */
-  const provider = ref(window.ethereum);
+  const provider = typeof window !== "undefined" && ref(window?.ethereum);
   const web3 = computed(() => {
     if (provider.value) {
       return new Web3(provider.value);
@@ -32,13 +29,28 @@ export const useUser = () => {
   const account = ref(null);
   const connector = ref(null);
 
+  watchEffect(async () => {
+    if (typeof window !== "undefined") {
+      window.ethereum.on("accountsChanged", (accounts) => {
+        account.value = accounts[0];
+      });
+      const accounts = await web3.value.eth.getAccounts();
+      account.value = accounts[0];
+    }
+
+    return () => {
+      typeof window !== "undefined" &&
+        window?.ethereum?.removeAllListeners("accountsChanged");
+    };
+  });
+
   async function connectMetamask() {
     if (provider.value) {
       await provider.value.request({ method: "eth_requestAccounts" });
       const accounts = await web3.value.eth.getAccounts();
       account.value = accounts[0];
       if (account.value) {
-        address.value = account.value;
+        address.value = accounts[0];
       }
     }
   }
@@ -70,37 +82,38 @@ export const useUser = () => {
 
   async function connectBinanceWallet() {
     if (provider.value) {
-      const accounts = await window.BinanceChain.request({
-        method: "eth_requestAccounts",
-      });
+      const accounts =
+        typeof window !== "undefined" &&
+        (await window?.BinanceChain.request({
+          method: "eth_requestAccounts",
+        }));
       account.value = accounts[0];
     }
   }
 
-  // async function connectWalletConnect() {
-  //   const connector = new Connector({
-  //     bridge: "https://bridge.walletconnect.org",
-  //     qrcodeModalOptions: {
-  //       mobileLinks: [
-  //         "rainbow",
-  //         "metamask",
-  //         "argent",
-  //         "trust",
-  //         "imtoken",
-  //         "pillar",
-  //       ],
-  //     },
-  //   });
-  //   await connector.createSession();
-  //   await provider.value.request({
-  //     method: "wallet_switchEthereumChain",
-  //     params: [{ chainId: "0x38" }],
-  //   });
-  //   const accounts = await web3.value.eth.getAccounts();
-  //   account.value = accounts[0];
-  //   connector.value = connector;
-  // }
-
+  async function connectWalletConnect() {
+    const connector = new WalletConnect({
+      bridge: "https://bridge.walletconnect.org",
+      qrcodeModalOptions: {
+        mobileLinks: [
+          "rainbow",
+          "metamask",
+          "argent",
+          "trust",
+          "imtoken",
+          "pillar",
+        ],
+      },
+    });
+    await connector.createSession();
+    await provider.value.request({
+      method: "wallet_switchEthereumChain",
+      params: [{ chainId: "0x38" }],
+    });
+    const accounts = await web3.value.eth.getAccounts();
+    account.value = accounts[0];
+    connector.value = connector;
+  }
   async function disconnect() {
     await provider.value.request({ method: "wallet_disconnect" });
     account.value = null;
@@ -156,11 +169,10 @@ export const useUser = () => {
   ];
 
   return {
-    fakeLogin,
     connectMetamask,
     connectFormatic,
     connectBinanceWallet,
-    // connectWalletConnect,
+    connectWalletConnect,
     disconnect,
     account,
     currency,

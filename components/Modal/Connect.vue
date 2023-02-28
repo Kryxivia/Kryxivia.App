@@ -21,8 +21,8 @@
       desc: 'wallets.bcw.connect'
     }
   }
-  /** fake login */
-  const { connectMetamask, connectBinanceWallet, connectFormatic } = useUser()
+  /** web3 login */
+  const { connectMetamask, connectBinanceWallet, connectFormatic, connectWalletConnect } = useUser()
 
   const connectWallet = (wallet) => {
     switch (wallet) {
@@ -34,6 +34,9 @@
         break
       case 'fortmatic':
         connectFormatic()
+        break
+      case 'walletconnect':
+        connectWalletConnect()
         break
       default:
         break
