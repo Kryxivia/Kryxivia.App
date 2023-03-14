@@ -1,8 +1,13 @@
-import { ref } from "vue";
+import { ref, onMounted, onUnmounted } from "vue";
 import Web3 from "web3";
 import WalletConnect from "@walletconnect/client";
+import QRCodeModal from "@walletconnect/qrcode-modal";
+import erc20ABI from "@/abi/erc20ABI";
 
 export const useUser = () => {
+  const account = ref(null);
+  const connector = ref(null);
+
   /** State address */
   const address = useState("userAddress", () => {
     // return '0x2b4d87eff06f22798c30dc4407c7d83429aaa9abc'
@@ -15,9 +20,7 @@ export const useUser = () => {
   });
 
   /** If user connected */
-  const isConnect = computed(() =>
-    typeof window !== "undefined" ? account.value : false
-  );
+  const isConnect = computed(() => Boolean(account.value));
 
   /* web3Login */
   const provider = typeof window !== "undefined" && ref(window?.ethereum);
@@ -26,22 +29,29 @@ export const useUser = () => {
       return new Web3(provider.value);
     }
   });
-  const account = ref(null);
-  const connector = ref(null);
 
-  watchEffect(async () => {
+  watchEffect(async (onInvalidate) => {
     if (typeof window !== "undefined") {
       window.ethereum.on("accountsChanged", (accounts) => {
         account.value = accounts[0];
+        console.log("accountsChanged", accounts[0]);
       });
-      const accounts = await web3.value.eth.getAccounts();
-      account.value = accounts[0];
     }
 
-    return () => {
+    onInvalidate(() => {
       typeof window !== "undefined" &&
         window?.ethereum?.removeAllListeners("accountsChanged");
-    };
+    });
+  });
+
+  onMounted(async () => {
+    if (typeof window !== "undefined") {
+      const accounts = await web3.value.eth.getAccounts();
+      account.value = accounts[0];
+      if (account.value) {
+        address.value = accounts[0];
+      }
+    }
   });
 
   async function connectMetamask() {
@@ -94,6 +104,7 @@ export const useUser = () => {
   async function connectWalletConnect() {
     const connector = new WalletConnect({
       bridge: "https://bridge.walletconnect.org",
+      qrcodeModal: QRCodeModal,
       qrcodeModalOptions: {
         mobileLinks: [
           "rainbow",
@@ -105,13 +116,18 @@ export const useUser = () => {
         ],
       },
     });
-    await connector.createSession();
-    await provider.value.request({
-      method: "wallet_switchEthereumChain",
-      params: [{ chainId: "0x38" }],
-    });
-    const accounts = await web3.value.eth.getAccounts();
-    account.value = accounts[0];
+    await connector.connect(); //TODO fix problem when multiple wallets are available in browser
+    // await provider.value.request({
+    //   method: "wallet_switchEthereumChain",
+    //   params: [{ chainId: "0x38" }],
+    // });
+    // const accounts = await web3.value.eth.getAccounts();
+    account.value = connector.accounts[0];
+    console.log(
+      "logged in with walletconnect !",
+      account.value,
+      isConnect.value
+    );
     connector.value = connector;
   }
   async function disconnect() {
@@ -167,6 +183,28 @@ export const useUser = () => {
       purity: 25,
     },
   ];
+
+  // KXA contract
+  const kxaContractAddress = "0x2223bF1D7c19EF7C06DAB88938EC7B85952cCd89";
+  const kxaContractInstance =
+    web3.value && new web3.value.eth.Contract(erc20ABI, kxaContractAddress);
+
+  const getKXAUserBalance = async () => {
+    const userBalance = await kxaContractInstance.methods
+      .balanceOf(account.value)
+      .call();
+
+    console.log("user balance", userBalance);
+
+    balance.value.kxa = web3.value.utils.fromWei(String(userBalance));
+    return userBalance;
+  };
+
+  watch(account, () => {
+    if (account.value) {
+      getKXAUserBalance();
+    }
+  });
 
   return {
     connectMetamask,

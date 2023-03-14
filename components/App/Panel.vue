@@ -8,10 +8,10 @@
   const { kxa: price_kxa, kxs: price_kxs } = usePriceToken()
 
   /** Balance KXA to USD */
-  const kxaToUsd = formatPrice(balance.value.kxa * price_kxa.value[currency.value])
+  const kxaToUsd = computed(() => formatPrice(balance.value.kxa * price_kxa.value[currency.value]))
 
   /** Balance KXS to USD */
-  const kxsToUsd = formatPrice(balance.value.kxs * price_kxs.value[currency.value])
+  const kxsToUsd = computed(() => formatPrice(balance.value.kxs * price_kxs.value[currency.value]))
 
   /** Navigation dApp */
   const nav = [

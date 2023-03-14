@@ -1,11 +1,15 @@
 <script setup>
 
   const { currency, balance } = useUser()
+  const { stakeKXA, unStakeKXA, stakedKXA, totalStakedKXA, claimableKXA, claimRewards, totalStakers } = useStake()
   const { kxa: price_kxa } = usePriceToken()
   const kxa = balance.value.kxa
 
   const stake = ref('')
   const stake_currency = computed(() => formatPrice(stake.value * price_kxa.value[currency.value]))
+  const kxaToUsd = (kxa) => {
+    return formatPrice(kxa * price_kxa.value[currency.value])
+  }
 
   /** Percent button */
   const percents = [5,25,50,75,100]
@@ -30,7 +34,7 @@
             <img src="/img/tokens/kxa-shape.png" alt="KXA">
             <small>{{ stake_currency }}</small>
             <input v-model="stake" :max="kxa" type="number" placeholder="0.0">
-            <button class="bn">Stake now</button>
+            <button @click="stakeKXA(stake, false)" class="bn">Stake now</button>
           </div>
           <div class="percent">
             <button v-for="percent in percents" @click="percentStake(percent)">{{ percent }}%</button>
@@ -41,25 +45,25 @@
         <div>
           <div class="box">
             <div class="sub">Total Staked KXA</div>
-            <span>1623390.33 KXA</span>
-            <small>$1.000</small>
-            <div class="users">Total of users staking KXA : <strong>1458</strong></div>
+            <span>{{ Number(totalStakedKXA).toFixed(2) }} KXA</span>
+            <small>{{ kxaToUsd(Number(totalStakedKXA)) }}</small>
+            <div class="users">Total of users staking KXA : <strong>{{ totalStakers }}</strong></div>
           </div>
         </div>
         <div>
           <div class="box">
             <div class="sub">My Staked KXA</div>
-            <span>0.00 KXA</span>
-            <small>$0.00</small>
-            <button class="bn">Withdraw</button>
+            <span>{{ Number(stakedKXA).toFixed(2) }} KXA</span>
+            <small>{{ kxaToUsd(Number(stakedKXA)) }}</small>
+            <button @click="unStakeKXA()" class="bn">Withdraw</button>
           </div>
         </div>
         <div>
           <div class="box">
             <div class="sub">My Claimable Rewards</div>
-            <span>0.00 KXA</span>
-            <small>$0.00</small>
-            <button class="bn">Claim rewards</button>
+            <span>{{ claimableKXA.toFixed(2) }} KXA</span>
+            <small>{{ kxaToUsd(claimableKXA) }}</small>
+            <button @click="claimRewards" class="bn">Claim rewards</button>
           </div>
         </div>
       </div>
