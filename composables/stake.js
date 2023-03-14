@@ -83,7 +83,7 @@ export const useStake = () => {
 
     const tx = await contractInstance.methods
       .stakeKXA(amount, lock)
-      .send({ from: account.value, gas: 200000 });
+      .send({ from: account.value });
     console.log("stake tx", tx);
   };
 
