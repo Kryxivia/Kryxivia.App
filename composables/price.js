@@ -1,5 +1,6 @@
 import Web3 from "web3";
 import erc20ABI from "~~/abi/erc20ABI";
+import ETHUSDCPoolABI from "~~/abi/ethUsdcPoolABI";
 
 export const usePriceToken = () => {
   const { balance } = useUser();
@@ -51,16 +52,8 @@ export const usePriceToken = () => {
   // kxa price calculation
   const kxaPrice = async () => {
     const WETHKXAPoolAddress = "0x0b1A02b8CaD71BeE94e7fd0845Fd9853Fa1b46ff";
-    const WETHKXAPoolContract = new web3.value.eth.Contract(
-      erc20ABI,
-      WETHKXAPoolAddress
-    );
 
     const WETHUSDCPoolAddress = "0x88e6A0c2dDD26FEEb64F039a2c41296FcB3f5640";
-    const WETHUSDCPoolContract = new web3.value.eth.Contract(
-      erc20ABI,
-      ETHUSDCPoolAddress
-    );
 
     const WETHAddress = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2";
     const WETHContract = new web3.value.eth.Contract(erc20ABI, WETHAddress);
@@ -75,17 +68,27 @@ export const usePriceToken = () => {
     );
 
     try {
-      const [wethQuantityInPool, usdcQuantityInPool, kxaQuantityInPool] =
-        await Promise.all([
-          WETHKXAPoolContract.methods.balanceOf(WETHAddress).call(),
-          WETHUSDCPoolContract.methods.balanceOf(USDCAddress).call(),
-          kxaContract.methods.balanceOf(WETHKXAPoolAddress).call(),
-        ]);
+      const [
+        wethQuantityInWETHUSDCPool,
+        usdcQuantityWETHUSDCInPool,
+        wethQuantityInWETHKXAPool,
+        kxaQuantityInWETHKXAPool,
+      ] = await Promise.all([
+        WETHContract.methods.balanceOf(WETHUSDCPoolAddress).call(),
+        USDCContract.methods.balanceOf(WETHUSDCPoolAddress).call(),
+        WETHContract.methods.balanceOf(WETHKXAPoolAddress).call(),
+        kxaContract.methods.balanceOf(WETHKXAPoolAddress).call(),
+      ]);
 
       const kxaPriceInUsdc =
-        (kxaQuantityInPool * usdcQuantityInPool) / wethQuantityInPool;
+        ((usdcQuantityWETHUSDCInPool /
+          1e6 /
+          (wethQuantityInWETHUSDCPool / 1e18)) *
+          (wethQuantityInWETHKXAPool / 1e18)) /
+        (kxaQuantityInWETHKXAPool / 1e18);
 
-      kxa.value.USD = kxaPriceInUsdc / 1000000;
+      kxa.value.USD = kxaPriceInUsdc;
+      console.log("KXA price in USD:", kxaPriceInUsdc);
     } catch (error) {
       console.error(
         "Error occurred while fetching or calculating KXA price:",
@@ -96,8 +99,10 @@ export const usePriceToken = () => {
     }
   };
 
-  watch(balance, () => {
-    kxaPrice();
+  onMounted(() => {
+    if (balance.value) {
+      kxaPrice();
+    }
   });
 
   return {

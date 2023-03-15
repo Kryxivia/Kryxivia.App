@@ -640,3 +640,5 @@ const ETHUSDCPoolABI = [
     type: "function",
   },
 ];
+
+export default ETHUSDCPoolABI;
