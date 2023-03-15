@@ -15,11 +15,9 @@
     "nuxt": "^3.1.2"
   },
   "dependencies": {
-    "@ethersproject/providers": "^5.7.2",
     "@walletconnect/client": "^1.5.1",
     "@walletconnect/qrcode-modal": "^1.8.0",
     "buffer": "^6.0.3",
-    "ethers": "^6.1.0",
     "gsap": "^3.11.4",
     "node-polyfill-webpack-plugin": "^2.0.1",
     "smooth-scrollbar": "^8.8.1",
