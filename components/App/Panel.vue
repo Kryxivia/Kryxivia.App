@@ -54,20 +54,17 @@
       <template v-if="isConnect">
         <div class="top">
           <div class="avatar"></div>
-          <div class="right">
-            <div class="address">{{ address }}</div>
-            <div class="perso">{{ perso.name }}</div>
-          </div>
+            <div class="perso">{{ address }}</div>
         </div>
         <div class="chain chain-1"></div>
-        <div class="bottom tok"> 
+        <div class="bottom tok">
           <ul class="token">
             <li class="kxa">
               <a>
                 <img src="/img/tokens/kxa-shape.png" alt="KXA">
                 <div class="n">KXA</div>
                 <strong>
-                  <div class="perso">{{ balance.kxa }}</div>
+                  <div class="perso">{{ balance.kxa.toFixed(2) }}</div>
                   <small>{{ kxaToUsd }}</small>
                 </strong>
               </a>

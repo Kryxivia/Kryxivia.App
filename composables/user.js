@@ -196,7 +196,7 @@ export const useUser = () => {
 
     console.log("user balance", userBalance);
 
-    balance.value.kxa = web3.value.utils.fromWei(String(userBalance));
+    balance.value.kxa = Number(web3.value.utils.fromWei(userBalance));
     return userBalance;
   };
 

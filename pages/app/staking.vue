@@ -1,7 +1,7 @@
 <script setup>
 
   const { currency, balance } = useUser()
-  const { stakeKXA, unStakeKXA, stakedKXA, totalStakedKXA, claimableKXA, claimRewards, totalStakers } = useStake()
+  const { stakeKXA, unStakeKXA, stakedKXA, totalStakedKXA, claimableKXA, claimRewards, totalStakers, unlockedAPR, lockedAPR, isStakedLocked, kxaLockEndTimestampMs } = useStake()
   const { kxa: price_kxa } = usePriceToken()
   const kxa = balance.value.kxa
 
@@ -70,21 +70,21 @@
       <div class="box box-smooth">
         <Smooth :footer="false" :delegate="false">
           <div class="content">
-            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit</h2>
+            <h2>Your staked KXA are {{ isStakedLocked ? "locked" : "unlocked" }}, your current APR is: {{ isStakedLocked ? lockedAPR : unlockedAPR }}%</h2>
             <div class="p">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus tempora sequi alias officiis dignissimos cum tempore dicta eaque eveniet molestiae aliquam, deserunt ipsam voluptas vero voluptatum facilis, fugiat, recusandae inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, enim eius corporis iusto esse consequuntur cumque eaque exercitationem accusamus sunt optio adipisci nemo, quae facere officiis laborum debitis consectetur. Dignissimos.</p>
+              <p>Depending on if your KXA are locked or unlocked, your APR varies. If you wish to lock your KXA, make sure you withdraw them before you lock tokens in your new stake</p>
             </div>
-            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit</h2>
+            <h2>Unlock Date: {{ isStakedLocked ? `${new Date(kxaLockEndTimestampMs).toDateString()} (in ${msToFormatedDays(kxaLockEndTimestampMs - Date.now())} days)` : "Your KXA tokens are unlocked" }} </h2>
             <div class="p">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus tempora sequi alias officiis dignissimos cum tempore dicta eaque eveniet molestiae aliquam, deserunt ipsam voluptas vero voluptatum facilis, fugiat, recusandae inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, enim eius corporis iusto esse consequuntur cumque eaque exercitationem accusamus sunt optio adipisci nemo, quae facere officiis laborum debitis consectetur. Dignissimos.</p>
+              <p>Date at which your KXA will be unlocked</p>
             </div>
-            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit</h2>
+            <h2>Base KXA APR: {{ unlockedAPR }}%</h2>
             <div class="p">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus tempora sequi alias officiis dignissimos cum tempore dicta eaque eveniet molestiae aliquam, deserunt ipsam voluptas vero voluptatum facilis, fugiat, recusandae inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, enim eius corporis iusto esse consequuntur cumque eaque exercitationem accusamus sunt optio adipisci nemo, quae facere officiis laborum debitis consectetur. Dignissimos.</p>
+              <p>Annual percentage rate for unlocked KXA</p>
             </div>
-            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit</h2>
+            <h2>Locked KXA APR: {{ lockedAPR }}%</h2>
             <div class="p">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus tempora sequi alias officiis dignissimos cum tempore dicta eaque eveniet molestiae aliquam, deserunt ipsam voluptas vero voluptatum facilis, fugiat, recusandae inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. At, enim eius corporis iusto esse consequuntur cumque eaque exercitationem accusamus sunt optio adipisci nemo, quae facere officiis laborum debitis consectetur. Dignissimos.</p>
+              <p>Annual percentage rate for locked KXA</p>
             </div>
           </div>
         </Smooth>
