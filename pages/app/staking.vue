@@ -1,11 +1,12 @@
 <script setup>
 
   const { currency, balance } = useUser()
-  const { stakeKXA, unStakeKXA, stakedKXA, totalStakedKXA, claimableKXA, claimRewards, totalStakers, unlockedAPR, lockedAPR, isStakedLocked, kxaLockEndTimestampMs } = useStake()
+  const { stakeKXA, unStakeKXA, stakedKXA, totalStakedKXA, claimableKXA, claimRewards, totalStakers, unlockedAPR, lockedAPR, isStakedLocked, kxaLockEndTimestampMs, amountLockDays } = useStake()
   const { kxa: price_kxa } = usePriceToken()
   const kxa = balance.value.kxa
 
   const stake = ref('')
+  const lockStake = ref(false)
   const stake_currency = computed(() => formatPrice(stake.value * price_kxa.value[currency.value]))
   const kxaToUsd = (kxa) => {
     return formatPrice(kxa * price_kxa.value[currency.value])
@@ -31,13 +32,20 @@
         </div>
         <div class="right box">
           <div class="fd">
+            <button class="bn" @click="lockStake = !lockStake" style="margin-left: 0;">
+              <img :src="lockStake ? '/img/lockClosed.svg' : '/img/lockOpen.svg'" alt="lock">
+            </button>
             <img src="/img/tokens/kxa-shape.png" alt="KXA">
             <small>{{ stake_currency }}</small>
             <input v-model="stake" :max="kxa" type="number" placeholder="0.0">
-            <button @click="stakeKXA(stake, false)" class="bn">Stake now</button>
+            <button @click="stakeKXA(stake, lockStake)" class="bn">Stake now</button>
           </div>
           <div class="percent">
             <button v-for="percent in percents" @click="percentStake(percent)">{{ percent }}%</button>
+          </div>
+          <div class="lock-warning-message" :style="lockStake ? {visibility: 'visible'} : {visibility: 'hidden'}">
+            <img style="width: 17px;" src="/img/importantInfoIcon.svg" alt="lock kxa warning message">
+            <span>You're KXA stake will be locked {{ amountLockDays != undefined && `for ${amountLockDays} days` }}</span>
           </div>
         </div>
       </div>
@@ -70,9 +78,11 @@
       <div class="box box-smooth">
         <Smooth :footer="false" :delegate="false">
           <div class="content">
-            <h2>Your staked KXA are {{ isStakedLocked ? "locked" : "unlocked" }}, your current APR is: {{ isStakedLocked ? lockedAPR : unlockedAPR }}%</h2>
-            <div class="p">
-              <p>Depending on if your KXA are locked or unlocked, your APR varies. If you wish to lock your KXA, make sure you withdraw them before you lock tokens in your new stake</p>
+            <div v-if="Number(stakedKXA) > 0">
+              <h2>Your staked KXAs are {{ isStakedLocked ? "locked" : "unlocked" }}, your current APR is: {{ isStakedLocked ? lockedAPR : unlockedAPR }}%</h2>
+              <div class="p">
+                <p>Depending on if your KXAs are locked or unlocked, your APR varies. If you wish to lock your KXAs, make sure you withdraw them before you lock tokens in your new stake</p>
+              </div>
             </div>
             <h2>Unlock Date: {{ isStakedLocked ? `${new Date(kxaLockEndTimestampMs).toDateString()} (in ${msToFormatedDays(kxaLockEndTimestampMs - Date.now())} days)` : "Your KXA tokens are unlocked" }} </h2>
             <div class="p">
@@ -135,4 +145,5 @@
   .staking .content h2{font-family:var(--font-2);color:var(--color-3);font-size:calc(16px + 2 * (100vw - 320px) / 1080);}
   .staking .content h2 + *{margin-top:calc(var(--pad) / 2);}
   .staking .content .p{color:var(--color-4);opacity:.75;}
+  .staking .lock-warning-message{color:var(--color-4);opacity:.75;margin-top: 7px;display:flex;align-items:center;gap:5px;}
 </style>

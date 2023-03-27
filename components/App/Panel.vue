@@ -54,7 +54,7 @@
       <template v-if="isConnect">
         <div class="top">
           <div class="avatar"></div>
-            <div class="perso">{{ address }}</div>
+          <div class="perso">{{ address }}</div>
         </div>
         <div class="chain chain-1"></div>
         <div class="bottom tok">

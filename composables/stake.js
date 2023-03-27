@@ -26,6 +26,7 @@ export const useStake = () => {
   const stakedKXA = ref(0);
   const unlockedAPR = ref(0);
   const lockedAPR = ref(0);
+  const amountLockDays = ref(undefined);
   const isStakedLocked = ref(null);
   const kxaLockEndTimestampMs = ref(0);
   const totalStakedKXA = ref(0);
@@ -107,6 +108,18 @@ export const useStake = () => {
     );
   };
 
+  const getAmountLockDays = async () => {
+    try {
+      const amountLockDaysRes = await contractInstance.methods
+        ._amountLockDays()
+        .call();
+      amountLockDays.value = amountLockDaysRes;
+      console.log("amount lock days", amountLockDaysRes);
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
   const stakeKXA = async (amount, lock) => {
     console.log("amount", amount, lock);
 
@@ -164,6 +177,7 @@ export const useStake = () => {
       getTotalStakedKXA();
       getWaitingPercentAPR();
       getStakingAPR();
+      getAmountLockDays();
     }
   });
 
@@ -180,5 +194,6 @@ export const useStake = () => {
     lockedAPR,
     isStakedLocked,
     kxaLockEndTimestampMs,
+    amountLockDays,
   };
 };

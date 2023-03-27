@@ -3,22 +3,26 @@
     metamask: {
       img: '/img/wallets/metamask.svg',
       title: 'wallets.metamask.name',
-      desc: 'wallets.metamask.connect'
+      desc: 'wallets.metamask.connect',
+      disabled: false
     },
     walletconnect: {
       img: '/img/wallets/walletconnect.svg',
       title: 'wallets.walletconnect.name',
-      desc: 'wallets.walletconnect.connect'
+      desc: 'wallets.walletconnect.connect',
+      disabled: true
     },
     fortmatic: {
       img: '/img/wallets/fortmatic.svg',
       title: 'wallets.fortmatic.name',
-      desc: 'wallets.fortmatic.connect'
+      desc: 'wallets.fortmatic.connect',
+      disabled: true
     },
     bcw: {
       img: '/img/wallets/bcw.svg',
       title: 'wallets.bcw.name',
-      desc: 'wallets.bcw.connect'
+      desc: 'wallets.bcw.connect',
+      disabled: true
     }
   }
   /** web3 login */

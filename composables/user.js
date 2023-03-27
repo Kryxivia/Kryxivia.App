@@ -116,7 +116,7 @@ export const useUser = () => {
         ],
       },
     });
-    await connector.connect(); //TODO fix problem when multiple wallets are available in browser
+    // await connector.connect(); //TODO fix problem when multiple wallets are available in browser
     // await provider.value.request({
     //   method: "wallet_switchEthereumChain",
     //   params: [{ chainId: "0x38" }],
