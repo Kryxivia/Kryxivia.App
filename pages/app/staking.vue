@@ -81,20 +81,20 @@
             <div v-if="Number(stakedKXA) > 0">
               <h2>Your staked KXAs are {{ isStakedLocked ? "locked" : "unlocked" }}, your current APR is: {{ isStakedLocked ? lockedAPR : unlockedAPR }}%</h2>
               <div class="p">
-                <p>Depending on if your KXAs are locked or unlocked, your APR varies. If you wish to lock your KXAs, make sure you withdraw them before you lock tokens in your new stake</p>
+                <p>Depending on whether your KXAs are locked or unlocked, your APR varies. If you wish to lock your KXAs, make sure you withdraw them before you lock tokens in your new stake.</p>
               </div>
             </div>
             <h2>Unlock Date: {{ isStakedLocked ? `${new Date(kxaLockEndTimestampMs).toDateString()} (in ${msToFormatedDays(kxaLockEndTimestampMs - Date.now())} days)` : "Your KXA tokens are unlocked" }} </h2>
             <div class="p">
-              <p>Date at which your KXA will be unlocked</p>
+              <p>Date at which your KXA will be unlocked.</p>
             </div>
             <h2>Base KXA APR: {{ unlockedAPR }}%</h2>
             <div class="p">
-              <p>Annual percentage rate for unlocked KXA</p>
+              <p>Annual percentage rate for unlocked KXA.</p>
             </div>
             <h2>Locked KXA APR: {{ lockedAPR }}%</h2>
             <div class="p">
-              <p>Annual percentage rate for locked KXA</p>
+              <p>Annual percentage rate for locked KXA.</p>
             </div>
           </div>
         </Smooth>
