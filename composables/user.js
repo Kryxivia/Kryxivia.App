@@ -34,7 +34,6 @@ export const useUser = () => {
     if (typeof window !== "undefined") {
       window.ethereum.on("accountsChanged", (accounts) => {
         account.value = accounts[0];
-        console.log("accountsChanged", accounts[0]);
       });
     }
 
@@ -123,11 +122,6 @@ export const useUser = () => {
     // });
     // const accounts = await web3.value.eth.getAccounts();
     account.value = connector.accounts[0];
-    console.log(
-      "logged in with walletconnect !",
-      account.value,
-      isConnect.value
-    );
     connector.value = connector;
   }
   async function disconnect() {
@@ -139,7 +133,7 @@ export const useUser = () => {
   /** State balance */
   const balance = useState("userBalance", () => {
     return {
-      kxa: 14848978.054,
+      kxa: 0,
       kxs: 74854966,
     };
   });
@@ -193,8 +187,6 @@ export const useUser = () => {
     const userBalance = await kxaContractInstance.methods
       .balanceOf(account.value)
       .call();
-
-    console.log("user balance", userBalance);
 
     balance.value.kxa = Number(web3.value.utils.fromWei(userBalance));
     return userBalance;

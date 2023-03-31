@@ -1,6 +1,5 @@
 import Web3 from "web3";
 import erc20ABI from "~~/abi/erc20ABI";
-import ETHUSDCPoolABI from "~~/abi/ethUsdcPoolABI";
 
 export const usePriceToken = () => {
   const { balance } = useUser();
@@ -14,8 +13,8 @@ export const usePriceToken = () => {
   /** Price per KXA */
   const kxa = useState("priceKxa", () => {
     return {
-      EUR: 0.01466,
-      USD: 0.01567,
+      EUR: 0.01266,
+      USD: 0.01367,
     };
   });
 
@@ -88,7 +87,6 @@ export const usePriceToken = () => {
         (kxaQuantityInWETHKXAPool / 1e18);
 
       kxa.value.USD = kxaPriceInUsdc;
-      console.log("KXA price in USD:", kxaPriceInUsdc);
     } catch (error) {
       console.error(
         "Error occurred while fetching or calculating KXA price:",

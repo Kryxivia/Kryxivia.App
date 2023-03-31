@@ -15,7 +15,7 @@ export const useStake = () => {
 
   // staking contract
   const stakingContractAddress = "0xcC6621bD7706c5AD2040B04D0Fa7065B6280139c";
-  const contractInstance =
+  const stakingContractInstance =
     web3.value &&
     new web3.value.eth.Contract(kryxiviaStakingABI, stakingContractAddress);
 
@@ -37,7 +37,7 @@ export const useStake = () => {
   });
 
   const getStakerInfos = async () => {
-    const stakerInfo = await contractInstance.methods
+    const stakerInfo = await stakingContractInstance.methods
       .getStakerInfos(account.value)
       .call();
     stakedKXA.value = web3.value.utils.fromWei(stakerInfo.amount, "ether");
@@ -46,58 +46,49 @@ export const useStake = () => {
     );
     kxaLockEndTimestampMs.value = endBlockTimestamp.timestamp * 1000;
     isStakedLocked.value = stakerInfo.locked;
-    console.log("end block timestamp", endBlockTimestamp.timestamp);
-    console.log(new Date(endBlockTimestamp.timestamp * 1000));
-    console.log("staker info", stakerInfo);
-    console.log(
-      "staker amount staked",
-      web3.value.utils.fromWei(stakerInfo.amount, "ether")
-    );
   };
 
   const getTotalStakedKXA = async () => {
-    const totalStakedRes = await contractInstance.methods
+    const totalStakedRes = await stakingContractInstance.methods
       ._totalStacked()
-      .call();
+      .call()
+      .catch((err) => {
+        console.log(err);
+      });
     totalStakedKXA.value = web3.value.utils.fromWei(totalStakedRes, "ether");
-    console.log(
-      "total amount staked",
-      web3.value.utils.fromWei(totalStakedRes, "ether")
-    );
   };
 
   const getTotalStakers = async () => {
-    const totalStakersRes = await contractInstance.methods
+    const totalStakersRes = await stakingContractInstance.methods
       .getTotalStakers()
-      .call();
+      .call()
+      .catch((err) => {
+        console.log(err);
+      });
     totalStakers.value = totalStakersRes;
-    console.log("totale amount of users staking", totalStakersRes);
   };
 
   const getWaitingPercentAPR = async () => {
-    const waitingPercentAPRRes = await contractInstance.methods
+    const waitingPercentAPRRes = await stakingContractInstance.methods
       .getWaitingPercentAPR(account.value)
       .call()
       .catch((err) => {
-        // console.log(err);
+        console.log(err);
       });
     waitingPercentAPR.value = web3.value.utils.fromWei(
       waitingPercentAPRRes,
       "ether"
     );
-    console.log(
-      "waiting percent apr (apr claimable by user right now)",
-      web3.value.utils.fromWei(waitingPercentAPRRes, "ether")
-    );
   };
 
   const getStakingAPR = async () => {
-    const stakingAPRRes = await contractInstance.methods.getStakingAPR().call();
-    console.log(
-      "staking apr (apr claimable by user after lock period)",
-      web3.value.utils.fromWei(stakingAPRRes.unlockedAPR, "ether"),
-      web3.value.utils.fromWei(stakingAPRRes.lockedAPR, "ether")
-    );
+    const stakingAPRRes = await stakingContractInstance.methods
+      .getStakingAPR()
+      .call()
+      .catch((err) => {
+        console.log(err);
+      });
+
     unlockedAPR.value = web3.value.utils.fromWei(
       stakingAPRRes.unlockedAPR,
       "ether"
@@ -110,19 +101,16 @@ export const useStake = () => {
 
   const getAmountLockDays = async () => {
     try {
-      const amountLockDaysRes = await contractInstance.methods
+      const amountLockDaysRes = await stakingContractInstance.methods
         ._amountLockDays()
         .call();
       amountLockDays.value = amountLockDaysRes;
-      console.log("amount lock days", amountLockDaysRes);
     } catch (err) {
       console.log(err);
     }
   };
 
   const stakeKXA = async (amount, lock) => {
-    console.log("amount", amount, lock);
-
     const amountWei = web3.value.utils.toWei(String(amount), "ether");
 
     // allowance for kxa contract
@@ -133,28 +121,25 @@ export const useStake = () => {
       const tx = await kxaContractInstance.methods
         .approve(stakingContractAddress, amountWei)
         .send({ from: account.value });
-      console.log("approve tx", tx);
     }
 
     // gas price
-    const gasPrice = await web3.value.eth.getGasPrice();
+    // const gasPrice = await web3.value.eth.getGasPrice();
 
-    console.log(gasPrice);
-
-    const tx = await contractInstance.methods
+    const tx = await stakingContractInstance.methods
       .stakeKXA(amountWei, lock)
       .send({ from: account.value });
-    console.log("stake tx", tx);
+
+    // refresh data
     getStakerInfos();
     getTotalStakers();
     getTotalStakedKXA();
   };
 
   const unStakeKXA = async () => {
-    const tx = await contractInstance.methods
+    const tx = await stakingContractInstance.methods
       .unStakeKXA()
       .send({ from: account.value });
-    console.log("unstake tx", tx);
 
     // refresh data
     getStakerInfos();
@@ -163,10 +148,10 @@ export const useStake = () => {
   };
 
   const claimRewards = async () => {
-    const tx = await contractInstance.methods
+    const tx = await stakingContractInstance.methods
       .claimAPR()
       .send({ from: account.value });
-    console.log("claim tx", tx);
+
     getWaitingPercentAPR();
   };
 
