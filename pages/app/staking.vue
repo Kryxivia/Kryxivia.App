@@ -3,7 +3,7 @@
   const { currency, balance } = useUser()
   const { stakeKXA, unStakeKXA, stakedKXA, totalStakedKXA, claimableKXA, claimRewards, totalStakers, unlockedAPR, lockedAPR, isStakedLocked, kxaLockEndTimestampMs, amountLockDays } = useStake()
   const { kxa: price_kxa } = usePriceToken()
-  const kxa = balance.value.kxa
+  const kxa = computed(() => balance.value.kxa)
 
   const stake = ref('')
   const lockStake = ref(false)
@@ -15,7 +15,7 @@
   /** Percent button */
   const percents = [5,25,50,75,100]
   function percentStake(percent) {
-    stake.value = ((percent * kxa) / 100).toFixed(5)
+    stake.value = ((percent * kxa.value) / 100).toFixed(5)
   }
 
 </script>
