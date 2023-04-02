@@ -117,7 +117,7 @@ export const useStake = () => {
     const allowance = await kxaContractInstance.methods
       .allowance(account.value, stakingContractAddress)
       .call();
-    if (allowance < amount) {
+    if (Number(allowance) < Number(amountWei)) {
       const tx = await kxaContractInstance.methods
         .approve(stakingContractAddress, amountWei)
         .send({ from: account.value });
