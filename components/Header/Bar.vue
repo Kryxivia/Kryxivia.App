@@ -18,7 +18,7 @@
     </div>
     <HeaderSpace n="3" />
     <div class="nft-viewer">
-      <a href="https://app.kryxivia.io/" class="btn" rel="noopener noreferrer" target="_blank">
+      <a href="https://kryxivia.io/app/staking" class="btn" rel="noopener noreferrer" target="_blank">
         {{ $t('nav.apps.staking') }}
       </a>
       <div class="new-sticker">
