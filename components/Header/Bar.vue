@@ -17,6 +17,15 @@
       </a>
     </div>
     <HeaderSpace n="3" />
+    <div class="nft-viewer">
+      <a href="https://app.kryxivia.io/" class="btn" rel="noopener noreferrer" target="_blank">
+        {{ $t('nav.apps.staking') }}
+      </a>
+      <div class="new-sticker">
+        <p class="new-text">New</p>  
+      </div>
+    </div>
+    <HeaderSpace n="3" />
     <div class="butt">
       <button type="button" class="btn" @click="$modal.open('play')">{{ $t('header.play') }}</button>
     </div>
