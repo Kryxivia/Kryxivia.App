@@ -46,10 +46,6 @@
       .fromTo('.app-container', 1.5, {x:110,opacity:0}, {x:0,opacity:1,ease:'power3.inOut'}, 'a')
   })
 
-  watchEffect(() => {
-    console.log('isConnectLoading', isConnectLoading.value)
-  })
-
 </script>
 
 <template>
@@ -78,7 +74,7 @@
                 <img src="/img/tokens/kxs-shape.png" alt="KXS">
                 <div class="n">KXS</div>
                 <strong>
-                  <div class="perso">{{ balance.kxs }}</div>
+                  <div class="perso">{{ balance.kxs.toFixed(2) }}</div>
                   <small>{{ kxsToUsd }}</small>
                 </strong>
               </a>

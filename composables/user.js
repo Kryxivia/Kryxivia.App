@@ -52,7 +52,6 @@ export const useUser = () => {
         address.value = accounts[0];
       }
       isConnectLoading.value = false;
-      console.log("isConnect not loading");
     }
   });
 
@@ -137,7 +136,7 @@ export const useUser = () => {
   const balance = useState("userBalance", () => {
     return {
       kxa: 0,
-      kxs: 74854966,
+      kxs: 0,
     };
   });
 

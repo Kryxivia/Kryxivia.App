@@ -39,7 +39,7 @@ export const useStake = () => {
   const totalStakers = ref(0);
   const waitingPercentAPR = ref(0);
   const claimableKXA = computed(() => {
-    return stakedKXA.value * waitingPercentAPR.value;
+    return (stakedKXA.value * waitingPercentAPR.value) / 100;
   });
 
   // txns states
@@ -64,15 +64,33 @@ export const useStake = () => {
   const unstakeError = ref(null);
   const claimError = ref(null);
 
+  const getAmountOfBlocksDaily = async () => {
+    const amountOfBlocksDaily = await stakingContractInstance.methods
+      ._amountOfBlocksDaily()
+      .call();
+
+    return amountOfBlocksDaily;
+  };
+
   const getStakerInfos = async () => {
     const stakerInfo = await stakingContractInstance.methods
       .getStakerInfos(account.value)
       .call();
     stakedKXA.value = web3.value.utils.fromWei(stakerInfo.amount, "ether");
-    const endBlockTimestamp = await web3.value.eth.getBlock(
-      stakerInfo.end_block
-    );
-    kxaLockEndTimestampMs.value = endBlockTimestamp.timestamp * 1000;
+
+    const amountOfBlocksDaily = await getAmountOfBlocksDaily();
+
+    // calculation for end block timestamp
+    const endBlockTimestamp =
+      ((Number(stakerInfo.end_block) - Number(stakerInfo.start_block)) /
+        Number(amountOfBlocksDaily)) *
+        24 *
+        60 *
+        60 *
+        1000 +
+      Date.now();
+
+    kxaLockEndTimestampMs.value = endBlockTimestamp;
     isStakedLocked.value = stakerInfo.locked;
   };
 
@@ -257,6 +275,22 @@ export const useStake = () => {
       console.log(err.message.split("{")[0]);
     }
   };
+
+  // 15 second interval to refresh data
+  watchEffect(async (onInvalidate) => {
+    const refreshDataInterval = setInterval(() => {
+      getStakerInfos();
+      getTotalStakers();
+      getTotalStakedKXA();
+      getWaitingPercentAPR();
+      getStakingAPR();
+      getAmountLockDays();
+    }, 15000);
+
+    onInvalidate(() => {
+      clearInterval(refreshDataInterval);
+    });
+  });
 
   watchEffect(async () => {
     if (account.value) {

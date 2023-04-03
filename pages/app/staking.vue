@@ -116,7 +116,7 @@
             </button>
             <img src="/img/tokens/kxa-shape.png" alt="KXA">
             <small>{{ stake_currency }}</small>
-            <input v-model="stake" :max="kxa" type="number" placeholder="0.0">
+            <input v-model="stake" :max="kxa" :min="15000" type="number" placeholder="0.0">
             <button @click="stakeKXA(stake, lockStake)" class="bn">
               <div v-if="stakeTxState.loading" class="spinner">
                 <div class="spinner-inner"></div>
@@ -126,6 +126,9 @@
           </div>
           <div class="percent">
             <button v-for="percent in percents" @click="percentStake(percent)">{{ percent }}%</button>
+          </div>
+          <div class="lock-warning-message" v-if="stake && Number(stake) < 15000">
+            <span style="color:red">Not enough KXA. The minimum stake is 15,000 KXA</span>
           </div>
           <div class="lock-warning-message" :style="lockStake ? {visibility: 'visible'} : {visibility: 'hidden'}">
             <img style="width: 17px;" src="/img/importantInfoIcon.svg" alt="lock kxa warning message">
@@ -170,7 +173,7 @@
         </div>
       </div>
       <div v-if="isInfoErrorBoxOpen" class="infoBox">
-        <h2>
+        <h2 style="color:red;">
           <strong>Error:</strong> {{ infoBoxErrorMessage }}
         </h2>
         <button class="bn" @click="closeInfoErrorBox">
@@ -180,7 +183,7 @@
       <div v-if="isInfoTxStateBoxOpen" class="infoBox">
         <h2 style="text-overflow: ellipsis;white-space:nowrap;width:80%;">
           {{ infoBoxTxStateMessage }} 
-          <a style="text-decoration:underline;" :href="'https://etherscan.io/tx/' + txHash" v-if="infoBoxTxStateMessage.includes('Successfully')">{{ txHash }}</a>
+          <a style="text-decoration:underline;" target="_blank" :href="'https://etherscan.io/tx/' + txHash" v-if="infoBoxTxStateMessage.includes('Successfully')">{{ txHash }}</a>
         </h2>
         <div v-if="claimTxState.loading || unstakeTxState.loading || stakeTxState.loading" class="spinner" style="margin-right:10px;">
           <div class="spinner-inner"></div>
@@ -198,9 +201,11 @@
                 <p>Depending on whether your KXAs are locked or unlocked, your APR varies. If you wish to lock your KXAs, make sure you withdraw them before you lock tokens in your new stake.</p>
               </div>
             </div>
-            <h2>Unlock Date: {{ isStakedLocked ? `${new Date(kxaLockEndTimestampMs).toDateString()} (in ${msToFormatedDays(kxaLockEndTimestampMs - Date.now())} days)` : "Your KXA tokens are unlocked" }} </h2>
-            <div class="p">
-              <p>Date at which your KXA will be unlocked.</p>
+            <div v-if="Number(stakedKXA) > 0">
+              <h2>Unlock Date: {{ isStakedLocked ? `${new Date(kxaLockEndTimestampMs).toDateString()} (in ${msToFormatedDays(kxaLockEndTimestampMs - Date.now())} days)` : "Your KXA tokens are unlocked" }} </h2>
+              <div class="p">
+                <p>Date at which your KXA will be unlocked.</p>
+              </div>
             </div>
             <h2>Default KXA APR: {{ unlockedAPR }}%</h2>
             <div class="p">
