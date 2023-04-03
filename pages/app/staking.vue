@@ -106,7 +106,7 @@
         <div class="left">
           <h1>Staking Dashboard</h1>
           <div class="desc">
-            <p>Stake now your KXA, earn rewards and participate in the development of the Kryxivia Universe.</p>
+            <p>Stake your KXA tokens and win rewards by showing your commitment and belief in the Kryxivia development and future!</p>
           </div>
         </div>
         <div class="right box">
@@ -202,13 +202,14 @@
             <div class="p">
               <p>Date at which your KXA will be unlocked.</p>
             </div>
-            <h2>Base KXA APR: {{ unlockedAPR }}%</h2>
+            <h2>Default KXA APR: {{ unlockedAPR }}%</h2>
             <div class="p">
-              <p>Annual percentage rate for unlocked KXA.</p>
+              <p>By default, if you decide to be able to withdraw your stake at any time, the rewards rate is up to <span style="font-weight: bold;">5% APR</span>.</p>
             </div>
             <h2>Locked KXA APR: {{ lockedAPR }}%</h2>
             <div class="p">
-              <p>Annual percentage rate for locked KXA.</p>
+              <p>You can also decide to show commitment to Kryxivia and lock-up your KXA for 3 months (90 days) and win a rewards rate up <span style="font-weight: bold;">10% APR</span>.<br/>
+              We may also allocate exclusive benefits to stakers that lock-up, such as specials nfts or being eligible in priority for airdrops/whitelists.</p>
             </div>
           </div>
         </Smooth>
