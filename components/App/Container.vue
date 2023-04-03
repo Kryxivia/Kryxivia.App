@@ -1,9 +1,11 @@
 <script setup>
   const { isConnect } = useUser()
+  // check if route contains "/app/marketplace"
+  const route = useRoute()
 </script>
 
 <template>
-  <div class="app-container">
+  <div class="app-container" :style="route.path.includes('/app/marketplace') && 'top:170px;'">
     <div class="app-wrapper">
       <slot v-if="isConnect" />
       <div v-else="isConnect" class="need-log">
