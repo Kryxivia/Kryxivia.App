@@ -29,7 +29,7 @@
       "title": "header.apps",
       "list": {
         "marketplace": { "name": "nav.apps.market", "link": "https://opensea.io/collection/kryxivia", "blank": true },
-        "staking": { "name": "nav.apps.staking", "link": "https://app.kryxivia.io/stake", "blank": true },
+        "staking": { "name": "nav.apps.staking", "link": "https://kryxivia.io/app/staking" },
         "nft": { "name": "nav.apps.nft", "link": "https://app.kryxivia.io/", "blank": true },
         "client": { "name": "nav.apps.client", "link": "http://client.kryxivia.io/", "blank": true },
         "leaderboard": { "name": "nav.apps.leaderboard", "link": "/leaderboard" },
