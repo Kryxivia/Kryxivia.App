@@ -14,9 +14,9 @@ export const useStake = () => {
   });
 
   // staking contract
-  const stakingContractAddress = "0xcC6621bD7706c5AD2040B04D0Fa7065B6280139c";
-  const stakingContractAddressETH =
-    "0x76725d7d77Fa2074Fb40963Da6EB3106FF6eCb4C";
+  const stakingContractAddressSepolia =
+    "0xcC6621bD7706c5AD2040B04D0Fa7065B6280139c";
+  const stakingContractAddress = "0x76725d7d77Fa2074Fb40963Da6EB3106FF6eCb4C";
   const stakingContractInstance =
     web3.value &&
     new web3.value.eth.Contract(kryxiviaStakingABI, stakingContractAddress);

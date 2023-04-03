@@ -1,6 +1,4 @@
-<script setup>
-  import { toast } from "vue3-toastify"
- 
+<script setup> 
   const { currency, balance } = useUser()
   const { stakeKXA, unStakeKXA, stakedKXA, totalStakedKXA, claimableKXA, claimRewards, totalStakers, unlockedAPR, lockedAPR, isStakedLocked, kxaLockEndTimestampMs, amountLockDays, stakeTxState, unstakeTxState, claimTxState, stakeError, unstakeError, claimError, txHash } = useStake()
   const { kxa: price_kxa } = usePriceToken()
