@@ -10,6 +10,7 @@
   const themeColor = 'rgb(201,169,130)'
   const thumbnail = 'https://kryxivia.io/img/thumbnail.jpg'
   const url = 'https://kryxivia.io/'
+  const mounted = ref(false)
 
   /** App page */
   const route = useRoute()
@@ -18,6 +19,10 @@
   /** Init sound */
   const { $sound } = useNuxtApp()
   onMounted(() => $sound.init())
+
+  onMounted(() => {
+    mounted.value = true
+  })
 </script>
 
 <template>
@@ -48,10 +53,27 @@
     </Head>
     <Body :data-page-id="idPage" :class="appPage ? 'apps' : false">
       <HeaderBar />
-      <AppPanel v-if="appPage" />
-      <slot />
+
+      <div v-if="mounted">
+        <AppPanel v-if="appPage" />
+        <slot />
+      </div>
       <Bottom />
       <ModalList />
     </Body>
   </Html>
 </template>
+
+<style>
+
+.loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+</style>

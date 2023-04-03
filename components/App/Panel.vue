@@ -4,7 +4,7 @@
   const localePath = useLocalePath()
 
   /** Load user exemple */
-  const { currency, isConnect, address, balance, perso } = useUser()
+  const { currency, isConnect, address, balance, perso, isConnectLoading } = useUser()
   const { kxa: price_kxa, kxs: price_kxs } = usePriceToken()
 
   /** Balance KXA to USD */
@@ -46,6 +46,10 @@
       .fromTo('.app-container', 1.5, {x:110,opacity:0}, {x:0,opacity:1,ease:'power3.inOut'}, 'a')
   })
 
+  watchEffect(() => {
+    console.log('isConnectLoading', isConnectLoading.value)
+  })
+
 </script>
 
 <template>
@@ -82,9 +86,14 @@
           </ul>
         </div>
       </template>
-      <template v-else>
+      <template v-else-if="isConnectLoading === false">
         <div class="top top-log">
           <button class="bn bn-log" @click="$modal.open('connect')">Connect your wallet</button>
+        </div>
+      </template>
+      <template v-else>
+        <div class="top top-log">
+          <button class="bn bn-log" @click="$modal.open('connect')">Helllo</button>
         </div>
       </template>
       <div class="chain chain-2"></div>

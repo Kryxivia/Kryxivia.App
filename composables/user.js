@@ -7,6 +7,7 @@ import erc20ABI from "@/abi/erc20ABI";
 export const useUser = () => {
   const account = ref(null);
   const connector = ref(null);
+  const isConnectLoading = ref(true);
 
   /** State address */
   const address = useState("userAddress", () => {
@@ -50,6 +51,8 @@ export const useUser = () => {
       if (account.value) {
         address.value = accounts[0];
       }
+      isConnectLoading.value = false;
+      console.log("isConnect not loading");
     }
   });
 
@@ -211,5 +214,6 @@ export const useUser = () => {
     balance,
     perso,
     nft,
+    isConnectLoading,
   };
 };

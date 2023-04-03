@@ -14,9 +14,9 @@ export const useStake = () => {
   });
 
   // staking contract
-  const stakingContractAddressSepolia =
-    "0xcC6621bD7706c5AD2040B04D0Fa7065B6280139c";
-  const stakingContractAddress = "0x76725d7d77Fa2074Fb40963Da6EB3106FF6eCb4C";
+  const stakingContractAddress = "0xcC6621bD7706c5AD2040B04D0Fa7065B6280139c";
+  const stakingContractAddressETH =
+    "0x76725d7d77Fa2074Fb40963Da6EB3106FF6eCb4C";
   const stakingContractInstance =
     web3.value &&
     new web3.value.eth.Contract(kryxiviaStakingABI, stakingContractAddress);
@@ -24,6 +24,10 @@ export const useStake = () => {
   const kxaContractAddress = "0x2223bF1D7c19EF7C06DAB88938EC7B85952cCd89";
   const kxaContractInstance =
     web3.value && new web3.value.eth.Contract(erc20ABI, kxaContractAddress);
+
+  // staking errors
+  const kxaAlreadyStaked =
+    "You already staked KXA in the contract, please unstake first!";
 
   const stakedKXA = ref(0);
   const unlockedAPR = ref(0);
@@ -37,6 +41,28 @@ export const useStake = () => {
   const claimableKXA = computed(() => {
     return stakedKXA.value * waitingPercentAPR.value;
   });
+
+  // txns states
+  const stakeTxState = ref({
+    loading: false,
+    message: null,
+  });
+  const unstakeTxState = ref({
+    loading: false,
+    message: null,
+  });
+  const claimTxState = ref({
+    loading: false,
+    message: null,
+  });
+
+  // txhash for completed tx
+  const txHash = ref(null);
+
+  // error messages
+  const stakeError = ref(null);
+  const unstakeError = ref(null);
+  const claimError = ref(null);
 
   const getStakerInfos = async () => {
     const stakerInfo = await stakingContractInstance.methods
@@ -120,41 +146,116 @@ export const useStake = () => {
       .allowance(account.value, stakingContractAddress)
       .call();
     if (Number(allowance) < Number(amountWei)) {
-      const tx = await kxaContractInstance.methods
-        .approve(stakingContractAddress, amountWei)
-        .send({ from: account.value });
+      try {
+        stakeTxState.value.loading = true;
+        stakeTxState.value.message = "Approving KXA allowance...";
+        const tx = await kxaContractInstance.methods
+          .approve(stakingContractAddress, amountWei)
+          .send({ from: account.value });
+      } catch (err) {
+        stakeTxState.value.loading = false;
+        stakeError.value = err.message;
+        console.log(err);
+      }
     }
 
     // gas price
     // const gasPrice = await web3.value.eth.getGasPrice();
 
-    const tx = await stakingContractInstance.methods
-      .stakeKXA(amountWei, lock)
-      .send({ from: account.value });
+    try {
+      stakeTxState.value.loading = true;
 
-    // refresh data
-    getStakerInfos();
-    getTotalStakers();
-    getTotalStakedKXA();
+      // test call to detect errors
+      const txCall = await stakingContractInstance.methods
+        .stakeKXA(amountWei, lock)
+        .call({ from: account.value });
+
+      stakeTxState.value.message = "Staking, waiting for confirmations...";
+
+      const tx = await stakingContractInstance.methods
+        .stakeKXA(amountWei, lock)
+        .send({ from: account.value });
+
+      stakeTxState.value.message = "Successfully completed!";
+      txHash.value = tx.transactionHash;
+      stakeTxState.value.loading = false;
+      stakeError.value = null;
+
+      // refresh data
+      getStakerInfos();
+      getTotalStakers();
+      getTotalStakedKXA();
+    } catch (err) {
+      stakeTxState.value.loading = false;
+      stakeTxState.value.message = null;
+      stakeError.value = err.message.split("{")[0];
+      console.log(err.message.split("{")[0]);
+    }
   };
 
   const unStakeKXA = async () => {
-    const tx = await stakingContractInstance.methods
-      .unStakeKXA()
-      .send({ from: account.value });
+    try {
+      unstakeTxState.value.loading = true;
 
-    // refresh data
-    getStakerInfos();
-    getTotalStakers();
-    getTotalStakedKXA();
+      // test call to detect errors
+      const txCall = await stakingContractInstance.methods
+        .unStakeKXA()
+        .call({ from: account.value });
+
+      unstakeTxState.value.message = "Unstaking, waiting for confirmations...";
+
+      const tx = await stakingContractInstance.methods
+        .unStakeKXA()
+        .send({ from: account.value });
+
+      unstakeTxState.value.message = "Successfully completed!";
+      txHash.value = tx.transactionHash;
+      unstakeTxState.value.loading = false;
+      unstakeError.value = null;
+
+      // refresh data
+      getStakerInfos();
+      getTotalStakers();
+      getTotalStakedKXA();
+    } catch (err) {
+      unstakeTxState.value.loading = false;
+      unstakeTxState.value.message = null;
+      unstakeError.value = err.message.split("{")[0];
+      console.log(err.message.split("{")[0]);
+    }
   };
 
   const claimRewards = async () => {
-    const tx = await stakingContractInstance.methods
-      .claimAPR()
-      .send({ from: account.value });
+    try {
+      claimTxState.value.loading = true;
 
-    getWaitingPercentAPR();
+      // test call to detect errors
+      const txCall = await stakingContractInstance.methods
+        .claimAPR()
+        .call({ from: account.value });
+
+      claimTxState.value.message =
+        "Claiming rewards, waiting for confirmations...";
+
+      const tx = await stakingContractInstance.methods
+        .claimAPR()
+        .send({ from: account.value });
+
+      claimTxState.value.message = `Successfully completed!`;
+      txHash.value = tx.transactionHash;
+      claimTxState.value.loading = false;
+      claimError.value = null;
+
+      console.log(tx);
+
+      // refresh data
+      getWaitingPercentAPR();
+    } catch (err) {
+      claimTxState.value.loading = false;
+      claimTxState.value.message = null;
+      claimError.value = err.message.split("{")[0];
+      console.log(err.message.split("{")[0]);
+    }
   };
 
   watchEffect(async () => {
@@ -182,5 +283,12 @@ export const useStake = () => {
     isStakedLocked,
     kxaLockEndTimestampMs,
     amountLockDays,
+    stakeTxState,
+    unstakeTxState,
+    claimTxState,
+    stakeError,
+    unstakeError,
+    claimError,
+    txHash,
   };
 };

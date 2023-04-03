@@ -6,7 +6,7 @@
   <div class="app-container">
     <div class="app-wrapper">
       <slot v-if="isConnect" />
-      <div v-else class="need-log">
+      <div v-else="isConnect" class="need-log">
         <div>
           <h1>Hello! Don't forget to log in ☺</h1>
           <p>Sorry, you must be logged in with a wallet to access the applications.</p>

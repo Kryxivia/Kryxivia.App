@@ -1,7 +1,8 @@
 <script setup>
-
+  import { toast } from "vue3-toastify"
+ 
   const { currency, balance } = useUser()
-  const { stakeKXA, unStakeKXA, stakedKXA, totalStakedKXA, claimableKXA, claimRewards, totalStakers, unlockedAPR, lockedAPR, isStakedLocked, kxaLockEndTimestampMs, amountLockDays } = useStake()
+  const { stakeKXA, unStakeKXA, stakedKXA, totalStakedKXA, claimableKXA, claimRewards, totalStakers, unlockedAPR, lockedAPR, isStakedLocked, kxaLockEndTimestampMs, amountLockDays, stakeTxState, unstakeTxState, claimTxState, stakeError, unstakeError, claimError, txHash } = useStake()
   const { kxa: price_kxa } = usePriceToken()
   const kxa = computed(() => balance.value.kxa)
 
@@ -11,6 +12,85 @@
   const kxaToUsd = (kxa) => {
     return formatPrice(kxa * price_kxa.value[currency.value])
   }
+
+  // infoBox states
+  const isInfoErrorBoxOpen = ref(false)
+  const infoBoxErrorMessage = ref('')
+  const isInfoTxStateBoxOpen = ref(false)
+  const infoBoxTxStateMessage = ref('')
+
+  const closeInfoErrorBox = () => {
+    isInfoErrorBoxOpen.value = false
+    stakeError.value = ''
+    unstakeError.value = ''
+    claimError.value = ''
+  }
+
+  const closeInfoTxStateBox = () => {
+    isInfoTxStateBoxOpen.value = false
+    stakeTxState.value.message = ''
+    unstakeTxState.value.message = ''
+    claimTxState.value.message = ''
+  }
+
+// detect staking errors
+  watchEffect(() => {
+    if (stakeError.value) {
+      isInfoErrorBoxOpen.value = true
+      isInfoTxStateBoxOpen.value = false
+      unstakeError.value = ''
+      claimError.value = ''
+      infoBoxErrorMessage.value = stakeError.value
+    }
+  })
+
+  watchEffect(() => {
+    if (unstakeError.value) {
+      isInfoErrorBoxOpen.value = true
+      isInfoTxStateBoxOpen.value = false
+      stakeError.value = ''
+      claimError.value = ''
+      infoBoxErrorMessage.value = unstakeError.value
+    }
+  })
+
+  watchEffect(() => {
+    if (claimError.value) {
+      isInfoErrorBoxOpen.value = true
+      isInfoTxStateBoxOpen.value = false
+      stakeError.value = ''
+      unstakeError.value = ''
+      infoBoxErrorMessage.value = claimError.value
+    }
+  })
+
+// detect staking tx state
+  watchEffect(() => {
+    if (stakeTxState.value.message) {
+      isInfoTxStateBoxOpen.value = true
+      infoBoxTxStateMessage.value = stakeTxState.value.message
+    } else {
+      isInfoTxStateBoxOpen.value = false
+    }
+  })
+
+  watchEffect(() => {
+    if (unstakeTxState.value.message) {
+      isInfoTxStateBoxOpen.value = true
+      infoBoxTxStateMessage.value = unstakeTxState.value.message
+    } else {
+      isInfoTxStateBoxOpen.value = false
+    }
+  })
+
+  watchEffect(() => {
+    if (claimTxState.value.message) {
+      isInfoTxStateBoxOpen.value = true
+      infoBoxTxStateMessage.value = claimTxState.value.message
+    } else {
+      isInfoTxStateBoxOpen.value = false
+    }
+  })
 
   /** Percent button */
   const percents = [5,25,50,75,100]
@@ -23,6 +103,7 @@
 <template>
   <AppContainer>
     <div class="staking">
+      
       <div class="top box">
         <div class="left">
           <h1>Staking Dashboard</h1>
@@ -38,7 +119,12 @@
             <img src="/img/tokens/kxa-shape.png" alt="KXA">
             <small>{{ stake_currency }}</small>
             <input v-model="stake" :max="kxa" type="number" placeholder="0.0">
-            <button @click="stakeKXA(stake, lockStake)" class="bn">Stake now</button>
+            <button @click="stakeKXA(stake, lockStake)" class="bn">
+              <div v-if="stakeTxState.loading" class="spinner">
+                <div class="spinner-inner"></div>
+              </div>
+              <span v-else>Stake now</span>
+            </button>
           </div>
           <div class="percent">
             <button v-for="percent in percents" @click="percentStake(percent)">{{ percent }}%</button>
@@ -63,7 +149,12 @@
             <div class="sub">My Staked KXA</div>
             <span>{{ Number(stakedKXA).toFixed(2) }} KXA</span>
             <small>{{ kxaToUsd(Number(stakedKXA)) }}</small>
-            <button @click="unStakeKXA()" class="bn">Withdraw</button>
+            <button @click="unStakeKXA()" class="bn">
+              <div v-if="unstakeTxState.loading" class="spinner">
+                <div class="spinner-inner"></div>
+              </div>
+              <p v-else>Withdraw</p>
+            </button>
           </div>
         </div>
         <div>
@@ -71,9 +162,34 @@
             <div class="sub">My Claimable Rewards</div>
             <span>{{ claimableKXA.toFixed(2) }} KXA</span>
             <small>{{ kxaToUsd(claimableKXA) }}</small>
-            <button @click="claimRewards" class="bn">Claim rewards</button>
+            <button @click="claimRewards" class="bn">
+              <div v-if="claimTxState.loading" class="spinner">
+                <div class="spinner-inner"></div>
+              </div>
+              <p v-else>Claim rewards</p>
+            </button>
           </div>
         </div>
+      </div>
+      <div v-if="isInfoErrorBoxOpen" class="infoBox">
+        <h2>
+          <strong>Error:</strong> {{ infoBoxErrorMessage }}
+        </h2>
+        <button class="bn" @click="closeInfoErrorBox">
+          close
+        </button>
+      </div>
+      <div v-if="isInfoTxStateBoxOpen" class="infoBox">
+        <h2 style="text-overflow: ellipsis;white-space:nowrap;width:80%;">
+          {{ infoBoxTxStateMessage }} 
+          <a style="text-decoration:underline;" :href="'https://etherscan.io/tx/' + txHash" v-if="infoBoxTxStateMessage.includes('Successfully')">{{ txHash }}</a>
+        </h2>
+        <div v-if="claimTxState.loading || unstakeTxState.loading || stakeTxState.loading" class="spinner" style="margin-right:10px;">
+          <div class="spinner-inner"></div>
+        </div>
+        <button v-else class="bn" @click="closeInfoTxStateBox">
+          close
+        </button>
       </div>
       <div class="box box-smooth">
         <Smooth :footer="false" :delegate="false">
@@ -105,7 +221,8 @@
 
 <style>
   .staking{padding:var(--padding-ct);display:flex;flex-direction:column;height:100%;}
-  .staking .box{padding:var(--gap);border-radius:var(--corner-3);background-color:var(--bg-2);box-shadow:0 0 0 1px rgba(var(--color-1-rgb),.04) inset, var(--bs-1), 0 10px 50px rgba(0,0,0,.5), 0 0 0 1px rgba(0,0,0,.4), 0 0 50px rgba(var(--bg-3-rgb),1) inset}  
+  .staking .box{padding:var(--gap);border-radius:var(--corner-3);background-color:var(--bg-2);box-shadow:0 0 0 1px rgba(var(--color-1-rgb),.04) inset, var(--bs-1), 0 10px 50px rgba(0,0,0,.5), 0 0 0 1px rgba(0,0,0,.4), 0 0 50px rgba(var(--bg-3-rgb),1) inset}
+  .staking .infoBox{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;min-height: 41px;padding:var(--gap);padding-left: 10px;border-radius:var(--corner-3);background-color:var(--bg-2);box-shadow:0 0 0 1px rgba(var(--color-1-rgb),.04) inset, var(--bs-1), 0 10px 50px rgba(0,0,0,.5), 0 0 0 1px rgba(0,0,0,.4), 0 0 50px rgba(var(--bg-3-rgb),1) inset}
   
   .staking .top{padding:calc(10px + 5 * (100vw - 320px) / 1080);display:flex;align-items:stretch;background:linear-gradient(to right, rgba(var(--bg-1-rgb),.7), rgba(var(--bg-1-rgb),0)), url(/img/bg-page.jpg) center top no-repeat;background-size:cover;}
   .staking .top .left{--gap:calc(20px + 5 * (100vw - 320px) / 1080);flex:1;padding:var(--gap);align-self:center;}
@@ -146,4 +263,9 @@
   .staking .content h2 + *{margin-top:calc(var(--pad) / 2);}
   .staking .content .p{color:var(--color-4);opacity:.75;}
   .staking .lock-warning-message{color:var(--color-4);opacity:.75;margin-top: 7px;display:flex;align-items:center;gap:5px;}
+
+  /* .snackBarContainer{position:fixed;bottom:0;left:0;width:100%;z-index:9999;display:flex;justify-content:center;align-items:center;}
+  .snackBar{width:min-content;}
+  .snackBar .close{position:absolute;right:10px;top:50%;transform:translateY(-50%);cursor:pointer;}
+  .snackBarClosed{opacity:0;transform:translateY(100%);transition:all .3s ease-in-out;} */
 </style>
