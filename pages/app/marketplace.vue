@@ -12,7 +12,7 @@
 
 <template>
   <AppContainer>
-    <div class="box"><p>This is not yet available, please come back later, or use our </p><a style="text-decoration: underline;" href="https://app.kryxivia.io/">current NFT app</a></div>
+    <div class="box"><p style="color:#64acff;">⚠ This is not yet available, please use our <a style="text-decoration: underline;" target="_blank" href="https://app.kryxivia.io/">current decentralized app</a> or <a style="text-decoration: underline;color:#64acff" href="https://opensea.io/collection/kryxivia" target="_blank">opensea</a> ⚠  </p></div>
     <AppHeader icon="marketplace">
       <AppFilter :items="items" @filter="filter" />
     </AppHeader>
