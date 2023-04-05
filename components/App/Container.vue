@@ -5,7 +5,7 @@
 </script>
 
 <template>
-  <div class="app-container" :style="route.path.includes('/app/marketplace') && 'top:170px;'">
+  <div class="app-container">
     <div class="app-wrapper">
       <slot v-if="isConnect" />
       <div v-else="isConnect" class="need-log">
@@ -34,4 +34,17 @@
   .need-log{position:absolute;width:100%;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;}
   .need-log h1{font-family:var(--font-2);color:var(--color-3);font-size:calc(20px + 5 * (100vw - 320px) / 1080);}
   .need-log > * > * + *{margin-top:calc(15px + 5 * (100vw - 320px) / 1080);}
+
+  @media screen and (max-width: 1084px) {
+    .app-container {
+      left: 0;
+      width: 100%;
+      padding-left: var(--padding);
+      height: auto;
+    }
+    .need-log {
+      position: relative;
+      padding: var(--padding);
+    }
+  }
 </style>

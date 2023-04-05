@@ -11,14 +11,14 @@
     <HeaderSpace n="1" />
     <HeaderLangSwitcher />
     <div class="ln ln-2"></div>
-    <div class="nft-viewer">
-      <a href="https://app.kryxivia.io/" class="btn" rel="noopener noreferrer" target="_blank">
+    <!-- <div class="nft-viewer">
+      <a href="https://app.kryxivia.io/" class="btn" target="_blank">
         {{ $t('nav.apps.nft') }}
       </a>
-    </div>
-    <HeaderSpace n="3" />
+    </div> -->
+    <!-- <HeaderSpace n="3" /> -->
     <div class="nft-viewer">
-      <a href="https://kryxivia.io/app/staking" class="btn" rel="noopener noreferrer" target="_blank">
+      <a href="https://kryxivia.io/app/staking" class="btn">
         {{ $t('nav.apps.staking') }}
       </a>
       <div class="new-sticker">

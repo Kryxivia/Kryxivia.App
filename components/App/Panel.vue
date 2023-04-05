@@ -145,4 +145,61 @@
   .panel .token li strong{margin:-3px 0;margin-left:auto;text-align:right;font-size:13px;color:rgb(var(--c))}
   .panel .token li small{font-size:12px;margin-top:3px;font-weight:normal;display:block;color:var(--color-4);opacity:.7}
   .panel .bn-log{width:100%;}
+
+  @media screen and (max-width: 1084px) {
+    .panel-wrapper {
+      position: relative;
+      height: auto;
+      width: 100%;
+      left: 0;
+      padding: var(--padding);
+      padding-top: 0;
+      padding-bottom: 15px;
+    }
+    .panel {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .panel .nav, .panel .chain{
+      display: none;
+    }
+    .panel .token {
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+    .panel .token .n {
+      display: flex;
+      margin-right: 25px;
+    }
+    .panel li + li {
+      border-top: 0;
+      border-left: 1px solid rgba(var(--color-1-rgb),.05);
+    }
+    .panel .top {
+      width: 200px;
+    }
+    .panel .top-log {
+      width: 100%!important;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .panel .top .avatar {
+      display: none;
+    }
+    .panel .top {
+      width: 150px;
+      padding-left: 15px;
+    }
+    .panel .token li.kxs {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 380px) {
+    .panel .top {
+      width: 120px;
+      padding-left: 13px;
+    }
+  }
+
 </style>

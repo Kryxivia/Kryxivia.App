@@ -101,7 +101,6 @@
 <template>
   <AppContainer>
     <div class="staking">
-      
       <div class="top box">
         <div class="left">
           <h1>Staking Dashboard</h1>
@@ -130,7 +129,7 @@
           <div class="lock-warning-message" v-if="stake && Number(stake) < 15000">
             <span style="color:red">Not enough KXA. The minimum stake is 15,000 KXA</span>
           </div>
-          <div class="lock-warning-message" :style="lockStake ? {visibility: 'visible'} : {visibility: 'hidden'}">
+          <div class="lock-warning-message" :style="lockStake ? {display: 'flex'} : {display: 'none'}">
             <img style="width: 17px;" src="/img/importantInfoIcon.svg" alt="lock kxa warning message">
             <span>You're KXA stake will be locked {{ amountLockDays != undefined && `for ${amountLockDays} days` }}</span>
           </div>
@@ -247,8 +246,8 @@
   .staking .percent button:last-child{border-top-right-radius:var(--radius-1);}
   .staking .percent button + button{margin-left:1px}
 
-  .staking .bloc{--gutter:calc(var(--padding-ct) / 2);margin:var(--gutter) calc(var(--gutter) * -1);display:flex;align-items:stretch;}
-  .staking .bloc > *{flex:1;padding:var(--gutter);}
+  .staking .bloc{--gutter:calc(var(--padding-ct) / 2);gap:var(--gutter);margin:var(--gutter) 0;display:flex;align-items:stretch;flex-wrap:wrap;}
+  .staking .bloc > *{flex:1;}
   .staking .bloc .box{--g:3px;--pad:calc(20px + 5 * (100vw - 320px) / 1080);text-align:center;padding:var(--pad);height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;}
   .staking .bloc .box:before{opacity:.3;transition:opacity var(--transi);z-index:5;border:1px solid var(--color-line);width:calc(100% - var(--g) * 2);height:calc(100% - var(--g) * 2);top:var(--g);left:var(--g);pointer-events:none;position:absolute;content:'';border-radius:inherit}
   .staking .bloc .box:hover:before{opacity:1}
@@ -272,4 +271,78 @@
   .snackBar{width:min-content;}
   .snackBar .close{position:absolute;right:10px;top:50%;transform:translateY(-50%);cursor:pointer;}
   .snackBarClosed{opacity:0;transform:translateY(100%);transition:all .3s ease-in-out;} */
+
+  @media screen and (max-width: 1350px) {
+    .staking .top{
+      display: block;
+    }
+    .staking .top .right {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 1084px) {
+    .staking .bloc > *:first-child{
+      min-width: 100%;
+    }
+    .staking .box-smooth {
+      overflow: visible;
+    }
+    .staking .box-smooth #smooth {
+      position: relative;
+      padding-top: var(--padding-ct);
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .staking .fd {
+      height: auto;
+      flex-wrap: wrap;
+      gap: 5px;
+      padding: 5px;
+    }
+    .staking .fd > * {
+      z-index: 20;
+    }
+    .staking .fd .bn {
+      flex: 1;
+      height: var(--h);
+      margin-left: 0;
+    }
+    .staking .fd .bn img {
+      width: 20px;
+      margin: -5px;
+    }
+    .staking .fd input {
+      text-align: center;
+      height: var(--h);
+      padding: 0;
+      font-weight: bold;
+    }
+    .staking .fd > *:nth-child(1) {
+      order: 10;
+    }
+    .staking .fd > *:nth-child(2) {
+      position: absolute;
+      left: 10%;
+      top: 5%;
+      width: 100px;
+      height: auto;
+      opacity: .2;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .staking .fd > *:nth-child(3) {
+      order: 5;
+      min-width: 100%;
+      text-align: center;
+      top: -10px;
+    }
+    .staking .fd > *:nth-child(5) {
+      order: 15;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .staking .bloc {
+      flex-direction: column;
+    }
+  }
 </style>

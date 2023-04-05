@@ -53,11 +53,10 @@
     </Head>
     <Body :data-page-id="idPage" :class="appPage ? 'apps' : false">
       <HeaderBar />
-
-      <div v-if="mounted">
+      <template v-if="mounted">
         <AppPanel v-if="appPage" />
         <slot />
-      </div>
+      </template>
       <Bottom />
       <ModalList />
     </Body>
