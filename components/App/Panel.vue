@@ -89,7 +89,7 @@
       </template>
       <template v-else>
         <div class="top top-log">
-          <button class="bn bn-log" @click="$modal.open('connect')">Helllo</button>
+          <button class="bn bn-log" @click="$modal.open('connect')">Connect your wallet</button>
         </div>
       </template>
       <div class="chain chain-2"></div>
