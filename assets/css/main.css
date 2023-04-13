@@ -190,7 +190,7 @@ html.mob.stop{overflow:hidden;}
 /* App */
 
 #app{min-height:100vh;}
-#__nuxt:before{content:'';position:fixed;top:0;left:0;width:100%;height:100vh;background:linear-gradient(to top, rgba(var(--bg-1-rgb),.85), rgba(var(--bg-1-rgb),.1)), url(/img/bg-page-2.jpg) center top no-repeat;background-size:cover;}
+.apps #__nuxt:before{content:'';position:fixed;top:0;left:0;width:100%;height:100vh;background:linear-gradient(to top, rgba(var(--bg-1-rgb),.85), rgba(var(--bg-1-rgb),.1)), url(/img/bg-page-2.jpg) center top no-repeat;background-size:cover;}
 
 /* WebGL */
 
