@@ -9,7 +9,6 @@ export const useUser = () => {
   const account = ref(null);
   const connector = ref(null);
   const isConnectLoading = ref(true);
-  const isMetamask = ref(false);
 
   /** State address */
   const address = useState("userAddress", () => {
@@ -39,6 +38,11 @@ export const useUser = () => {
         account.value = accounts[0];
       });
 
+      window.okxwallet.on("accountsChanged", (accounts) => {
+        console.log("okxwallet", accounts);
+        account.value = accounts[0];
+      });
+
       window.web3.currentProvider.on("accountsChanged", (accounts) => {
         account.value = accounts[0];
       });
@@ -53,9 +57,16 @@ export const useUser = () => {
   onMounted(async () => {
     if (typeof window !== "undefined") {
       const accounts = await web3.value.eth.getAccounts();
+      console.log("ran", accounts);
       if (accounts[0]) {
         account.value = accounts[0];
         address.value = accounts[0];
+      }
+
+      const okxAccount = window.okxwallet.selectedAddress;
+      if (okxAccount) {
+        account.value = okxAccount;
+        address.value = okxAccount;
       }
 
       const metamaskAccounts = await new Web3(
@@ -66,7 +77,7 @@ export const useUser = () => {
         address.value = metamaskAccounts[0];
       }
 
-      if (account.value) {
+      if (account.value && !okxAccount) {
         address.value = accounts[0];
       }
       isConnectLoading.value = false;

@@ -1,7 +1,11 @@
 <script setup>
-  const { isConnect } = useUser()
+  const { isConnect, account } = useUser()
   // check if route contains "/app/marketplace"
   const route = useRoute()
+
+  watchEffect(() => {
+    console.log(isConnect.value, account.value)
+  })
 </script>
 
 <template>
