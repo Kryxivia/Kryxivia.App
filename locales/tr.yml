@@ -15,7 +15,7 @@ all:
   lvl: Düzey
   more: Devamını oku
   soon: Çok yakında...
-  alpha: 'Genel alfa şu şekilde başlar:'
+  alpha: "Genel alfa şu şekilde başlar:"
   buy: Satın almak
 wallets:
   metamask:
@@ -24,9 +24,9 @@ wallets:
   walletconnect:
     name: WalletConnect (Cüzdan Bağlantısı)
     connect: WalletConnect cihazınıza bağlanın
-  fortmatic:
-    name: Fortmatik
-    connect: Fortmatic hesabına bağlan
+  OKX:
+    name: OKX
+    connect: OKX hesabına bağlan
   bcw:
     name: Binance Zincir Cüzdan
     connect: Binance Chain Cüzdanınıza bağlanın
@@ -135,36 +135,36 @@ team:
   title: Takım
   h1: Kryxivia Ekibi
   role:
-    '1': Lider
-    '2': Oyun Geliştirme
-    '3': Tasarımcı 3D & VFX Sanatçısı
-    '4': UI / UX Tasarımcısı ve Ön Geliştirici
-    '5': Pazarlama ve İletişim
-    '6': Ses Tasarımcısı
+    "1": Lider
+    "2": Oyun Geliştirme
+    "3": Tasarımcı 3D & VFX Sanatçısı
+    "4": UI / UX Tasarımcısı ve Ön Geliştirici
+    "5": Pazarlama ve İletişim
+    "6": Ses Tasarımcısı
   poste:
-    '1': CEO & Kurucu
-    '2': Teknik Direktör
-    '3': Lider İstemci Oynanışı
-    '4': Lider Blockchain Mühendisi
-    '5': Yazılım Full-Stack Mühendisi
-    '6': Unity 3D Geliştirici
-    '7': Tam Yığın Geliştirici
-    '8': VFX Oyun Tasarımcısı
-    '9': Seviye Tasarımcısı / 3D Sanat
-    '10': 3D Karakter / Öğeler Sanatçısı
-    '11': Ortak Stüdyo / 3D Sanatçı
-    '12': Oyun Tasarımcısı Danışmanı
-    '13': Lider UI/UX Tasarımcısı
-    '14': Tam Yığın Geliştirici Web
-    '15': Yaratıcı Geliştirici
-    '16': Grafik Tasarımcı
-    '17': Movie Maker
-    '18': Pazarlama Direktörü
-    '19': Topluluk Yöneticisi
-    '20': Ses Tasarımcısı
-    '21': Müzik Bestecisi
-    '22': Takım Yönetimi
-    '23': Yazılım Mühendisi
+    "1": CEO & Kurucu
+    "2": Teknik Direktör
+    "3": Lider İstemci Oynanışı
+    "4": Lider Blockchain Mühendisi
+    "5": Yazılım Full-Stack Mühendisi
+    "6": Unity 3D Geliştirici
+    "7": Tam Yığın Geliştirici
+    "8": VFX Oyun Tasarımcısı
+    "9": Seviye Tasarımcısı / 3D Sanat
+    "10": 3D Karakter / Öğeler Sanatçısı
+    "11": Ortak Stüdyo / 3D Sanatçı
+    "12": Oyun Tasarımcısı Danışmanı
+    "13": Lider UI/UX Tasarımcısı
+    "14": Tam Yığın Geliştirici Web
+    "15": Yaratıcı Geliştirici
+    "16": Grafik Tasarımcı
+    "17": Movie Maker
+    "18": Pazarlama Direktörü
+    "19": Topluluk Yöneticisi
+    "20": Ses Tasarımcısı
+    "21": Müzik Bestecisi
+    "22": Takım Yönetimi
+    "23": Yazılım Mühendisi
 leaderboard:
   title: Liderlik Tablosu
   metaTitle: Kryxivia • Leaderboard • Kryxivia'nın en büyük oyuncuları
@@ -178,111 +178,111 @@ roadmap:
     q3_2021:
       desc: Kryxivia projesinin başlangıcı
       list:
-        '1': >-
+        "1": >-
           KXA ve KXS belirtecinin Alpha için Binance Smart-chain test ağında
           konuşlandırılması.
-        '2': >-
+        "2": >-
           Geliştirmeye başlamak, temel oynanışı, oyun sunucularını ve blok
           zinciri bağlantılarını test etmek.
-        '3': Kryxivia Evreninin 3B Modellemesi üzerinde çalışmak.
-        '4': >-
+        "3": Kryxivia Evreninin 3B Modellemesi üzerinde çalışmak.
+        "4": >-
           Şehirlerin Seviye Tasarımını yapmak, benimki, oyunun Lore'u üzerinde
           çalışmak, Kryxit ve mücevherlerin işlevsel sistemlerini keşfetmek.
     q4_2021:
       desc: Kryxivia projesinin başlangıcı
       list:
-        '1': >-
+        "1": >-
           Kryxivia hakkında temel bilgilerle çevrimiçi web sitesini başlatmak,
           Sunum makalesini yayınlamak.
-        '2': >-
+        "2": >-
           GitHub depomuzdaki Kryxivia kod tabanının Açık Kaynak sürümü ve farklı
           akıllı sözleşmeler.
-        '3': >-
+        "3": >-
           Unity WebGL, C# ve Node.js kullanarak Oyunun Kavram Kanıtının
           hazırlanması.
-        '4': >-
+        "4": >-
           BSC blok zinciri ile etkileşime giren farklı akıllı sözleşmelerimizi
           denetlemek.
-        '5': Kryxivia Alpha'nın lansmanı için Teaser'ı yayınlamak.
-        '6': >-
+        "5": Kryxivia Alpha'nın lansmanı için Teaser'ı yayınlamak.
+        "6": >-
           Varlık havuzu likiditesini ve oyun tabanı fonlarını (ILO) oluşturmak
           için halka açık bir satış yaparak KXA belirtecini başlatmak.
-        '7': >-
+        "7": >-
           Beyaz Liste'nin özel Alfa ön erişimi için dağıtılması (ILO'ya katılan
           cüzdanların avantajları olacaktır).
-        '8': >-
+        "8": >-
           NFT'lerin merkezileştirme/ademi merkeziyetçilik hizmetleri arasındaki
           tüm oyun yönleri, istemci/sunucu ve bağlantılar üzerinde çalışmak.
-        '9': Kryxivia Ekibi üyelerinin KYC prosedürlerini yapmak.
-        '10': >-
+        "9": Kryxivia Ekibi üyelerinin KYC prosedürlerini yapmak.
+        "10": >-
           Oyun içi KXS jetonu için Pancake Swap kontrollü bir havuz oluşturmak
           (toplanan fonların% 10'uyla).
-        '11': CoinMarketCap, CoinGecko üzerinden listeleme...
+        "11": CoinMarketCap, CoinGecko üzerinden listeleme...
     q1_2022:
       desc: Kryxivia projesinin başlangıcı
       list:
-        '1': WebGL tarayıcı oyununu dağıtıma hazır hale getirme
-        '2': >-
+        "1": WebGL tarayıcı oyununu dağıtıma hazır hale getirme
+        "2": >-
           Zincirdeki diğer oyuncularla oyun içi şeyler takas etmek için NFT
           öğeleri pazarını dağıtmak.
-        '3': >-
+        "3": >-
           Seçilen üyelerin kryxivia.io tarayıcılarında Kryxivia World'de
           oynamaları için özel alfa öncesi erişimi başlatmak.
-        '4': >-
+        "4": >-
           Hataları tespit etmek ve KXA belirteçlerindeki sorunları bildiren hata
           ödülü oyuncularını ödüllendirmek için alfa öncesi test ağını
           kullanmak.
-        '5': >-
+        "5": >-
           Yeni zindanlar ve daha fazla eşya özelliği ekleyerek, Kryxit
           mücevherleri ve büyüleri oyun geliştirme.
-        '6': >-
+        "6": >-
           Satın aldığınız paketlerle doğrudan oynamaya başlamak için beta
           erişim-lansman için farklı başlangıç paketlerini (NFT paketleri)
           başlatın.
-        '7': >-
+        "7": >-
           Ekip kapasitesini artırmak, yeni 3D tasarımcı, seviye ve senarist işe
           almak.
-        '8': PVE içeriğinin iyileştirilmesi.
+        "8": PVE içeriğinin iyileştirilmesi.
     q2_2022:
       desc: Kryxivia projesinin başlangıcı
       list:
-        '1': >-
+        "1": >-
           Kryxivia Dünyası'nın beta halka açık erişiminin BSC ağının ana ağında
           yayınlanması.
-        '2': Oyuncular tarafından bulunan alfa öncesi (Q1) hataların düzeltilmesi.
-        '3': >-
+        "2": Oyuncular tarafından bulunan alfa öncesi (Q1) hataların düzeltilmesi.
+        "3": >-
           Kryxivia Madeni'nde baskın sistemlerini (baskın dövüşlerinde birlikte
           savaşan 20 oyuncu) geliştirmeye başlamak.
-        '4': >-
+        "4": >-
           Oyuncuların aktivitelerini ödüllendirmek için günlük görev sistemleri
           eklemek, böylece en aktif olanları ödüllendirmek.
-        '5': >-
+        "5": >-
           Daha büyük bir zindan odası seti üzerinde çalışmak, daha fazla zorluk
           ve daha iyi Kryxit ve malzeme ödülleri ile madene girmek.
-        '6': >-
+        "6": >-
           KXA ve KXS belirteçlerinin en büyük T1 merkezi borsalarında
           uygulanması ve listelenmesi.
-        '7': >-
+        "7": >-
           KXA / KXS jetonu ile ödüller (yılda yeni ödüllerle gerçek yatırım
           getirisi) kazanmak için oyun içi bahis sistemini bankalayın.
     q3_2022:
       desc: Kryxivia projesinin başlangıcı
       list:
-        '1': >-
+        "1": >-
           Ödüllere veya bonus oranlarına ulaşmak için arkadaşlarınızla
           günlük/haftalık hedeflerle takım kurabileceğiniz teşkilat sistemi.
-        '2': >-
+        "2": >-
           Belirli yeni patronlara sahip özel benzersiz NFT'lerle bir etkinlik
           sistemi sezonu eklemek (yeni sınırlı kozmetik...).
-        '3': >-
+        "3": >-
           DAO yönetişimi, etkinlik temaları, ulaşılacak yol haritasında bir
           sonraki kilometre taşları ve oyun içi oynanış güncellemeleri yapmak
           için nerf veya yükseltmeler (yüzde olarak cüzdanla sınırlandırılmış)
           hakkında oy kullanmak için.
-        '4': >-
+        "4": >-
           KXS değeri ve fiyat hareketleri hakkında istatistikler ve bilgiler
           için oyun içi görsel tasarım.
-        '5': >-
+        "5": >-
           Tüm oyuncuları, e-seviyelerini ve itibarlarını + envanterlerin
           benzersizliğini NFT'leri görmek için çevrimiçi merdivenler.
 token-kxs:
@@ -361,7 +361,7 @@ token-kxa:
       title: Özel Satış Turu
       discount: ~ {percent} genel satış fiyatından indirim
       of: KXA'nın {kxa}'sı ({total} - {percent} arzı)
-      price: 'Fiyat: KXA başına {price}'
+      price: "Fiyat: KXA başına {price}"
       raise: ~ {bnb} BNB = (Toplam = ~{total})
       close: >-
         Özel satış Kapanış: < > TGE {percent} kilidi açıldı ve ardından bir yıl
@@ -370,14 +370,14 @@ token-kxa:
       title: Halka Açık Satış Turu
       discount: ~ {percent} listeleme fiyatından indirim
       of: KXA'nın {kxa}'sı ({total} - {percent} arzı)
-      price: 'Fiyat: KXA başına {price}'
+      price: "Fiyat: KXA başına {price}"
       raise: ~ {bnb} BNB = (Toplam = ~{total})
       close: >-
         Halka Açık Satış Kapanışı: <-> TGE {percent} kilidi açıldı ve ardından 3
         ayda doğrusal
     listing:
       title: PancakeSwap'ta listeleme
-      price: 'Fiyat: KXA başına {price}'
+      price: "Fiyat: KXA başına {price}"
       raise: Unicrypt'ten toplanan fonların {percent}'si 1 yıl boyunca kilitlendi
 devblog:
   title: Devblog ve haberler
@@ -735,7 +735,7 @@ faq:
       - q: $KXA ve $KXS nasıl alıp satabilirim?
         a:
           - t: txt
-            c: 'Burada listelenen borsalardan $KXA satın alabilirsiniz:'
+            c: "Burada listelenen borsalardan $KXA satın alabilirsiniz:"
           - t: düğme
             c: CoinMarketCap
             link: https://coinmarketcap.com/currencies/kryxivia/
@@ -871,7 +871,7 @@ kryxivia:
       kaybolan garip bir kapı keşfetmişti. Oradan Kryxit'i, muazzam güce sahip
       sihirli mücevherleri buldular. Birçoğu ilk önce ülkeler tarafından
       gönderilen toplanmaya başlar.
-    txt2: ' Kryxivia, birkaç yıl önce keşfedilen büyük bir kapının etrafındaki dağlarda bulunan, çoğunlukla küçük maceracı ve tüccar grupları tarafından plansız inşa edilen yeni ve çiçek açan bir şehirdir.'
+    txt2: " Kryxivia, birkaç yıl önce keşfedilen büyük bir kapının etrafındaki dağlarda bulunan, çoğunlukla küçük maceracı ve tüccar grupları tarafından plansız inşa edilen yeni ve çiçek açan bir şehirdir."
     txt3: >-
       Kryxivia halkı birçok ufuktan geliyor, neredeyse hiçbiri düzenli bir
       ordudan gelmiyor, bu yüzden kıyafetleri çoğunlukla uyumsuz ve yol boyunca
@@ -883,7 +883,7 @@ kryxivia:
       gelmeyecekler. Kryxivia şehri kapının etrafında oluşmaya başladı ve birçok
       tüccar bu çok sık ziyaret edilen yerden kar elde etti. Şimdi, birkaç yıl
       sonra, şanslarını deneyen insanların çoğu sizin gibi paralı askerler veya
-      bağımsızlar. 
+      bağımsızlar.
   map:
     sub1: Kryxivia Haritası
     title1: En önemli binalar

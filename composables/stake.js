@@ -7,8 +7,13 @@ export const useStake = () => {
   const { account } = useUser();
 
   const provider = typeof window !== "undefined" && ref(window?.ethereum);
+  const metamaskProvider =
+    typeof window !== "undefined" && ref(window?.web3.currentProvider);
   const web3 = computed(() => {
-    if (provider.value) {
+    const address = account.value;
+    if (metamaskProvider.value && metamaskProvider.value.selectedAddress) {
+      return new Web3(metamaskProvider.value);
+    } else {
       return new Web3(provider.value);
     }
   });
@@ -24,10 +29,6 @@ export const useStake = () => {
   const kxaContractAddress = "0x2223bF1D7c19EF7C06DAB88938EC7B85952cCd89";
   const kxaContractInstance =
     web3.value && new web3.value.eth.Contract(erc20ABI, kxaContractAddress);
-
-  // staking errors
-  const kxaAlreadyStaked =
-    "You already staked KXA in the contract, please unstake first!";
 
   const stakedKXA = ref(0);
   const unlockedAPR = ref(0);
@@ -73,6 +74,7 @@ export const useStake = () => {
   };
 
   const getStakerInfos = async () => {
+    if (!account.value) return;
     const stakerInfo = await stakingContractInstance.methods
       .getStakerInfos(account.value)
       .call();
@@ -115,6 +117,7 @@ export const useStake = () => {
   };
 
   const getWaitingPercentAPR = async () => {
+    if (!account.value) return;
     const waitingPercentAPRRes = await stakingContractInstance.methods
       .getWaitingPercentAPR(account.value)
       .call()

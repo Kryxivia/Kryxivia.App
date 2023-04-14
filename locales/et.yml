@@ -23,9 +23,9 @@ wallets:
   walletconnect:
     name: WalletConnect
     connect: WalletConnectiga ühenduse loomine
-  fortmatic:
-    name: Fortmatic
-    connect: Fortmaticu kontoga ühenduse loomine
+  OKX:
+    name: OKX
+    connect: OKX kontoga ühenduse loomine
   bcw:
     name: Binance'i keti rahakott
     connect: Võta ühendust binance'i keti rahakotiga
@@ -135,36 +135,36 @@ team:
   title: Meeskond
   h1: Kryxivia meeskond
   role:
-    '1': Liider
-    '2': Mängu arendamine
-    '3': Disainer 3D & VFX Artist
-    '4': UI / UX disainer ja eesmine arendaja
-    '5': Turundus ja kommunikatsioon
-    '6': Helikujundaja
+    "1": Liider
+    "2": Mängu arendamine
+    "3": Disainer 3D & VFX Artist
+    "4": UI / UX disainer ja eesmine arendaja
+    "5": Turundus ja kommunikatsioon
+    "6": Helikujundaja
   poste:
-    '1': Tegevjuht ja asutaja
-    '2': Tehniline juht
-    '3': Juhi kliendi mängimine
-    '4': Juhtiv plokiahela insener
-    '5': Tarkvara täisvihna insener
-    '6': Unity 3D arendaja
-    '7': Täisvirna arendaja
-    '8': VFX mängu disainer
-    '9': Taseme kujundaja / 3D-kunst
-    '10': 3D iseloom / esemed Kunstnik
-    '11': PartnerStuudio / 3D artist
-    '12': Mängu disaineri konsultant
-    '13': Juhtiv UI / UX disainer / Front Dev
-    '14': Täielik virna arendaja veeb
-    '15': Loominguline arendaja
-    '16': Graafiline disainer
-    '17': Filmi tegija
-    '18': Turundusjuht
-    '19': Kogukonna juht
-    '20': Helikujundaja
-    '21': Muusika Helilooja
-    '22': Meeskonna juhtimine
-    '23': Tarkvara insener
+    "1": Tegevjuht ja asutaja
+    "2": Tehniline juht
+    "3": Juhi kliendi mängimine
+    "4": Juhtiv plokiahela insener
+    "5": Tarkvara täisvihna insener
+    "6": Unity 3D arendaja
+    "7": Täisvirna arendaja
+    "8": VFX mängu disainer
+    "9": Taseme kujundaja / 3D-kunst
+    "10": 3D iseloom / esemed Kunstnik
+    "11": PartnerStuudio / 3D artist
+    "12": Mängu disaineri konsultant
+    "13": Juhtiv UI / UX disainer / Front Dev
+    "14": Täielik virna arendaja veeb
+    "15": Loominguline arendaja
+    "16": Graafiline disainer
+    "17": Filmi tegija
+    "18": Turundusjuht
+    "19": Kogukonna juht
+    "20": Helikujundaja
+    "21": Muusika Helilooja
+    "22": Meeskonna juhtimine
+    "23": Tarkvara insener
 leaderboard:
   title: Edetabel
   metaTitle: Kryxivia • Edetabel • Kryxivia suurimad mängijad
@@ -178,110 +178,110 @@ roadmap:
     q3_2021:
       desc: Kryxivia projekti algus
       list:
-        '1': >-
+        "1": >-
           KXA ja KXS-märgi juurutamine Binance Smart-keti testvõrgus Alpha
           jaoks.
-        '2': >-
+        "2": >-
           Arenduse alustamine, baasmängu, mänguserverite ja plokiahelate linkide
           testimine.
-        '3': Kryxivia universumi 3D-modelleerimine.
-        '4': >-
+        "3": Kryxivia universumi 3D-modelleerimine.
+        "4": >-
           Tehes level-design linnad, minu, töö Lore mängu, uurides Kryxit ja
           kalliskivid funktsionaalsed süsteemid.
     q4_2021:
       desc: Kryxivia projekti algus
       list:
-        '1': >-
+        "1": >-
           Veebiveebisaidi käivitamine Kryxivia põhitõdedega, avaldades
           esitlusdokumendi.
-        '2': >-
+        "2": >-
           Kryxivia koodibaasi avatud lähtekoodiga väljalase meie GitHubi hoidlas
           ja erinevates nutilepingutes.
-        '3': >-
+        "3": >-
           Mängu proof-of-concepti ettevalmistamine Unity WebGL-i, C# ja Node'i
           abil.js.
-        '4': >-
+        "4": >-
           Auditeerides meie erinevaid nutikaid lepinguid, mis suhtlevad BSC
           plokiahelaga.
-        '5': Teaseri vabastamine Kryxivia Alpha käivitamiseks.
-        '6': >-
+        "5": Teaseri vabastamine Kryxivia Alpha käivitamiseks.
+        "6": >-
           KXA märgi käivitamine, tehes avaliku müügi, et luua varade reservi
           likviidsus ja mängubaasifondid (ILO).
-        '7': >-
+        "7": >-
           Valge nimekirja juurutamine privaatse Alfa eelpääsu jaoks (ILO-s
           osalevatel rahakottidel on eeliseid).
-        '8': >-
+        "8": >-
           Töötades kõigi mängu aspektidega, kliendi / serveriga ja NFT-de
           tsentraliseerimise / detsentraliseerimisteenuste vaheliste
           ühendustega.
-        '9': Kryxivia meeskonna liikmete KYC protseduuride läbiviimine.
-        '10': >-
+        "9": Kryxivia meeskonna liikmete KYC protseduuride läbiviimine.
+        "10": >-
           Pannkoogivahetuse kontrollitud basseini loomine mängusisese KXS-i
           märgi jaoks (10% kogutud vahenditest).
-        '11': Nimekiri üle CoinMarketCap, CoinGecko...
+        "11": Nimekiri üle CoinMarketCap, CoinGecko...
     q1_2022:
       desc: Kryxivia projekti algus
       list:
-        '1': WebGL-i brauserimängu juurutamiseks valmis olemine
-        '2': >-
+        "1": WebGL-i brauserimängu juurutamiseks valmis olemine
+        "2": >-
           NFT-esemete turu juurutamine mängusiseste asjadega kauplemiseks teiste
           ahelas olevate mängijatega.
-        '3': >-
+        "3": >-
           Alustades privaatset alfa-eelset juurdepääsu valitud liikmetele, et
           mängida Kryxivia Worldis oma brauseris aadressil kryxivia.io.
-        '4': >-
+        "4": >-
           Kasutades test-net pre-alfa kohapeal vead ja rahuldust bug-bounty
           mängijad, kes teatavad probleeme KXA märgid.
-        '5': >-
+        "5": >-
           Lisades uusi dungeons ja rohkem spetsifikatsioone esemed, Kryxit
           kalliskivid ja ilm gameplay areng.
-        '6': >-
+        "6": >-
           Käivitage beeta-juurdepääsu käivitamiseks erinevad käivituspaketid
           (NFT-pakendid), et alustada otse ostetud pakkidega mängimist.
-        '7': >-
+        "7": >-
           Meeskonna võimekuse suurendamine, uue 3D disaineri, taseme ja
           skenaristi värbamine.
-        '8': PVE sisu parandamine.
+        "8": PVE sisu parandamine.
     q2_2022:
       desc: Kryxivia projekti algus
       list:
-        '1': >-
+        "1": >-
           Kryxivia Worldi beetapubliku juurdepääsu vabastamine BSC võrgu
           põhivõrgus.
-        '2': Mängijate leitud alfa-eelsete (Q1) vigade parandamine.
-        '3': >-
+        "2": Mängijate leitud alfa-eelsete (Q1) vigade parandamine.
+        "3": >-
           Alustades reidisüsteemide arendamist (+20 mängijat võitlevad koos
           reidivõitlustes) Kryxivia kaevanduses.
-        '4': >-
+        "4": >-
           Igapäevaste otsingusüsteemide lisamine mängijate tegevuse
           premeerimiseks, premeerides seega kõige aktiivsemaid.
-        '5': >-
+        "5": >-
           Töötades suurema hulga vangikongide ruumidega kaevandusse, kus on
           rohkem raskusi ja paremaid Kryxiti ja asju.
-        '6': >-
+        "6": >-
           KXA ja KXS-i žetoonide rakendamine ja loetlemine peamistes T1
           tsentraliseeritud börsides.
-        '7': >-
+        "7": >-
           Pangasisene staking süsteem, et võita auhindu (tõeline ROI uute
           hüvedega aastas) KXA / KXS märgiga.
     q3_2022:
       desc: Kryxivia projekti algus
       list:
-        '1': >-
+        "1": >-
           Gildide süsteem, et ühendada oma kaaslased igapäevaste / iganädalaste
           eesmärkidega, et jõuda preemiate või boonusmääradeni.
-        '2': >-
+        "2": >-
           Ürituse süsteemi hooaja lisamine spetsiaalsete unikaalsete NFT-dega
           koos konkreetsete uute ülemustega (uus piiratud kosmeetika...).
-        '3': >-
+        "3": >-
           DAO juhtimine, et hääletada sündmuste teemadel, järgmised verstapostid
           saavutatava tegevuskava kohta ning nerf või uuendused mängusiseste
           mängusiseste mänguuuenduste tegemiseks (piiratud rahakotiga protsendi
           osas).
-        '4': >-
+        "4": >-
           Visuaalne disain in-game statistika ja teavet KXS väärtus ja hind
           liigub.
-        '5': >-
+        "5": >-
           Online redelid, et näha kõiki mängijaid, nende e-tasemeid ja mainet +
           varude NFT-de unikaalsust.
 token-kxs:
@@ -359,8 +359,8 @@ token-kxa:
     private:
       title: Eramüügi voor
       discount: ~ {protsenti} allahindlus avalikust müügihinnast
-      of: '{kxa} of KXA ({total} - {percent} supply)'
-      price: 'Hind: {price} per KXA'
+      of: "{kxa} of KXA ({total} - {percent} supply)"
+      price: "Hind: {price} per KXA"
       raise: Raise of ~ {bnb} BNB = (Kokku = ~{total})
       close: >-
         Eramüük Sulge: <-> TGE {protsenti} lukustamata ja seejärel lineaarne
@@ -368,16 +368,16 @@ token-kxa:
     public:
       title: Avaliku müügi voor
       discount: ~ {protsenti} allahindlus noteerimishinnast
-      of: '{kxa} of KXA ({total} - {percent} supply)'
-      price: 'Hind: {price} per KXA'
+      of: "{kxa} of KXA ({total} - {percent} supply)"
+      price: "Hind: {price} per KXA"
       raise: Raise of ~ {bnb} BNB = (Kokku = ~{total})
       close: >-
         Avaliku müügi sulgemine: <-> TGE {protsenti} lukustamata ja seejärel
         lineaarne 3 kuu jooksul
     listing:
       title: Nimekiri pannkoogisärgis
-      price: 'Hind: {price} per KXA'
-      raise: '{protsenti} Unicrypti kogutud vahenditest lukustati 1 aastaks'
+      price: "Hind: {price} per KXA"
+      raise: "{protsenti} Unicrypti kogutud vahenditest lukustati 1 aastaks"
 devblog:
   title: Devblog & uudised
   metaTitle: Kryxivia • Devblog, uudised, uuendused ja teadaanded
@@ -729,7 +729,7 @@ faq:
       - q: Kuidas osta ja müüa $KXA ja $KXS?
         a:
           - t: txt
-            c: '$KXA saate osta siin loetletud börsidelt:'
+            c: "$KXA saate osta siin loetletud börsidelt:"
           - t: nupp
             c: CoinMarketCap
             link: https://coinmarketcap.com/currencies/kryxivia/
@@ -863,7 +863,7 @@ kryxivia:
       mäest kadunud kummalise ukse. Sealt leidsid nad Kryxiti, maagilised
       kalliskivid tohutu jõuga. Paljud hakkavad kogunema kõigepealt riikide
       poolt saadetud.
-    txt2: ' Kryxivia on uus ja õitsev linn, mis asub mägedes mõne aasta eest avastatud tohutu ukse ümber, mis on ehitatud enamasti ilma väikeste seiklejate ja kaupmeeste rühmade plaanita.'
+    txt2: " Kryxivia on uus ja õitsev linn, mis asub mägedes mõne aasta eest avastatud tohutu ukse ümber, mis on ehitatud enamasti ilma väikeste seiklejate ja kaupmeeste rühmade plaanita."
     txt3: >-
       Kryxivia inimesed on pärit paljudest silmaringidest, peaaegu ükski neist
       ei pärine tavalisest armeest, nii et nende varustus on enamasti sobimatud
@@ -874,7 +874,7 @@ kryxivia:
       Mehed toovad uksest palju rüüstamist, kuid nad ei tule alati tagasi.
       Kryxivia linn hakkas ukse ümber moodustuma ja paljud kaupmehed said
       sellest väga sagedasest kohast kasu. Nüüd, paar aastat hiljem, on enamik
-      inimesi, kes proovivad oma õnne, palgasõdurid või sõltumatud, nagu sina. 
+      inimesi, kes proovivad oma õnne, palgasõdurid või sõltumatud, nagu sina.
   map:
     sub1: Kryxivia linna kaart
     title1: Olulisemad ehitised

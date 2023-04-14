@@ -1,4 +1,5 @@
-import { ref, onMounted, onUnmounted } from "vue";
+import { ref } from "vue";
+import { onMounted } from "@vue/composition-api";
 import Web3 from "web3";
 import WalletConnect from "@walletconnect/client";
 import QRCodeModal from "@walletconnect/qrcode-modal";
@@ -8,6 +9,7 @@ export const useUser = () => {
   const account = ref(null);
   const connector = ref(null);
   const isConnectLoading = ref(true);
+  const isMetamask = ref(false);
 
   /** State address */
   const address = useState("userAddress", () => {
@@ -36,6 +38,10 @@ export const useUser = () => {
       window.ethereum.on("accountsChanged", (accounts) => {
         account.value = accounts[0];
       });
+
+      window.web3.currentProvider.on("accountsChanged", (accounts) => {
+        account.value = accounts[0];
+      });
     }
 
     onInvalidate(() => {
@@ -47,7 +53,19 @@ export const useUser = () => {
   onMounted(async () => {
     if (typeof window !== "undefined") {
       const accounts = await web3.value.eth.getAccounts();
-      account.value = accounts[0];
+      if (accounts[0]) {
+        account.value = accounts[0];
+        address.value = accounts[0];
+      }
+
+      const metamaskAccounts = await new Web3(
+        window.web3.currentProvider
+      ).eth.getAccounts();
+      if (metamaskAccounts[0]) {
+        account.value = metamaskAccounts[0];
+        address.value = metamaskAccounts[0];
+      }
+
       if (account.value) {
         address.value = accounts[0];
       }
@@ -55,10 +73,19 @@ export const useUser = () => {
     }
   });
 
+  onUnmounted(() => {
+    typeof window !== "undefined" &&
+      window?.ethereum?.removeAllListeners("accountsChanged");
+  });
+
   async function connectMetamask() {
     if (provider.value) {
-      await provider.value.request({ method: "eth_requestAccounts" });
-      const accounts = await web3.value.eth.getAccounts();
+      await window.web3.currentProvider.request({
+        method: "eth_requestAccounts",
+      });
+      const accounts = await new Web3(
+        window.web3.currentProvider
+      ).eth.getAccounts();
       account.value = accounts[0];
       if (account.value) {
         address.value = accounts[0];
@@ -126,6 +153,17 @@ export const useUser = () => {
     account.value = connector.accounts[0];
     connector.value = connector;
   }
+
+  const connectOKXWallet = async () => {
+    if (provider.value) {
+      const accounts = await window.okxwallet.request({
+        method: "eth_requestAccounts",
+      });
+      account.value = accounts[0];
+      address.value = accounts[0];
+    }
+  };
+
   async function disconnect() {
     await provider.value.request({ method: "wallet_disconnect" });
     account.value = null;
@@ -200,11 +238,25 @@ export const useUser = () => {
     }
   });
 
+  // 15 seconds interval to get user balance
+  watchEffect(async (onInvalidate) => {
+    const refreshBalanceInterval = setInterval(() => {
+      if (account.value) {
+        getKXAUserBalance();
+      }
+    }, 15000);
+
+    onInvalidate(() => {
+      clearInterval(refreshBalanceInterval);
+    });
+  });
+
   return {
     connectMetamask,
     connectFormatic,
     connectBinanceWallet,
     connectWalletConnect,
+    connectOKXWallet,
     disconnect,
     account,
     currency,

@@ -24,9 +24,9 @@ wallets:
   walletconnect:
     name: WalletKết nối
     connect: Kết nối với WalletConnect của bạn
-  fortmatic:
-    name: Pháo đài
-    connect: Kết nối với tài khoản Fortmatic của bạn
+  OKX:
+    name: OKX
+    connect: Kết nối với tài khoản OKX của bạn
   bcw:
     name: Ví Binance Chain
     connect: Kết nối với Ví Binance Chain
@@ -136,36 +136,36 @@ team:
   title: Đội
   h1: Đội của Kryxivia
   role:
-    '1': Lãnh đạo
-    '2': Phát triển game
-    '3': Nhà thiết kế 3D &vFX Artist
-    '4': Ui/UX Designer &Front Developer
-    '5': Tiếp thị &truyền thông
-    '6': Nhà thiết kế âm thanh
+    "1": Lãnh đạo
+    "2": Phát triển game
+    "3": Nhà thiết kế 3D &vFX Artist
+    "4": Ui/UX Designer &Front Developer
+    "5": Tiếp thị &truyền thông
+    "6": Nhà thiết kế âm thanh
   poste:
-    '1': GIÁM ĐỐC ĐIỀU HÀNH &Nhà sáng lập
-    '2': Giám đốc kỹ thuật
-    '3': Trò chơi khách hàng chính
-    '4': Kỹ sư blockchain chính
-    '5': Kỹ sư full-stack phần mềm
-    '6': Nhà phát triển Unity 3D
-    '7': Nhà phát triển Full-Stack
-    '8': Nhà thiết kế trò chơi VFX
-    '9': Nhà thiết kế cấp độ / Nghệ thuật 3D
-    '10': Nhân vật 3D / Nghệ sĩ vật phẩm
-    '11': Studio đối tác / Nghệ sĩ 3D
-    '12': Tư vấn thiết kế game
-    '13': Nhà thiết kế UI / UX chính
-    '14': Web dành cho nhà phát triển ngăn xếp đầy đủ
-    '15': Nhà phát triển sáng tạo
-    '16': Nhà thiết kế đồ họa
-    '17': Trình làm phim
-    '18': Giám đốc Tiếp thị
-    '19': Quản lý cộng đồng
-    '20': Nhà thiết kế âm thanh
-    '21': Nhà soạn nhạc
-    '22': Quản lý nhóm
-    '23': Kỹ sư phần mềm
+    "1": GIÁM ĐỐC ĐIỀU HÀNH &Nhà sáng lập
+    "2": Giám đốc kỹ thuật
+    "3": Trò chơi khách hàng chính
+    "4": Kỹ sư blockchain chính
+    "5": Kỹ sư full-stack phần mềm
+    "6": Nhà phát triển Unity 3D
+    "7": Nhà phát triển Full-Stack
+    "8": Nhà thiết kế trò chơi VFX
+    "9": Nhà thiết kế cấp độ / Nghệ thuật 3D
+    "10": Nhân vật 3D / Nghệ sĩ vật phẩm
+    "11": Studio đối tác / Nghệ sĩ 3D
+    "12": Tư vấn thiết kế game
+    "13": Nhà thiết kế UI / UX chính
+    "14": Web dành cho nhà phát triển ngăn xếp đầy đủ
+    "15": Nhà phát triển sáng tạo
+    "16": Nhà thiết kế đồ họa
+    "17": Trình làm phim
+    "18": Giám đốc Tiếp thị
+    "19": Quản lý cộng đồng
+    "20": Nhà thiết kế âm thanh
+    "21": Nhà soạn nhạc
+    "22": Quản lý nhóm
+    "23": Kỹ sư phần mềm
 leaderboard:
   title: Bảng xếp hạng
   metaTitle: Kryxivia • Bảng xếp hạng • Những người chơi vĩ đại nhất của Kryxivia
@@ -179,109 +179,109 @@ roadmap:
     q3_2021:
       desc: Bắt đầu dự án Kryxivia
       list:
-        '1': >-
+        "1": >-
           Triển khai mã thông báo KXA và KXS trên mạng thử nghiệm Binance
           Smart-chain cho Alpha.
-        '2': >-
+        "2": >-
           Bắt đầu phát triển, thử nghiệm lối chơi cơ bản, máy chủ trò chơi và
           các liên kết blockchain.
-        '3': Làm việc trên Mô hình 3D của Vũ trụ Kryxivia.
-        '4': >-
+        "3": Làm việc trên Mô hình 3D của Vũ trụ Kryxivia.
+        "4": >-
           Thực hiện Thiết kế cấp độ của các thành phố, của tôi, làm việc trên
           Lore của trò chơi, khám phá Kryxit và các hệ thống chức năng đá quý.
     q4_2021:
       desc: Bắt đầu dự án Kryxivia
       list:
-        '1': >-
+        "1": >-
           Khởi chạy trang web trực tuyến với những điều cơ bản về Kryxivia, phát
           hành bài thuyết trình.
-        '2': >-
+        "2": >-
           Phát hành mã nguồn mở của cơ sở mã Kryxivia trên kho lưu trữ GitHub
           của chúng tôi và các hợp đồng thông minh khác nhau.
-        '3': >-
+        "3": >-
           Chuẩn bị Proof-Of-Concept của trò chơi bằng unity WebGL, C# và
           Node.js.
-        '4': >-
+        "4": >-
           Kiểm tra các hợp đồng thông minh khác nhau của chúng tôi tương tác với
           blockchain BSC.
-        '5': Phát hành Teaser cho sự ra mắt của Kryxivia Alpha.
-        '6': >-
+        "5": Phát hành Teaser cho sự ra mắt của Kryxivia Alpha.
+        "6": >-
           Khởi động mã thông báo KXA bằng cách thực hiện một giao dịch bán công
           khai để tạo ra tính thanh khoản của nhóm tài sản và quỹ cơ sở trò chơi
           (ILO).
-        '7': >-
+        "7": >-
           Triển khai Whitelist cho alpha tư nhân truy cập trước (ví tham gia ILO
           sẽ có lợi thế).
-        '8': >-
+        "8": >-
           Làm việc trên tất cả các khía cạnh trò chơi, máy khách / máy chủ và
           kết nối giữa các dịch vụ tập trung / phân quyền của NFT.
-        '9': Thực hiện các thủ tục KYC của các thành viên Nhóm Kryxivia.
-        '10': >-
+        "9": Thực hiện các thủ tục KYC của các thành viên Nhóm Kryxivia.
+        "10": >-
           Tạo nhóm kiểm soát Pancake Swap cho mã thông báo KXS trong trò chơi
           (với 10% số tiền huy động được).
-        '11': Liệt kê qua CoinMarketCap, CoinGecko ...
+        "11": Liệt kê qua CoinMarketCap, CoinGecko ...
     q1_2022:
       desc: Bắt đầu dự án Kryxivia
       list:
-        '1': Chuẩn bị sẵn trò chơi trình duyệt WebGL để triển khai
-        '2': >-
+        "1": Chuẩn bị sẵn trò chơi trình duyệt WebGL để triển khai
+        "2": >-
           Triển khai thị trường vật phẩm NFT để giao dịch nội dung trong trò
           chơi với những người chơi khác trên chuỗi.
-        '3': >-
+        "3": >-
           Bắt đầu truy cập pre-alpha riêng tư cho các thành viên được chọn để
           chơi vào Thế giới Kryxivia trong trình duyệt của họ tại kryxivia.io.
-        '4': >-
+        "4": >-
           Sử dụng mạng thử nghiệm cho pre-alpha để phát hiện lỗi và thưởng cho
           người chơi tiền thưởng lỗi báo cáo các vấn đề trong mã thông báo KXA.
-        '5': >-
+        "5": >-
           Thêm ngục tối mới và nhiều thông số kỹ thuật hơn của vật phẩm, đá quý
           Kryxit và phát triển trò chơi phép thuật.
-        '6': >-
+        "6": >-
           Khởi chạy các gói khởi động khác nhau (gói NFT) để khởi chạy quyền
           truy cập beta, để trực tiếp bắt đầu chơi với các gói đã mua của bạn.
-        '7': >-
+        "7": >-
           Tăng năng lực nhóm, tuyển dụng nhà thiết kế 3D mới, cấp độ và
           scenarist.
-        '8': Cải thiện nội dung PVE.
+        "8": Cải thiện nội dung PVE.
     q2_2022:
       desc: Bắt đầu dự án Kryxivia
       list:
-        '1': >-
+        "1": >-
           Phát hành quyền truy cập công khai beta của Kryxivia World trên mạng
           chính của mạng BSC.
-        '2': Sửa lỗi từ pre-alpha (Q1) được tìm thấy bởi người chơi.
-        '3': >-
+        "2": Sửa lỗi từ pre-alpha (Q1) được tìm thấy bởi người chơi.
+        "3": >-
           Bắt đầu phát triển các hệ thống đột kích (+20 người chơi chiến đấu
           cùng nhau trong các trận chiến đột kích) trong Mỏ Kryxivia.
-        '4': >-
+        "4": >-
           Thêm hệ thống nhiệm vụ hàng ngày để thưởng cho các hoạt động của người
           chơi, do đó sẽ thưởng cho những hoạt động tích cực nhất.
-        '5': >-
+        "5": >-
           Làm việc trên một tập hợp lớn hơn các phòng ngục tối vào mỏ với nhiều
           khó khăn hơn và Kryxit tốt hơn và phần thưởng công cụ.
-        '6': >-
+        "6": >-
           Áp dụng &niêm yết token KXA và KXS trên các sàn giao dịch tập trung T1
           lớn hàng đầu.
-        '7': >-
+        "7": >-
           Hệ thống đặt cọc ngân hàng trong trò chơi để giành phần thưởng (ROI
           thực với phần thưởng mới mỗi năm) với mã thông báo KXA / KXS.
     q3_2022:
       desc: Bắt đầu dự án Kryxivia
       list:
-        '1': >-
+        "1": >-
           Hệ thống bang hội để lập nhóm với bạn bè của bạn với các mục tiêu hàng
           ngày / hàng tuần để đạt được phần thưởng hoặc tỷ lệ tiền thưởng.
-        '2': >-
+        "2": >-
           Thêm một mùa hệ thống sự kiện với các NFT độc đáo đặc biệt với các ông
           chủ mới cụ thể (mỹ phẩm giới hạn mới...).
-        '3': >-
+        "3": >-
           Quản trị DAO để bỏ phiếu về các chủ đề sự kiện, các cột mốc tiếp theo
           trong lộ trình đạt được và nerf hoặc nâng cấp để thực hiện cập nhật
           trò chơi trong trò chơi (được giới hạn bởi ví về tỷ lệ phần trăm).
-        '4': >-
+        "4": >-
           Thiết kế trực quan trong trò chơi để thống kê và thông tin về giá trị
           KXS và biến động giá.
-        '5': >-
+        "5": >-
           Thang trực tuyến để xem tất cả người chơi, cấp độ điện tử và danh
           tiếng của họ + tính độc đáo của NFT hàng tồn kho.
 token-kxs:
@@ -361,8 +361,8 @@ token-kxa:
     private:
       title: Vòng bán hàng riêng
       discount: ~ {percent} giảm giá so với giá bán công khai
-      of: '{kxa} của KXA ({total} - {percent} cung cấp)'
-      price: 'Giá: {price} mỗi KXA'
+      of: "{kxa} của KXA ({total} - {percent} cung cấp)"
+      price: "Giá: {price} mỗi KXA"
       raise: Tăng ~ {bnb} BNB = (Total = ~{total})
       close: >-
         Bán riêng Đóng cửa: <-> TGE {percent} được mở khóa sau đó mở khóa tuyến
@@ -370,16 +370,16 @@ token-kxa:
     public:
       title: Vòng bán công khai
       discount: ~ {percent} giảm giá từ giá niêm yết
-      of: '{kxa} của KXA ({total} - {percent} cung cấp)'
-      price: 'Giá: {price} mỗi KXA'
+      of: "{kxa} của KXA ({total} - {percent} cung cấp)"
+      price: "Giá: {price} mỗi KXA"
       raise: Tăng ~ {bnb} BNB = (Total = ~{total})
       close: >-
         Đóng cửa bán công khai: <-> TGE {percent} được mở khóa sau đó tuyến tính
         vào 3 tháng
     listing:
       title: Niêm yết trên PancakeSwap
-      price: 'Giá: {price} mỗi KXA'
-      raise: '{percent} số tiền huy động được từ Unicrypt bị khóa trong 1 năm'
+      price: "Giá: {price} mỗi KXA"
+      raise: "{percent} số tiền huy động được từ Unicrypt bị khóa trong 1 năm"
 devblog:
   title: Devblog &tin tức
   metaTitle: Kryxivia • Devblog, tin tức, cập nhật & thông báo
@@ -739,7 +739,7 @@ faq:
       - q: Làm cách nào để mua và bán $KXA và $KXS?
         a:
           - t: txt
-            c: 'Bạn có thể mua $KXA trên các sàn giao dịch được liệt kê ở đây:'
+            c: "Bạn có thể mua $KXA trên các sàn giao dịch được liệt kê ở đây:"
           - t: nút
             c: CoinMarketCap
             link: https://coinmarketcap.com/currencies/kryxivia/
@@ -878,7 +878,7 @@ kryxivia:
       Một số người đã phát hiện ra một cánh cửa kỳ lạ bị mất trên núi. Từ đó họ
       tìm thấy Kryxit, những viên ngọc ma thuật với sức mạnh khủng khiếp. Nhiều
       người bắt đầu thu thập đầu tiên được gửi bởi các quốc gia.
-    txt2: ' Kryxivia là một thành phố mới và nở rộ, nằm trên những ngọn núi xung quanh một cánh cửa khổng lồ được phát hiện cách đây vài năm, được xây dựng hầu như không có kế hoạch của một nhóm nhỏ các nhà thám hiểm và thương nhân.'
+    txt2: " Kryxivia là một thành phố mới và nở rộ, nằm trên những ngọn núi xung quanh một cánh cửa khổng lồ được phát hiện cách đây vài năm, được xây dựng hầu như không có kế hoạch của một nhóm nhỏ các nhà thám hiểm và thương nhân."
     txt3: >-
       Người dân Kryxivia đến từ nhiều chân trời, hầu như không ai trong số họ
       đến từ một đội quân chính quy, vì vậy trang phục của họ hầu hết không khớp
@@ -890,7 +890,7 @@ kryxivia:
       nào họ cũng quay trở lại. Thành phố Kryxivia bắt đầu hình thành xung quanh
       cánh cửa và nhiều thương nhân đã thu lợi từ nơi rất thường xuyên này. Bây
       giờ, một vài năm sau, hầu hết những người thử vận may của họ là lính đánh
-      thuê hoặc những người độc lập, như bạn. 
+      thuê hoặc những người độc lập, như bạn.
   map:
     sub1: Bản đồ thành phố Kryxivia
     title1: Những tòa nhà quan trọng nhất

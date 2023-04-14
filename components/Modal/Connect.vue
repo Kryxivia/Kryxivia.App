@@ -6,16 +6,16 @@
       desc: 'wallets.metamask.connect',
       disabled: false
     },
+    OKX: {
+      img: '/img/wallets/okx_wallet_icon.svg',
+      title: 'wallets.OKX.name',
+      desc: 'wallets.OKX.connect',
+      disabled: false
+    },
     walletconnect: {
       img: '/img/wallets/walletconnect.svg',
       title: 'wallets.walletconnect.name',
       desc: 'wallets.walletconnect.connect',
-      disabled: true
-    },
-    fortmatic: {
-      img: '/img/wallets/fortmatic.svg',
-      title: 'wallets.fortmatic.name',
-      desc: 'wallets.fortmatic.connect',
       disabled: true
     },
     bcw: {
@@ -26,7 +26,7 @@
     }
   }
   /** web3 login */
-  const { connectMetamask, connectBinanceWallet, connectFormatic, connectWalletConnect } = useUser()
+  const { connectMetamask, connectBinanceWallet, connectFormatic, connectOKXWallet, connectWalletConnect } = useUser()
 
   const connectWallet = (wallet) => {
     switch (wallet) {
@@ -36,8 +36,8 @@
       case 'bcw':
         connectBinanceWallet()
         break
-      case 'fortmatic':
-        connectFormatic()
+      case 'OKX':
+        connectOKXWallet()
         break
       case 'walletconnect':
         connectWalletConnect()

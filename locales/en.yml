@@ -23,9 +23,9 @@ wallets:
   walletconnect:
     name: WalletConnect
     connect: Connect to your WalletConnect
-  fortmatic:
-    name: Fortmatic
-    connect: Connect with your Fortmatic account
+  OKX:
+    name: OKX
+    connect: Connect with your OKX account
   bcw:
     name: Binance Chain Wallet
     connect: Connect with your Binance Chain Wallet
@@ -140,36 +140,36 @@ team:
   title: Team
   h1: Team of Kryxivia
   role:
-    '1': Leader
-    '2': Game Development
-    '3': Designer 3D & VFX Artist
-    '4': UI/UX Designer & Front Developer
-    '5': Marketing & Communications
-    '6': Sound Designer
+    "1": Leader
+    "2": Game Development
+    "3": Designer 3D & VFX Artist
+    "4": UI/UX Designer & Front Developer
+    "5": Marketing & Communications
+    "6": Sound Designer
   poste:
-    '1': CEO & Founder
-    '2': Chief Technical Officer
-    '3': Lead Client Gameplay
-    '4': Lead Blockchain Engineer
-    '5': Software Full-Stack Engineer
-    '6': Unity 3D Developer
-    '7': Full-Stack Developer
-    '8': VFX Game Designer
-    '9': Level Designer / 3D Art
-    '10': 3D Character / Items Artist
-    '11': Partner Studio / 3D Artist
-    '12': Game Designer Consultant
-    '13': Lead UI/UX Designer / Front Dev
-    '14': Full Stack Developer Web
-    '15': Creative Developer
-    '16': Graphic Designer
-    '17': Movie Maker
-    '18': Chief Marketing Officer
-    '19': Community Manager
-    '20': Sound Designer
-    '21': Music Composer
-    '22': Team Management
-    '23': Software Engineer
+    "1": CEO & Founder
+    "2": Chief Technical Officer
+    "3": Lead Client Gameplay
+    "4": Lead Blockchain Engineer
+    "5": Software Full-Stack Engineer
+    "6": Unity 3D Developer
+    "7": Full-Stack Developer
+    "8": VFX Game Designer
+    "9": Level Designer / 3D Art
+    "10": 3D Character / Items Artist
+    "11": Partner Studio / 3D Artist
+    "12": Game Designer Consultant
+    "13": Lead UI/UX Designer / Front Dev
+    "14": Full Stack Developer Web
+    "15": Creative Developer
+    "16": Graphic Designer
+    "17": Movie Maker
+    "18": Chief Marketing Officer
+    "19": Community Manager
+    "20": Sound Designer
+    "21": Music Composer
+    "22": Team Management
+    "23": Software Engineer
 leaderboard:
   title: Leaderboard
   metaTitle: Kryxivia • Leaderboard • The greatest players of Kryxivia
@@ -183,207 +183,207 @@ roadmap:
     q3_2021:
       desc: Start of the Kryxivia project
       list:
-        '1': >-
+        "1": >-
           Deployment of the KXA and KXS token on the Binance Smart-chain
           test-net for the Alpha.
-        '2': >-
+        "2": >-
           Starting the development, testing the base gameplay, game servers, and
           blockchains links.
-        '3': Working on the 3D Modeling of the Kryxivia Universe.
-        '4': >-
+        "3": Working on the 3D Modeling of the Kryxivia Universe.
+        "4": >-
           Doing the Level-Design of cities, mine, working on the Lore of the
           game, exploring Kryxit and gems functional systems.
     q4_2021:
-      desc: ''
+      desc: ""
       list:
-        '1': >-
+        "1": >-
           Launching the online website with the basics about Kryxivia, releasing
           the Presentation paper.
-        '2': >-
+        "2": >-
           Open-Source release of the Kryxivia codebase on our GitHub repository
           and the different smart contracts.
-        '3': >-
+        "3": >-
           Preparing the Proof-Of-Concept of the Game using Unity WebGL, C# and
           Node.js.
-        '4': >-
+        "4": >-
           Auditing our different smart contracts that interact with the BSC
           blockchain.
-        '5': Releasing the Teaser for the launch of the Kryxivia Alpha.
-        '6': >-
+        "5": Releasing the Teaser for the launch of the Kryxivia Alpha.
+        "6": >-
           Kickstarting the KXA token by doing a public sale to create the asset
           pool liquidity and the game base-funds (ILO).
-        '7': >-
+        "7": >-
           Deploying the Whitelist for the private Alpha pre-access (wallets
           participating in the ILO will have advantages).
-        '8': >-
+        "8": >-
           Working on all the game aspects, the client/server, and connections
           between the centralization/decentralization services of NFTs.
-        '9': Doing KYC procedures of the Kryxivia Team members.
-        '10': >-
+        "9": Doing KYC procedures of the Kryxivia Team members.
+        "10": >-
           Creating an Pancake Swap controlled pool for the in-game KXS token
           (with 10% of the raised funds).
-        '11': Listing over CoinMarketCap, CoinGecko...
+        "11": Listing over CoinMarketCap, CoinGecko...
     q1_2022:
-      desc: ''
+      desc: ""
       list:
-        '1': Having the WebGL browser game ready for deployment
-        '2': >-
+        "1": Having the WebGL browser game ready for deployment
+        "2": >-
           Deploying the NFT items marketplace to trade in-game stuff with other
           players on-chain.
-        '3': >-
+        "3": >-
           Starting the private pre-alpha access for selected members to play
           into the Kryxivia World in their browser at kryxivia.io.
-        '4': >-
+        "4": >-
           Using the test-net for the pre-alpha to spot bugs and rewarding
           bug-bounty players that report issues in KXA tokens.
-        '5': >-
+        "5": >-
           Adding new dungeons and more specifications of items, Kryxit gems and
           spells gameplay development.
-        '6': >-
+        "6": >-
           Launch the different starter packs (NFTs packs) for the beta
           access-launch, to directly start to play with your bought packs.
-        '7': >-
+        "7": >-
           Increasing the team capacity, recruiting new 3D designer, level and
           scenarist.
-        '8': Improvement of the PVE content.
+        "8": Improvement of the PVE content.
     q2_2022:
-      desc: ''
+      desc: ""
       list:
-        '1': >-
+        "1": >-
           Releasing the beta public access of the Kryxivia World on the main net
           of the BSC network.
-        '2': Fixing bugs from the pre-alpha (Q1) found by players.
-        '3': >-
+        "2": Fixing bugs from the pre-alpha (Q1) found by players.
+        "3": >-
           Starting to develop the raid systems (+20 players fighting together in
           raid fights) in the Kryxivia Mine.
-        '4': >-
+        "4": >-
           Adding daily quest systems to reward players’ activities, therefore
           rewarding the most active ones.
-        '5': >-
+        "5": >-
           Working on a bigger set of dungeons rooms into the mine with more
           difficulties and better Kryxit and stuff rewards.
-        '6': >-
+        "6": >-
           Applying & Listing KXA and KXS tokens on top major T1 centralized
           exchanges.
-        '7': >-
+        "7": >-
           Bank in-game staking system to win rewards (real ROI with new rewards
           per year) with KXA / KXS token.
     q3_2022:
-      desc: ''
+      desc: ""
       list:
-        '1': >-
+        "1": >-
           Guilds system to team up with your mates with daily/weekly objectives
           to reach for rewards or bonus rates.
-        '2': >-
+        "2": >-
           Adding an event system season with special unique NFTs with specific
           new bosses (new limited cosmetic…).
-        '3': >-
+        "3": >-
           DAO governance to vote on event themes, next milestones on the roadmap
           to achieve, and nerf or upgrades to make in-game gameplay updates
           (capped by wallet in terms of percentage).
-        '4': >-
+        "4": >-
           Visual design in-game for statistics and information on KXS value and
           price moves.
-        '5': >-
+        "5": >-
           Online ladders to see all players, their e-levels and reputations +
           uniqueness of inventories NFTs.
     q4_2022:
-      desc: ''
+      desc: ""
       list:
-        '1': Replication of the smart-contracts on Ethereum
-        '2': Deployment of the KXA and KXS contract over Ethereum
-        '3': >-
+        "1": Replication of the smart-contracts on Ethereum
+        "2": Deployment of the KXA and KXS contract over Ethereum
+        "3": >-
           Moving KXA Liquidity (LP) from BNB chain to ETH chain (converting
           intoETH)
-        '4': Increasing adoption and awareness due to Ethereum re-structuration
-        '5': Cross-chain solution implemented for NFTs on Polygon/BSC
-        '6': Implementation of P2E mechanism during the Beta Launch
-        '7': Beta release of Kryxivia Game using ETH network
-        '8': >-
+        "4": Increasing adoption and awareness due to Ethereum re-structuration
+        "5": Cross-chain solution implemented for NFTs on Polygon/BSC
+        "6": Implementation of P2E mechanism during the Beta Launch
+        "7": Beta release of Kryxivia Game using ETH network
+        "8": >-
           IDO for KXS and a potential KXA re-structuration with another raise
           round
-        '9': Adding the Kryxvia NFT collection over Opensea
-        '10': NFTs sale on the external Marketplaces on Ethereum and Polygon
-        '11': First tournaments with the usage of KXS
-        '12': >-
+        "9": Adding the Kryxvia NFT collection over Opensea
+        "10": NFTs sale on the external Marketplaces on Ethereum and Polygon
+        "11": First tournaments with the usage of KXS
+        "12": >-
           Beginning the implementation of the P2E cyclic economy and systems to
           give rewards based on a seasonal basis
-        '13': Adding a profession system
-        '14': Crafting system
-        '15': PvP scaling reforged
-        '16': Daily & weekly quests
+        "13": Adding a profession system
+        "14": Crafting system
+        "15": PvP scaling reforged
+        "16": Daily & weekly quests
     q1_2023:
-      desc: ''
+      desc: ""
       list:
-        '1': >-
+        "1": >-
           Seasonal system with new bosses, item sets, and different NFT packs
           buyable from the game directly.
-        '2': >-
+        "2": >-
           Community raise for in-game Marketplace (investors will be able to
           take % commission of all transactions happening on the Marketplace)
-        '3': Implementation of the rental system for NFTs
-        '4': >-
+        "3": Implementation of the rental system for NFTs
+        "4": >-
           Streamed Arena tournaments on Twitch (for that events, our community
           can bet on the player who has the highest potential to win, a similar
           mechanism to bookmakers, they can win KXS tokens)
-        '5': NFTs sale on the in-game Marketplace
-        '6': Themed dungeons in collaboration with partnership projects
-        '7': The first raid
-        '8': Achievements & Titles
-        '9': Faction system
-        '10': >-
+        "5": NFTs sale on the in-game Marketplace
+        "6": Themed dungeons in collaboration with partnership projects
+        "7": The first raid
+        "8": Achievements & Titles
+        "9": Faction system
+        "10": >-
           Adding a system giving access to a special in-game market, paid
           monthly in KXS to maintain the economy
     q2_2023:
-      desc: ''
+      desc: ""
       list:
-        '1': >-
+        "1": >-
           Sales of some areas in Kryxivia city for the external partners
           (similar to Bloktopia)
-        '2': >-
+        "2": >-
           Working on a Kryxivia Side-Chain in Proof of Stake to import/export
           transactions from the game. Will reduce fees to zero for the game
           exploitation, investors from KXA/KXS further will have the possibility
           to run a validator as a reward for their commitment
-        '3': >-
+        "3": >-
           Land sale in Kryxivia (buying and potentially decorating houses in
           Kryxivia city)
-        '4': In-game mini-events & challenges
-        '5': Guild system (stash, achievements, quests)
-        '6': Beginning of the storyline and quest integration
+        "4": In-game mini-events & challenges
+        "5": Guild system (stash, achievements, quests)
+        "6": Beginning of the storyline and quest integration
     q3_2023:
-      desc: ''
+      desc: ""
       list:
-        '1': >-
+        "1": >-
           Making a Bridge for the Kryxvia Side-Chain from the Ethereum network
           (KXA, KXS, and NFTs) for the community to switch on the chain
-        '2': >-
+        "2": >-
           Running the NFT marketplace and the rental system on the KXA
           side-chain, with a fixed % fees that will be shared between all
           validators running the Kryxvia Side
-        '3': Chain network
-        '4': AMAs/Community events taking place in the main square in Kryxivia City
-        '5': >-
+        "3": Chain network
+        "4": AMAs/Community events taking place in the main square in Kryxivia City
+        "5": >-
           Advanced personalization of the character (barber, tailor, and
           transmog shops)
-        '6': World boss introduction
-        '7': New biome in cave dungeon
+        "6": World boss introduction
+        "7": New biome in cave dungeon
     q4_2023:
-      desc: ''
+      desc: ""
       list:
-        '1': >-
+        "1": >-
           Adding DAO over the Kryxivia side-chain to approve and revoke game
           advancement allows players to choose what nerf they would like or
           should be equilibrated from the game.
-        '2': >-
+        "2": >-
           New boss designed for bounty events (it can be a demon that arrived in
           Kryxivia’s city through the magical portal)
-        '3': >-
+        "3": >-
           Big bounty event with high rewards for the best team, which will kill
           X boss on the most challenging mode
-        '4': Guild housing system
-        '5': Huge PvP/PvE hybrid map
-        '6': Beginning of the pet system
+        "4": Guild housing system
+        "5": Huge PvP/PvE hybrid map
+        "6": Beginning of the pet system
 token-kxs:
   title: Token $KXS
   metaTitle: Kryxivia • The Kryxivia Coin $KXS
@@ -458,8 +458,8 @@ token-kxa:
     private:
       title: Private Sale Round
       discount: ~ {percent} discount from public sale price
-      of: '{kxa} of KXA ({total} - {percent} supply)'
-      price: 'Price: {price} per KXA'
+      of: "{kxa} of KXA ({total} - {percent} supply)"
+      price: "Price: {price} per KXA"
       raise: Raise of ~ {bnb} BNB = (Total = ~{total})
       close: >-
         Private sale Close: <-> TGE {percent} unlocked then linear unlock over
@@ -467,14 +467,14 @@ token-kxa:
     public:
       title: Public Sale Round
       discount: ~ {percent} discount from the listing price
-      of: '{kxa} of KXA ({total} - {percent} supply)'
-      price: 'Price: {price} per KXA'
+      of: "{kxa} of KXA ({total} - {percent} supply)"
+      price: "Price: {price} per KXA"
       raise: Raise of ~ {bnb} BNB = (Total = ~{total})
-      close: 'Public Sale Close: <-> TGE {percent} unlocked then linear on 3 months'
+      close: "Public Sale Close: <-> TGE {percent} unlocked then linear on 3 months"
     listing:
       title: Listing on PancakeSwap
-      price: 'Price: {price} per KXA'
-      raise: '{percent} of the raised funds from Unicrypt locked for 1 year'
+      price: "Price: {price} per KXA"
+      raise: "{percent} of the raised funds from Unicrypt locked for 1 year"
 devblog:
   title: Devblog & news
   metaTitle: Kryxivia • Devblog, news, updates & announcements
@@ -670,7 +670,7 @@ bosses-melucyna:
 factions:
   title: Factions
   metaTitle: Kryxivia • Factions of Kryxivia
-  h1: 'Choose Your Destiny: Join One of the Three Factions!'
+  h1: "Choose Your Destiny: Join One of the Three Factions!"
   want: I want to be
   adventurers:
     name: Adventurers
@@ -834,7 +834,7 @@ faq:
       - q: How do I buy & sell $KXA and $KXS?
         a:
           - t: txt
-            c: 'You can buy $KXA on the exchanges listed here :'
+            c: "You can buy $KXA on the exchanges listed here :"
           - t: button
             c: CoinMarketCap
             link: https://coinmarketcap.com/currencies/kryxivia/
@@ -995,7 +995,7 @@ kryxivia:
       back. The city of Kryxivia began to form around the door and many
       merchants took profit from this highly frequented place. Now, a few years
       later most of the people who try their luck are mercenaries or
-      independents, like you. 
+      independents, like you.
   map:
     sub1: Map of Kryxivia City
     title1: The most important buildings

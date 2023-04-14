@@ -2,7 +2,11 @@ import Web3 from "web3";
 import erc20ABI from "~~/abi/erc20ABI";
 
 export const usePriceToken = () => {
-  const { balance } = useUser();
+  // const { balance } = useUser();
+  const balance = {
+    KXA: 0,
+    KXS: 0,
+  };
   const provider = typeof window !== "undefined" && ref(window?.ethereum);
   const web3 = computed(() => {
     if (provider.value) {

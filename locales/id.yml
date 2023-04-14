@@ -24,9 +24,9 @@ wallets:
   walletconnect:
     name: WalletConnect
     connect: Hubungkan ke WalletConnect Anda
-  fortmatic:
-    name: Fortmatik
-    connect: Terhubung dengan akun Fortmatic Anda
+  OKX:
+    name: OKX
+    connect: Terhubung dengan akun OKX Anda
   bcw:
     name: Dompet Binance Chain
     connect: Terhubung dengan Dompet Binance Chain Anda
@@ -138,36 +138,36 @@ team:
   title: Tim
   h1: Tim Kryxivia
   role:
-    '1': Kepala
-    '2': Pengembangan Game
-    '3': Desainer Artis 3D & VFX
-    '4': Ui/UX Designer &Pengembang Depan
-    '5': Pemasaran & Komunikasi
-    '6': Desainer Suara
+    "1": Kepala
+    "2": Pengembangan Game
+    "3": Desainer Artis 3D & VFX
+    "4": Ui/UX Designer &Pengembang Depan
+    "5": Pemasaran & Komunikasi
+    "6": Desainer Suara
   poste:
-    '1': Direktur Utama &Pendiri
-    '2': Direktur Teknis
-    '3': Gameplay Klien Utama
-    '4': Insinyur Blockchain Utama
-    '5': Insinyur Full-Stack Perangkat Lunak
-    '6': Pengembang Unity 3D
-    '7': Pengembang Full-Stack
-    '8': Desainer Game VFX
-    '9': Desainer Level / Seni 3D
-    '10': Karakter 3D / Item Artis
-    '11': Studio Mitra / Artis 3D
-    '12': Konsultan Desainer Game
-    '13': Desainer UI/UX Utama
-    '14': Web Pengembang Tumpukan Penuh
-    '15': Pengembang Kreatif
-    '16': Desainer Grafis
-    '17': Pembuat Film
-    '18': Direktur Pemasaran
-    '19': Manajer Komunitas
-    '20': Desainer Suara
-    '21': Komposer Musik
-    '22': Manajemen Tim
-    '23': Insinyur Perangkat Lunak
+    "1": Direktur Utama &Pendiri
+    "2": Direktur Teknis
+    "3": Gameplay Klien Utama
+    "4": Insinyur Blockchain Utama
+    "5": Insinyur Full-Stack Perangkat Lunak
+    "6": Pengembang Unity 3D
+    "7": Pengembang Full-Stack
+    "8": Desainer Game VFX
+    "9": Desainer Level / Seni 3D
+    "10": Karakter 3D / Item Artis
+    "11": Studio Mitra / Artis 3D
+    "12": Konsultan Desainer Game
+    "13": Desainer UI/UX Utama
+    "14": Web Pengembang Tumpukan Penuh
+    "15": Pengembang Kreatif
+    "16": Desainer Grafis
+    "17": Pembuat Film
+    "18": Direktur Pemasaran
+    "19": Manajer Komunitas
+    "20": Desainer Suara
+    "21": Komposer Musik
+    "22": Manajemen Tim
+    "23": Insinyur Perangkat Lunak
 leaderboard:
   title: Papan peringkat
   metaTitle: Kryxivia • Papan Peringkat • Pemain terhebat Kryxivia
@@ -181,109 +181,109 @@ roadmap:
     q3_2021:
       desc: Mulai dari proyek Kryxivia
       list:
-        '1': >-
+        "1": >-
           Penyebaran token KXA dan KXS pada test-net Binance Smart-chain untuk
           Alpha.
-        '2': >-
+        "2": >-
           Memulai pengembangan, menguji gameplay dasar, server game, dan tautan
           blockchain.
-        '3': Bekerja pada Pemodelan 3D Alam Semesta Kryxivia.
-        '4': >-
+        "3": Bekerja pada Pemodelan 3D Alam Semesta Kryxivia.
+        "4": >-
           Melakukan Desain Level kota, milikku, mengerjakan Lore of the game,
           menjelajahi Kryxit dan sistem fungsional permata.
     q4_2021:
       desc: Mulai dari proyek Kryxivia
       list:
-        '1': >-
+        "1": >-
           Meluncurkan situs web online dengan dasar-dasar tentang Kryxivia,
           merilis makalah Presentasi.
-        '2': >-
+        "2": >-
           Rilis Open-Source dari basis kode Kryxivia di repositori GitHub kami
           dan kontrak pintar yang berbeda.
-        '3': >-
+        "3": >-
           Mempersiapkan Proof-Of-Concept Game menggunakan Unity WebGL, C# dan
           Node.js.
-        '4': >-
+        "4": >-
           Mengaudit berbagai kontrak pintar kami yang berinteraksi dengan
           blockchain BSC.
-        '5': Merilis Teaser untuk peluncuran Kryxivia Alpha.
-        '6': >-
+        "5": Merilis Teaser untuk peluncuran Kryxivia Alpha.
+        "6": >-
           Memulai token KXA dengan melakukan penjualan publik untuk menciptakan
           likuiditas kumpulan aset dan dana dasar permainan (ILO).
-        '7': >-
+        "7": >-
           Menerapkan Daftar Putih untuk pra-akses Alpha pribadi (dompet yang
           berpartisipasi dalam ILO akan memiliki keuntungan).
-        '8': >-
+        "8": >-
           Bekerja pada semua aspek permainan, klien / server, dan koneksi antara
           layanan sentralisasi / desentralisasi NFT.
-        '9': Melakukan prosedur KYC dari anggota Tim Kryxivia.
-        '10': >-
+        "9": Melakukan prosedur KYC dari anggota Tim Kryxivia.
+        "10": >-
           Membuat kumpulan terkontrol Pancake Swap untuk token KXS dalam game
           (dengan 10% dari dana yang terkumpul).
-        '11': Daftar melalui CoinMarketCap, CoinGecko...
+        "11": Daftar melalui CoinMarketCap, CoinGecko...
     q1_2022:
       desc: Mulai dari proyek Kryxivia
       list:
-        '1': Memiliki game browser WebGL yang siap untuk penyebaran
-        '2': >-
+        "1": Memiliki game browser WebGL yang siap untuk penyebaran
+        "2": >-
           Menyebarkan pasar item NFT untuk memperdagangkan barang-barang dalam
           game dengan pemain lain secara on-chain.
-        '3': >-
+        "3": >-
           Memulai akses pra-alfa pribadi bagi anggota terpilih untuk bermain ke
           Dunia Kryxivia di browser mereka di kryxivia.io.
-        '4': >-
+        "4": >-
           Menggunakan test-net untuk pra-alpha untuk menemukan bug dan memberi
           penghargaan kepada pemain bug-bounty yang melaporkan masalah dalam
           token KXA.
-        '5': >-
+        "5": >-
           Menambahkan ruang bawah tanah baru dan lebih banyak spesifikasi item,
           permata Kryxit, dan pengembangan gameplay mantra.
-        '6': >-
+        "6": >-
           Luncurkan paket pemula yang berbeda (paket NFT) untuk peluncuran akses
           beta, untuk langsung mulai bermain dengan paket yang Anda beli.
-        '7': >-
+        "7": >-
           Meningkatkan kapasitas tim, merekrut desainer 3D baru, level dan
           scenarist.
-        '8': Peningkatan konten PVE.
+        "8": Peningkatan konten PVE.
     q2_2022:
       desc: Mulai dari proyek Kryxivia
       list:
-        '1': Merilis akses publik beta Dunia Kryxivia di jaring utama jaringan BSC.
-        '2': Memperbaiki bug dari pra-alfa (Q1) yang ditemukan oleh pemain.
-        '3': >-
+        "1": Merilis akses publik beta Dunia Kryxivia di jaring utama jaringan BSC.
+        "2": Memperbaiki bug dari pra-alfa (Q1) yang ditemukan oleh pemain.
+        "3": >-
           Mulai mengembangkan sistem serangan (+20 pemain yang bertarung bersama
           dalam pertarungan serangan) di Tambang Kryxivia.
-        '4': >-
+        "4": >-
           Menambahkan sistem pencarian harian untuk menghargai aktivitas pemain,
           oleh karena itu memberi penghargaan kepada yang paling aktif.
-        '5': >-
+        "5": >-
           Mengerjakan satu set ruang bawah tanah yang lebih besar ke dalam
           tambang dengan lebih banyak kesulitan dan Kryxit yang lebih baik dan
           hadiah barang-barang.
-        '6': >-
+        "6": >-
           Menerapkan &Mencantumkan token KXA dan KXS di bursa terpusat T1 utama
           teratas.
-        '7': >-
+        "7": >-
           Sistem staking dalam game bank untuk memenangkan hadiah (ROI nyata
           dengan hadiah baru per tahun) dengan token KXA / KXS.
     q3_2022:
       desc: Mulai dari proyek Kryxivia
       list:
-        '1': >-
+        "1": >-
           Sistem guild untuk bekerja sama dengan teman-temanmu dengan tujuan
           harian/mingguan untuk mencapai hadiah atau tingkat bonus.
-        '2': >-
+        "2": >-
           Menambahkan musim sistem acara dengan NFT unik khusus dengan bos baru
           tertentu (kosmetik terbatas baru ...).
-        '3': >-
+        "3": >-
           Tata kelola DAO untuk memberikan suara pada tema acara, tonggak
           berikutnya pada peta jalan yang ingin dicapai, dan nerf atau
           peningkatan untuk membuat pembaruan gameplay dalam game (dibatasi oleh
           dompet dalam hal persentase).
-        '4': >-
+        "4": >-
           Desain visual dalam game untuk statistik dan informasi tentang nilai
           KXS dan pergerakan harga.
-        '5': >-
+        "5": >-
           Tangga online untuk melihat semua pemain, e-level dan reputasi mereka
           + keunikan nft persediaan.
 token-kxs:
@@ -361,8 +361,8 @@ token-kxa:
     private:
       title: Putaran Penjualan Pribadi
       discount: ~ {percent} diskon dari harga jual publik
-      of: '{kxa} dari KXA ({total} - {percent} pasokan)'
-      price: 'Harga: {price} per KXA'
+      of: "{kxa} dari KXA ({total} - {percent} pasokan)"
+      price: "Harga: {price} per KXA"
       raise: Kenaikan ~ {bnb} BNB = (Total = ~{total})
       close: >-
         Penjualan pribadi Tutup: <-> TGE {percent} dibuka kuncinya kemudian buka
@@ -370,16 +370,16 @@ token-kxa:
     public:
       title: Putaran Penjualan Publik
       discount: ~ {percent} diskon dari harga listing
-      of: '{kxa} dari KXA ({total} - {percent} pasokan)'
-      price: 'Harga: {price} per KXA'
+      of: "{kxa} dari KXA ({total} - {percent} pasokan)"
+      price: "Harga: {price} per KXA"
       raise: Kenaikan ~ {bnb} BNB = (Total = ~{total})
       close: >-
         Penutupan Penjualan Publik: <-> TGE {percent} dibuka kemudian linier pada
         3 bulan
     listing:
       title: Daftar di PancakeSwap
-      price: 'Harga: {price} per KXA'
-      raise: '{percent} dari dana yang terkumpul dari Unicrypt terkunci selama 1 tahun'
+      price: "Harga: {price} per KXA"
+      raise: "{percent} dari dana yang terkumpul dari Unicrypt terkunci selama 1 tahun"
 devblog:
   title: Devblog & berita
   metaTitle: Kryxivia • Devblog, berita, pembaruan & pengumuman
@@ -745,7 +745,7 @@ faq:
       - q: Bagaimana cara membeli &menjual $KXA dan $KXS?
         a:
           - t: txt
-            c: 'Anda dapat membeli $KXA di bursa yang tercantum di sini:'
+            c: "Anda dapat membeli $KXA di bursa yang tercantum di sini:"
           - t: kancing
             c: CoinMarketCap
             link: https://coinmarketcap.com/currencies/kryxivia/
@@ -885,7 +885,7 @@ kryxivia:
       menemukan pintu aneh yang hilang di gunung. Dari sana mereka menemukan
       Kryxit, permata ajaib dengan kekuatan luar biasa. Banyak yang mulai
       berkumpul pertama kali dikirim oleh negara-negara.
-    txt2: ' Kryxivia adalah kota baru dan mekar, terletak di pegunungan di sekitar pintu besar yang ditemukan beberapa tahun yang lalu, sebagian besar dibangun tanpa rencana oleh sekelompok kecil petualang dan pedagang.'
+    txt2: " Kryxivia adalah kota baru dan mekar, terletak di pegunungan di sekitar pintu besar yang ditemukan beberapa tahun yang lalu, sebagian besar dibangun tanpa rencana oleh sekelompok kecil petualang dan pedagang."
     txt3: >-
       Orang-orang Kryxivia berasal dari banyak cakrawala, hampir tidak ada dari
       mereka yang berasal dari pasukan reguler, sehingga pakaian mereka sebagian
@@ -897,7 +897,7 @@ kryxivia:
       selalu kembali. Kota Kryxivia mulai terbentuk di sekitar pintu dan banyak
       pedagang mengambil keuntungan dari tempat yang sangat sering dikunjungi
       ini. Sekarang, beberapa tahun kemudian sebagian besar orang yang mencoba
-      peruntungan mereka adalah tentara bayaran atau independen, seperti Anda. 
+      peruntungan mereka adalah tentara bayaran atau independen, seperti Anda.
   map:
     sub1: Peta Kota Kryxivia
     title1: Bangunan yang paling penting

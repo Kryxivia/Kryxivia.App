@@ -23,9 +23,9 @@ wallets:
   walletconnect:
     name: WalletConnect
     connect: Conecte-se ao seu WalletConnect
-  fortmatic:
-    name: Fortmatic
-    connect: Conecte-se com sua conta Fortmatic
+  OKX:
+    name: OKX
+    connect: Conecte-se com sua conta OKX
   bcw:
     name: Binance Chain Wallet
     connect: Conecte-se com sua carteira de corrente binance
@@ -135,36 +135,36 @@ team:
   title: Equipe
   h1: Equipe da Kryxivia
   role:
-    '1': Líder
-    '2': Desenvolvimento de Jogos
-    '3': Designer Artista 3D & VFX
-    '4': UI/UX Designer & Desenvolvedor Front
-    '5': Marketing & Comunicações
-    '6': Designer de Som
+    "1": Líder
+    "2": Desenvolvimento de Jogos
+    "3": Designer Artista 3D & VFX
+    "4": UI/UX Designer & Desenvolvedor Front
+    "5": Marketing & Comunicações
+    "6": Designer de Som
   poste:
-    '1': CEO & Fundador
-    '2': Diretor Técnico
-    '3': Jogabilidade do cliente principal
-    '4': Engenheiro de blockchain líder
-    '5': Engenheiro de full-stack de software
-    '6': Desenvolvedor Unity 3D
-    '7': Desenvolvedor full-stack
-    '8': VFX Game Designer
-    '9': Designer de Nível / Arte 3D
-    '10': Artista de caracteres / itens 3D
-    '11': Partner Studio / Artista 3D
-    '12': Consultor de Game Designer
-    '13': Designer de interface do usuário/UX líder
-    '14': Web do desenvolvedor full stack
-    '15': Desenvolvedor Criativo
-    '16': Designer gráfico
-    '17': Cineasta
-    '18': Diretor de Marketing
-    '19': Gerente comunitário
-    '20': Designer de Som
-    '21': Compositor de Música
-    '22': Gestão de Equipes
-    '23': Engenheiro de software
+    "1": CEO & Fundador
+    "2": Diretor Técnico
+    "3": Jogabilidade do cliente principal
+    "4": Engenheiro de blockchain líder
+    "5": Engenheiro de full-stack de software
+    "6": Desenvolvedor Unity 3D
+    "7": Desenvolvedor full-stack
+    "8": VFX Game Designer
+    "9": Designer de Nível / Arte 3D
+    "10": Artista de caracteres / itens 3D
+    "11": Partner Studio / Artista 3D
+    "12": Consultor de Game Designer
+    "13": Designer de interface do usuário/UX líder
+    "14": Web do desenvolvedor full stack
+    "15": Desenvolvedor Criativo
+    "16": Designer gráfico
+    "17": Cineasta
+    "18": Diretor de Marketing
+    "19": Gerente comunitário
+    "20": Designer de Som
+    "21": Compositor de Música
+    "22": Gestão de Equipes
+    "23": Engenheiro de software
 leaderboard:
   title: Tabela de classificação
   metaTitle: Kryxivia • Tabela de Classificação • Os maiores jogadores da Kryxivia
@@ -178,112 +178,112 @@ roadmap:
     q3_2021:
       desc: Início do projeto Kryxivia
       list:
-        '1': >-
+        "1": >-
           Implantação do token KXA e KXS na rede de testes binance smart-chain
           para o Alpha.
-        '2': >-
+        "2": >-
           Iniciando o desenvolvimento, testando a jogabilidade base, servidores
           de jogos e links de blockchains.
-        '3': Trabalhando na Modelagem 3D do Universo Kryxivia.
-        '4': >-
+        "3": Trabalhando na Modelagem 3D do Universo Kryxivia.
+        "4": >-
           Fazendo o Level-Design das cidades, meu, trabalhando na Lore do jogo,
           explorando kryxit e sistemas funcionais gems.
     q4_2021:
       desc: Início do projeto Kryxivia
       list:
-        '1': >-
+        "1": >-
           Lançando o site online com o básico sobre a Kryxivia, lançando o
           trabalho de Apresentação.
-        '2': >-
+        "2": >-
           Lançamento em código aberto da base de código Kryxivia em nosso
           repositório GitHub e nos diferentes contratos inteligentes.
-        '3': >-
+        "3": >-
           Preparando a Prova de Conceito do Jogo usando Unity WebGL, C# e
           Node.js.
-        '4': >-
+        "4": >-
           Auditando nossos diferentes contratos inteligentes que interagem com a
           blockchain BSC.
-        '5': Lançando o Teaser para o lançamento da Kryxivia Alpha.
-        '6': >-
+        "5": Lançando o Teaser para o lançamento da Kryxivia Alpha.
+        "6": >-
           Iniciando o token KXA fazendo uma venda pública para criar a liquidez
           do pool de ativos e os fundos-base do jogo (OIT).
-        '7': >-
+        "7": >-
           Implantar a Lista Branca para o pré-acesso Alpha privado (as carteiras
           participantes da OIT terão vantagens).
-        '8': >-
+        "8": >-
           Trabalhando em todos os aspectos do jogo, o cliente/servidor e
           conexões entre os serviços de centralização/descentralização dos NFTs.
-        '9': Fazendo procedimentos KYC dos membros da Equipe Kryxivia.
-        '10': >-
+        "9": Fazendo procedimentos KYC dos membros da Equipe Kryxivia.
+        "10": >-
           Criando um pool controlado por Pancake Swap para o token KXS no jogo
           (com 10% dos fundos levantados).
-        '11': Listando sobre CoinMarketCap, CoinGecko...
+        "11": Listando sobre CoinMarketCap, CoinGecko...
     q1_2022:
       desc: Início do projeto Kryxivia
       list:
-        '1': Ter o jogo do navegador WebGL pronto para implantação
-        '2': >-
+        "1": Ter o jogo do navegador WebGL pronto para implantação
+        "2": >-
           Implantar o mercado de itens NFT para negociar coisas no jogo com
           outros jogadores on-chain.
-        '3': >-
+        "3": >-
           Iniciando o acesso pré-alfa privado para os membros selecionados
           jogarem no Kryxivia World em seu navegador em kryxivia.io.
-        '4': >-
+        "4": >-
           Usando a rede de teste para o pré-alfa para detectar bugs e
           recompensando jogadores de recompensa de bugs que relatam problemas em
           tokens KXA.
-        '5': >-
+        "5": >-
           Adicionando novas masmorras e mais especificações de itens, gemas
           Kryxit e feitiços desenvolvimento de jogabilidade.
-        '6': >-
+        "6": >-
           Inicie os diferentes pacotes de partida (pacotes NFTs) para o
           lançamento beta de acesso, para começar diretamente a jogar com seus
           pacotes comprados.
-        '7': >-
+        "7": >-
           Aumentando a capacidade da equipe, recrutando novos designers 3D,
           nível e scenarista.
-        '8': Melhoria do conteúdo PVE.
+        "8": Melhoria do conteúdo PVE.
     q2_2022:
       desc: Início do projeto Kryxivia
       list:
-        '1': >-
+        "1": >-
           Liberando o acesso público beta do Kryxivia World na rede principal da
           rede BSC.
-        '2': Corrigindo bugs do pré-alfa (Q1) encontrados pelos jogadores.
-        '3': >-
+        "2": Corrigindo bugs do pré-alfa (Q1) encontrados pelos jogadores.
+        "3": >-
           Começando a desenvolver os sistemas de ataque (+20 jogadores lutando
           juntos em lutas de ataque) na Mina Kryxivia.
-        '4': >-
+        "4": >-
           Adicionando sistemas de missão diários para recompensar as atividades
           dos jogadores, recompensando os mais ativos.
-        '5': >-
+        "5": >-
           Trabalhando em um conjunto maior de masmorras salas na mina com mais
           dificuldades e melhores Kryxit e recompensas de coisas.
-        '6': >-
+        "6": >-
           Aplicando & listando tokens KXA e KXS nas principais principais
           exchanges centralizadas T1.
-        '7': >-
+        "7": >-
           Sistema de staking bancário para ganhar recompensas (ROI real com
           novas recompensas por ano) com token KXA / KXS.
     q3_2022:
       desc: Início do projeto Kryxivia
       list:
-        '1': >-
+        "1": >-
           Sistema guilds para se juntar com seus companheiros com objetivos
           diários/semanais para alcançar recompensas ou taxas de bônus.
-        '2': >-
+        "2": >-
           Adicionando uma temporada de sistema de eventos com NFTs exclusivos
           especiais com novos chefes específicos (novos cosméticos
           limitados...).
-        '3': >-
+        "3": >-
           Governança da DAO para votar os temas do evento, os próximos marcos no
           roteiro a serem alcançados, e nerf ou upgrades para fazer atualizações
           de jogabilidade no jogo (limitado por carteira em termos de
           porcentagem).
-        '4': >-
+        "4": >-
           Design visual no jogo para estatísticas e informações sobre valor kxs
           e movimentos de preço.
-        '5': >-
+        "5": >-
           Escadas online para ver todos os jogadores, seus níveis de e-níveis e
           reputações + singularidade dos estoques NFTs.
 token-kxs:
@@ -365,8 +365,8 @@ token-kxa:
     private:
       title: Rodada de Venda Privada
       discount: ~ {percent} desconto do preço de venda pública
-      of: '{kxa} de KXA ({total} - {percent} de fornecimento)'
-      price: 'Preço: {price} por KXA'
+      of: "{kxa} de KXA ({total} - {percent} de fornecimento)"
+      price: "Preço: {price} por KXA"
       raise: Aumento de ~ {bnb} BNB = (Total = ~{total})
       close: >-
         Venda privada Close: <-> TGE {percent} desbloqueado e depois
@@ -374,16 +374,16 @@ token-kxa:
     public:
       title: Rodada de Venda Pública
       discount: ~ {percent} desconto do preço de listagem
-      of: '{kxa} de KXA ({total} - {percent} de fornecimento)'
-      price: 'Preço: {price} por KXA'
+      of: "{kxa} de KXA ({total} - {percent} de fornecimento)"
+      price: "Preço: {price} por KXA"
       raise: Aumento de ~ {bnb} BNB = (Total = ~{total})
       close: >-
         Fechamento da venda pública: <-> TGE {percent} desbloqueado e linear em
         3 meses
     listing:
       title: Lista em PancakeSwap
-      price: 'Preço: {price} por KXA'
-      raise: '{percent} dos fundos levantados da Unicrypt bloqueados por 1 ano'
+      price: "Preço: {price} por KXA"
+      raise: "{percent} dos fundos levantados da Unicrypt bloqueados por 1 ano"
 devblog:
   title: Devblog & notícias
   metaTitle: Kryxivia • Devblog, notícias, atualizações e anúncios
@@ -743,7 +743,7 @@ faq:
       - q: Como eu compro e vendo $KXA e $KXS?
         a:
           - t: txt
-            c: 'Você pode comprar $KXA nas bolsas listadas aqui:'
+            c: "Você pode comprar $KXA nas bolsas listadas aqui:"
           - t: botão
             c: CoinMarketCap
             link: https://coinmarketcap.com/currencies/kryxivia/
@@ -882,7 +882,7 @@ kryxivia:
       descobriram uma estranha porta perdida na montanha. De lá encontraram o
       Kryxit, joias mágicas com um tremendo poder. Muitos começam a se reunir
       primeiro enviados pelos países.
-    txt2: ' Kryxivia é uma cidade nova e florescente, situada nas montanhas ao redor de uma enorme porta descoberta há alguns anos, construída principalmente sem um plano por pequenos grupos de aventureiros e comerciantes.'
+    txt2: " Kryxivia é uma cidade nova e florescente, situada nas montanhas ao redor de uma enorme porta descoberta há alguns anos, construída principalmente sem um plano por pequenos grupos de aventureiros e comerciantes."
     txt3: >-
       O povo da Kryxivia vem de muitos horizontes, quase nenhum deles vem de um
       exército regular, então suas roupas são na maioria incompatíveis e
@@ -894,7 +894,7 @@ kryxivia:
       de Kryxivia começou a se formar ao redor da porta e muitos comerciantes
       lucraram com este lugar altamente frequentado. Agora, alguns anos depois,
       a maioria das pessoas que tentam a sorte são mercenários ou independentes,
-      como você. 
+      como você.
   map:
     sub1: Mapa da Cidade da Kryxivia
     title1: Os edifícios mais importantes
