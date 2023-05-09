@@ -81,10 +81,13 @@ export const useStake = () => {
     stakedKXA.value = web3.value.utils.fromWei(stakerInfo.amount, "ether");
 
     const amountOfBlocksDaily = await getAmountOfBlocksDaily();
+    
+    // get current block
+    const currentBlock = await web3.value.eth.getBlockNumber();
 
     // calculation for end block timestamp
     const endBlockTimestamp =
-      ((Number(stakerInfo.end_block) - Number(stakerInfo.start_block)) /
+      ((Number(stakerInfo.end_block) - currentBlock) /
         Number(amountOfBlocksDaily)) *
         24 *
         60 *
